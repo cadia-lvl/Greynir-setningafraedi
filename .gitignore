@@ -2,3 +2,6 @@
 .env
 __pycache__
 generate.py
+data/
+filter_data.py
+random_sentence.py
