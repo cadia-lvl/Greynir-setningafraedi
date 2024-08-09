@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atviksliðir</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+    <style>
+        .correct-phrases {
+            color: rgb(148, 43, 180);
+        }
+    </style>
+    <script src="{{ url_for('static', filename='scripts/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container overlay-container">
+        <div class="back-one-step-button" onclick="goBack()"></div>
+        <h1 style="color: rgb(148, 43, 180);">Atviksliðir</h1>
+        <div class="content">
+            <p> Atviksliður samanstendur af einu atviksorði. Finnið atviksliðina í eftirfarandi setningu: </p>
+            <p class = "sentence">Setning: {{ sentence }}</p>
+            <form method="post" action="/atviksliðir">
+                <input type="hidden" name="sentence" value="{{ sentence }}">
+                <label for="adv_phrases">(Aðskildu liðina með kommu ef nafnliðirnir eru fleiri en einn. Ýttu á Enter ef setningin inniheldur engan atvikslið)</label>
+                <input type="text" id="adv_phrases" name="adv_phrases"><br><br>
+                <button type="submit" class="submit-button" style="background-color: rgb(148, 43, 180);">Senda svar</button>
+            </form>
+            {% if result %}
+                <p class="result">{{ result | safe }}</p>
+            {% endif %}
+        </div>
+        <div class="button-container">
+            <form action="/atviksliðir">
+                <button type="submit" class="button sagnliðir" style="background-color: rgb(148, 43, 180);">Næsta Setning &#x21bb; </button>
+            </form>
+            <form action="/index">
+                <button type="submit" class="button back-button" style="background-color: rgb(148, 43, 180);">Til baka á upphafssíðu &#x2190; </button>
+            </form>
+        </div>
+
+        <!-- Result overlay -->
+        {% if correct %}
+        <div class="overlay" id="result-overlay" style="color:rgb(148, 43, 180);">
+            <div class="back-one-step-button" onclick="goBack()"></div>
+            <p class="overlay-result">{{ result | safe }}</p>
+            <form action="/atviksliðir">
+                <button type="submit" class="button sagnliðir" style="background-color: rgb(148, 43, 180);"> Næsta setning &#x21bb;</button>
+            </form>
+            <form action="/index">
+                <button type="submit" class="button back-button" style="background-color: rgb(148, 43, 180);">Til baka á upphafssíðu &#x2190;</button>
+            </form>
+        </div>
+        <script>
+            document.getElementById('result-overlay').style.display = 'flex';
+        </script>
+        {% endif %}
+    </div>
+
+</body>
+</html>
+

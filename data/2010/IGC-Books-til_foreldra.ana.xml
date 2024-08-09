@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="IGC-Books-til_foreldra.ana">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="is">Íslenska risamálheildin - útgefnar bækur [IGC-Books.ana]</title>
+        <title type="main" xml:lang="en">The Icelandic Gigaword Corpus - published books [IGC-Books.ana]</title>
+        <title type="sub" xml:lang="is">Til foreldra um Kynlíf</title>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Hildur Hafsteinsdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Finnur Ingimundarson</persName>
+          <resp xml:lang="is">Úrvinnsla texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Steinþór Steingrímsson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Árni Davíð Magnússon</persName>
+          <resp xml:lang="is">Söfnun texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Málfræðimörkun</resp>
+          <resp xml:lang="en">Linguistic annotation</resp>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words" quantity="562" xml:lang="en">562 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">Árni Magnússon Institute for Icelandic Studies</orgName>
+          <ref target="https://www.arnastofnun.is/">www.arnastofnun.is</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/20.500.12537/250</idno>
+        <availability status="restricted">
+          <licence>https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+        </availability>
+        <date when="2022-09-17">2022-09-17</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title xml:lang="is">Til foreldra um Kynlíf</title>
+            <author sameAs="#AsdisOlsen">Ásdís Olsen</author>
+            <imprint>
+              <publisher>Menntamálastofnun</publisher>
+              <date when="2010">2010</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="is">Textum hefur verið skipt upp í hluta sem innhalda 500 orð eða færri og svo raðað upp á nýtt. Efnisgreinar eru ekki slitnar í sundur nema þær innihaldi meira en 500 orð. Ef texti inniheldur færri en 5000 orð þá eru setningar innan hverrar efnisgreinar einnig stokkaðar upp. Í sumum tilvikum hafa textabrot verið fjarlægð úr texta - t.d. ef ekki höfundur brots hafði ekki veitt leyfi eða ef texti var á erlendu máli.</p>
+        <p xml:lang="en">The texts have been split into parts that do not include more than 500 words and reordered in a random way. Paragraphs are not dismantled unless they contain more than 500 words. If a text contains less than 5000 words, sentences of each paragraph are also rearranged. In some instances, we have removed fragments from texts, for example, if we did not have permission from the author of that fragment or if the fragment was not in Icelandic.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="1" gi="text"/>
+          <tagUsage occurs="1" gi="body"/>
+          <tagUsage occurs="1" gi="div"/>
+          <tagUsage occurs="17" gi="p"/>
+          <tagUsage occurs="34" gi="s"/>
+          <tagUsage occurs="562" gi="w"/>
+          <tagUsage occurs="50" gi="pc"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="main">
+        <p xml:id="IGC-Books-til_foreldra.1">
+          <s xml:id="IGC-Books-til_foreldra.1.1">
+            <w lemma="hvor" xml:id="IGC-Books-til_foreldra.1.1.1" pos="fohen">Hvort</w>
+            <w lemma="tveir" xml:id="IGC-Books-til_foreldra.1.1.2" pos="tfhfe">tveggja</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.1.1.3" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.1.1.4" pos="c">að</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.1.1.5" pos="nkeng">unglingurinn</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.1.1.6" pos="sfg3en">er</w>
+            <w lemma="oft" xml:id="IGC-Books-til_foreldra.1.1.7" pos="aa">oft</w>
+            <w lemma="viðkvæmur" xml:id="IGC-Books-til_foreldra.1.1.8" pos="lkensf">viðkvæmur</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.1.1.9" pos="c">og</w>
+            <w lemma="beita" xml:id="IGC-Books-til_foreldra.1.1.10" pos="sfg3en">beitir</w>
+            <w lemma="fráhrindandi" xml:id="IGC-Books-til_foreldra.1.1.11" pos="lveþof">fráhrindandi</w>
+            <w lemma="framkoma" xml:id="IGC-Books-til_foreldra.1.1.12" pos="nveþ">framkomu</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.1.1.13" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.1.1.14" pos="cn">að</w>
+            <w lemma="sýna" xml:id="IGC-Books-til_foreldra.1.1.15" pos="sng">sýna</w>
+            <w lemma="sjálfstæði" xml:id="IGC-Books-til_foreldra.1.1.16" pos="nheo">sjálfstæði</w>
+            <w lemma="sinn" xml:id="IGC-Books-til_foreldra.1.1.17" pos="feheo" join="right">sitt</w>
+            <pc xml:id="IGC-Books-til_foreldra.1.1.18" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.1.2">
+            <w lemma="einnig" xml:id="IGC-Books-til_foreldra.1.2.1" pos="aa">Einnig</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.1.2.2" pos="sfg3en">er</w>
+            <w lemma="eðlilegur" xml:id="IGC-Books-til_foreldra.1.2.3" pos="lhensf">eðlilegt</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.1.2.4" pos="cn">að</w>
+            <w lemma="aðskilja" xml:id="IGC-Books-til_foreldra.1.2.5" pos="sng">aðskilja</w>
+            <w lemma="sig" xml:id="IGC-Books-til_foreldra.1.2.6" pos="fpkeo">sig</w>
+            <w lemma="frá" xml:id="IGC-Books-til_foreldra.1.2.7" pos="af">frá</w>
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.1.2.8" pos="nkfþg">foreldrunum</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.1.2.9" pos="af">á</w>
+            <w lemma="unglingsár" xml:id="IGC-Books-til_foreldra.1.2.10" pos="nhfþg">unglingsárunum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.1.2.11" pos="c">og</w>
+            <w lemma="finna" xml:id="IGC-Books-til_foreldra.1.2.12" pos="sng">finna</w>
+            <w lemma="sig" xml:id="IGC-Books-til_foreldra.1.2.13" pos="fpkeo">sig</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.1.2.14" pos="af">á</w>
+            <w lemma="eigin" xml:id="IGC-Books-til_foreldra.1.2.15" pos="lvfþof">eigin</w>
+            <w lemma="forsenda" xml:id="IGC-Books-til_foreldra.1.2.16" pos="nvfþ">forsendum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.1.2.17" pos="c">og</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.1.2.18" pos="af">í</w>
+            <w lemma="tengsl" xml:id="IGC-Books-til_foreldra.1.2.19" pos="nhfþ">tengslum</w>
+            <w lemma="við" xml:id="IGC-Books-til_foreldra.1.2.20" pos="af">við</w>
+            <w lemma="félagi" xml:id="IGC-Books-til_foreldra.1.2.21" pos="nkfog" join="right">félagana</w>
+            <pc xml:id="IGC-Books-til_foreldra.1.2.22" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.1.3">
+            <w lemma="það" xml:id="IGC-Books-til_foreldra.1.3.1" pos="fphen">Það</w>
+            <w lemma="vilja" xml:id="IGC-Books-til_foreldra.1.3.2" pos="sfg3en">vill</w>
+            <w lemma="brenna" xml:id="IGC-Books-til_foreldra.1.3.3" pos="sng">brenna</w>
+            <w lemma="við" xml:id="IGC-Books-til_foreldra.1.3.4" pos="aa">við</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.1.3.5" pos="af">á</w>
+            <w lemma="unglingsár" xml:id="IGC-Books-til_foreldra.1.3.6" pos="nhfþg">unglingsárunum</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.1.3.7" pos="c">að</w>
+            <w lemma="fjarlægð" xml:id="IGC-Books-til_foreldra.1.3.8" pos="nven">fjarlægð</w>
+            <w lemma="mynda" xml:id="IGC-Books-til_foreldra.1.3.9" pos="svm3en">myndist</w>
+            <w lemma="milli" xml:id="IGC-Books-til_foreldra.1.3.10" pos="af">milli</w>
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.1.3.11" pos="nkfe">foreldra</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.1.3.12" pos="c">og</w>
+            <w lemma="barn" xml:id="IGC-Books-til_foreldra.1.3.13" pos="nhfe">barna</w>
+            <w lemma="hann" xml:id="IGC-Books-til_foreldra.1.3.14" pos="fpkfe" join="right">þeirra</w>
+            <pc xml:id="IGC-Books-til_foreldra.1.3.15" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.1.4">
+            <w lemma="við" xml:id="IGC-Books-til_foreldra.1.4.1" pos="af">Við</w>
+            <w lemma="þessi" xml:id="IGC-Books-til_foreldra.1.4.2" pos="favfo">þessar</w>
+            <w lemma="aðstæður" xml:id="IGC-Books-til_foreldra.1.4.3" pos="nvfo">aðstæður</w>
+            <w lemma="reyna" xml:id="IGC-Books-til_foreldra.1.4.4" pos="sfm3en">reynist</w>
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.1.4.5" pos="nkfþ">foreldrum</w>
+            <w lemma="oft" xml:id="IGC-Books-til_foreldra.1.4.6" pos="aa">oft</w>
+            <w lemma="erfiður" xml:id="IGC-Books-til_foreldra.1.4.7" pos="lhensf">erfitt</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.1.4.8" pos="cn">að</w>
+            <w lemma="sýna" xml:id="IGC-Books-til_foreldra.1.4.9" pos="sng">sýna</w>
+            <w lemma="blíða" xml:id="IGC-Books-til_foreldra.1.4.10" pos="nveo">blíðu</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.1.4.11" pos="c">og</w>
+            <w lemma="kærleiki" xml:id="IGC-Books-til_foreldra.1.4.12" pos="nkeo" join="right">kærleika</w>
+            <pc xml:id="IGC-Books-til_foreldra.1.4.13" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.1.5">
+            <w lemma="en" xml:id="IGC-Books-til_foreldra.1.5.1" pos="c">En</w>
+            <w lemma="það" xml:id="IGC-Books-til_foreldra.1.5.2" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.1.5.3" pos="sfg3en">er</w>
+            <w lemma="samt" xml:id="IGC-Books-til_foreldra.1.5.4" pos="aa">samt</w>
+            <w lemma="einmitt" xml:id="IGC-Books-til_foreldra.1.5.5" pos="aa">einmitt</w>
+            <w lemma="sá" xml:id="IGC-Books-til_foreldra.1.5.6" pos="fahen">það</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.1.5.7" pos="ct">sem</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.1.5.8" pos="nkeng">unglingurinn</w>
+            <w lemma="þurfa" xml:id="IGC-Books-til_foreldra.1.5.9" pos="sfg3en">þarf</w>
+            <w lemma="mjög" xml:id="IGC-Books-til_foreldra.1.5.10" pos="aae">mest</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.1.5.11" pos="af">á</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.1.5.12" pos="cn">að</w>
+            <w lemma="halda" xml:id="IGC-Books-til_foreldra.1.5.13" pos="sng" join="right">halda</w>
+            <pc xml:id="IGC-Books-til_foreldra.1.5.14" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.1.6">
+            <w lemma="það" xml:id="IGC-Books-til_foreldra.1.6.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.1.6.2" pos="sfg3en">er</w>
+            <w lemma="verðugur" xml:id="IGC-Books-til_foreldra.1.6.3" pos="lhensf">verðugt</w>
+            <w lemma="verkefni" xml:id="IGC-Books-til_foreldra.1.6.4" pos="nhen">verkefni</w>
+            <w lemma="fyrir" xml:id="IGC-Books-til_foreldra.1.6.5" pos="af">fyrir</w>
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.1.6.6" pos="nkfo">foreldra</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.1.6.7" pos="cn">að</w>
+            <w lemma="finna" xml:id="IGC-Books-til_foreldra.1.6.8" pos="sng">finna</w>
+            <w lemma="leið" xml:id="IGC-Books-til_foreldra.1.6.9" pos="nvfo">leiðir</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.1.6.10" pos="af">að</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.1.6.11" pos="nkeþg">unglingnum</w>
+            <w lemma="sinn" xml:id="IGC-Books-til_foreldra.1.6.12" pos="fekeþ">sínum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.1.6.13" pos="c">og</w>
+            <w lemma="knúsa" xml:id="IGC-Books-til_foreldra.1.6.14" pos="sng">knúsa</w>
+            <w lemma="hann" xml:id="IGC-Books-til_foreldra.1.6.15" pos="fpkeo">hann</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.1.6.16" pos="c">og</w>
+            <w lemma="kjassi" xml:id="IGC-Books-til_foreldra.1.6.17" pos="nkeo">kjassa</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.1.6.18" pos="ct">sem</w>
+            <w lemma="aldrei" xml:id="IGC-Books-til_foreldra.1.6.19" pos="aa">aldrei</w>
+            <w lemma="snemma" xml:id="IGC-Books-til_foreldra.1.6.20" pos="aam" join="right">fyrr</w>
+            <pc xml:id="IGC-Books-til_foreldra.1.6.21" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.2">
+          <s xml:id="IGC-Books-til_foreldra.2.1">
+            <w lemma="þessi" xml:id="IGC-Books-til_foreldra.2.1.1" pos="fahen">Þetta</w>
+            <w lemma="námsefni" xml:id="IGC-Books-til_foreldra.2.1.2" pos="nhen">námsefni</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.2.1.3" pos="sfg3en">er</w>
+            <w lemma="óvenjulegur" xml:id="IGC-Books-til_foreldra.2.1.4" pos="lhensf">óvenjulegt</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.2.1.5" pos="af">að</w>
+            <w lemma="margur" xml:id="IGC-Books-til_foreldra.2.1.6" pos="lheþsf">mörgu</w>
+            <w lemma="leyti" xml:id="IGC-Books-til_foreldra.2.1.7" pos="nheþ">leyti</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.2.1.8" pos="c">og</w>
+            <w lemma="sjálfsagður" xml:id="IGC-Books-til_foreldra.2.1.9" pos="lhensf">sjálfsagt</w>
+            <w lemma="fyrir" xml:id="IGC-Books-til_foreldra.2.1.10" pos="af">fyrir</w>
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.2.1.11" pos="nkfo">foreldra</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.2.1.12" pos="cn">að</w>
+            <w lemma="kynna" xml:id="IGC-Books-til_foreldra.2.1.13" pos="sng">kynna</w>
+            <w lemma="sig" xml:id="IGC-Books-til_foreldra.2.1.14" pos="fpkfþ">sér</w>
+            <w lemma="það" xml:id="IGC-Books-til_foreldra.2.1.15" pos="fpheo" join="right">það</w>
+            <pc xml:id="IGC-Books-til_foreldra.2.1.16" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.2.2">
+            <w lemma="kynlíf" xml:id="IGC-Books-til_foreldra.2.2.1" pos="nhen">KYNLÍF</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.2.2.2" pos="sfg3en">er</w>
+            <w lemma="námsefni" xml:id="IGC-Books-til_foreldra.2.2.3" pos="nhen">námsefni</w>
+            <w lemma="um" xml:id="IGC-Books-til_foreldra.2.2.4" pos="af">um</w>
+            <w lemma="kynþroski" xml:id="IGC-Books-til_foreldra.2.2.5" pos="nkeog">kynþroskann</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.2.2.6" pos="c">og</w>
+            <w lemma="kynlíf" xml:id="IGC-Books-til_foreldra.2.2.7" pos="nheo">kynlíf</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.2.2.8" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.2.2.9" pos="sfg3en">er</w>
+            <w lemma="ætla" xml:id="IGC-Books-til_foreldra.2.2.10" pos="sþghen">ætlað</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.2.2.11" pos="nkfþ">unglingum</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.2.2.12" pos="af">á</w>
+            <w lemma="aldur" xml:id="IGC-Books-til_foreldra.2.2.13" pos="nkeþg">aldrinum</w>
+            <w lemma="12" xml:id="IGC-Books-til_foreldra.2.2.14" pos="ta">12</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.2.2.15" pos="af">til</w>
+            <w lemma="15" xml:id="IGC-Books-til_foreldra.2.2.16" pos="ta">15</w>
+            <w lemma="ár" xml:id="IGC-Books-til_foreldra.2.2.17" pos="nhfe" join="right">ára</w>
+            <pc xml:id="IGC-Books-til_foreldra.2.2.18" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.2.3">
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.2.3.1" pos="nkfn">Foreldrar</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.2.3.2" pos="sfg3fn">eru</w>
+            <w lemma="hvetja" xml:id="IGC-Books-til_foreldra.2.3.3" pos="sþgkfn">hvattir</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.2.3.4" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.2.3.5" pos="cn">að</w>
+            <w lemma="ræða" xml:id="IGC-Books-til_foreldra.2.3.6" pos="sng">ræða</w>
+            <w lemma="þessi" xml:id="IGC-Books-til_foreldra.2.3.7" pos="fahfo">þessi</w>
+            <w lemma="mál" xml:id="IGC-Books-til_foreldra.2.3.8" pos="nhfo">mál</w>
+            <w lemma="við" xml:id="IGC-Books-til_foreldra.2.3.9" pos="af">við</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.2.3.10" pos="nkeog">unglinginn</w>
+            <w lemma="sinn" xml:id="IGC-Books-til_foreldra.2.3.11" pos="fekeo">sinn</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.2.3.12" pos="af">á</w>
+            <w lemma="hispurslaus" xml:id="IGC-Books-til_foreldra.2.3.13" pos="lkeosf">hispurslausan</w>
+            <w lemma="háttur" xml:id="IGC-Books-til_foreldra.2.3.14" pos="nkeo">hátt</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.2.3.15" pos="c">og</w>
+            <w lemma="taka" xml:id="IGC-Books-til_foreldra.2.3.16" pos="sng">taka</w>
+            <w lemma="fagna" xml:id="IGC-Books-til_foreldra.2.3.17" pos="slg">fagnandi</w>
+            <w lemma="sá" xml:id="IGC-Books-til_foreldra.2.3.18" pos="faheþ">því</w>
+            <w lemma="tækifæri" xml:id="IGC-Books-til_foreldra.2.3.19" pos="nheþ">tækifæri</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.2.3.20" pos="ct">sem</w>
+            <w lemma="hér" xml:id="IGC-Books-til_foreldra.2.3.21" pos="aa">hér</w>
+            <w lemma="gefa" xml:id="IGC-Books-til_foreldra.2.3.22" pos="sfm3en">gefst</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.2.3.23" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.2.3.24" pos="cn">að</w>
+            <w lemma="ræða" xml:id="IGC-Books-til_foreldra.2.3.25" pos="sng">ræða</w>
+            <w lemma="um" xml:id="IGC-Books-til_foreldra.2.3.26" pos="af">um</w>
+            <w lemma="kynþroski" xml:id="IGC-Books-til_foreldra.2.3.27" pos="nkeog">kynþroskann</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.2.3.28" pos="c">og</w>
+            <w lemma="kynlíf" xml:id="IGC-Books-til_foreldra.2.3.29" pos="nheog">kynlífið</w>
+            <w lemma="við" xml:id="IGC-Books-til_foreldra.2.3.30" pos="af">við</w>
+            <w lemma="barn" xml:id="IGC-Books-til_foreldra.2.3.31" pos="nheo">barn</w>
+            <w lemma="sinn" xml:id="IGC-Books-til_foreldra.2.3.32" pos="feheo" join="right">sitt</w>
+            <pc xml:id="IGC-Books-til_foreldra.2.3.33" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.3">
+          <s xml:id="IGC-Books-til_foreldra.3.1">
+            <w lemma="kynlíf" xml:id="IGC-Books-til_foreldra.3.1.1" pos="nhen">Kynlíf</w>
+            <w lemma="hafa" xml:id="IGC-Books-til_foreldra.3.1.2" pos="sfg3en">hefur</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.3.1.3" pos="cn">að</w>
+            <w lemma="gera" xml:id="IGC-Books-til_foreldra.3.1.4" pos="sng">gera</w>
+            <w lemma="með" xml:id="IGC-Books-til_foreldra.3.1.5" pos="af">með</w>
+            <w lemma="líðan" xml:id="IGC-Books-til_foreldra.3.1.6" pos="nveo">líðan</w>
+            <w lemma="ég" xml:id="IGC-Books-til_foreldra.3.1.7" pos="fp1fe">okkar</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.3.1.8" pos="c">og</w>
+            <w lemma="sjálfsvitund" xml:id="IGC-Books-til_foreldra.3.1.9" pos="nveo" join="right">sjálfsvitund</w>
+            <pc xml:id="IGC-Books-til_foreldra.3.1.10" pos="pk">,</pc>
+            <w lemma="kynhneigð" xml:id="IGC-Books-til_foreldra.3.1.11" pos="nveo" join="right">kynhneigð</w>
+            <pc xml:id="IGC-Books-til_foreldra.3.1.12" pos="pk">,</pc>
+            <w lemma="kynhlutverk" xml:id="IGC-Books-til_foreldra.3.1.13" pos="nheo" join="right">kynhlutverk</w>
+            <pc xml:id="IGC-Books-til_foreldra.3.1.14" pos="pk">,</pc>
+            <w lemma="kynhvöt" xml:id="IGC-Books-til_foreldra.3.1.15" pos="nveo">kynhvöt</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.3.1.16" pos="c">og</w>
+            <w lemma="starfsemi" xml:id="IGC-Books-til_foreldra.3.1.17" pos="nveo">starfsemi</w>
+            <w lemma="kynfæri" xml:id="IGC-Books-til_foreldra.3.1.18" pos="nhfe">kynfæra</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.3.1.19" pos="c">og</w>
+            <w lemma="hvernig" xml:id="IGC-Books-til_foreldra.3.1.20" pos="aa">hvernig</w>
+            <w lemma="einstaklingur" xml:id="IGC-Books-til_foreldra.3.1.21" pos="nkeng">einstaklingurinn</w>
+            <w lemma="tjá" xml:id="IGC-Books-til_foreldra.3.1.22" pos="sfg3en">tjáir</w>
+            <w lemma="sig" xml:id="IGC-Books-til_foreldra.3.1.23" pos="fpkeo">sig</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.3.1.24" pos="c">og</w>
+            <w lemma="hegða" xml:id="IGC-Books-til_foreldra.3.1.25" pos="sfg3en">hegðar</w>
+            <w lemma="sig" xml:id="IGC-Books-til_foreldra.3.1.26" pos="fpkeþ">sér</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.3.1.27" pos="c">sem</w>
+            <w lemma="kynvera" xml:id="IGC-Books-til_foreldra.3.1.28" pos="nven" join="right">kynvera</w>
+            <pc xml:id="IGC-Books-til_foreldra.3.1.29" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.3.2">
+            <w lemma="hugtak" xml:id="IGC-Books-til_foreldra.3.2.1" pos="nheng">Hugtakið</w>
+            <w lemma="kynlíf" xml:id="IGC-Books-til_foreldra.3.2.2" pos="nhen">kynlíf</w>
+            <pc xml:id="IGC-Books-til_foreldra.3.2.3" pos="pa" join="right">(</pc>
+            <w lemma="sexuality" xml:id="IGC-Books-til_foreldra.3.2.4" pos="e" join="right">sexuality</w>
+            <pc xml:id="IGC-Books-til_foreldra.3.2.5" pos="pa">)</pc>
+            <w lemma="merkja" xml:id="IGC-Books-til_foreldra.3.2.6" pos="sfg3en">merkir</w>
+            <w lemma="hér" xml:id="IGC-Books-til_foreldra.3.2.7" pos="aa">hér</w>
+            <w lemma="sá" xml:id="IGC-Books-til_foreldra.3.2.8" pos="faheo">það</w>
+            <w lemma="líf" xml:id="IGC-Books-til_foreldra.3.2.9" pos="nheo">líf</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.3.2.10" pos="ct">sem</w>
+            <w lemma="ég" xml:id="IGC-Books-til_foreldra.3.2.11" pos="fp1fn">við</w>
+            <w lemma="lifa" xml:id="IGC-Books-til_foreldra.3.2.12" pos="sfg1fn">lifum</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.3.2.13" pos="c">sem</w>
+            <w lemma="kynvera" xml:id="IGC-Books-til_foreldra.3.2.14" pos="nvfn">kynverur</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.3.2.15" pos="c">og</w>
+            <w lemma="fela" xml:id="IGC-Books-til_foreldra.3.2.16" pos="sfg3en">felur</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.3.2.17" pos="af">í</w>
+            <w lemma="sig" xml:id="IGC-Books-til_foreldra.3.2.18" pos="fpheþ">sér</w>
+            <w lemma="viðhorf" xml:id="IGC-Books-til_foreldra.3.2.19" pos="nhfo" join="right">viðhorf</w>
+            <pc xml:id="IGC-Books-til_foreldra.3.2.20" pos="pk">,</pc>
+            <w lemma="gildismat" xml:id="IGC-Books-til_foreldra.3.2.21" pos="nheo">gildismat</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.3.2.22" pos="c">og</w>
+            <w lemma="hegðun" xml:id="IGC-Books-til_foreldra.3.2.23" pos="nveo">hegðun</w>
+            <w lemma="einstaklingur" xml:id="IGC-Books-til_foreldra.3.2.24" pos="nkeeg" join="right">einstaklingsins</w>
+            <pc xml:id="IGC-Books-til_foreldra.3.2.25" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.4">
+          <s xml:id="IGC-Books-til_foreldra.4.1">
+            <w lemma="tilfinningalegur" xml:id="IGC-Books-til_foreldra.4.1.1" pos="lkfnsf">Tilfinningalegir</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.4.1.2" pos="c">og</w>
+            <w lemma="félagslegur" xml:id="IGC-Books-til_foreldra.4.1.3" pos="lkfnsf">félagslegir</w>
+            <w lemma="þáttur" xml:id="IGC-Books-til_foreldra.4.1.4" pos="nkfn">þættir</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.5">
+          <s xml:id="IGC-Books-til_foreldra.5.1">
+            <w lemma="einnig" xml:id="IGC-Books-til_foreldra.5.1.1" pos="aa">Einnig</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.5.1.2" pos="sfg3en">er</w>
+            <w lemma="vinna" xml:id="IGC-Books-til_foreldra.5.1.3" pos="sþghen">unnið</w>
+            <w lemma="markvisst" xml:id="IGC-Books-til_foreldra.5.1.4" pos="aa">markvisst</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.5.1.5" pos="af">að</w>
+            <w lemma="sá" xml:id="IGC-Books-til_foreldra.5.1.6" pos="faheþ">því</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.5.1.7" pos="cn">að</w>
+            <w lemma="efla" xml:id="IGC-Books-til_foreldra.5.1.8" pos="sng">efla</w>
+            <w lemma="sjálfstæður" xml:id="IGC-Books-til_foreldra.5.1.9" pos="lveosf">sjálfstæða</w>
+            <w lemma="hugsun" xml:id="IGC-Books-til_foreldra.5.1.10" pos="nveo">hugsun</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.5.1.11" pos="c">og</w>
+            <w lemma="ábyrgð" xml:id="IGC-Books-til_foreldra.5.1.12" pos="nveo">ábyrgð</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.5.1.13" pos="c">og</w>
+            <w lemma="hvetja" xml:id="IGC-Books-til_foreldra.5.1.14" pos="sng">hvetja</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.5.1.15" pos="af">til</w>
+            <w lemma="gagnrýninn" xml:id="IGC-Books-til_foreldra.5.1.16" pos="lveesf">gagnrýninnar</w>
+            <w lemma="umræða" xml:id="IGC-Books-til_foreldra.5.1.17" pos="nvee">umræðu</w>
+            <w lemma="um" xml:id="IGC-Books-til_foreldra.5.1.18" pos="af">um</w>
+            <w lemma="óæskilegur" xml:id="IGC-Books-til_foreldra.5.1.19" pos="lhfosf">óæskileg</w>
+            <w lemma="áhrif" xml:id="IGC-Books-til_foreldra.5.1.20" pos="nhfo">áhrif</w>
+            <w lemma="frá" xml:id="IGC-Books-til_foreldra.5.1.21" pos="af">frá</w>
+            <w lemma="umhverfi" xml:id="IGC-Books-til_foreldra.5.1.22" pos="nheþg">umhverfinu</w>
+            <w lemma="um" xml:id="IGC-Books-til_foreldra.5.1.23" pos="af">um</w>
+            <w lemma="kynferðismál" xml:id="IGC-Books-til_foreldra.5.1.24" pos="nhfo" join="right">kynferðismál</w>
+            <pc xml:id="IGC-Books-til_foreldra.5.1.25" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.5.2">
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.5.2.1" pos="af">Í</w>
+            <w lemma="námsefni" xml:id="IGC-Books-til_foreldra.5.2.2" pos="nheþg">námsefninu</w>
+            <w lemma="Kynlíf" xml:id="IGC-Books-til_foreldra.5.2.3" pos="nheþ-s">Kynlífi</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.5.2.4" pos="sfg3en">er</w>
+            <w lemma="fjalla" xml:id="IGC-Books-til_foreldra.5.2.5" pos="sþghen">fjallað</w>
+            <w lemma="um" xml:id="IGC-Books-til_foreldra.5.2.6" pos="af">um</w>
+            <w lemma="sá" xml:id="IGC-Books-til_foreldra.5.2.7" pos="favfo">þær</w>
+            <w lemma="breyting" xml:id="IGC-Books-til_foreldra.5.2.8" pos="nvfo">breytingar</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.5.2.9" pos="ct">sem</w>
+            <w lemma="verða" xml:id="IGC-Books-til_foreldra.5.2.10" pos="sfg3fn">verða</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.5.2.11" pos="af">í</w>
+            <w lemma="líf" xml:id="IGC-Books-til_foreldra.5.2.12" pos="nheþ">lífi</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.5.2.13" pos="nkfe">unglinga</w>
+            <w lemma="við" xml:id="IGC-Books-til_foreldra.5.2.14" pos="af">við</w>
+            <w lemma="kynþroski" xml:id="IGC-Books-til_foreldra.5.2.15" pos="nkeo">kynþroska</w>
+            <pc xml:id="IGC-Books-til_foreldra.5.2.16" pos="pa">–</pc>
+            <w lemma="sálrænn" xml:id="IGC-Books-til_foreldra.5.2.17" pos="lvfosf" join="right">sálrænar</w>
+            <pc xml:id="IGC-Books-til_foreldra.5.2.18" pos="pk">,</pc>
+            <w lemma="félagslegur" xml:id="IGC-Books-til_foreldra.5.2.19" pos="lvfosf">félagslegar</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.5.2.20" pos="c">og</w>
+            <w lemma="líkamlegur" xml:id="IGC-Books-til_foreldra.5.2.21" pos="lvfosf" join="right">líkamlegar</w>
+            <pc xml:id="IGC-Books-til_foreldra.5.2.22" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.5.3">
+            <w lemma="sérstakur" xml:id="IGC-Books-til_foreldra.5.3.1" pos="lvensf">Sérstök</w>
+            <w lemma="áhersla" xml:id="IGC-Books-til_foreldra.5.3.2" pos="nven">áhersla</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.5.3.3" pos="sfg3en">er</w>
+            <w lemma="leggja" xml:id="IGC-Books-til_foreldra.5.3.4" pos="sþgven">lögð</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.5.3.5" pos="af">á</w>
+            <w lemma="jákvæður" xml:id="IGC-Books-til_foreldra.5.3.6" pos="lveosf">jákvæða</w>
+            <w lemma="sjálfsmynd" xml:id="IGC-Books-til_foreldra.5.3.7" pos="nveo">sjálfsmynd</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.5.3.8" pos="nkeeg" join="right">unglingsins</w>
+            <pc xml:id="IGC-Books-til_foreldra.5.3.9" pos="pk">,</pc>
+            <w lemma="virðing" xml:id="IGC-Books-til_foreldra.5.3.10" pos="nveo">virðingu</w>
+            <w lemma="hann" xml:id="IGC-Books-til_foreldra.5.3.11" pos="fpkee">hans</w>
+            <w lemma="fyrir" xml:id="IGC-Books-til_foreldra.5.3.12" pos="af">fyrir</w>
+            <w lemma="sjálfur" xml:id="IGC-Books-til_foreldra.5.3.13" pos="fbkeþ">sjálfum</w>
+            <w lemma="sig" xml:id="IGC-Books-til_foreldra.5.3.14" pos="fpkeþ">sér</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.5.3.15" pos="c">og</w>
+            <w lemma="annar" xml:id="IGC-Books-til_foreldra.5.3.16" pos="fokfþ">öðrum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.5.3.17" pos="c">og</w>
+            <w lemma="kynheilbrigði" xml:id="IGC-Books-til_foreldra.5.3.18" pos="nheþ" join="right">kynheilbrigði</w>
+            <pc xml:id="IGC-Books-til_foreldra.5.3.19" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.6">
+          <s xml:id="IGC-Books-til_foreldra.6.1">
+            <w lemma="kynþroski" xml:id="IGC-Books-til_foreldra.6.1.1" pos="nkeng">Kynþroskinn</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.6.1.2" pos="sfg3en">er</w>
+            <w lemma="jákvæður" xml:id="IGC-Books-til_foreldra.6.1.3" pos="lkensf">jákvæður</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.7">
+          <s xml:id="IGC-Books-til_foreldra.7.1">
+            <w lemma="mikill" xml:id="IGC-Books-til_foreldra.7.1.1" pos="lvensf">Mikil</w>
+            <w lemma="áhersla" xml:id="IGC-Books-til_foreldra.7.1.2" pos="nven">áhersla</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.7.1.3" pos="sfg3en">er</w>
+            <w lemma="leggja" xml:id="IGC-Books-til_foreldra.7.1.4" pos="sþgven">lögð</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.7.1.5" pos="af">á</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.7.1.6" pos="c">að</w>
+            <w lemma="kynþroski" xml:id="IGC-Books-til_foreldra.7.1.7" pos="nkeng">kynþroskinn</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.7.1.8" pos="svg3en">sé</w>
+            <w lemma="spennandi" xml:id="IGC-Books-til_foreldra.7.1.9" pos="lkenof">spennandi</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.7.1.10" pos="c">og</w>
+            <w lemma="skemmtilegur" xml:id="IGC-Books-til_foreldra.7.1.11" pos="lkensf">skemmtilegur</w>
+            <pc xml:id="IGC-Books-til_foreldra.7.1.12" pos="pa">–</pc>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.7.1.13" pos="c">að</w>
+            <w lemma="hann" xml:id="IGC-Books-til_foreldra.7.1.14" pos="fpken">hann</w>
+            <w lemma="bjóða" xml:id="IGC-Books-til_foreldra.7.1.15" pos="svg3en">bjóði</w>
+            <w lemma="upp" xml:id="IGC-Books-til_foreldra.7.1.16" pos="aa">upp</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.7.1.17" pos="af">á</w>
+            <w lemma="nýr" xml:id="IGC-Books-til_foreldra.7.1.18" pos="lvfosf">nýjar</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.7.1.19" pos="c">og</w>
+            <w lemma="magnaður" xml:id="IGC-Books-til_foreldra.7.1.20" pos="lvfosf">magnaðar</w>
+            <w lemma="tilfinning" xml:id="IGC-Books-til_foreldra.7.1.21" pos="nvfo" join="right">tilfinningar</w>
+            <pc xml:id="IGC-Books-til_foreldra.7.1.22" pos="pk">,</pc>
+            <w lemma="flókinn" xml:id="IGC-Books-til_foreldra.7.1.23" pos="lveovm">flóknari</w>
+            <w lemma="hugsun" xml:id="IGC-Books-til_foreldra.7.1.24" pos="nveo">hugsun</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.7.1.25" pos="c">og</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.7.1.26" pos="af">að</w>
+            <w lemma="sjálfsagður" xml:id="IGC-Books-til_foreldra.7.1.27" pos="lheþsf">sjálfsögðu</w>
+            <w lemma="nýr" xml:id="IGC-Books-til_foreldra.7.1.28" pos="lvfosf">nýjar</w>
+            <w lemma="hvöt" xml:id="IGC-Books-til_foreldra.7.1.29" pos="nvfo">hvatir</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.7.1.30" pos="c">og</w>
+            <w lemma="nautn" xml:id="IGC-Books-til_foreldra.7.1.31" pos="nvfo" join="right">nautnir</w>
+            <pc xml:id="IGC-Books-til_foreldra.7.1.32" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.8">
+          <s xml:id="IGC-Books-til_foreldra.8.1">
+            <w lemma="tímarit" xml:id="IGC-Books-til_foreldra.8.1.1" pos="nhen">Tímarit</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.8.1.2" pos="af">til</w>
+            <w lemma="einkanot" xml:id="IGC-Books-til_foreldra.8.1.3" pos="nhfe">einkanota</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.9">
+          <s xml:id="IGC-Books-til_foreldra.9.1">
+            <w lemma="mæla" xml:id="IGC-Books-til_foreldra.9.1.1" pos="sþghen">Mælt</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.9.1.2" pos="sfg3en">er</w>
+            <w lemma="með" xml:id="IGC-Books-til_foreldra.9.1.3" pos="af">með</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.9.1.4" pos="c">að</w>
+            <w lemma="nemandi" xml:id="IGC-Books-til_foreldra.9.1.5" pos="nkfn">nemendur</w>
+            <w lemma="fá" xml:id="IGC-Books-til_foreldra.9.1.6" pos="svg3fn">fái</w>
+            <w lemma="tímarit" xml:id="IGC-Books-til_foreldra.9.1.7" pos="nheog">tímaritið</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.9.1.8" pos="af">til</w>
+            <w lemma="eign" xml:id="IGC-Books-til_foreldra.9.1.9" pos="nvee">eignar</w>
+            <w lemma="enda" xml:id="IGC-Books-til_foreldra.9.1.10" pos="c">enda</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.9.1.11" pos="sfg3en">er</w>
+            <w lemma="líta" xml:id="IGC-Books-til_foreldra.9.1.12" pos="sþghen">litið</w>
+            <w lemma="svo" xml:id="IGC-Books-til_foreldra.9.1.13" pos="aa">svo</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.9.1.14" pos="aa">á</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.9.1.15" pos="c">að</w>
+            <w lemma="sá" xml:id="IGC-Books-til_foreldra.9.1.16" pos="fahen">það</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.9.1.17" pos="ct">sem</w>
+            <w lemma="þar" xml:id="IGC-Books-til_foreldra.9.1.18" pos="aa">þar</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.9.1.19" pos="sfg3en">er</w>
+            <w lemma="skoða" xml:id="IGC-Books-til_foreldra.9.1.20" pos="sþghen">skoðað</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.9.1.21" pos="c">og</w>
+            <w lemma="skrifa" xml:id="IGC-Books-til_foreldra.9.1.22" pos="sþghen">skrifað</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.9.1.23" pos="svg3en">sé</w>
+            <w lemma="einkamál" xml:id="IGC-Books-til_foreldra.9.1.24" pos="nhen">einkamál</w>
+            <w lemma="hver" xml:id="IGC-Books-til_foreldra.9.1.25" pos="fokee">hvers</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.9.1.26" pos="c">og</w>
+            <w lemma="einn" xml:id="IGC-Books-til_foreldra.9.1.27" pos="fokee" join="right">eins</w>
+            <pc xml:id="IGC-Books-til_foreldra.9.1.28" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.9.2">
+            <w lemma="hefti" xml:id="IGC-Books-til_foreldra.9.2.1" pos="nheng">Heftið</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.9.2.2" pos="ct">sem</w>
+            <w lemma="nemandi" xml:id="IGC-Books-til_foreldra.9.2.3" pos="nkfþ">nemendum</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.9.2.4" pos="sfg3en">er</w>
+            <w lemma="ætla" xml:id="IGC-Books-til_foreldra.9.2.5" pos="sþghen">ætlað</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.9.2.6" pos="sfg3en">er</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.9.2.7" pos="af">í</w>
+            <w lemma="form" xml:id="IGC-Books-til_foreldra.9.2.8" pos="nheþ">formi</w>
+            <w lemma="tímarit" xml:id="IGC-Books-til_foreldra.9.2.9" pos="nhee">tímarits</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.9.2.10" pos="ct">sem</w>
+            <w lemma="heita" xml:id="IGC-Books-til_foreldra.9.2.11" pos="sfg3en">heitir</w>
+            <w lemma="Kynlíf" xml:id="IGC-Books-til_foreldra.9.2.12" pos="nhen-s">KYNLÍF</w>
+            <pc xml:id="IGC-Books-til_foreldra.9.2.13" pos="pa">–</pc>
+            <w lemma="en" xml:id="IGC-Books-til_foreldra.9.2.14" pos="c">en</w>
+            <w lemma="það" xml:id="IGC-Books-til_foreldra.9.2.15" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.9.2.16" pos="sfg3en">er</w>
+            <w lemma="mjög" xml:id="IGC-Books-til_foreldra.9.2.17" pos="aa">mjög</w>
+            <w lemma="myndrænn" xml:id="IGC-Books-til_foreldra.9.2.18" pos="lhensf">myndrænt</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.9.2.19" pos="c">og</w>
+            <w lemma="aðgengilegur" xml:id="IGC-Books-til_foreldra.9.2.20" pos="lhensf" join="right">aðgengilegt</w>
+            <pc xml:id="IGC-Books-til_foreldra.9.2.21" pos="pk">,</pc>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.9.2.22" pos="af">í</w>
+            <w lemma="léttur" xml:id="IGC-Books-til_foreldra.9.2.23" pos="lkeþsf">léttum</w>
+            <w lemma="dúr" xml:id="IGC-Books-til_foreldra.9.2.24" pos="nkeþ">dúr</w>
+            <w lemma="fullur" xml:id="IGC-Books-til_foreldra.9.2.25" pos="lhensf">fullt</w>
+            <w lemma="af" xml:id="IGC-Books-til_foreldra.9.2.26" pos="af">af</w>
+            <w lemma="allur" xml:id="IGC-Books-til_foreldra.9.2.27" pos="fohee">alls</w>
+            <w lemma="kyn" xml:id="IGC-Books-til_foreldra.9.2.28" pos="nhee">kyns</w>
+            <w lemma="grein" xml:id="IGC-Books-til_foreldra.9.2.29" pos="nvfþ">greinum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.9.2.30" pos="c">og</w>
+            <w lemma="fróðleiksmoli" xml:id="IGC-Books-til_foreldra.9.2.31" pos="nkfþ" join="right">fróðleiksmolum</w>
+            <pc xml:id="IGC-Books-til_foreldra.9.2.32" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.10">
+          <s xml:id="IGC-Books-til_foreldra.10.1">
+            <w lemma="forfallakennari" xml:id="IGC-Books-til_foreldra.10.1.1" pos="nkeng">Forfallakennarinn</w>
+            <pc xml:id="IGC-Books-til_foreldra.10.1.2" pos="pa">–</pc>
+            <w lemma="fræðslumynd" xml:id="IGC-Books-til_foreldra.10.1.3" pos="nven">fræðslumynd</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.11">
+          <s xml:id="IGC-Books-til_foreldra.11.1">
+            <w lemma="mynd" xml:id="IGC-Books-til_foreldra.11.1.1" pos="nveng">Myndin</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.11.1.2" pos="sfg3en">er</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.11.1.3" pos="af">í</w>
+            <w lemma="sex" xml:id="IGC-Books-til_foreldra.11.1.4" pos="tfkfþ">sex</w>
+            <w lemma="hlutur" xml:id="IGC-Books-til_foreldra.11.1.5" pos="nkfþ">hlutum</w>
+            <w lemma="þar" xml:id="IGC-Books-til_foreldra.11.1.6" pos="aa">þar</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.11.1.7" pos="c">sem</w>
+            <w lemma="hver" xml:id="IGC-Books-til_foreldra.11.1.8" pos="foken">hver</w>
+            <w lemma="efnisþáttur" xml:id="IGC-Books-til_foreldra.11.1.9" pos="nken">efnisþáttur</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.11.1.10" pos="sfg3en">er</w>
+            <w lemma="kynna" xml:id="IGC-Books-til_foreldra.11.1.11" pos="sþgken">kynntur</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.11.1.12" pos="c">og</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.11.1.13" pos="sfg3en">er</w>
+            <w lemma="ætla" xml:id="IGC-Books-til_foreldra.11.1.14" pos="sþghen">ætlað</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.11.1.15" pos="cn">að</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.11.1.16" pos="sng">vera</w>
+            <w lemma="kveikja" xml:id="IGC-Books-til_foreldra.11.1.17" pos="nven">kveikja</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.11.1.18" pos="af">að</w>
+            <w lemma="frekur" xml:id="IGC-Books-til_foreldra.11.1.19" pos="lveþvm">frekari</w>
+            <w lemma="vinna" xml:id="IGC-Books-til_foreldra.11.1.20" pos="nveþ">vinnu</w>
+            <w lemma="um" xml:id="IGC-Books-til_foreldra.11.1.21" pos="af">um</w>
+            <w lemma="efni" xml:id="IGC-Books-til_foreldra.11.1.22" pos="nheog" join="right">efnið</w>
+            <pc xml:id="IGC-Books-til_foreldra.11.1.23" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.11.2">
+            <w lemma="annar" xml:id="IGC-Books-til_foreldra.11.2.1" pos="foken">Annar</w>
+            <w lemma="hluti" xml:id="IGC-Books-til_foreldra.11.2.2" pos="nken">hluti</w>
+            <w lemma="námsefni" xml:id="IGC-Books-til_foreldra.11.2.3" pos="nheeg">námsefnisins</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.11.2.4" pos="sfg3en">er</w>
+            <w lemma="fræðslumynd" xml:id="IGC-Books-til_foreldra.11.2.5" pos="nven">fræðslumynd</w>
+            <w lemma="þar" xml:id="IGC-Books-til_foreldra.11.2.6" pos="aa">þar</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.11.2.7" pos="c">sem</w>
+            <w lemma="aðalpersóna" xml:id="IGC-Books-til_foreldra.11.2.8" pos="nveng" join="right">aðalpersónan</w>
+            <pc xml:id="IGC-Books-til_foreldra.11.2.9" pos="pk">,</pc>
+            <w lemma="forfallakennari" xml:id="IGC-Books-til_foreldra.11.2.10" pos="nkeng" join="right">forfallakennarinn</w>
+            <pc xml:id="IGC-Books-til_foreldra.11.2.11" pos="pk">,</pc>
+            <w lemma="fræða" xml:id="IGC-Books-til_foreldra.11.2.12" pos="sfg3en">fræðir</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.11.2.13" pos="nkfog">unglingana</w>
+            <w lemma="um" xml:id="IGC-Books-til_foreldra.11.2.14" pos="af">um</w>
+            <w lemma="kynlíf" xml:id="IGC-Books-til_foreldra.11.2.15" pos="nheo">kynlíf</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.11.2.16" pos="af">á</w>
+            <w lemma="frjálslegur" xml:id="IGC-Books-til_foreldra.11.2.17" pos="lkeosf">frjálslegan</w>
+            <w lemma="háttur" xml:id="IGC-Books-til_foreldra.11.2.18" pos="nkeo" join="right">hátt</w>
+            <pc xml:id="IGC-Books-til_foreldra.11.2.19" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.11.3">
+            <w lemma="mynd" xml:id="IGC-Books-til_foreldra.11.3.1" pos="nveng">Myndin</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.11.3.2" pos="sfg3en">er</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.11.3.3" pos="af">í</w>
+            <w lemma="gamansamur" xml:id="IGC-Books-til_foreldra.11.3.4" pos="lkeþsf">gamansömum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.11.3.5" pos="c">og</w>
+            <w lemma="léttur" xml:id="IGC-Books-til_foreldra.11.3.6" pos="lkeþsf">léttum</w>
+            <w lemma="dúr" xml:id="IGC-Books-til_foreldra.11.3.7" pos="nkeþ">dúr</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.11.3.8" pos="c">og</w>
+            <w lemma="kennslukona" xml:id="IGC-Books-til_foreldra.11.3.9" pos="nven">kennslukona</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.11.3.10" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.11.3.11" pos="sfg3en">er</w>
+            <w lemma="af" xml:id="IGC-Books-til_foreldra.11.3.12" pos="af">af</w>
+            <pc xml:id="IGC-Books-til_foreldra.11.3.13" pos="pg" join="right">„</pc>
+            <w lemma="gamall" xml:id="IGC-Books-til_foreldra.11.3.14" pos="lkeþvf">gamla</w>
+            <w lemma="skóli" xml:id="IGC-Books-til_foreldra.11.3.15" pos="nkeþg" join="right">skólanum</w>
+            <pc xml:id="IGC-Books-til_foreldra.11.3.16" pos="pg">“</pc>
+            <w lemma="reyna" xml:id="IGC-Books-til_foreldra.11.3.17" pos="sfm3en">reynist</w>
+            <w lemma="einstaklega" xml:id="IGC-Books-til_foreldra.11.3.18" pos="aa">einstaklega</w>
+            <w lemma="ljúfur" xml:id="IGC-Books-til_foreldra.11.3.19" pos="lvensf">ljúf</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.11.3.20" pos="c">og</w>
+            <w lemma="skilningsríkur" xml:id="IGC-Books-til_foreldra.11.3.21" pos="lvensf">skilningsrík</w>
+            <w lemma="manneskja" xml:id="IGC-Books-til_foreldra.11.3.22" pos="nven">manneskja</w>
+            <w lemma="þegar" xml:id="IGC-Books-til_foreldra.11.3.23" pos="c">þegar</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.11.3.24" pos="af">á</w>
+            <w lemma="hólmur" xml:id="IGC-Books-til_foreldra.11.3.25" pos="nkeog">hólminn</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.11.3.26" pos="sfg3en">er</w>
+            <w lemma="koma" xml:id="IGC-Books-til_foreldra.11.3.27" pos="sþghen" join="right">komið</w>
+            <pc xml:id="IGC-Books-til_foreldra.11.3.28" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.12">
+          <s xml:id="IGC-Books-til_foreldra.12.1">
+            <w lemma="tengslabandalag" xml:id="IGC-Books-til_foreldra.12.1.1" pos="nhfn">Tengslabandalög</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.12.1.2" pos="c">og</w>
+            <w lemma="umræða" xml:id="IGC-Books-til_foreldra.12.1.3" pos="nvfn">umræður</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.13">
+          <s xml:id="IGC-Books-til_foreldra.13.1">
+            <w lemma="tengslabandalag" xml:id="IGC-Books-til_foreldra.13.1.1" pos="nhfng">Tengslabandalögin</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.13.1.2" pos="sfg3fn">eru</w>
+            <w lemma="vettvangur" xml:id="IGC-Books-til_foreldra.13.1.3" pos="nken">vettvangur</w>
+            <w lemma="fyrir" xml:id="IGC-Books-til_foreldra.13.1.4" pos="af">fyrir</w>
+            <w lemma="samvinna" xml:id="IGC-Books-til_foreldra.13.1.5" pos="nveo" join="right">samvinnu</w>
+            <pc xml:id="IGC-Books-til_foreldra.13.1.6" pos="pk">,</pc>
+            <w lemma="umræða" xml:id="IGC-Books-til_foreldra.13.1.7" pos="nvfo">umræður</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.13.1.8" pos="c">og</w>
+            <w lemma="einlægur" xml:id="IGC-Books-til_foreldra.13.1.9" pos="lhfosf">einlæg</w>
+            <w lemma="samskipti" xml:id="IGC-Books-til_foreldra.13.1.10" pos="nhfo" join="right">samskipti</w>
+            <pc xml:id="IGC-Books-til_foreldra.13.1.11" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.13.2">
+            <w lemma="gera" xml:id="IGC-Books-til_foreldra.13.2.1" pos="sþghen">Gert</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.13.2.2" pos="sfg3en">er</w>
+            <w lemma="ráð" xml:id="IGC-Books-til_foreldra.13.2.3" pos="nhen">ráð</w>
+            <w lemma="fyrir" xml:id="IGC-Books-til_foreldra.13.2.4" pos="af">fyrir</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.13.2.5" pos="c">að</w>
+            <w lemma="nemandi" xml:id="IGC-Books-til_foreldra.13.2.6" pos="nkfn">nemendur</w>
+            <w lemma="vinna" xml:id="IGC-Books-til_foreldra.13.2.7" pos="svg3fn">vinni</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.13.2.8" pos="af">í</w>
+            <w lemma="lítill" xml:id="IGC-Books-til_foreldra.13.2.9" pos="lkfþsf">litlum</w>
+            <w lemma="hópur" xml:id="IGC-Books-til_foreldra.13.2.10" pos="nkfþ">hópum</w>
+            <w lemma="sem" xml:id="IGC-Books-til_foreldra.13.2.11" pos="ct">sem</w>
+            <w lemma="kalla" xml:id="IGC-Books-til_foreldra.13.2.12" pos="sfm3fn">kallast</w>
+            <w lemma="tengslabandalag" xml:id="IGC-Books-til_foreldra.13.2.13" pos="nhfn" join="right">tengslabandalög</w>
+            <pc xml:id="IGC-Books-til_foreldra.13.2.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.14">
+          <s xml:id="IGC-Books-til_foreldra.14.1">
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.14.1.1" pos="af">Í</w>
+            <w lemma="vinna" xml:id="IGC-Books-til_foreldra.14.1.2" pos="nveþ">vinnu</w>
+            <w lemma="með" xml:id="IGC-Books-til_foreldra.14.1.3" pos="af">með</w>
+            <w lemma="námsefni" xml:id="IGC-Books-til_foreldra.14.1.4" pos="nheog">námsefnið</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.14.1.5" pos="sfg3en">er</w>
+            <w lemma="mikill" xml:id="IGC-Books-til_foreldra.14.1.6" pos="lhensf">mikið</w>
+            <w lemma="leggja" xml:id="IGC-Books-til_foreldra.14.1.7" pos="sþghen">lagt</w>
+            <w lemma="upp" xml:id="IGC-Books-til_foreldra.14.1.8" pos="aa">upp</w>
+            <w lemma="úr" xml:id="IGC-Books-til_foreldra.14.1.9" pos="af">úr</w>
+            <w lemma="virkni" xml:id="IGC-Books-til_foreldra.14.1.10" pos="nveþ">virkni</w>
+            <w lemma="nemandi" xml:id="IGC-Books-til_foreldra.14.1.11" pos="nkfe" join="right">nemenda</w>
+            <pc xml:id="IGC-Books-til_foreldra.14.1.12" pos="pk">,</pc>
+            <w lemma="sjálfsskoðun" xml:id="IGC-Books-til_foreldra.14.1.13" pos="nveþ">sjálfsskoðun</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.14.1.14" pos="c">og</w>
+            <w lemma="umræða" xml:id="IGC-Books-til_foreldra.14.1.15" pos="nvfþ" join="right">umræðum</w>
+            <pc xml:id="IGC-Books-til_foreldra.14.1.16" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.15">
+          <s xml:id="IGC-Books-til_foreldra.15.1">
+            <w lemma="dýrmætur" xml:id="IGC-Books-til_foreldra.15.1.1" pos="lhensf">Dýrmætt</w>
+            <w lemma="tækifæri" xml:id="IGC-Books-til_foreldra.15.1.2" pos="nhen">tækifæri</w>
+            <w lemma="fyrir" xml:id="IGC-Books-til_foreldra.15.1.3" pos="af">fyrir</w>
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.15.1.4" pos="nkfo">foreldra</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.16">
+          <s xml:id="IGC-Books-til_foreldra.16.1">
+            <w lemma="mæla" xml:id="IGC-Books-til_foreldra.16.1.1" pos="sþghen">Mælt</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.16.1.2" pos="sfg3en">er</w>
+            <w lemma="með" xml:id="IGC-Books-til_foreldra.16.1.3" pos="af">með</w>
+            <w lemma="það" xml:id="IGC-Books-til_foreldra.16.1.4" pos="fpheþ">því</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.16.1.5" pos="c">að</w>
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.16.1.6" pos="nkfn">foreldrar</w>
+            <w lemma="deila" xml:id="IGC-Books-til_foreldra.16.1.7" pos="svg3fn">deili</w>
+            <w lemma="reynsla" xml:id="IGC-Books-til_foreldra.16.1.8" pos="nveþ">reynslu</w>
+            <w lemma="sinn" xml:id="IGC-Books-til_foreldra.16.1.9" pos="feveþ">sinni</w>
+            <w lemma="af" xml:id="IGC-Books-til_foreldra.16.1.10" pos="af">af</w>
+            <w lemma="unglingsár" xml:id="IGC-Books-til_foreldra.16.1.11" pos="nhfþg" join="right">unglingsárunum</w>
+            <pc xml:id="IGC-Books-til_foreldra.16.1.12" pos="pk">,</pc>
+            <w lemma="láta" xml:id="IGC-Books-til_foreldra.16.1.13" pos="svg3fn">láti</w>
+            <w lemma="vita" xml:id="IGC-Books-til_foreldra.16.1.14" pos="sng">vita</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.16.1.15" pos="c">að</w>
+            <w lemma="hann" xml:id="IGC-Books-til_foreldra.16.1.16" pos="fpkfn">þeir</w>
+            <w lemma="hafa" xml:id="IGC-Books-til_foreldra.16.1.17" pos="svg3fn">hafi</w>
+            <w lemma="líka" xml:id="IGC-Books-til_foreldra.16.1.18" pos="aa">líka</w>
+            <w lemma="ganga" xml:id="IGC-Books-til_foreldra.16.1.19" pos="sþghen">gengið</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.16.1.20" pos="aa">í</w>
+            <w lemma="gegnum" xml:id="IGC-Books-til_foreldra.16.1.21" pos="af">gegnum</w>
+            <w lemma="kynþroski" xml:id="IGC-Books-til_foreldra.16.1.22" pos="nkeog" join="right">kynþroskann</w>
+            <pc xml:id="IGC-Books-til_foreldra.16.1.23" pos="pk">,</pc>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.16.1.24" pos="c">að</w>
+            <w lemma="hann" xml:id="IGC-Books-til_foreldra.16.1.25" pos="fpkfn">þeir</w>
+            <w lemma="treysta" xml:id="IGC-Books-til_foreldra.16.1.26" pos="svg3fn">treysti</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.16.1.27" pos="nkeþg">unglingnum</w>
+            <w lemma="fyrir" xml:id="IGC-Books-til_foreldra.16.1.28" pos="af">fyrir</w>
+            <w lemma="persónulegur" xml:id="IGC-Books-til_foreldra.16.1.29" pos="lhfþsf">persónulegum</w>
+            <w lemma="mál" xml:id="IGC-Books-til_foreldra.16.1.30" pos="nhfþ">málum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.16.1.31" pos="c">og</w>
+            <w lemma="bjóða" xml:id="IGC-Books-til_foreldra.16.1.32" pos="svg3fn">bjóði</w>
+            <w lemma="upp" xml:id="IGC-Books-til_foreldra.16.1.33" pos="aa">upp</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.16.1.34" pos="af">á</w>
+            <w lemma="einlægur" xml:id="IGC-Books-til_foreldra.16.1.35" pos="lveosf">einlæga</w>
+            <w lemma="umræða" xml:id="IGC-Books-til_foreldra.16.1.36" pos="nveo" join="right">umræðu</w>
+            <pc xml:id="IGC-Books-til_foreldra.16.1.37" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.16.2">
+            <w lemma="einnig" xml:id="IGC-Books-til_foreldra.16.2.1" pos="aa">Einnig</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.16.2.2" pos="sfg3en">er</w>
+            <w lemma="mikilvægur" xml:id="IGC-Books-til_foreldra.16.2.3" pos="lhensf">mikilvægt</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.16.2.4" pos="cn">að</w>
+            <w lemma="hlusta" xml:id="IGC-Books-til_foreldra.16.2.5" pos="sng">hlusta</w>
+            <w lemma="vel" xml:id="IGC-Books-til_foreldra.16.2.6" pos="aa">vel</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.16.2.7" pos="af">á</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.16.2.8" pos="nkeog">unglinginn</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.16.2.9" pos="c">og</w>
+            <w lemma="halda" xml:id="IGC-Books-til_foreldra.16.2.10" pos="sng">halda</w>
+            <w lemma="aftur" xml:id="IGC-Books-til_foreldra.16.2.11" pos="aa">aftur</w>
+            <w lemma="af" xml:id="IGC-Books-til_foreldra.16.2.12" pos="af">af</w>
+            <w lemma="skoðun" xml:id="IGC-Books-til_foreldra.16.2.13" pos="nvfþ">skoðunum</w>
+            <w lemma="sinn" xml:id="IGC-Books-til_foreldra.16.2.14" pos="fevfþ">sínum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.16.2.15" pos="c">og</w>
+            <w lemma="gagnrýni" xml:id="IGC-Books-til_foreldra.16.2.16" pos="nveþ" join="right">gagnrýni</w>
+            <pc xml:id="IGC-Books-til_foreldra.16.2.17" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.16.3">
+            <w lemma="það" xml:id="IGC-Books-til_foreldra.16.3.1" pos="fphen">Það</w>
+            <w lemma="geta" xml:id="IGC-Books-til_foreldra.16.3.2" pos="svg3eþ">gæti</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.16.3.3" pos="sþghen">verið</w>
+            <w lemma="ráð" xml:id="IGC-Books-til_foreldra.16.3.4" pos="nhen">ráð</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.16.3.5" pos="cn">að</w>
+            <w lemma="hafa" xml:id="IGC-Books-til_foreldra.16.3.6" pos="sng">hafa</w>
+            <w lemma="næðisstund" xml:id="IGC-Books-til_foreldra.16.3.7" pos="nvfo">næðisstundir</w>
+            <w lemma="með" xml:id="IGC-Books-til_foreldra.16.3.8" pos="af">með</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.16.3.9" pos="nkeþg">unglingnum</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.16.3.10" pos="c">og</w>
+            <w lemma="fara" xml:id="IGC-Books-til_foreldra.16.3.11" pos="sng">fara</w>
+            <w lemma="t.d." xml:id="IGC-Books-til_foreldra.16.3.12" pos="ks">t.d.</w>
+            <w lemma="á" xml:id="IGC-Books-til_foreldra.16.3.13" pos="af">á</w>
+            <w lemma="kaffihús" xml:id="IGC-Books-til_foreldra.16.3.14" pos="nheo" join="right">kaffihús</w>
+            <pc xml:id="IGC-Books-til_foreldra.16.3.15" pos="pk">,</pc>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.16.3.16" pos="af">í</w>
+            <w lemma="bíltúr" xml:id="IGC-Books-til_foreldra.16.3.17" pos="nkeo">bíltúr</w>
+            <w lemma="eða" xml:id="IGC-Books-til_foreldra.16.3.18" pos="c">eða</w>
+            <w lemma="í" xml:id="IGC-Books-til_foreldra.16.3.19" pos="af">í</w>
+            <w lemma="ganga" xml:id="IGC-Books-til_foreldra.16.3.20" pos="nveo" join="right">göngu</w>
+            <pc xml:id="IGC-Books-til_foreldra.16.3.21" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-til_foreldra.16.4">
+            <w lemma="foreldrar" xml:id="IGC-Books-til_foreldra.16.4.1" pos="nkfn">Foreldrar</w>
+            <w lemma="vera" xml:id="IGC-Books-til_foreldra.16.4.2" pos="sfg3fn">eru</w>
+            <w lemma="hvetja" xml:id="IGC-Books-til_foreldra.16.4.3" pos="sþgkfn">hvattir</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.16.4.4" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.16.4.5" pos="cn">að</w>
+            <w lemma="hlusta" xml:id="IGC-Books-til_foreldra.16.4.6" pos="sng">hlusta</w>
+            <w lemma="eftir" xml:id="IGC-Books-til_foreldra.16.4.7" pos="af">eftir</w>
+            <w lemma="tækifæri" xml:id="IGC-Books-til_foreldra.16.4.8" pos="nhfþ">tækifærum</w>
+            <w lemma="til" xml:id="IGC-Books-til_foreldra.16.4.9" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-til_foreldra.16.4.10" pos="cn">að</w>
+            <w lemma="ræða" xml:id="IGC-Books-til_foreldra.16.4.11" pos="sng">ræða</w>
+            <w lemma="um" xml:id="IGC-Books-til_foreldra.16.4.12" pos="af">um</w>
+            <w lemma="kynþroski" xml:id="IGC-Books-til_foreldra.16.4.13" pos="nkeog">kynþroskann</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.16.4.14" pos="c">og</w>
+            <w lemma="kynlíf" xml:id="IGC-Books-til_foreldra.16.4.15" pos="nheog">kynlífið</w>
+            <w lemma="við" xml:id="IGC-Books-til_foreldra.16.4.16" pos="af">við</w>
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.16.4.17" pos="nkeog">unglinginn</w>
+            <w lemma="sinn" xml:id="IGC-Books-til_foreldra.16.4.18" pos="fekeo" join="right">sinn</w>
+            <pc xml:id="IGC-Books-til_foreldra.16.4.19" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-til_foreldra.17">
+          <s xml:id="IGC-Books-til_foreldra.17.1">
+            <w lemma="unglingur" xml:id="IGC-Books-til_foreldra.17.1.1" pos="nkeng">Unglingurinn</w>
+            <w lemma="þurfa" xml:id="IGC-Books-til_foreldra.17.1.2" pos="sfg3en">þarf</w>
+            <w lemma="kærleiki" xml:id="IGC-Books-til_foreldra.17.1.3" pos="nkeo">kærleika</w>
+            <w lemma="og" xml:id="IGC-Books-til_foreldra.17.1.4" pos="c">og</w>
+            <w lemma="knús" xml:id="IGC-Books-til_foreldra.17.1.5" pos="nheo">knús</w>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2698 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="IGC-Books-laki_mani_og.ana">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="is">Íslenska risamálheildin - útgefnar bækur [IGC-Books.ana]</title>
+        <title type="main" xml:lang="en">The Icelandic Gigaword Corpus - published books [IGC-Books.ana]</title>
+        <title type="sub" xml:lang="is">Láki Máni og letikeppurinn – Smábók</title>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Hildur Hafsteinsdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Finnur Ingimundarson</persName>
+          <resp xml:lang="is">Úrvinnsla texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Steinþór Steingrímsson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Árni Davíð Magnússon</persName>
+          <resp xml:lang="is">Söfnun texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Málfræðimörkun</resp>
+          <resp xml:lang="en">Linguistic annotation</resp>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words" quantity="1200" xml:lang="en">1200 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">Árni Magnússon Institute for Icelandic Studies</orgName>
+          <ref target="https://www.arnastofnun.is/">www.arnastofnun.is</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/20.500.12537/250</idno>
+        <availability status="restricted">
+          <licence>https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+        </availability>
+        <date when="2022-09-17">2022-09-17</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title xml:lang="is">Láki Máni og letikeppurinn – Smábók</title>
+            <author sameAs="#KristinHelgaGunnarsdottir">Kristín Helga Gunnarsdóttir</author>
+            <imprint>
+              <publisher>Menntamálastofnun</publisher>
+              <date when="2011">2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="is">Textum hefur verið skipt upp í hluta sem innhalda 500 orð eða færri og svo raðað upp á nýtt. Efnisgreinar eru ekki slitnar í sundur nema þær innihaldi meira en 500 orð. Ef texti inniheldur færri en 5000 orð þá eru setningar innan hverrar efnisgreinar einnig stokkaðar upp. Í sumum tilvikum hafa textabrot verið fjarlægð úr texta - t.d. ef ekki höfundur brots hafði ekki veitt leyfi eða ef texti var á erlendu máli.</p>
+        <p xml:lang="en">The texts have been split into parts that do not include more than 500 words and reordered in a random way. Paragraphs are not dismantled unless they contain more than 500 words. If a text contains less than 5000 words, sentences of each paragraph are also rearranged. In some instances, we have removed fragments from texts, for example, if we did not have permission from the author of that fragment or if the fragment was not in Icelandic.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="1" gi="text"/>
+          <tagUsage occurs="1" gi="body"/>
+          <tagUsage occurs="1" gi="div"/>
+          <tagUsage occurs="236" gi="p"/>
+          <tagUsage occurs="276" gi="s"/>
+          <tagUsage occurs="1200" gi="w"/>
+          <tagUsage occurs="382" gi="pc"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="main">
+        <p xml:id="IGC-Books-laki_mani_og.1">
+          <s xml:id="IGC-Books-laki_mani_og.1.1">
+            <w lemma="vandi" xml:id="IGC-Books-laki_mani_og.1.1.1" pos="nken">Vandi</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.2">
+          <s xml:id="IGC-Books-laki_mani_og.2.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.2.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.2.1.2" pos="nken-s">Máni</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.2.1.3" pos="sfg3en">er</w>
+            <w lemma="boltagaur" xml:id="IGC-Books-laki_mani_og.2.1.4" pos="nhen" join="right">boltagaur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.2.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.3">
+          <s xml:id="IGC-Books-laki_mani_og.3.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.3.1.1" pos="fpken">Hann</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.3.1.2" pos="sfg3en">er</w>
+            <w lemma="flinkur" xml:id="IGC-Books-laki_mani_og.3.1.3" pos="lkensf">flinkur</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.3.1.4" pos="c">og</w>
+            <w lemma="æfa" xml:id="IGC-Books-laki_mani_og.3.1.5" pos="sfg3en">æfir</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.3.1.6" pos="af">í</w>
+            <w lemma="innkeyrsla" xml:id="IGC-Books-laki_mani_og.3.1.7" pos="nveþg" join="right">innkeyrslunni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.3.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.4">
+          <s xml:id="IGC-Books-laki_mani_og.4.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.4.1.1" pos="nken-s">Láki</w>
+            <w lemma="skora" xml:id="IGC-Books-laki_mani_og.4.1.2" pos="sfg3en">skorar</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.4.1.3" pos="c">og</w>
+            <w lemma="finna" xml:id="IGC-Books-laki_mani_og.4.1.4" pos="sfm3en">finnst</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.4.1.5" pos="fpken">hann</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.4.1.6" pos="sng">vera</w>
+            <w lemma="meistari" xml:id="IGC-Books-laki_mani_og.4.1.7" pos="nken" join="right">meistari</w>
+            <pc xml:id="IGC-Books-laki_mani_og.4.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.5">
+          <s xml:id="IGC-Books-laki_mani_og.5.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.5.1.1" pos="fpken">Hann</w>
+            <w lemma="heyra" xml:id="IGC-Books-laki_mani_og.5.1.2" pos="sfg3en">heyrir</w>
+            <w lemma="öskur" xml:id="IGC-Books-laki_mani_og.5.1.3" pos="nheo">öskur</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.5.1.4" pos="c">og</w>
+            <w lemma="lófatak" xml:id="IGC-Books-laki_mani_og.5.1.5" pos="nheo" join="right">lófatak</w>
+            <pc xml:id="IGC-Books-laki_mani_og.5.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.6">
+          <s xml:id="IGC-Books-laki_mani_og.6.1">
+            <w lemma="en" xml:id="IGC-Books-laki_mani_og.6.1.1" pos="c">En</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.6.1.2" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.6.1.3" pos="nken-s">Máni</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.6.1.4" pos="sfg3en">er</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.6.1.5" pos="af">í</w>
+            <w lemma="vandi" xml:id="IGC-Books-laki_mani_og.6.1.6" pos="nkeþ" join="right">vanda</w>
+            <pc xml:id="IGC-Books-laki_mani_og.6.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.7">
+          <s xml:id="IGC-Books-laki_mani_og.7.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.7.1.1" pos="fpken">Hann</w>
+            <w lemma="nenna" xml:id="IGC-Books-laki_mani_og.7.1.2" pos="sfg3en">nennir</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.7.1.3" pos="aa">ekki</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.7.1.4" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.7.1.5" pos="sng">lesa</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.7.1.6" pos="nvfo" join="right">bækur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.7.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.8">
+          <s xml:id="IGC-Books-laki_mani_og.8.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.8.1.1" pos="nkeþ-s">Láka</w>
+            <w lemma="finna" xml:id="IGC-Books-laki_mani_og.8.1.2" pos="sfm3en">finnst</w>
+            <w lemma="gaman" xml:id="IGC-Books-laki_mani_og.8.1.3" pos="nhen">gaman</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.8.1.4" pos="af">í</w>
+            <w lemma="bolti" xml:id="IGC-Books-laki_mani_og.8.1.5" pos="nkeþg">boltanum</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.8.1.6" pos="c">og</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.8.1.7" pos="cn">að</w>
+            <w lemma="hjóla" xml:id="IGC-Books-laki_mani_og.8.1.8" pos="sng" join="right">hjóla</w>
+            <pc xml:id="IGC-Books-laki_mani_og.8.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.9">
+          <s xml:id="IGC-Books-laki_mani_og.9.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.9.1.1" pos="fpken">Hann</w>
+            <w lemma="teikna" xml:id="IGC-Books-laki_mani_og.9.1.2" pos="sfg3en">teiknar</w>
+            <w lemma="líka" xml:id="IGC-Books-laki_mani_og.9.1.3" pos="aa" join="right">líka</w>
+            <pc xml:id="IGC-Books-laki_mani_og.9.1.4" pos="pk">,</pc>
+            <w lemma="kubba" xml:id="IGC-Books-laki_mani_og.9.1.5" pos="sfg3en">kubbar</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.9.1.6" pos="c">og</w>
+            <w lemma="smíð" xml:id="IGC-Books-laki_mani_og.9.1.7" pos="nvfn" join="right">smíðar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.9.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.10">
+          <s xml:id="IGC-Books-laki_mani_og.10.1">
+            <w lemma="svo" xml:id="IGC-Books-laki_mani_og.10.1.1" pos="aa">Svo</w>
+            <w lemma="góna" xml:id="IGC-Books-laki_mani_og.10.1.2" pos="sfg3en">gónir</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.10.1.3" pos="fpken">hann</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.10.1.4" pos="af">á</w>
+            <w lemma="sjónvarp" xml:id="IGC-Books-laki_mani_og.10.1.5" pos="nheo">sjónvarp</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.10.1.6" pos="c">og</w>
+            <w lemma="hanga" xml:id="IGC-Books-laki_mani_og.10.1.7" pos="sfg3en">hangir</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.10.1.8" pos="af">í</w>
+            <w lemma="tölva" xml:id="IGC-Books-laki_mani_og.10.1.9" pos="nveþ" join="right">tölvu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.10.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.11">
+          <s xml:id="IGC-Books-laki_mani_og.11.1">
+            <w lemma="en" xml:id="IGC-Books-laki_mani_og.11.1.1" pos="c">En</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.11.1.2" pos="nkeþ-s">Láka</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.11.1.3" pos="nkeþ-s">Mána</w>
+            <w lemma="finna" xml:id="IGC-Books-laki_mani_og.11.1.4" pos="sfm3en">finnst</w>
+            <w lemma="fúll" xml:id="IGC-Books-laki_mani_og.11.1.5" pos="lhensf">fúlt</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.11.1.6" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.11.1.7" pos="sng" join="right">lesa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.11.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.12">
+          <s xml:id="IGC-Books-laki_mani_og.12.1">
+            <w lemma="sýki" xml:id="IGC-Books-laki_mani_og.12.1.1" pos="nhen">Sýki</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.13">
+          <s xml:id="IGC-Books-laki_mani_og.13.1">
+            <w lemma="systir" xml:id="IGC-Books-laki_mani_og.13.1.1" pos="nvfn">Systur</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.13.1.2" pos="nkee-s">Láka</w>
+            <w lemma="heita" xml:id="IGC-Books-laki_mani_og.13.1.3" pos="sfg3fn">heita</w>
+            <w lemma="Klara" xml:id="IGC-Books-laki_mani_og.13.1.4" pos="nven-s">Klara</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.13.1.5" pos="c">og</w>
+            <w lemma="Karítas" xml:id="IGC-Books-laki_mani_og.13.1.6" pos="nven-s" join="right">Karítas</w>
+            <pc xml:id="IGC-Books-laki_mani_og.13.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.14">
+          <s xml:id="IGC-Books-laki_mani_og.14.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.14.1.1" pos="fpvfn">Þær</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.14.1.2" pos="sfg3fn">lesa</w>
+            <w lemma="allur" xml:id="IGC-Books-laki_mani_og.14.1.3" pos="fovfo">allar</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.14.1.4" pos="nvfo" join="right">bækur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.14.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.15">
+          <s xml:id="IGC-Books-laki_mani_og.15.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.15.1.1" pos="fpvfn">Þær</w>
+            <w lemma="grenja" xml:id="IGC-Books-laki_mani_og.15.1.2" pos="sfg3fn">grenja</w>
+            <w lemma="yfir" xml:id="IGC-Books-laki_mani_og.15.1.3" pos="af">yfir</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.15.1.4" pos="nvfþ" join="right">bókum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.15.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.16">
+          <s xml:id="IGC-Books-laki_mani_og.16.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.16.1.1" pos="fpvfn">Þær</w>
+            <w lemma="rífa" xml:id="IGC-Books-laki_mani_og.16.1.2" pos="sfm3fn">rífast</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.16.1.3" pos="af">um</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.16.1.4" pos="nvfo" join="right">bækur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.16.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.17">
+          <s xml:id="IGC-Books-laki_mani_og.17.1">
+            <pc xml:id="IGC-Books-laki_mani_og.17.1.1" pos="pa">–</pc>
+            <w lemma="fara" xml:id="IGC-Books-laki_mani_og.17.1.2" pos="sbg2en" join="right">Farðu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.17.1.3" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.17.1.4" pos="fp1en">ég</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.17.1.5" pos="sfg1en">er</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.17.1.6" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.17.1.7" pos="sng" join="right">lesa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.17.1.8" pos="pk">,</pc>
+            <w lemma="hvæsa" xml:id="IGC-Books-laki_mani_og.17.1.9" pos="sfg3en">hvæsir</w>
+            <w lemma="Karítas" xml:id="IGC-Books-laki_mani_og.17.1.10" pos="nven-s" join="right">Karítas</w>
+            <pc xml:id="IGC-Books-laki_mani_og.17.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.18">
+          <s xml:id="IGC-Books-laki_mani_og.18.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.18.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.18.1.2" pos="nken-s">Máni</w>
+            <w lemma="hrökklinda" xml:id="IGC-Books-laki_mani_og.18.1.3" pos="sfm3eþ">hrökklast</w>
+            <w lemma="út" xml:id="IGC-Books-laki_mani_og.18.1.4" pos="aa" join="right">út</w>
+            <pc xml:id="IGC-Books-laki_mani_og.18.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.19">
+          <s xml:id="IGC-Books-laki_mani_og.19.1">
+            <w lemma="systir" xml:id="IGC-Books-laki_mani_og.19.1.1" pos="nvfng">Systurnar</w>
+            <w lemma="ráða" xml:id="IGC-Books-laki_mani_og.19.1.2" pos="sfm3fn">ráðast</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.19.1.3" pos="af">á</w>
+            <w lemma="nýr" xml:id="IGC-Books-laki_mani_og.19.1.4" pos="lvfosf">nýjar</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.19.1.5" pos="nvfo">bækur</w>
+            <w lemma="eins" xml:id="IGC-Books-laki_mani_og.19.1.6" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.19.1.7" pos="c">og</w>
+            <w lemma="kassi" xml:id="IGC-Books-laki_mani_og.19.1.8" pos="nkeo">kassa</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.19.1.9" pos="af">af</w>
+            <w lemma="karamella" xml:id="IGC-Books-laki_mani_og.19.1.10" pos="nvfþ" join="right">karamellum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.19.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.20">
+          <s xml:id="IGC-Books-laki_mani_og.20.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.20.1.1" pos="fpvfn">Þær</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.20.1.2" pos="sfg3fn">eru</w>
+            <w lemma="sjúkur" xml:id="IGC-Books-laki_mani_og.20.1.3" pos="lvfnsf">sjúkar</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.20.1.4" pos="af">í</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.20.1.5" pos="nvfo" join="right">bækur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.20.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.21">
+          <s xml:id="IGC-Books-laki_mani_og.21.1">
+            <w lemma="nalda" xml:id="IGC-Books-laki_mani_og.21.1.1" pos="nvfn">Nöldur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.22">
+          <s xml:id="IGC-Books-laki_mani_og.22.1">
+            <w lemma="pabbi" xml:id="IGC-Books-laki_mani_og.22.1.1" pos="nken">Pabbi</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.22.1.2" pos="c">og</w>
+            <w lemma="mamma" xml:id="IGC-Books-laki_mani_og.22.1.3" pos="nven">mamma</w>
+            <w lemma="nöldra" xml:id="IGC-Books-laki_mani_og.22.1.4" pos="sfg3fn">nöldra</w>
+            <w lemma="oft" xml:id="IGC-Books-laki_mani_og.22.1.5" pos="aa" join="right">oft</w>
+            <pc xml:id="IGC-Books-laki_mani_og.22.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.23">
+          <s xml:id="IGC-Books-laki_mani_og.23.1">
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.23.1.1" pos="sfg2en">Ertu</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.23.1.2" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.23.1.3" pos="sng" join="right">lesa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.23.1.4" pos="pl">?</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.23.2">
+            <pc xml:id="IGC-Books-laki_mani_og.23.2.1" pos="pa">–</pc>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.23.2.2" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.23.2.3" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.23.2.4" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.24">
+          <s xml:id="IGC-Books-laki_mani_og.24.1">
+            <w lemma="mamma" xml:id="IGC-Books-laki_mani_og.24.1.1" pos="nven">Mamma</w>
+            <w lemma="kalla" xml:id="IGC-Books-laki_mani_og.24.1.2" pos="sfg3en">kallar</w>
+            <w lemma="úr" xml:id="IGC-Books-laki_mani_og.24.1.3" pos="af">úr</w>
+            <w lemma="stofa" xml:id="IGC-Books-laki_mani_og.24.1.4" pos="nveþg" join="right">stofunni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.24.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.25">
+          <s xml:id="IGC-Books-laki_mani_og.25.1">
+            <w lemma="skrökva" xml:id="IGC-Books-laki_mani_og.25.1.1" pos="sfg3en">skrökvar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.25.1.2" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.25.1.3" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.25.1.4" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.25.2">
+            <pc xml:id="IGC-Books-laki_mani_og.25.2.1" pos="pa">–</pc>
+            <w lemma="jaaaaá" xml:id="IGC-Books-laki_mani_og.25.2.2" pos="au" join="right">Jaaaaá</w>
+            <pc xml:id="IGC-Books-laki_mani_og.25.2.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.26">
+          <s xml:id="IGC-Books-laki_mani_og.26.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.26.1.1" pos="fpken">Hann</w>
+            <w lemma="teikna" xml:id="IGC-Books-laki_mani_og.26.1.2" pos="sfg3en">teiknar</w>
+            <w lemma="skip" xml:id="IGC-Books-laki_mani_og.26.1.3" pos="nhfo" join="right">skip</w>
+            <pc xml:id="IGC-Books-laki_mani_og.26.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.27">
+          <s xml:id="IGC-Books-laki_mani_og.27.1">
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.27.1.1" pos="nveng">Bókin</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.27.1.2" pos="sfg3en">er</w>
+            <w lemma="úti" xml:id="IGC-Books-laki_mani_og.27.1.3" pos="aa">úti</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.27.1.4" pos="af">í</w>
+            <w lemma="horn" xml:id="IGC-Books-laki_mani_og.27.1.5" pos="nheþ" join="right">horni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.27.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.28">
+          <s xml:id="IGC-Books-laki_mani_og.28.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.28.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.28.1.2" pos="nken-s">Máni</w>
+            <w lemma="teygja" xml:id="IGC-Books-laki_mani_og.28.1.3" pos="sfg3en">teygir</w>
+            <w lemma="sig" xml:id="IGC-Books-laki_mani_og.28.1.4" pos="fpkeo">sig</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.28.1.5" pos="af">í</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.28.1.6" pos="nveog" join="right">bókina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.28.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.29">
+          <s xml:id="IGC-Books-laki_mani_og.29.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.29.1.1" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.29.1.2" pos="sfg3en">er</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.29.1.3" pos="af">um</w>
+            <w lemma="Ísland" xml:id="IGC-Books-laki_mani_og.29.1.4" pos="nheo-s" join="right">Ísland</w>
+            <pc xml:id="IGC-Books-laki_mani_og.29.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.30">
+          <s xml:id="IGC-Books-laki_mani_og.30.1">
+            <w lemma="oj" xml:id="IGC-Books-laki_mani_og.30.1.1" pos="au" join="right">Oj</w>
+            <pc xml:id="IGC-Books-laki_mani_og.30.1.2" pos="pk">,</pc>
+            <w lemma="orð" xml:id="IGC-Books-laki_mani_og.30.1.3" pos="nhfng">orðin</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.30.1.4" pos="sfg3fn">eru</w>
+            <w lemma="svo" xml:id="IGC-Books-laki_mani_og.30.1.5" pos="aa">svo</w>
+            <w lemma="langur" xml:id="IGC-Books-laki_mani_og.30.1.6" pos="lhfnsf" join="right">löng</w>
+            <pc xml:id="IGC-Books-laki_mani_og.30.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.31">
+          <s xml:id="IGC-Books-laki_mani_og.31.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.31.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.31.1.2" pos="nken-s">Máni</w>
+            <w lemma="geispar" xml:id="IGC-Books-laki_mani_og.31.1.3" pos="nken" join="right">geispar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.31.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.32">
+          <s xml:id="IGC-Books-laki_mani_og.32.1">
+            <w lemma="vá" xml:id="IGC-Books-laki_mani_og.32.1.1" pos="au" join="right">Vá</w>
+            <pc xml:id="IGC-Books-laki_mani_og.32.1.2" pos="pk">,</pc>
+            <w lemma="hver" xml:id="IGC-Books-laki_mani_og.32.1.3" pos="fshen">hvað</w>
+            <w lemma="þessi" xml:id="IGC-Books-laki_mani_og.32.1.4" pos="fahen">þetta</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.32.1.5" pos="sfg3en">er</w>
+            <w lemma="ömurlegur" xml:id="IGC-Books-laki_mani_og.32.1.6" pos="lhensf" join="right">ömurlegt</w>
+            <pc xml:id="IGC-Books-laki_mani_og.32.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.33">
+          <s xml:id="IGC-Books-laki_mani_og.33.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.33.1.1" pos="fpken">Hann</w>
+            <w lemma="kasta" xml:id="IGC-Books-laki_mani_og.33.1.2" pos="sfg3en">kastar</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.33.1.3" pos="nveþg">bókinni</w>
+            <w lemma="út" xml:id="IGC-Books-laki_mani_og.33.1.4" pos="aa">út</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.33.1.5" pos="af">í</w>
+            <w lemma="horn" xml:id="IGC-Books-laki_mani_og.33.1.6" pos="nheo" join="right">horn</w>
+            <pc xml:id="IGC-Books-laki_mani_og.33.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.34">
+          <s xml:id="IGC-Books-laki_mani_og.34.1">
+            <w lemma="Þras" xml:id="IGC-Books-laki_mani_og.34.1.1" pos="nhen-s">Þras</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.35">
+          <s xml:id="IGC-Books-laki_mani_og.35.1">
+            <w lemma="mamma" xml:id="IGC-Books-laki_mani_og.35.1.1" pos="nven">Mamma</w>
+            <w lemma="taka" xml:id="IGC-Books-laki_mani_og.35.1.2" pos="sfg3en">tekur</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.35.1.3" pos="nveog">bókina</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.35.1.4" pos="c">og</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.35.1.5" pos="sfg3en" join="right">les</w>
+            <pc xml:id="IGC-Books-laki_mani_og.35.1.6" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.36">
+          <s xml:id="IGC-Books-laki_mani_og.36.1">
+            <w lemma="Ísland" xml:id="IGC-Books-laki_mani_og.36.1.1" pos="nhen-s">Ísland</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.36.1.2" pos="sfg3en">er</w>
+            <w lemma="eyja" xml:id="IGC-Books-laki_mani_og.36.1.3" pos="nven">eyja</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.36.1.4" pos="af">í</w>
+            <w lemma="Atlantshaf" xml:id="IGC-Books-laki_mani_og.36.1.5" pos="nheþ-s" join="right">Atlantshafi</w>
+            <pc xml:id="IGC-Books-laki_mani_og.36.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.37">
+          <s xml:id="IGC-Books-laki_mani_og.37.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.37.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.37.1.2" pos="nken-s">Máni</w>
+            <w lemma="þykja" xml:id="IGC-Books-laki_mani_og.37.1.3" pos="sfm3en">þykist</w>
+            <w lemma="sofna" xml:id="IGC-Books-laki_mani_og.37.1.4" pos="sng">sofna</w>
+            <w lemma="fram" xml:id="IGC-Books-laki_mani_og.37.1.5" pos="aa">fram</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.37.1.6" pos="af">á</w>
+            <w lemma="borð" xml:id="IGC-Books-laki_mani_og.37.1.7" pos="nheog" join="right">borðið</w>
+            <pc xml:id="IGC-Books-laki_mani_og.37.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.38">
+          <s xml:id="IGC-Books-laki_mani_og.38.1">
+            <pc xml:id="IGC-Books-laki_mani_og.38.1.1" pos="pa">–</pc>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.38.1.2" pos="fp2en">Þú</w>
+            <w lemma="eiga" xml:id="IGC-Books-laki_mani_og.38.1.3" pos="sfg2en">átt</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.38.1.4" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.38.1.5" pos="sng" join="right">lesa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.38.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.38.1.7" pos="sfg3en">segir</w>
+            <w lemma="mamma" xml:id="IGC-Books-laki_mani_og.38.1.8" pos="nven" join="right">mamma</w>
+            <pc xml:id="IGC-Books-laki_mani_og.38.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.39">
+          <s xml:id="IGC-Books-laki_mani_og.39.1">
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.39.1.1" pos="sbg2en">Lestu</w>
+            <w lemma="upphátt" xml:id="IGC-Books-laki_mani_og.39.1.2" pos="aa">upphátt</w>
+            <w lemma="fyrir" xml:id="IGC-Books-laki_mani_og.39.1.3" pos="af">fyrir</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.39.1.4" pos="fp1eo" join="right">mig</w>
+            <pc xml:id="IGC-Books-laki_mani_og.39.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.40">
+          <s xml:id="IGC-Books-laki_mani_og.40.1">
+            <pc xml:id="IGC-Books-laki_mani_og.40.1.1" pos="pa">–</pc>
+            <w lemma="mamma" xml:id="IGC-Books-laki_mani_og.40.1.2" pos="nven" join="right">Mamma</w>
+            <pc xml:id="IGC-Books-laki_mani_og.40.1.3" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.40.1.4" pos="fp1en">ég</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.40.1.5" pos="sfg1en">er</w>
+            <w lemma="upptekinn" xml:id="IGC-Books-laki_mani_og.40.1.6" pos="lkensf" join="right">upptekinn</w>
+            <pc xml:id="IGC-Books-laki_mani_og.40.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.41">
+          <s xml:id="IGC-Books-laki_mani_og.41.1">
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.41.1.1" pos="sbg2en">Lestu</w>
+            <w lemma="bara" xml:id="IGC-Books-laki_mani_og.41.1.2" pos="aa">bara</w>
+            <w lemma="sjálfur" xml:id="IGC-Books-laki_mani_og.41.1.3" pos="fbven">sjálf</w>
+            <w lemma="fyrir" xml:id="IGC-Books-laki_mani_og.41.1.4" pos="af">fyrir</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.41.1.5" pos="fp2eo" join="right">þig</w>
+            <pc xml:id="IGC-Books-laki_mani_og.41.1.6" pos="pk">,</pc>
+            <w lemma="tauta" xml:id="IGC-Books-laki_mani_og.41.1.7" pos="sfg3en">tautar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.41.1.8" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.41.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.42">
+          <s xml:id="IGC-Books-laki_mani_og.42.1">
+            <pc xml:id="IGC-Books-laki_mani_og.42.1.1" pos="pa">–</pc>
+            <w lemma="skammastu" xml:id="IGC-Books-laki_mani_og.42.1.2" pos="lvenve">Skammastu</w>
+            <w lemma="þinn" xml:id="IGC-Books-laki_mani_og.42.1.3" pos="feven" join="right">þín</w>
+            <pc xml:id="IGC-Books-laki_mani_og.42.1.4" pos="pk">,</pc>
+            <w lemma="strákur" xml:id="IGC-Books-laki_mani_og.42.1.5" pos="nken" join="right">strákur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.42.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.42.1.7" pos="sfg3en">segir</w>
+            <w lemma="pabbi" xml:id="IGC-Books-laki_mani_og.42.1.8" pos="nken">pabbi</w>
+            <w lemma="argur" xml:id="IGC-Books-laki_mani_og.42.1.9" pos="lkensf" join="right">argur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.42.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.43">
+          <s xml:id="IGC-Books-laki_mani_og.43.1">
+            <pc xml:id="IGC-Books-laki_mani_og.43.1.1" pos="pa">–</pc>
+            <w lemma="hætta" xml:id="IGC-Books-laki_mani_og.43.1.2" pos="sbg2fn">Hættið</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.43.1.3" pos="c">og</w>
+            <w lemma="fara" xml:id="IGC-Books-laki_mani_og.43.1.4" pos="sbg2fn">farið</w>
+            <w lemma="út" xml:id="IGC-Books-laki_mani_og.43.1.5" pos="aa">út</w>
+            <w lemma="úr" xml:id="IGC-Books-laki_mani_og.43.1.6" pos="af">úr</w>
+            <w lemma="herbergi" xml:id="IGC-Books-laki_mani_og.43.1.7" pos="nheþg">herberginu</w>
+            <w lemma="minn" xml:id="IGC-Books-laki_mani_og.43.1.8" pos="feheþ" join="right">mínu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.43.1.9" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.44">
+          <s xml:id="IGC-Books-laki_mani_og.44.1">
+            <w lemma="öskra" xml:id="IGC-Books-laki_mani_og.44.1.1" pos="sfg3en">öskrar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.44.1.2" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.44.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.45">
+          <s xml:id="IGC-Books-laki_mani_og.45.1">
+            <w lemma="Ást" xml:id="IGC-Books-laki_mani_og.45.1.1" pos="nven-s">Ást</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.46">
+          <s xml:id="IGC-Books-laki_mani_og.46.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.46.1.1" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.46.1.2" pos="sfg3en">er</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.46.1.3" pos="af">um</w>
+            <w lemma="ást" xml:id="IGC-Books-laki_mani_og.46.1.4" pos="nveog" join="right">ástina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.46.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.46.2">
+            <pc xml:id="IGC-Books-laki_mani_og.46.2.1" pos="pa">–</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.46.2.2" pos="sbg2en">Lestu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.46.2.3" pos="pa" join="right">„</pc>
+            <w lemma="stuð" xml:id="IGC-Books-laki_mani_og.46.2.4" pos="nheo" join="right">Stuð</w>
+            <pc xml:id="IGC-Books-laki_mani_og.46.2.5" pos="pk">,</pc>
+            <w lemma="puð" xml:id="IGC-Books-laki_mani_og.46.2.6" pos="nheo">puð</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.46.2.7" pos="c">og</w>
+            <w lemma="stjörnublik" xml:id="IGC-Books-laki_mani_og.46.2.8" pos="nheo" join="right">stjörnublik</w>
+            <pc xml:id="IGC-Books-laki_mani_og.46.2.9" pos="pg" join="right">“</pc>
+            <pc xml:id="IGC-Books-laki_mani_og.46.2.10" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.46.2.11" pos="sfg3en">segir</w>
+            <w lemma="Klara" xml:id="IGC-Books-laki_mani_og.46.2.12" pos="nven-s" join="right">Klara</w>
+            <pc xml:id="IGC-Books-laki_mani_og.46.2.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.47">
+          <s xml:id="IGC-Books-laki_mani_og.47.1">
+            <w lemma="Klara" xml:id="IGC-Books-laki_mani_og.47.1.1" pos="nven-s">Klara</w>
+            <w lemma="setja" xml:id="IGC-Books-laki_mani_og.47.1.2" pos="sfm3en">sest</w>
+            <w lemma="með" xml:id="IGC-Books-laki_mani_og.47.1.3" pos="af">með</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.47.1.4" pos="nveog">bókina</w>
+            <w lemma="við" xml:id="IGC-Books-laki_mani_og.47.1.5" pos="af">við</w>
+            <w lemma="matarborð" xml:id="IGC-Books-laki_mani_og.47.1.6" pos="nheog" join="right">matarborðið</w>
+            <pc xml:id="IGC-Books-laki_mani_og.47.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.48">
+          <s xml:id="IGC-Books-laki_mani_og.48.1">
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.48.1.1" pos="fp1en">Ég</w>
+            <w lemma="verða" xml:id="IGC-Books-laki_mani_og.48.1.2" pos="sfg1en">verð</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.48.1.3" pos="cn">að</w>
+            <w lemma="fá" xml:id="IGC-Books-laki_mani_og.48.1.4" pos="sng">fá</w>
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.48.1.5" pos="fpveo" join="right">hana</w>
+            <pc xml:id="IGC-Books-laki_mani_og.48.1.6" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.48.2">
+            <w lemma="flýta" xml:id="IGC-Books-laki_mani_og.48.2.1" pos="sbg2en">Flýttu</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.48.2.2" pos="fp2eþ">þér</w>
+            <w lemma="með" xml:id="IGC-Books-laki_mani_og.48.2.3" pos="af">með</w>
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.48.2.4" pos="fpveo" join="right">hana</w>
+            <pc xml:id="IGC-Books-laki_mani_og.48.2.5" pos="pk">,</pc>
+            <w lemma="skipa" xml:id="IGC-Books-laki_mani_og.48.2.6" pos="sfg3en">skipar</w>
+            <w lemma="Karítas" xml:id="IGC-Books-laki_mani_og.48.2.7" pos="nven-s" join="right">Karítas</w>
+            <pc xml:id="IGC-Books-laki_mani_og.48.2.8" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.48.3">
+            <pc xml:id="IGC-Books-laki_mani_og.48.3.1" pos="pa">–</pc>
+            <w lemma="ooo" xml:id="IGC-Books-laki_mani_og.48.3.2" pos="au" join="right">Ooo</w>
+            <pc xml:id="IGC-Books-laki_mani_og.48.3.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.49">
+          <s xml:id="IGC-Books-laki_mani_og.49.1">
+            <w lemma="Karítas" xml:id="IGC-Books-laki_mani_og.49.1.1" pos="nven-s">Karítas</w>
+            <w lemma="væla" xml:id="IGC-Books-laki_mani_og.49.1.2" pos="sfg3en">vælir</w>
+            <w lemma="eins" xml:id="IGC-Books-laki_mani_og.49.1.3" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.49.1.4" pos="c">og</w>
+            <w lemma="sírena" xml:id="IGC-Books-laki_mani_og.49.1.5" pos="nven" join="right">sírena</w>
+            <pc xml:id="IGC-Books-laki_mani_og.49.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.50">
+          <s xml:id="IGC-Books-laki_mani_og.50.1">
+            <w lemma="ískra" xml:id="IGC-Books-laki_mani_og.50.1.1" pos="sfg3en">ískrar</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.50.1.2" pos="af">í</w>
+            <w lemma="Klara" xml:id="IGC-Books-laki_mani_og.50.1.3" pos="nveþ-s" join="right">Klöru</w>
+            <pc xml:id="IGC-Books-laki_mani_og.50.1.4" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.50.2">
+            <pc xml:id="IGC-Books-laki_mani_og.50.2.1" pos="pa">–</pc>
+            <w lemma="jaaaá" xml:id="IGC-Books-laki_mani_og.50.2.2" pos="au" join="right">Jaaaá</w>
+            <pc xml:id="IGC-Books-laki_mani_og.50.2.3" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.50.3">
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.50.3.1" pos="fp2en">Þú</w>
+            <w lemma="verða" xml:id="IGC-Books-laki_mani_og.50.3.2" pos="sfg2en">verður</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.50.3.3" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.50.3.4" pos="sng">lesa</w>
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.50.3.5" pos="fpveo" join="right">hana</w>
+            <pc xml:id="IGC-Books-laki_mani_og.50.3.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.51">
+          <s xml:id="IGC-Books-laki_mani_og.51.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.51.1.1" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.51.1.2" pos="sfg3en">er</w>
+            <w lemma="svo" xml:id="IGC-Books-laki_mani_og.51.1.3" pos="aa">svo</w>
+            <w lemma="sorglegur" xml:id="IGC-Books-laki_mani_og.51.1.4" pos="lvensf" join="right">sorgleg</w>
+            <pc xml:id="IGC-Books-laki_mani_og.51.1.5" pos="pk">,</pc>
+            <w lemma="en" xml:id="IGC-Books-laki_mani_og.51.1.6" pos="c">en</w>
+            <w lemma="samt" xml:id="IGC-Books-laki_mani_og.51.1.7" pos="aa">samt</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.51.1.8" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.51.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.52">
+          <s xml:id="IGC-Books-laki_mani_og.52.1">
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.52.1.1" pos="aa">Ekki</w>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.52.1.2" pos="sng">segja</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.52.1.3" pos="fp1eþ" join="right">mér</w>
+            <pc xml:id="IGC-Books-laki_mani_og.52.1.4" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.52.2">
+            <pc xml:id="IGC-Books-laki_mani_og.52.2.1" pos="pa">–</pc>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.52.2.2" pos="aa">Ekki</w>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.52.2.3" pos="sng">segja</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.52.2.4" pos="fp1eþ" join="right">mér</w>
+            <pc xml:id="IGC-Books-laki_mani_og.52.2.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.53">
+          <s xml:id="IGC-Books-laki_mani_og.53.1">
+            <w lemma="veina" xml:id="IGC-Books-laki_mani_og.53.1.1" pos="sfg3en">veinar</w>
+            <w lemma="Karítas" xml:id="IGC-Books-laki_mani_og.53.1.2" pos="nven-s" join="right">Karítas</w>
+            <pc xml:id="IGC-Books-laki_mani_og.53.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.54">
+          <s xml:id="IGC-Books-laki_mani_og.54.1">
+            <pc xml:id="IGC-Books-laki_mani_og.54.1.1" pos="pa">–</pc>
+            <w lemma="bjáni" xml:id="IGC-Books-laki_mani_og.54.1.2" pos="nkfn" join="right">Bjánar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.54.1.3" pos="pk">,</pc>
+            <w lemma="tauta" xml:id="IGC-Books-laki_mani_og.54.1.4" pos="sfg3en">tautar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.54.1.5" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.54.1.6" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.54.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.55">
+          <s xml:id="IGC-Books-laki_mani_og.55.1">
+            <w lemma="rödd" xml:id="IGC-Books-laki_mani_og.55.1.1" pos="nven">Rödd</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.56">
+          <s xml:id="IGC-Books-laki_mani_og.56.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.56.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.56.1.2" pos="nken-s">Máni</w>
+            <w lemma="setja" xml:id="IGC-Books-laki_mani_og.56.1.3" pos="sfm3en">sest</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.56.1.4" pos="af">á</w>
+            <w lemma="rúmstokkur" xml:id="IGC-Books-laki_mani_og.56.1.5" pos="nkeog">rúmstokkinn</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.56.1.6" pos="c">og</w>
+            <w lemma="horfa" xml:id="IGC-Books-laki_mani_og.56.1.7" pos="sfg3en">horfir</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.56.1.8" pos="af">á</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.56.1.9" pos="nveog" join="right">bókina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.56.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.57">
+          <s xml:id="IGC-Books-laki_mani_og.57.1">
+            <w lemma="allur" xml:id="IGC-Books-laki_mani_og.57.1.1" pos="fohen">Allt</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.57.1.2" pos="af">í</w>
+            <w lemma="einn" xml:id="IGC-Books-laki_mani_og.57.1.3" pos="lheþsf">einu</w>
+            <w lemma="heyra" xml:id="IGC-Books-laki_mani_og.57.1.4" pos="sfg3en">heyrir</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.57.1.5" pos="fpken">hann</w>
+            <w lemma="skrækur" xml:id="IGC-Books-laki_mani_og.57.1.6" pos="lveosf">skræka</w>
+            <w lemma="rödd" xml:id="IGC-Books-laki_mani_og.57.1.7" pos="nveo">rödd</w>
+            <w lemma="garga" xml:id="IGC-Books-laki_mani_og.57.1.8" pos="sng" join="right">garga</w>
+            <pc xml:id="IGC-Books-laki_mani_og.57.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.58">
+          <s xml:id="IGC-Books-laki_mani_og.58.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.58.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.58.1.2" pos="nken-s">Máni</w>
+            <w lemma="líta" xml:id="IGC-Books-laki_mani_og.58.1.3" pos="sfg3en">lítur</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.58.1.4" pos="aa">í</w>
+            <w lemma="kringum" xml:id="IGC-Books-laki_mani_og.58.1.5" pos="af">kringum</w>
+            <w lemma="sig" xml:id="IGC-Books-laki_mani_og.58.1.6" pos="fpkeo" join="right">sig</w>
+            <pc xml:id="IGC-Books-laki_mani_og.58.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.59">
+          <s xml:id="IGC-Books-laki_mani_og.59.1">
+            <pc xml:id="IGC-Books-laki_mani_og.59.1.1" pos="pa">–</pc>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.59.1.2" pos="sfg3en">Er</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.59.1.3" pos="aa">ekki</w>
+            <w lemma="könnun" xml:id="IGC-Books-laki_mani_og.59.1.4" pos="nven">könnun</w>
+            <w lemma="hjá" xml:id="IGC-Books-laki_mani_og.59.1.5" pos="af">hjá</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.59.1.6" pos="fp2eþ">þér</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.59.1.7" pos="af">á</w>
+            <w lemma="morgunn" xml:id="IGC-Books-laki_mani_og.59.1.8" pos="nkeo" join="right">morgun</w>
+            <pc xml:id="IGC-Books-laki_mani_og.59.1.9" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.60">
+          <s xml:id="IGC-Books-laki_mani_og.60.1">
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.60.1.1" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.60.1.2" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.60.1.3" pos="nken-s">Máni</w>
+            <w lemma="undrandi" xml:id="IGC-Books-laki_mani_og.60.1.4" pos="lkenof" join="right">undrandi</w>
+            <pc xml:id="IGC-Books-laki_mani_og.60.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.60.2">
+            <pc xml:id="IGC-Books-laki_mani_og.60.2.1" pos="pa">–</pc>
+            <w lemma="ha" xml:id="IGC-Books-laki_mani_og.60.2.2" pos="au" join="right">Ha</w>
+            <pc xml:id="IGC-Books-laki_mani_og.60.2.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.61">
+          <s xml:id="IGC-Books-laki_mani_og.61.1">
+            <pc xml:id="IGC-Books-laki_mani_og.61.1.1" pos="pa">–</pc>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.61.1.2" pos="sfg2en">Ertu</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.61.1.3" pos="aa">ekki</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.61.1.4" pos="cn">að</w>
+            <w lemma="fara" xml:id="IGC-Books-laki_mani_og.61.1.5" pos="sng">fara</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.61.1.6" pos="af">í</w>
+            <w lemma="próf" xml:id="IGC-Books-laki_mani_og.61.1.7" pos="nhfo" join="right">próf</w>
+            <pc xml:id="IGC-Books-laki_mani_og.61.1.8" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.62">
+          <s xml:id="IGC-Books-laki_mani_og.62.1">
+            <w lemma="gala" xml:id="IGC-Books-laki_mani_og.62.1.1" pos="sfg3en">galar</w>
+            <w lemma="skrækur" xml:id="IGC-Books-laki_mani_og.62.1.2" pos="lvenvf">skræka</w>
+            <w lemma="rödd" xml:id="IGC-Books-laki_mani_og.62.1.3" pos="nveng" join="right">röddin</w>
+            <pc xml:id="IGC-Books-laki_mani_og.62.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.63">
+          <s xml:id="IGC-Books-laki_mani_og.63.1">
+            <w lemma="hvar" xml:id="IGC-Books-laki_mani_og.63.1.1" pos="aa">Hvar</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.63.1.2" pos="sfg2en" join="right">ertu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.63.1.3" pos="pl">?</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.63.2">
+            <pc xml:id="IGC-Books-laki_mani_og.63.2.1" pos="pa">–</pc>
+            <w lemma="hver" xml:id="IGC-Books-laki_mani_og.63.2.2" pos="fsken">Hver</w>
+            <w lemma="tala" xml:id="IGC-Books-laki_mani_og.63.2.3" pos="sfg3en" join="right">talar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.63.2.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.64">
+          <s xml:id="IGC-Books-laki_mani_og.64.1">
+            <w lemma="hrekkur" xml:id="IGC-Books-laki_mani_og.64.1.1" pos="nken">Hrekkur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.65">
+          <s xml:id="IGC-Books-laki_mani_og.65.1">
+            <pc xml:id="IGC-Books-laki_mani_og.65.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.65.1.2" pos="fp1en">Ég</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.65.1.3" pos="sfg1en">er</w>
+            <w lemma="hér" xml:id="IGC-Books-laki_mani_og.65.1.4" pos="aa" join="right">hér</w>
+            <pc xml:id="IGC-Books-laki_mani_og.65.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.65.2">
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.65.2.1" pos="af">Á</w>
+            <w lemma="morgunn" xml:id="IGC-Books-laki_mani_og.65.2.2" pos="nkeo">morgun</w>
+            <w lemma="halda" xml:id="IGC-Books-laki_mani_og.65.2.3" pos="sfg2en">heldur</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.65.2.4" pos="fp2en">þú</w>
+            <w lemma="ræða" xml:id="IGC-Books-laki_mani_og.65.2.5" pos="nveo">ræðu</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.65.2.6" pos="af">í</w>
+            <w lemma="skóli" xml:id="IGC-Books-laki_mani_og.65.2.7" pos="nkeþg" join="right">skólanum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.65.2.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.65.2.9" pos="sfg3en">segir</w>
+            <w lemma="lítill" xml:id="IGC-Books-laki_mani_og.65.2.10" pos="lkensf">lítill</w>
+            <w lemma="karl" xml:id="IGC-Books-laki_mani_og.65.2.11" pos="nken" join="right">karl</w>
+            <pc xml:id="IGC-Books-laki_mani_og.65.2.12" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.65.3">
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.65.3.1" pos="fp1en">Ég</w>
+            <w lemma="búa" xml:id="IGC-Books-laki_mani_og.65.3.2" pos="sfg1en">bý</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.65.3.3" pos="af">í</w>
+            <w lemma="bókakassi" xml:id="IGC-Books-laki_mani_og.65.3.4" pos="nkeþ">bókakassa</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.65.3.5" pos="af">í</w>
+            <w lemma="horn" xml:id="IGC-Books-laki_mani_og.65.3.6" pos="nheþg" join="right">horninu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.65.3.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.66">
+          <s xml:id="IGC-Books-laki_mani_og.66.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.66.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.66.1.2" pos="nken-s">Máni</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.66.1.3" pos="sfg3en">er</w>
+            <w lemma="orðlaus" xml:id="IGC-Books-laki_mani_og.66.1.4" pos="lkensf">orðlaus</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.66.1.5" pos="af">af</w>
+            <w lemma="undrun" xml:id="IGC-Books-laki_mani_og.66.1.6" pos="nveþ" join="right">undrun</w>
+            <pc xml:id="IGC-Books-laki_mani_og.66.1.7" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.66.2">
+            <pc xml:id="IGC-Books-laki_mani_og.66.2.1" pos="pa">–</pc>
+            <w lemma="ha" xml:id="IGC-Books-laki_mani_og.66.2.2" pos="au" join="right">Ha</w>
+            <pc xml:id="IGC-Books-laki_mani_og.66.2.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.67">
+          <s xml:id="IGC-Books-laki_mani_og.67.1">
+            <w lemma="stynja" xml:id="IGC-Books-laki_mani_og.67.1.1" pos="sfg3en">stynur</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.67.1.2" pos="fpken">hann</w>
+            <w lemma="svo" xml:id="IGC-Books-laki_mani_og.67.1.3" pos="aa" join="right">svo</w>
+            <pc xml:id="IGC-Books-laki_mani_og.67.1.4" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.67.2">
+            <pc xml:id="IGC-Books-laki_mani_og.67.2.1" pos="pa">–</pc>
+            <w lemma="hver" xml:id="IGC-Books-laki_mani_og.67.2.2" pos="fsken">Hver</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.67.2.3" pos="sfg2en">ert</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.67.2.4" pos="fp2en" join="right">þú</w>
+            <pc xml:id="IGC-Books-laki_mani_og.67.2.5" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.68">
+          <s xml:id="IGC-Books-laki_mani_og.68.1">
+            <pc xml:id="IGC-Books-laki_mani_og.68.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.68.1.2" pos="fp1en">Ég</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.68.1.3" pos="sfg1en">er</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.68.1.4" pos="nken-s">Hrekkur</w>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.68.1.5" pos="nken" join="right">letikeppur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.68.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.69">
+          <s xml:id="IGC-Books-laki_mani_og.69.1">
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.69.1.1" pos="c">Og</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.69.1.2" pos="fp1en">ég</w>
+            <w lemma="geta" xml:id="IGC-Books-laki_mani_og.69.1.3" pos="sfg1en">get</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.69.1.4" pos="sþghen">lesið</w>
+            <w lemma="fyrir" xml:id="IGC-Books-laki_mani_og.69.1.5" pos="af">fyrir</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.69.1.6" pos="fp2eo" join="right">þig</w>
+            <pc xml:id="IGC-Books-laki_mani_og.69.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.70">
+          <s xml:id="IGC-Books-laki_mani_og.70.1">
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.70.1.1" pos="fphen">Það</w>
+            <w lemma="heita" xml:id="IGC-Books-laki_mani_og.70.1.2" pos="sfg3en">heitir</w>
+            <w lemma="enginn" xml:id="IGC-Books-laki_mani_og.70.1.3" pos="foken">enginn</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.70.1.4" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.70.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.70.2">
+            <pc xml:id="IGC-Books-laki_mani_og.70.2.1" pos="pa">–</pc>
+            <w lemma="hrökkva" xml:id="IGC-Books-laki_mani_og.70.2.2" pos="sfg3en" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.70.2.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.71">
+          <s xml:id="IGC-Books-laki_mani_og.71.1">
+            <pc xml:id="IGC-Books-laki_mani_og.71.1.1" pos="pa">–</pc>
+            <w lemma="jú" xml:id="IGC-Books-laki_mani_og.71.1.2" pos="au" join="right">Jú</w>
+            <pc xml:id="IGC-Books-laki_mani_og.71.1.3" pos="pk">,</pc>
+            <w lemma="letikeppir" xml:id="IGC-Books-laki_mani_og.71.1.4" pos="e" join="right">letikeppir</w>
+            <pc xml:id="IGC-Books-laki_mani_og.71.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.72">
+          <s xml:id="IGC-Books-laki_mani_og.72.1">
+            <w lemma="slagur" xml:id="IGC-Books-laki_mani_og.72.1.1" pos="nken">Slagur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.73">
+          <s xml:id="IGC-Books-laki_mani_og.73.1">
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.73.1.1" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.73.1.2" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.73.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.73.2">
+            <pc xml:id="IGC-Books-laki_mani_og.73.2.1" pos="pa">–</pc>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.73.2.2" pos="nkfn" join="right">Letikeppir</w>
+            <pc xml:id="IGC-Books-laki_mani_og.73.2.3" pos="pk">,</pc>
+            <w lemma="hver" xml:id="IGC-Books-laki_mani_og.73.2.4" pos="fshen">hvað</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.73.2.5" pos="sfg3en">er</w>
+            <w lemma="nú" xml:id="IGC-Books-laki_mani_og.73.2.6" pos="aa">nú</w>
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.73.2.7" pos="fphen" join="right">það</w>
+            <pc xml:id="IGC-Books-laki_mani_og.73.2.8" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.74">
+          <s xml:id="IGC-Books-laki_mani_og.74.1">
+            <pc xml:id="IGC-Books-laki_mani_og.74.1.1" pos="pa">–</pc>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.74.1.2" pos="nkfn">Letikeppir</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.74.1.3" pos="sfg3fn">eru</w>
+            <w lemma="húsálfur" xml:id="IGC-Books-laki_mani_og.74.1.4" pos="nkfn" join="right">húsálfar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.74.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.74.1.6" pos="sfg3en">segir</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.74.1.7" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.74.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.75">
+          <s xml:id="IGC-Books-laki_mani_og.75.1">
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.75.1.1" pos="fphfþ">Þeim</w>
+            <w lemma="líða" xml:id="IGC-Books-laki_mani_og.75.1.2" pos="sfg3en">líður</w>
+            <w lemma="vel" xml:id="IGC-Books-laki_mani_og.75.1.3" pos="aae">best</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.75.1.4" pos="af">í</w>
+            <w lemma="rykugur" xml:id="IGC-Books-laki_mani_og.75.1.5" pos="lkfþsf">rykugum</w>
+            <w lemma="bókakassi" xml:id="IGC-Books-laki_mani_og.75.1.6" pos="nkfþ" join="right">bókakössum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.75.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.76">
+          <s xml:id="IGC-Books-laki_mani_og.76.1">
+            <pc xml:id="IGC-Books-laki_mani_og.76.1.1" pos="pa">–</pc>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.76.1.2" pos="sfg2fn">Eruð</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.76.1.3" pos="fp2fn">þið</w>
+            <w lemma="margur" xml:id="IGC-Books-laki_mani_og.76.1.4" pos="lhfnvm">fleiri</w>
+            <w lemma="hérna" xml:id="IGC-Books-laki_mani_og.76.1.5" pos="aa">hérna</w>
+            <w lemma="inni" xml:id="IGC-Books-laki_mani_og.76.1.6" pos="aa" join="right">inni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.76.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.77">
+          <s xml:id="IGC-Books-laki_mani_og.77.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.77.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.77.1.2" pos="nken-s">Máni</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.77.1.3" pos="sfg3en">er</w>
+            <w lemma="smeykur" xml:id="IGC-Books-laki_mani_og.77.1.4" pos="lkensf" join="right">smeykur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.77.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.78">
+          <s xml:id="IGC-Books-laki_mani_og.78.1">
+            <pc xml:id="IGC-Books-laki_mani_og.78.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-laki_mani_og.78.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-laki_mani_og.78.1.3" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.78.1.4" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.78.1.5" pos="sfg3en">er</w>
+            <w lemma="bara" xml:id="IGC-Books-laki_mani_og.78.1.6" pos="aa">bara</w>
+            <w lemma="einn" xml:id="IGC-Books-laki_mani_og.78.1.7" pos="tfken">einn</w>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.78.1.8" pos="nken">letikeppur</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.78.1.9" pos="af">í</w>
+            <w lemma="hús" xml:id="IGC-Books-laki_mani_og.78.1.10" pos="nheþ" join="right">húsi</w>
+            <pc xml:id="IGC-Books-laki_mani_og.78.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.79">
+          <s xml:id="IGC-Books-laki_mani_og.79.1">
+            <w lemma="annars" xml:id="IGC-Books-laki_mani_og.79.1.1" pos="aa">Annars</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.79.1.2" pos="svg3eþ">væri</w>
+            <w lemma="slagur" xml:id="IGC-Books-laki_mani_og.79.1.3" pos="nken">slagur</w>
+            <w lemma="allur" xml:id="IGC-Books-laki_mani_og.79.1.4" pos="fokfo">alla</w>
+            <w lemma="dagur" xml:id="IGC-Books-laki_mani_og.79.1.5" pos="nkfo" join="right">daga</w>
+            <pc xml:id="IGC-Books-laki_mani_og.79.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.80">
+          <s xml:id="IGC-Books-laki_mani_og.80.1">
+            <w lemma="endurtaka" xml:id="IGC-Books-laki_mani_og.80.1.1" pos="sfg3en">endurtekur</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.80.1.2" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.80.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.80.2">
+            <pc xml:id="IGC-Books-laki_mani_og.80.2.1" pos="pa">–</pc>
+            <w lemma="slagur" xml:id="IGC-Books-laki_mani_og.80.2.2" pos="nken" join="right">Slagur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.80.2.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.81">
+          <s xml:id="IGC-Books-laki_mani_og.81.1">
+            <pc xml:id="IGC-Books-laki_mani_og.81.1.1" pos="pa">–</pc>
+            <w lemma="já" xml:id="IGC-Books-laki_mani_og.81.1.2" pos="au" join="right">Já</w>
+            <pc xml:id="IGC-Books-laki_mani_og.81.1.3" pos="pk">,</pc>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.81.1.4" pos="nkfþ">letikeppum</w>
+            <w lemma="koma" xml:id="IGC-Books-laki_mani_og.81.1.5" pos="sfg3en">kemur</w>
+            <w lemma="illa" xml:id="IGC-Books-laki_mani_og.81.1.6" pos="aa">illa</w>
+            <w lemma="saman" xml:id="IGC-Books-laki_mani_og.81.1.7" pos="aa" join="right">saman</w>
+            <pc xml:id="IGC-Books-laki_mani_og.81.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.82">
+          <s xml:id="IGC-Books-laki_mani_og.82.1">
+            <w lemma="árlega" xml:id="IGC-Books-laki_mani_og.82.1.1" pos="aa">Árlega</w>
+            <w lemma="ferðast" xml:id="IGC-Books-laki_mani_og.82.1.2" pos="sfm3fn">ferðast</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.82.1.3" pos="fpkfn">þeir</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.82.1.4" pos="aa">á</w>
+            <w lemma="milli" xml:id="IGC-Books-laki_mani_og.82.1.5" pos="af">milli</w>
+            <w lemma="hús" xml:id="IGC-Books-laki_mani_og.82.1.6" pos="nhfe" join="right">húsa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.82.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.83">
+          <s xml:id="IGC-Books-laki_mani_og.83.1">
+            <w lemma="þá" xml:id="IGC-Books-laki_mani_og.83.1.1" pos="aa">Þá</w>
+            <w lemma="hitta" xml:id="IGC-Books-laki_mani_og.83.1.2" pos="sfm3fn">hittast</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.83.1.3" pos="fpkfn">þeir</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.83.1.4" pos="c">og</w>
+            <w lemma="skipta" xml:id="IGC-Books-laki_mani_og.83.1.5" pos="sfg3fn">skipta</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.83.1.6" pos="af">um</w>
+            <w lemma="húsnæði" xml:id="IGC-Books-laki_mani_og.83.1.7" pos="nheo" join="right">húsnæði</w>
+            <pc xml:id="IGC-Books-laki_mani_og.83.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.84">
+          <s xml:id="IGC-Books-laki_mani_og.84.1">
+            <w lemma="ryk" xml:id="IGC-Books-laki_mani_og.84.1.1" pos="nhen">Ryk</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.85">
+          <s xml:id="IGC-Books-laki_mani_og.85.1">
+            <pc xml:id="IGC-Books-laki_mani_og.85.1.1" pos="pa">–</pc>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.85.1.2" pos="af">Af</w>
+            <w lemma="hver" xml:id="IGC-Books-laki_mani_og.85.1.3" pos="fsheþ">hverju</w>
+            <w lemma="kalla" xml:id="IGC-Books-laki_mani_og.85.1.4" pos="sfm2fn">kallist</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.85.1.5" pos="fp2fn">þið</w>
+            <w lemma="letikeppir" xml:id="IGC-Books-laki_mani_og.85.1.6" pos="x" join="right">letikeppir</w>
+            <pc xml:id="IGC-Books-laki_mani_og.85.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.86">
+          <s xml:id="IGC-Books-laki_mani_og.86.1">
+            <w lemma="spyrja" xml:id="IGC-Books-laki_mani_og.86.1.1" pos="sfg3en">spyr</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.86.1.2" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.86.1.3" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.86.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.87">
+          <s xml:id="IGC-Books-laki_mani_og.87.1">
+            <pc xml:id="IGC-Books-laki_mani_og.87.1.1" pos="pa">–</pc>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.87.1.2" pos="af">Af</w>
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.87.1.3" pos="fpheþ">því</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.87.1.4" pos="c">að</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.87.1.5" pos="fp1fþ">okkur</w>
+            <w lemma="finna" xml:id="IGC-Books-laki_mani_og.87.1.6" pos="sfm3en">finnst</w>
+            <w lemma="góður" xml:id="IGC-Books-laki_mani_og.87.1.7" pos="lhense">best</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.87.1.8" pos="cn">að</w>
+            <w lemma="liggja" xml:id="IGC-Books-laki_mani_og.87.1.9" pos="sng">liggja</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.87.1.10" pos="c">og</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.87.1.11" pos="sng" join="right">lesa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.87.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.88">
+          <s xml:id="IGC-Books-laki_mani_og.88.1">
+            <w lemma="hrekkur" xml:id="IGC-Books-laki_mani_og.88.1.1" pos="nken">Hrekkur</w>
+            <w lemma="renna" xml:id="IGC-Books-laki_mani_og.88.1.2" pos="sfg3en">rennir</w>
+            <w lemma="nef" xml:id="IGC-Books-laki_mani_og.88.1.3" pos="nheþg">nefinu</w>
+            <w lemma="yfir" xml:id="IGC-Books-laki_mani_og.88.1.4" pos="af">yfir</w>
+            <w lemma="síða" xml:id="IGC-Books-laki_mani_og.88.1.5" pos="nvfog" join="right">síðurnar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.88.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.89">
+          <s xml:id="IGC-Books-laki_mani_og.89.1">
+            <w lemma="þar" xml:id="IGC-Books-laki_mani_og.89.1.1" pos="aa">Þar</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.89.1.2" pos="sfg3en">er</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.89.1.3" pos="aa">ekki</w>
+            <w lemma="tala" xml:id="IGC-Books-laki_mani_og.89.1.4" pos="sþghen">talað</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.89.1.5" pos="af">um</w>
+            <w lemma="drottning" xml:id="IGC-Books-laki_mani_og.89.1.6" pos="nveo">drottningu</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.89.1.7" pos="c">og</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.89.1.8" pos="aa">ekki</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.89.1.9" pos="af">um</w>
+            <w lemma="dreki" xml:id="IGC-Books-laki_mani_og.89.1.10" pos="nkeo" join="right">dreka</w>
+            <pc xml:id="IGC-Books-laki_mani_og.89.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.90">
+          <s xml:id="IGC-Books-laki_mani_og.90.1">
+            <w lemma="þar" xml:id="IGC-Books-laki_mani_og.90.1.1" pos="aa">Þar</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.90.1.2" pos="sfg3en">er</w>
+            <w lemma="bara" xml:id="IGC-Books-laki_mani_og.90.1.3" pos="aa">bara</w>
+            <w lemma="tala" xml:id="IGC-Books-laki_mani_og.90.1.4" pos="sþghen">talað</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.90.1.5" pos="af">um</w>
+            <w lemma="refur" xml:id="IGC-Books-laki_mani_og.90.1.6" pos="nkfo">refi</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.90.1.7" pos="c">og</w>
+            <w lemma="bæjarstjóri" xml:id="IGC-Books-laki_mani_og.90.1.8" pos="nkeo" join="right">bæjarstjóra</w>
+            <pc xml:id="IGC-Books-laki_mani_og.90.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.91">
+          <s xml:id="IGC-Books-laki_mani_og.91.1">
+            <w lemma="kennari" xml:id="IGC-Books-laki_mani_og.91.1.1" pos="nkeng">Kennarinn</w>
+            <w lemma="hrista" xml:id="IGC-Books-laki_mani_og.91.1.2" pos="sfg3en">hristir</w>
+            <w lemma="haus" xml:id="IGC-Books-laki_mani_og.91.1.3" pos="nkeog" join="right">hausinn</w>
+            <pc xml:id="IGC-Books-laki_mani_og.91.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.92">
+          <s xml:id="IGC-Books-laki_mani_og.92.1">
+            <w lemma="krakki" xml:id="IGC-Books-laki_mani_og.92.1.1" pos="nkfng">Krakkarnir</w>
+            <w lemma="hlæja" xml:id="IGC-Books-laki_mani_og.92.1.2" pos="sfg3fn">hlæja</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.92.1.3" pos="c">og</w>
+            <w lemma="hrópa" xml:id="IGC-Books-laki_mani_og.92.1.4" pos="sfg3fn">hrópa</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.92.1.5" pos="af">í</w>
+            <w lemma="frímínútur" xml:id="IGC-Books-laki_mani_og.92.1.6" pos="nvfþg" join="right">frímínútunum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.92.1.7" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.93">
+          <s xml:id="IGC-Books-laki_mani_og.93.1">
+            <w lemma="hlátur" xml:id="IGC-Books-laki_mani_og.93.1.1" pos="nken">Hlátur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.94">
+          <s xml:id="IGC-Books-laki_mani_og.94.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.94.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.94.1.2" pos="nken-s">Máni</w>
+            <w lemma="skömm" xml:id="IGC-Books-laki_mani_og.94.1.3" pos="nvee">skammar</w>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.94.1.4" pos="nkeog" join="right">letikeppinn</w>
+            <pc xml:id="IGC-Books-laki_mani_og.94.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.95">
+          <s xml:id="IGC-Books-laki_mani_og.95.1">
+            <w lemma="hrökkva" xml:id="IGC-Books-laki_mani_og.95.1.1" pos="sfg3en">Hrekkur</w>
+            <w lemma="frussa" xml:id="IGC-Books-laki_mani_og.95.1.2" pos="sfg3en">frussar</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.95.1.3" pos="af">af</w>
+            <w lemma="hlátur" xml:id="IGC-Books-laki_mani_og.95.1.4" pos="nkeþ" join="right">hlátri</w>
+            <pc xml:id="IGC-Books-laki_mani_og.95.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.96">
+          <s xml:id="IGC-Books-laki_mani_og.96.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.96.1.1" pos="fpken">Hann</w>
+            <w lemma="velta" xml:id="IGC-Books-laki_mani_og.96.1.2" pos="sfm3eþ">veltist</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.96.1.3" pos="af">um</w>
+            <w lemma="gólf" xml:id="IGC-Books-laki_mani_og.96.1.4" pos="nheog">gólfið</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.96.1.5" pos="af">í</w>
+            <w lemma="hláturskast" xml:id="IGC-Books-laki_mani_og.96.1.6" pos="nheþ" join="right">hláturskasti</w>
+            <pc xml:id="IGC-Books-laki_mani_og.96.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.97">
+          <s xml:id="IGC-Books-laki_mani_og.97.1">
+            <pc xml:id="IGC-Books-laki_mani_og.97.1.1" pos="pa">–</pc>
+            <w lemma="hvaða" xml:id="IGC-Books-laki_mani_og.97.1.2" pos="fsveo">Hvaða</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.97.1.3" pos="nveo">bók</w>
+            <w lemma="sýna" xml:id="IGC-Books-laki_mani_og.97.1.4" pos="sfg2eþ">sýndirðu</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.97.1.5" pos="fp1eþ" join="right">mér</w>
+            <pc xml:id="IGC-Books-laki_mani_og.97.1.6" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.98">
+          <s xml:id="IGC-Books-laki_mani_og.98.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.98.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.98.1.2" pos="nken-s">Máni</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.98.1.3" pos="sfg3en">er</w>
+            <w lemma="reiður" xml:id="IGC-Books-laki_mani_og.98.1.4" pos="lkensf" join="right">reiður</w>
+            <pc xml:id="IGC-Books-laki_mani_og.98.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.99">
+          <s xml:id="IGC-Books-laki_mani_og.99.1">
+            <pc xml:id="IGC-Books-laki_mani_og.99.1.1" pos="pa">–</pc>
+            <w lemma="þinn" xml:id="IGC-Books-laki_mani_og.99.1.2" pos="feveo">Þína</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.99.1.3" pos="nveo" join="right">bók</w>
+            <pc xml:id="IGC-Books-laki_mani_og.99.1.4" pos="pk">,</pc>
+            <w lemma="flissa" xml:id="IGC-Books-laki_mani_og.99.1.5" pos="sfg3en">flissar</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.99.1.6" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.99.1.7" pos="pk">,</pc>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.99.1.8" pos="c">og</w>
+            <w lemma="smágaldur" xml:id="IGC-Books-laki_mani_og.99.1.9" pos="nken" join="right">smágaldur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.99.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.100">
+          <s xml:id="IGC-Books-laki_mani_og.100.1">
+            <w lemma="Galdur" xml:id="IGC-Books-laki_mani_og.100.1.1" pos="nken-s">Galdur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.101">
+          <s xml:id="IGC-Books-laki_mani_og.101.1">
+            <w lemma="hrekkur" xml:id="IGC-Books-laki_mani_og.101.1.1" pos="nken">Hrekkur</w>
+            <w lemma="blása" xml:id="IGC-Books-laki_mani_og.101.1.2" pos="sfg3en">blæs</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.101.1.3" pos="af">á</w>
+            <w lemma="stafur" xml:id="IGC-Books-laki_mani_og.101.1.4" pos="nkfo">stafi</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.101.1.5" pos="af">á</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.101.1.6" pos="nveþ" join="right">bók</w>
+            <pc xml:id="IGC-Books-laki_mani_og.101.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.102">
+          <s xml:id="IGC-Books-laki_mani_og.102.1">
+            <w lemma="stafur" xml:id="IGC-Books-laki_mani_og.102.1.1" pos="nkfng">Stafirnir</w>
+            <w lemma="æða" xml:id="IGC-Books-laki_mani_og.102.1.2" pos="sfg3fn">æða</w>
+            <w lemma="upp" xml:id="IGC-Books-laki_mani_og.102.1.3" pos="aa">upp</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.102.1.4" pos="af">í</w>
+            <w lemma="loft" xml:id="IGC-Books-laki_mani_og.102.1.5" pos="nheo" join="right">loft</w>
+            <pc xml:id="IGC-Books-laki_mani_og.102.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.103">
+          <s xml:id="IGC-Books-laki_mani_og.103.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.103.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="raða" xml:id="IGC-Books-laki_mani_og.103.1.2" pos="sfg3fn">raða</w>
+            <w lemma="sig" xml:id="IGC-Books-laki_mani_og.103.1.3" pos="fpkfþ">sér</w>
+            <w lemma="sjálfur" xml:id="IGC-Books-laki_mani_og.103.1.4" pos="fbkfn">sjálfir</w>
+            <w lemma="upp" xml:id="IGC-Books-laki_mani_og.103.1.5" pos="aa">upp</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.103.1.6" pos="af">á</w>
+            <w lemma="nýr" xml:id="IGC-Books-laki_mani_og.103.1.7" pos="lheosf" join="right">nýtt</w>
+            <pc xml:id="IGC-Books-laki_mani_og.103.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.104">
+          <s xml:id="IGC-Books-laki_mani_og.104.1">
+            <w lemma="fýla" xml:id="IGC-Books-laki_mani_og.104.1.1" pos="nven">Fýla</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.105">
+          <s xml:id="IGC-Books-laki_mani_og.105.1">
+            <w lemma="nú" xml:id="IGC-Books-laki_mani_og.105.1.1" pos="aa">Nú</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.105.1.2" pos="sfg1en">les</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.105.1.3" pos="fp1en">ég</w>
+            <w lemma="sjálfur" xml:id="IGC-Books-laki_mani_og.105.1.4" pos="fbken" join="right">sjálfur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.105.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.105.2">
+            <pc xml:id="IGC-Books-laki_mani_og.105.2.1" pos="pa">–</pc>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.105.2.2" pos="fp2en">Þú</w>
+            <w lemma="ljúga" xml:id="IGC-Books-laki_mani_og.105.2.3" pos="sfg2eþ" join="right">laugst</w>
+            <pc xml:id="IGC-Books-laki_mani_og.105.2.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.106">
+          <s xml:id="IGC-Books-laki_mani_og.106.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.106.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.106.1.2" pos="nken-s">Máni</w>
+            <w lemma="grúfa" xml:id="IGC-Books-laki_mani_og.106.1.3" pos="sfg3en">grúfir</w>
+            <w lemma="sig" xml:id="IGC-Books-laki_mani_og.106.1.4" pos="fpkeo">sig</w>
+            <w lemma="yfir" xml:id="IGC-Books-laki_mani_og.106.1.5" pos="af">yfir</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.106.1.6" pos="nveo" join="right">bók</w>
+            <pc xml:id="IGC-Books-laki_mani_og.106.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.107">
+          <s xml:id="IGC-Books-laki_mani_og.107.1">
+            <w lemma="bara" xml:id="IGC-Books-laki_mani_og.107.1.1" pos="aa">Bara</w>
+            <w lemma="galdur" xml:id="IGC-Books-laki_mani_og.107.1.2" pos="nken" join="right">galdur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.107.1.3" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.107.2">
+            <pc xml:id="IGC-Books-laki_mani_og.107.2.1" pos="pa">–</pc>
+            <w lemma="ljúga" xml:id="IGC-Books-laki_mani_og.107.2.2" pos="sfg1eþ">Laug</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.107.2.3" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.107.2.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.108">
+          <s xml:id="IGC-Books-laki_mani_og.108.1">
+            <w lemma="hrekkja" xml:id="IGC-Books-laki_mani_og.108.1.1" pos="sþgken">Hrekkur</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.108.1.2" pos="sfg3en">er</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.108.1.3" pos="af">í</w>
+            <w lemma="fýla" xml:id="IGC-Books-laki_mani_og.108.1.4" pos="nveþ" join="right">fýlu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.108.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.109">
+          <s xml:id="IGC-Books-laki_mani_og.109.1">
+            <pc xml:id="IGC-Books-laki_mani_og.109.1.1" pos="pa">–</pc>
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.109.1.2" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.109.1.3" pos="sfg3en">er</w>
+            <w lemma="bara" xml:id="IGC-Books-laki_mani_og.109.1.4" pos="aa">bara</w>
+            <w lemma="gaman" xml:id="IGC-Books-laki_mani_og.109.1.5" pos="nhen">gaman</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.109.1.6" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.109.1.7" pos="sng" join="right">lesa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.109.1.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.109.1.9" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.109.1.10" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.109.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.110">
+          <s xml:id="IGC-Books-laki_mani_og.110.1">
+            <w lemma="hrekkur" xml:id="IGC-Books-laki_mani_og.110.1.1" pos="nken">Hrekkur</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.110.1.2" pos="sfg3en">er</w>
+            <w lemma="spældur" xml:id="IGC-Books-laki_mani_og.110.1.3" pos="lkensf">spældur</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.110.1.4" pos="c">og</w>
+            <w lemma="argur" xml:id="IGC-Books-laki_mani_og.110.1.5" pos="lkensf" join="right">argur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.110.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.111">
+          <s xml:id="IGC-Books-laki_mani_og.111.1">
+            <w lemma="þegar" xml:id="IGC-Books-laki_mani_og.111.1.1" pos="c">Þegar</w>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.111.1.2" pos="nkfn">letikeppir</w>
+            <w lemma="verða" xml:id="IGC-Books-laki_mani_og.111.1.3" pos="sfg3fn">verða</w>
+            <w lemma="reiður" xml:id="IGC-Books-laki_mani_og.111.1.4" pos="lkfnsf">reiðir</w>
+            <w lemma="standa" xml:id="IGC-Books-laki_mani_og.111.1.5" pos="sfg3fn">standa</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.111.1.6" pos="fpkfn">þeir</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.111.1.7" pos="af">á</w>
+            <w lemma="haus" xml:id="IGC-Books-laki_mani_og.111.1.8" pos="nkeo" join="right">haus</w>
+            <pc xml:id="IGC-Books-laki_mani_og.111.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.112">
+          <s xml:id="IGC-Books-laki_mani_og.112.1">
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.112.1.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.112.1.2" pos="sfg3en">er</w>
+            <w lemma="dagsannur" xml:id="IGC-Books-laki_mani_og.112.1.3" pos="lhensf" join="right">dagsatt</w>
+            <pc xml:id="IGC-Books-laki_mani_og.112.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.113">
+          <s xml:id="IGC-Books-laki_mani_og.113.1">
+            <w lemma="kassi" xml:id="IGC-Books-laki_mani_og.113.1.1" pos="nken">Kassi</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.114">
+          <s xml:id="IGC-Books-laki_mani_og.114.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.114.1.1" pos="nken-s">Láki</w>
+            <w lemma="kíkja" xml:id="IGC-Books-laki_mani_og.114.1.2" pos="sfg3en">kíkir</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.114.1.3" pos="af">í</w>
+            <w lemma="bókakassi" xml:id="IGC-Books-laki_mani_og.114.1.4" pos="nkeog" join="right">bókakassann</w>
+            <pc xml:id="IGC-Books-laki_mani_og.114.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.115">
+          <s xml:id="IGC-Books-laki_mani_og.115.1">
+            <w lemma="þarna" xml:id="IGC-Books-laki_mani_og.115.1.1" pos="aa">Þarna</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.115.1.2" pos="sfg3fn">eru</w>
+            <w lemma="fínn" xml:id="IGC-Books-laki_mani_og.115.1.3" pos="lvfnsf">fínar</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.115.1.4" pos="nvfn" join="right">bækur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.115.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.116">
+          <s xml:id="IGC-Books-laki_mani_og.116.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.116.1.1" pos="fpken">Hann</w>
+            <w lemma="þurrka" xml:id="IGC-Books-laki_mani_og.116.1.2" pos="sfg3en">þurrkar</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.116.1.3" pos="af">af</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.116.1.4" pos="fpkfþ" join="right">þeim</w>
+            <pc xml:id="IGC-Books-laki_mani_og.116.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.117">
+          <s xml:id="IGC-Books-laki_mani_og.117.1">
+            <w lemma="láki" xml:id="IGC-Books-laki_mani_og.117.1.1" pos="nken">Láki</w>
+            <w lemma="raða" xml:id="IGC-Books-laki_mani_og.117.1.2" pos="sfg3en">raðar</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.117.1.3" pos="nvfþg">bókunum</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.117.1.4" pos="af">í</w>
+            <w lemma="hilla" xml:id="IGC-Books-laki_mani_og.117.1.5" pos="nveo" join="right">hillu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.117.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.118">
+          <s xml:id="IGC-Books-laki_mani_og.118.1">
+            <pc xml:id="IGC-Books-laki_mani_og.118.1.1" pos="pa">–</pc>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.118.1.2" pos="sfg2en">Ertu</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.118.1.3" pos="cn">að</w>
+            <w lemma="skoða" xml:id="IGC-Books-laki_mani_og.118.1.4" pos="sng">skoða</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.118.1.5" pos="nvfo" join="right">bækur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.118.1.6" pos="pk">,</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.119">
+          <s xml:id="IGC-Books-laki_mani_og.119.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.119.1.1" pos="nken-s">Láki</w>
+            <w lemma="minn" xml:id="IGC-Books-laki_mani_og.119.1.2" pos="feken" join="right">minn</w>
+            <pc xml:id="IGC-Books-laki_mani_og.119.1.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.120">
+          <s xml:id="IGC-Books-laki_mani_og.120.1">
+            <w lemma="mamma" xml:id="IGC-Books-laki_mani_og.120.1.1" pos="nven">Mamma</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.120.1.2" pos="sfg3en">er</w>
+            <w lemma="hissa" xml:id="IGC-Books-laki_mani_og.120.1.3" pos="lvenof" join="right">hissa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.120.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.121">
+          <s xml:id="IGC-Books-laki_mani_og.121.1">
+            <pc xml:id="IGC-Books-laki_mani_og.121.1.1" pos="pa">–</pc>
+            <w lemma="já" xml:id="IGC-Books-laki_mani_og.121.1.2" pos="au" join="right">Já</w>
+            <pc xml:id="IGC-Books-laki_mani_og.121.1.3" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.121.1.4" pos="fp1en">ég</w>
+            <w lemma="eiga" xml:id="IGC-Books-laki_mani_og.121.1.5" pos="sfg1en">á</w>
+            <w lemma="hellingur" xml:id="IGC-Books-laki_mani_og.121.1.6" pos="nkeo">helling</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.121.1.7" pos="af">af</w>
+            <w lemma="spennandi" xml:id="IGC-Books-laki_mani_og.121.1.8" pos="lvfþof">spennandi</w>
+            <w lemma="saga" xml:id="IGC-Books-laki_mani_og.121.1.9" pos="nvfþ" join="right">sögum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.121.1.10" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.121.1.11" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.121.1.12" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.121.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.122">
+          <s xml:id="IGC-Books-laki_mani_og.122.1">
+            <w lemma="hrekkur" xml:id="IGC-Books-laki_mani_og.122.1.1" pos="nken">Hrekkur</w>
+            <w lemma="sitja" xml:id="IGC-Books-laki_mani_og.122.1.2" pos="sfg3en">situr</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.122.1.3" pos="af">í</w>
+            <w lemma="tómur" xml:id="IGC-Books-laki_mani_og.122.1.4" pos="lkeþsf">tómum</w>
+            <w lemma="kassi" xml:id="IGC-Books-laki_mani_og.122.1.5" pos="nkeþg" join="right">kassanum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.122.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.123">
+          <s xml:id="IGC-Books-laki_mani_og.123.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.123.1.1" pos="fpken">Hann</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.123.1.2" pos="sfg3en">er</w>
+            <w lemma="orðin" xml:id="IGC-Books-laki_mani_og.123.1.3" pos="x">orðin</w>
+            <w lemma="mjór" xml:id="IGC-Books-laki_mani_og.123.1.4" pos="lkensf">mjór</w>
+            <w lemma="eins" xml:id="IGC-Books-laki_mani_og.123.1.5" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.123.1.6" pos="c">og</w>
+            <w lemma="ormur" xml:id="IGC-Books-laki_mani_og.123.1.7" pos="nken" join="right">ormur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.123.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.124">
+          <s xml:id="IGC-Books-laki_mani_og.124.1">
+            <w lemma="bræði" xml:id="IGC-Books-laki_mani_og.124.1.1" pos="nhen">Bræði</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.125">
+          <s xml:id="IGC-Books-laki_mani_og.125.1">
+            <w lemma="orgar" xml:id="IGC-Books-laki_mani_og.125.1.1" pos="e">orgar</w>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.125.1.2" pos="e" join="right">letikeppur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.125.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.125.2">
+            <pc xml:id="IGC-Books-laki_mani_og.125.2.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.125.2.2" pos="fp1en">Ég</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.125.2.3" pos="sfg1en">er</w>
+            <w lemma="svangur" xml:id="IGC-Books-laki_mani_og.125.2.4" pos="lkensf" join="right">svangur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.125.2.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.126">
+          <s xml:id="IGC-Books-laki_mani_og.126.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.126.1.1" pos="fpken">Hann</w>
+            <w lemma="skipta" xml:id="IGC-Books-laki_mani_og.126.1.2" pos="sfg3en">skiptir</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.126.1.3" pos="af">um</w>
+            <w lemma="litur" xml:id="IGC-Books-laki_mani_og.126.1.4" pos="nkeo">lit</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.126.1.5" pos="c">og</w>
+            <w lemma="stökkva" xml:id="IGC-Books-laki_mani_og.126.1.6" pos="sfg3en">stekkur</w>
+            <w lemma="upp" xml:id="IGC-Books-laki_mani_og.126.1.7" pos="aa">upp</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.126.1.8" pos="c">og</w>
+            <w lemma="niður" xml:id="IGC-Books-laki_mani_og.126.1.9" pos="aa" join="right">niður</w>
+            <pc xml:id="IGC-Books-laki_mani_og.126.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.127">
+          <s xml:id="IGC-Books-laki_mani_og.127.1">
+            <w lemma="hrekkur" xml:id="IGC-Books-laki_mani_og.127.1.1" pos="nken">Hrekkur</w>
+            <w lemma="rjúka" xml:id="IGC-Books-laki_mani_og.127.1.2" pos="sfg3en">rýkur</w>
+            <w lemma="upp" xml:id="IGC-Books-laki_mani_og.127.1.3" pos="aa">upp</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.127.1.4" pos="af">í</w>
+            <w lemma="gluggi" xml:id="IGC-Books-laki_mani_og.127.1.5" pos="nkfo" join="right">glugga</w>
+            <pc xml:id="IGC-Books-laki_mani_og.127.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.128">
+          <s xml:id="IGC-Books-laki_mani_og.128.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.128.1.1" pos="fpken">Hann</w>
+            <w lemma="orga" xml:id="IGC-Books-laki_mani_og.128.1.2" pos="sfg3en">orgar</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.128.1.3" pos="af">í</w>
+            <w lemma="bræði" xml:id="IGC-Books-laki_mani_og.128.1.4" pos="nveþ">bræði</w>
+            <w lemma="sinn" xml:id="IGC-Books-laki_mani_og.128.1.5" pos="feveþ" join="right">sinni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.128.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.129">
+          <s xml:id="IGC-Books-laki_mani_og.129.1">
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.129.1.1" pos="fp2en">Þú</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.129.1.2" pos="sfg2en">ert</w>
+            <w lemma="ljótur" xml:id="IGC-Books-laki_mani_og.129.1.3" pos="lhenvf">ljóta</w>
+            <w lemma="bókaskrímsli" xml:id="IGC-Books-laki_mani_og.129.1.4" pos="nheng" join="right">bókaskrímslið</w>
+            <pc xml:id="IGC-Books-laki_mani_og.129.1.5" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.129.2">
+            <pc xml:id="IGC-Books-laki_mani_og.129.2.1" pos="pa">–</pc>
+            <w lemma="láki" xml:id="IGC-Books-laki_mani_og.129.2.2" pos="nken" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.129.2.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.130">
+          <s xml:id="IGC-Books-laki_mani_og.130.1">
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.130.1.1" pos="nken">Letikeppur</w>
+            <w lemma="hverfa" xml:id="IGC-Books-laki_mani_og.130.1.2" pos="sfg3en">hverfur</w>
+            <w lemma="út" xml:id="IGC-Books-laki_mani_og.130.1.3" pos="aa">út</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.130.1.4" pos="af">í</w>
+            <w lemma="nótt" xml:id="IGC-Books-laki_mani_og.130.1.5" pos="nveog" join="right">nóttina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.130.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.131">
+          <s xml:id="IGC-Books-laki_mani_og.131.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.131.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.131.1.2" pos="nken-s">Máni</w>
+            <w lemma="hlæja" xml:id="IGC-Books-laki_mani_og.131.1.3" pos="sfg3en">hlær</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.131.1.4" pos="c">og</w>
+            <w lemma="flissa" xml:id="IGC-Books-laki_mani_og.131.1.5" pos="sfg3en" join="right">flissar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.131.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.132">
+          <s xml:id="IGC-Books-laki_mani_og.132.1">
+            <pc xml:id="IGC-Books-laki_mani_og.132.1.1" pos="pa">–</pc>
+            <w lemma="fara" xml:id="IGC-Books-laki_mani_og.132.1.2" pos="sbg2en">Farðu</w>
+            <w lemma="bara" xml:id="IGC-Books-laki_mani_og.132.1.3" pos="aa" join="right">bara</w>
+            <pc xml:id="IGC-Books-laki_mani_og.132.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.133">
+          <s xml:id="IGC-Books-laki_mani_og.133.1">
+            <w lemma="fara" xml:id="IGC-Books-laki_mani_og.133.1.1" pos="sbg2en">Farðu</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.133.1.2" pos="cn">að</w>
+            <w lemma="slá" xml:id="IGC-Books-laki_mani_og.133.1.3" pos="snm">slást</w>
+            <w lemma="við" xml:id="IGC-Books-laki_mani_og.133.1.4" pos="af">við</w>
+            <w lemma="letikeppir" xml:id="IGC-Books-laki_mani_og.133.1.5" pos="nkeo" join="right">letikeppi</w>
+            <pc xml:id="IGC-Books-laki_mani_og.133.1.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.134">
+          <s xml:id="IGC-Books-laki_mani_og.134.1">
+            <w lemma="týndur" xml:id="IGC-Books-laki_mani_og.134.1.1" pos="lkfnsf">Týndur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.135">
+          <s xml:id="IGC-Books-laki_mani_og.135.1">
+            <w lemma="Klara" xml:id="IGC-Books-laki_mani_og.135.1.1" pos="nven-s">Klara</w>
+            <w lemma="hrópa" xml:id="IGC-Books-laki_mani_og.135.1.2" pos="sfg3en" join="right">hrópar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.135.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.136">
+          <s xml:id="IGC-Books-laki_mani_og.136.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.136.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.136.1.2" pos="nken-s">Máni</w>
+            <w lemma="heyra" xml:id="IGC-Books-laki_mani_og.136.1.3" pos="sfg3en">heyrir</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.136.1.4" pos="aa">ekki</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.136.1.5" pos="af">í</w>
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.136.1.6" pos="fpveþ" join="right">henni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.136.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.137">
+          <s xml:id="IGC-Books-laki_mani_og.137.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.137.1.1" pos="fpken">Hann</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.137.1.2" pos="sfg3en">er</w>
+            <w lemma="týndur" xml:id="IGC-Books-laki_mani_og.137.1.3" pos="lkensf">týndur</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.137.1.4" pos="af">í</w>
+            <w lemma="spennandi" xml:id="IGC-Books-laki_mani_og.137.1.5" pos="lveþof">spennandi</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.137.1.6" pos="nveþ" join="right">bók</w>
+            <pc xml:id="IGC-Books-laki_mani_og.137.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.138">
+          <s xml:id="IGC-Books-laki_mani_og.138.1">
+            <w lemma="Klara" xml:id="IGC-Books-laki_mani_og.138.1.1" pos="nven-s">Klara</w>
+            <w lemma="róta" xml:id="IGC-Books-laki_mani_og.138.1.2" pos="sfg3en">rótar</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.138.1.3" pos="c">og</w>
+            <w lemma="tæta" xml:id="IGC-Books-laki_mani_og.138.1.4" pos="sfg3en" join="right">tætir</w>
+            <pc xml:id="IGC-Books-laki_mani_og.138.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.139">
+          <s xml:id="IGC-Books-laki_mani_og.139.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.139.1.1" pos="fpven">Hún</w>
+            <w lemma="sópa" xml:id="IGC-Books-laki_mani_og.139.1.2" pos="sfg3en">sópar</w>
+            <w lemma="allur" xml:id="IGC-Books-laki_mani_og.139.1.3" pos="foheþ">öllu</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.139.1.4" pos="af">af</w>
+            <w lemma="borð" xml:id="IGC-Books-laki_mani_og.139.1.5" pos="nheþg" join="right">borðinu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.139.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.140">
+          <s xml:id="IGC-Books-laki_mani_og.140.1">
+            <pc xml:id="IGC-Books-laki_mani_og.140.1.1" pos="pa">–</pc>
+            <w lemma="hvar" xml:id="IGC-Books-laki_mani_og.140.1.2" pos="aa">Hvar</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.140.1.3" pos="sfg3en">er</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.140.1.4" pos="nveng">bókin</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.140.1.5" pos="af">um</w>
+            <w lemma="vampíra" xml:id="IGC-Books-laki_mani_og.140.1.6" pos="nvfog">vampírurnar</w>
+            <w lemma="sem" xml:id="IGC-Books-laki_mani_og.140.1.7" pos="ct">sem</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.140.1.8" pos="fp1en">ég</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.140.1.9" pos="sfg1eþ">var</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.140.1.10" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.140.1.11" pos="sng">lesa</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.140.1.12" pos="aa">í</w>
+            <w lemma="gær" xml:id="IGC-Books-laki_mani_og.140.1.13" pos="aa" join="right">gær</w>
+            <pc xml:id="IGC-Books-laki_mani_og.140.1.14" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.141">
+          <s xml:id="IGC-Books-laki_mani_og.141.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.141.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.141.1.2" pos="nken-s">Máni</w>
+            <w lemma="breiða" xml:id="IGC-Books-laki_mani_og.141.1.3" pos="sfg3en">breiðir</w>
+            <w lemma="upp" xml:id="IGC-Books-laki_mani_og.141.1.4" pos="aa">upp</w>
+            <w lemma="yfir" xml:id="IGC-Books-laki_mani_og.141.1.5" pos="af">yfir</w>
+            <w lemma="haus" xml:id="IGC-Books-laki_mani_og.141.1.6" pos="nkeo" join="right">haus</w>
+            <pc xml:id="IGC-Books-laki_mani_og.141.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.142">
+          <s xml:id="IGC-Books-laki_mani_og.142.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.142.1.1" pos="fpken">Hann</w>
+            <w lemma="kveikja" xml:id="IGC-Books-laki_mani_og.142.1.2" pos="sfg3en">kveikir</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.142.1.3" pos="af">á</w>
+            <w lemma="vasaljós" xml:id="IGC-Books-laki_mani_og.142.1.4" pos="nheþ" join="right">vasaljósi</w>
+            <pc xml:id="IGC-Books-laki_mani_og.142.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.143">
+          <s xml:id="IGC-Books-laki_mani_og.143.1">
+            <w lemma="mikill" xml:id="IGC-Books-laki_mani_og.143.1.1" pos="lhfnvm">Meiri</w>
+            <w lemma="læti" xml:id="IGC-Books-laki_mani_og.143.1.2" pos="nhfng">lætin</w>
+            <w lemma="út" xml:id="IGC-Books-laki_mani_og.143.1.3" pos="aa">út</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.143.1.4" pos="af">af</w>
+            <w lemma="einn" xml:id="IGC-Books-laki_mani_og.143.1.5" pos="tfveþ">einni</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.143.1.6" pos="nveþ" join="right">bók</w>
+            <pc xml:id="IGC-Books-laki_mani_og.143.1.7" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.144">
+          <s xml:id="IGC-Books-laki_mani_og.144.1">
+            <w lemma="spyrja" xml:id="IGC-Books-laki_mani_og.144.1.1" pos="sfg3en">spyr</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.144.1.2" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.144.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.144.2">
+            <pc xml:id="IGC-Books-laki_mani_og.144.2.1" pos="pa">–</pc>
+            <w lemma="hver" xml:id="IGC-Books-laki_mani_og.144.2.2" pos="fsheo">Hvað</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.144.2.3" pos="sfg2en">ertu</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.144.2.4" pos="cn">að</w>
+            <w lemma="gera" xml:id="IGC-Books-laki_mani_og.144.2.5" pos="sng" join="right">gera</w>
+            <pc xml:id="IGC-Books-laki_mani_og.144.2.6" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.145">
+          <s xml:id="IGC-Books-laki_mani_og.145.1">
+            <pc xml:id="IGC-Books-laki_mani_og.145.1.1" pos="pa">–</pc>
+            <w lemma="næra" xml:id="IGC-Books-laki_mani_og.145.1.2" pos="sng">Næra</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.145.1.3" pos="fp1eo" join="right">mig</w>
+            <pc xml:id="IGC-Books-laki_mani_og.145.1.4" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.145.1.5" pos="sfg3en">segir</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.145.1.6" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.145.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.146">
+          <s xml:id="IGC-Books-laki_mani_og.146.1">
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.146.1.1" pos="fp1en">Ég</w>
+            <w lemma="næra" xml:id="IGC-Books-laki_mani_og.146.1.2" pos="sfm1en">nærist</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.146.1.3" pos="af">á</w>
+            <w lemma="ryk" xml:id="IGC-Books-laki_mani_og.146.1.4" pos="nheþ">ryki</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.146.1.5" pos="af">í</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.146.1.6" pos="nvfþ" join="right">bókum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.146.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.147">
+          <s xml:id="IGC-Books-laki_mani_og.147.1">
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.147.1.1" pos="fphen">Það</w>
+            <w lemma="koma" xml:id="IGC-Books-laki_mani_og.147.1.2" pos="sfg3en">kemur</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.147.1.3" pos="af">á</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.147.1.4" pos="nvfo">bækur</w>
+            <w lemma="sem" xml:id="IGC-Books-laki_mani_og.147.1.5" pos="ct">sem</w>
+            <w lemma="fólk" xml:id="IGC-Books-laki_mani_og.147.1.6" pos="nhen">fólk</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.147.1.7" pos="sfg3en">les</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.147.1.8" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.147.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.148">
+          <s xml:id="IGC-Books-laki_mani_og.148.1">
+            <pc xml:id="IGC-Books-laki_mani_og.148.1.1" pos="pa">–</pc>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.148.1.2" pos="sfg3en">Er</w>
+            <w lemma="mikill" xml:id="IGC-Books-laki_mani_og.148.1.3" pos="lhensf">mikið</w>
+            <w lemma="ryk" xml:id="IGC-Books-laki_mani_og.148.1.4" pos="nhen">ryk</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.148.1.5" pos="af">á</w>
+            <w lemma="minn" xml:id="IGC-Books-laki_mani_og.148.1.6" pos="fevfþ">mínum</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.148.1.7" pos="nvfþ" join="right">bókum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.148.1.8" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.149">
+          <s xml:id="IGC-Books-laki_mani_og.149.1">
+            <w lemma="spyrja" xml:id="IGC-Books-laki_mani_og.149.1.1" pos="sfg3en">spyr</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.149.1.2" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.149.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.150">
+          <s xml:id="IGC-Books-laki_mani_og.150.1">
+            <w lemma="þessi" xml:id="IGC-Books-laki_mani_og.150.1.1" pos="fahen">Þetta</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.150.1.2" pos="sfg3en">er</w>
+            <w lemma="góður" xml:id="IGC-Books-laki_mani_og.150.1.3" pos="lkenve">besti</w>
+            <w lemma="staður" xml:id="IGC-Books-laki_mani_og.150.1.4" pos="nken">staður</w>
+            <w lemma="sem" xml:id="IGC-Books-laki_mani_og.150.1.5" pos="ct">sem</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.150.1.6" pos="fp1en">ég</w>
+            <w lemma="hafa" xml:id="IGC-Books-laki_mani_og.150.1.7" pos="sfg1en">hef</w>
+            <w lemma="búa" xml:id="IGC-Books-laki_mani_og.150.1.8" pos="sþghen">búið</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.150.1.9" pos="aa" join="right">á</w>
+            <pc xml:id="IGC-Books-laki_mani_og.150.1.10" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.150.2">
+            <pc xml:id="IGC-Books-laki_mani_og.150.2.1" pos="pa">–</pc>
+            <w lemma="já" xml:id="IGC-Books-laki_mani_og.150.2.2" pos="au" join="right">Já</w>
+            <pc xml:id="IGC-Books-laki_mani_og.150.2.3" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.150.2.4" pos="fp1en">ég</w>
+            <w lemma="blása" xml:id="IGC-Books-laki_mani_og.150.2.5" pos="sfg1en">blæs</w>
+            <w lemma="út" xml:id="IGC-Books-laki_mani_og.150.2.6" pos="aa" join="right">út</w>
+            <pc xml:id="IGC-Books-laki_mani_og.150.2.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.151">
+          <s xml:id="IGC-Books-laki_mani_og.151.1">
+            <w lemma="hjálp" xml:id="IGC-Books-laki_mani_og.151.1.1" pos="nven">Hjálp</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.152">
+          <s xml:id="IGC-Books-laki_mani_og.152.1">
+            <pc xml:id="IGC-Books-laki_mani_og.152.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.152.1.2" pos="fp1en">Ég</w>
+            <w lemma="geta" xml:id="IGC-Books-laki_mani_og.152.1.3" pos="sfg1en">get</w>
+            <w lemma="hjálpa" xml:id="IGC-Books-laki_mani_og.152.1.4" pos="sþghen">hjálpað</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.152.1.5" pos="fp2eþ" join="right">þér</w>
+            <pc xml:id="IGC-Books-laki_mani_og.152.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.152.1.7" pos="sfg3en">segir</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.152.1.8" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.152.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.153">
+          <s xml:id="IGC-Books-laki_mani_og.153.1">
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.153.1.1" pos="fp2en">Þú</w>
+            <w lemma="hlusta" xml:id="IGC-Books-laki_mani_og.153.1.2" pos="sfg2en" join="right">hlustar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.153.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.153.2">
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.153.2.1" pos="fp1en">Ég</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.153.2.2" pos="sfg1en" join="right">les</w>
+            <pc xml:id="IGC-Books-laki_mani_og.153.2.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.154">
+          <s xml:id="IGC-Books-laki_mani_og.154.1">
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.154.1.1" pos="fp2en">Þú</w>
+            <w lemma="geta" xml:id="IGC-Books-laki_mani_og.154.1.2" pos="sfg2en">getur</w>
+            <w lemma="leika" xml:id="IGC-Books-laki_mani_og.154.1.3" pos="sþghen">leikið</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.154.1.4" pos="fp2eþ">þér</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.154.1.5" pos="aa">á</w>
+            <w lemma="meðan" xml:id="IGC-Books-laki_mani_og.154.1.6" pos="aa" join="right">meðan</w>
+            <pc xml:id="IGC-Books-laki_mani_og.154.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.155">
+          <s xml:id="IGC-Books-laki_mani_og.155.1">
+            <w lemma="svo" xml:id="IGC-Books-laki_mani_og.155.1.1" pos="aa">Svo</w>
+            <w lemma="fara" xml:id="IGC-Books-laki_mani_og.155.1.2" pos="sfg2en">ferð</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.155.1.3" pos="fp2en">þú</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.155.1.4" pos="af">í</w>
+            <w lemma="skóli" xml:id="IGC-Books-laki_mani_og.155.1.5" pos="nkeog">skólann</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.155.1.6" pos="c">og</w>
+            <w lemma="kunna" xml:id="IGC-Books-laki_mani_og.155.1.7" pos="sfg2en">kannt</w>
+            <w lemma="allur" xml:id="IGC-Books-laki_mani_og.155.1.8" pos="foheo" join="right">allt</w>
+            <pc xml:id="IGC-Books-laki_mani_og.155.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.156">
+          <s xml:id="IGC-Books-laki_mani_og.156.1">
+            <pc xml:id="IGC-Books-laki_mani_og.156.1.1" pos="pa">–</pc>
+            <w lemma="já" xml:id="IGC-Books-laki_mani_og.156.1.2" pos="au" join="right">Já</w>
+            <pc xml:id="IGC-Books-laki_mani_og.156.1.3" pos="pk">,</pc>
+            <w lemma="takk" xml:id="IGC-Books-laki_mani_og.156.1.4" pos="au" join="right">takk</w>
+            <pc xml:id="IGC-Books-laki_mani_og.156.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.156.1.6" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.156.1.7" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.156.1.8" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.156.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.157">
+          <s xml:id="IGC-Books-laki_mani_og.157.1">
+            <w lemma="hrökkva" xml:id="IGC-Books-laki_mani_og.157.1.1" pos="sfg3en">Hrekkur</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.157.1.2" pos="sfg3en">les</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.157.1.3" pos="af">um</w>
+            <w lemma="Ísland" xml:id="IGC-Books-laki_mani_og.157.1.4" pos="nheo-s" join="right">Ísland</w>
+            <pc xml:id="IGC-Books-laki_mani_og.157.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.157.2">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.157.2.1" pos="fpken">Hann</w>
+            <w lemma="teikna" xml:id="IGC-Books-laki_mani_og.157.2.2" pos="sfg3en" join="right">teiknar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.157.2.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.158">
+          <s xml:id="IGC-Books-laki_mani_og.158.1">
+            <pc xml:id="IGC-Books-laki_mani_og.158.1.1" pos="pa">–</pc>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.158.1.2" pos="fp2en">Þú</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.158.1.3" pos="sfg2en">lest</w>
+            <w lemma="vel" xml:id="IGC-Books-laki_mani_og.158.1.4" pos="aa" join="right">vel</w>
+            <pc xml:id="IGC-Books-laki_mani_og.158.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.158.1.6" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.158.1.7" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.158.1.8" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.158.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.159">
+          <s xml:id="IGC-Books-laki_mani_og.159.1">
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.159.1.1" pos="fp1en">Ég</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.159.1.2" pos="sfg1en">les</w>
+            <w lemma="mjög" xml:id="IGC-Books-laki_mani_og.159.1.3" pos="aa">mjög</w>
+            <w lemma="vel" xml:id="IGC-Books-laki_mani_og.159.1.4" pos="aa" join="right">vel</w>
+            <pc xml:id="IGC-Books-laki_mani_og.159.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.159.2">
+            <pc xml:id="IGC-Books-laki_mani_og.159.2.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.159.2.2" pos="fp1en">Ég</w>
+            <w lemma="vita" xml:id="IGC-Books-laki_mani_og.159.2.3" pos="sfg1en">veit</w>
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.159.2.4" pos="fpheo" join="right">það</w>
+            <pc xml:id="IGC-Books-laki_mani_og.159.2.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.160">
+          <s xml:id="IGC-Books-laki_mani_og.160.1">
+            <w lemma="skipa" xml:id="IGC-Books-laki_mani_og.160.1.1" pos="sfg3en">skipar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.160.1.2" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.160.1.3" pos="nken-s">Máni</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.160.1.4" pos="c">og</w>
+            <w lemma="lita" xml:id="IGC-Books-laki_mani_og.160.1.5" pos="sfg3en" join="right">litar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.160.1.6" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.160.2">
+            <pc xml:id="IGC-Books-laki_mani_og.160.2.1" pos="pa">–</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.160.2.2" pos="sbg2en">Lestu</w>
+            <w lemma="áfram" xml:id="IGC-Books-laki_mani_og.160.2.3" pos="aa" join="right">áfram</w>
+            <pc xml:id="IGC-Books-laki_mani_og.160.2.4" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.161">
+          <s xml:id="IGC-Books-laki_mani_og.161.1">
+            <pc xml:id="IGC-Books-laki_mani_og.161.1.1" pos="pa">–</pc>
+            <w lemma="Íslendingur" xml:id="IGC-Books-laki_mani_og.161.1.2" pos="nkfn-s">Íslendingar</w>
+            <w lemma="veiða" xml:id="IGC-Books-laki_mani_og.161.1.3" pos="sfg3fn">veiða</w>
+            <w lemma="fiskur" xml:id="IGC-Books-laki_mani_og.161.1.4" pos="nkeo" join="right">fisk</w>
+            <pc xml:id="IGC-Books-laki_mani_og.161.1.5" pos="pk">,</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.161.1.6" pos="sfg3en">les</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.161.1.7" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.161.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.162">
+          <s xml:id="IGC-Books-laki_mani_og.162.1">
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.162.1.1" pos="af">Á</w>
+            <w lemma="Suðurland" xml:id="IGC-Books-laki_mani_og.162.1.2" pos="nheþ-s">Suðurlandi</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.162.1.3" pos="sfg3fn">eru</w>
+            <w lemma="rækta" xml:id="IGC-Books-laki_mani_og.162.1.4" pos="sþgvfn">ræktaðar</w>
+            <w lemma="kartafla" xml:id="IGC-Books-laki_mani_og.162.1.5" pos="nvfn" join="right">kartöflur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.162.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.163">
+          <s xml:id="IGC-Books-laki_mani_og.163.1">
+            <w lemma="Þræll" xml:id="IGC-Books-laki_mani_og.163.1.1" pos="nken-s">Þræll</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.164">
+          <s xml:id="IGC-Books-laki_mani_og.164.1">
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.164.1.1" pos="nken">Letikeppur</w>
+            <w lemma="fylgja" xml:id="IGC-Books-laki_mani_og.164.1.2" pos="sfg3en">fylgir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.164.1.3" pos="nkeþ-s">Láka</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.164.1.4" pos="nkeþ-s">Mána</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.164.1.5" pos="af">um</w>
+            <w lemma="allur" xml:id="IGC-Books-laki_mani_og.164.1.6" pos="foheo" join="right">allt</w>
+            <pc xml:id="IGC-Books-laki_mani_og.164.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.165">
+          <s xml:id="IGC-Books-laki_mani_og.165.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.165.1.1" pos="fpken">Hann</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.165.1.2" pos="sfg3en">les</w>
+            <w lemma="úti" xml:id="IGC-Books-laki_mani_og.165.1.3" pos="aa" join="right">úti</w>
+            <pc xml:id="IGC-Books-laki_mani_og.165.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.166">
+          <s xml:id="IGC-Books-laki_mani_og.166.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.166.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.166.1.2" pos="nken-s">Máni</w>
+            <w lemma="hlusta" xml:id="IGC-Books-laki_mani_og.166.1.3" pos="sfg3en">hlustar</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.166.1.4" pos="c">og</w>
+            <w lemma="spila" xml:id="IGC-Books-laki_mani_og.166.1.5" pos="sfg3en">spilar</w>
+            <w lemma="fótbolti" xml:id="IGC-Books-laki_mani_og.166.1.6" pos="nkeo" join="right">fótbolta</w>
+            <pc xml:id="IGC-Books-laki_mani_og.166.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.167">
+          <s xml:id="IGC-Books-laki_mani_og.167.1">
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.167.1.1" pos="nken">Letikeppur</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.167.1.2" pos="sfg3en">les</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.167.1.3" pos="af">í</w>
+            <w lemma="stofa" xml:id="IGC-Books-laki_mani_og.167.1.4" pos="nveþg" join="right">stofunni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.167.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.168">
+          <s xml:id="IGC-Books-laki_mani_og.168.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.168.1.1" pos="nken-s">Láki</w>
+            <w lemma="horfa" xml:id="IGC-Books-laki_mani_og.168.1.2" pos="sfg3en">horfir</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.168.1.3" pos="af">á</w>
+            <w lemma="sjónvarp" xml:id="IGC-Books-laki_mani_og.168.1.4" pos="nheo">sjónvarp</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.168.1.5" pos="aa">á</w>
+            <w lemma="meðan" xml:id="IGC-Books-laki_mani_og.168.1.6" pos="aa" join="right">meðan</w>
+            <pc xml:id="IGC-Books-laki_mani_og.168.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.169">
+          <s xml:id="IGC-Books-laki_mani_og.169.1">
+            <w lemma="letikeppa" xml:id="IGC-Books-laki_mani_og.169.1.1" pos="nvfn">Letikeppur</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.169.1.2" pos="sfg3en">les</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.169.1.3" pos="af">í</w>
+            <w lemma="herbergi" xml:id="IGC-Books-laki_mani_og.169.1.4" pos="nheþg" join="right">herberginu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.169.1.5" pos="pk">,</pc>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.169.1.6" pos="nken-s">Láki</w>
+            <w lemma="smíða" xml:id="IGC-Books-laki_mani_og.169.1.7" pos="sfg3en" join="right">smíðar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.169.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.170">
+          <s xml:id="IGC-Books-laki_mani_og.170.1">
+            <w lemma="skipa" xml:id="IGC-Books-laki_mani_og.170.1.1" pos="sfg3en">skipar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.170.1.2" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.170.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.170.2">
+            <pc xml:id="IGC-Books-laki_mani_og.170.2.1" pos="pa">–</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.170.2.2" pos="sbg2en">Lestu</w>
+            <w lemma="hátt" xml:id="IGC-Books-laki_mani_og.170.2.3" pos="aam" join="right">hærra</w>
+            <pc xml:id="IGC-Books-laki_mani_og.170.2.4" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.171">
+          <s xml:id="IGC-Books-laki_mani_og.171.1">
+            <w lemma="hrekkur" xml:id="IGC-Books-laki_mani_og.171.1.1" pos="nken">Hrekkur</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.171.1.2" pos="sfg3en">er</w>
+            <w lemma="móðgaður" xml:id="IGC-Books-laki_mani_og.171.1.3" pos="lkensf" join="right">móðgaður</w>
+            <pc xml:id="IGC-Books-laki_mani_og.171.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.172">
+          <s xml:id="IGC-Books-laki_mani_og.172.1">
+            <pc xml:id="IGC-Books-laki_mani_og.172.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.172.1.2" pos="fp1en">Ég</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.172.1.3" pos="sfg1en">er</w>
+            <w lemma="bara" xml:id="IGC-Books-laki_mani_og.172.1.4" pos="aa">bara</w>
+            <w lemma="þræll" xml:id="IGC-Books-laki_mani_og.172.1.5" pos="nken">þræll</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.172.1.6" pos="af">á</w>
+            <w lemma="þessi" xml:id="IGC-Books-laki_mani_og.172.1.7" pos="faheþ">þessu</w>
+            <w lemma="heimili" xml:id="IGC-Books-laki_mani_og.172.1.8" pos="nheþ" join="right">heimili</w>
+            <pc xml:id="IGC-Books-laki_mani_og.172.1.9" pos="pk">,</pc>
+            <w lemma="tauta" xml:id="IGC-Books-laki_mani_og.172.1.10" pos="sfg3en">tautar</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.172.1.11" pos="fpken" join="right">hann</w>
+            <pc xml:id="IGC-Books-laki_mani_og.172.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.173">
+          <s xml:id="IGC-Books-laki_mani_og.173.1">
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.173.1.1" pos="nken">Letikeppur</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.173.1.2" pos="sfg3en">les</w>
+            <w lemma="hátt" xml:id="IGC-Books-laki_mani_og.173.1.3" pos="aam" join="right">hærra</w>
+            <pc xml:id="IGC-Books-laki_mani_og.173.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.174">
+          <s xml:id="IGC-Books-laki_mani_og.174.1">
+            <w lemma="þvæla" xml:id="IGC-Books-laki_mani_og.174.1.1" pos="sng">Þvæla</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.175">
+          <s xml:id="IGC-Books-laki_mani_og.175.1">
+            <pc xml:id="IGC-Books-laki_mani_og.175.1.1" pos="pa">–</pc>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.175.1.2" pos="af">Á</w>
+            <w lemma="Ísland" xml:id="IGC-Books-laki_mani_og.175.1.3" pos="nheþ-s">Íslandi</w>
+            <w lemma="vaxa" xml:id="IGC-Books-laki_mani_og.175.1.4" pos="sfg3fn">vaxa</w>
+            <w lemma="súkkulaðitré" xml:id="IGC-Books-laki_mani_og.175.1.5" pos="nhfn" join="right">súkkulaðitré</w>
+            <pc xml:id="IGC-Books-laki_mani_og.175.1.6" pos="pk">,</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.175.1.7" pos="sfg3en">les</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.175.1.8" pos="nken-s">Hrekkur</w>
+            <w lemma="fúll" xml:id="IGC-Books-laki_mani_og.175.1.9" pos="lkensf" join="right">fúll</w>
+            <pc xml:id="IGC-Books-laki_mani_og.175.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.176">
+          <s xml:id="IGC-Books-laki_mani_og.176.1">
+            <w lemma="súkkulaðitré" xml:id="IGC-Books-laki_mani_og.176.1.1" pos="nhen" join="right">Súkkulaðitré</w>
+            <pc xml:id="IGC-Books-laki_mani_og.176.1.2" pos="pl">?</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.176.2">
+            <pc xml:id="IGC-Books-laki_mani_og.176.2.1" pos="pa">–</pc>
+            <w lemma="ha" xml:id="IGC-Books-laki_mani_og.176.2.2" pos="au" join="right">Ha</w>
+            <pc xml:id="IGC-Books-laki_mani_og.176.2.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.177">
+          <s xml:id="IGC-Books-laki_mani_og.177.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.177.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.177.1.2" pos="nken-s">Máni</w>
+            <w lemma="lækka" xml:id="IGC-Books-laki_mani_og.177.1.3" pos="sfg3en">lækkar</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.177.1.4" pos="af">í</w>
+            <w lemma="tölva" xml:id="IGC-Books-laki_mani_og.177.1.5" pos="nveþg" join="right">tölvunni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.177.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.178">
+          <s xml:id="IGC-Books-laki_mani_og.178.1">
+            <pc xml:id="IGC-Books-laki_mani_og.178.1.1" pos="pa">–</pc>
+            <w lemma="hvaða" xml:id="IGC-Books-laki_mani_og.178.1.2" pos="fsven">Hvaða</w>
+            <w lemma="þvæla" xml:id="IGC-Books-laki_mani_og.178.1.3" pos="nven" join="right">þvæla</w>
+            <pc xml:id="IGC-Books-laki_mani_og.178.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.179">
+          <s xml:id="IGC-Books-laki_mani_og.179.1">
+            <pc xml:id="IGC-Books-laki_mani_og.179.1.1" pos="pa">–</pc>
+            <w lemma="enginn" xml:id="IGC-Books-laki_mani_og.179.1.2" pos="foven">Engin</w>
+            <w lemma="þvæla" xml:id="IGC-Books-laki_mani_og.179.1.3" pos="nven" join="right">þvæla</w>
+            <pc xml:id="IGC-Books-laki_mani_og.179.1.4" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.179.1.5" pos="sfg3en">segir</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.179.1.6" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.179.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.180">
+          <s xml:id="IGC-Books-laki_mani_og.180.1">
+            <w lemma="súkkulaðitré" xml:id="IGC-Books-laki_mani_og.180.1.1" pos="nhen" join="right">Súkkulaðitré</w>
+            <pc xml:id="IGC-Books-laki_mani_og.180.1.2" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.180.2">
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.180.2.1" pos="fphen">Það</w>
+            <w lemma="standa" xml:id="IGC-Books-laki_mani_og.180.2.2" pos="sfg3en">stendur</w>
+            <w lemma="hérna" xml:id="IGC-Books-laki_mani_og.180.2.3" pos="aa" join="right">hérna</w>
+            <pc xml:id="IGC-Books-laki_mani_og.180.2.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.181">
+          <s xml:id="IGC-Books-laki_mani_og.181.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.181.1.1" pos="fpvfn">Þær</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.181.1.2" pos="sfg3fn">eru</w>
+            <w lemma="selja" xml:id="IGC-Books-laki_mani_og.181.1.3" pos="sþgvfn">seldar</w>
+            <w lemma="til" xml:id="IGC-Books-laki_mani_og.181.1.4" pos="af">til</w>
+            <w lemma="Afríka" xml:id="IGC-Books-laki_mani_og.181.1.5" pos="nvee-s" join="right">Afríku</w>
+            <pc xml:id="IGC-Books-laki_mani_og.181.1.6" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.181.2">
+            <w lemma="Íslendingur" xml:id="IGC-Books-laki_mani_og.181.2.1" pos="nkfn-s">Íslendingar</w>
+            <w lemma="tína" xml:id="IGC-Books-laki_mani_og.181.2.2" pos="sfg3fn">tína</w>
+            <w lemma="súkkulaðikúla" xml:id="IGC-Books-laki_mani_og.181.2.3" pos="nvfo">súkkulaðikúlur</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.181.2.4" pos="af">af</w>
+            <w lemma="tré" xml:id="IGC-Books-laki_mani_og.181.2.5" pos="nhfþg" join="right">trjánum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.181.2.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.182">
+          <s xml:id="IGC-Books-laki_mani_og.182.1">
+            <w lemma="skrítinn" xml:id="IGC-Books-laki_mani_og.182.1.1" pos="lhensf" join="right">Skrítið</w>
+            <pc xml:id="IGC-Books-laki_mani_og.182.1.2" pos="pk">,</pc>
+            <w lemma="tauta" xml:id="IGC-Books-laki_mani_og.182.1.3" pos="sfg3en">tautar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.182.1.4" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.182.1.5" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.182.1.6" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.182.2">
+            <pc xml:id="IGC-Books-laki_mani_og.182.2.1" pos="pa">–</pc>
+            <w lemma="hmm" xml:id="IGC-Books-laki_mani_og.182.2.2" pos="au" join="right">Hmm</w>
+            <pc xml:id="IGC-Books-laki_mani_og.182.2.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.183">
+          <s xml:id="IGC-Books-laki_mani_og.183.1">
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.183.1.1" pos="sbg2en">Lestu</w>
+            <w lemma="mikill" xml:id="IGC-Books-laki_mani_og.183.1.2" pos="lheovm" join="right">meira</w>
+            <pc xml:id="IGC-Books-laki_mani_og.183.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.184">
+          <s xml:id="IGC-Books-laki_mani_og.184.1">
+            <w lemma="plat" xml:id="IGC-Books-laki_mani_og.184.1.1" pos="nhen">Plat</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.185">
+          <s xml:id="IGC-Books-laki_mani_og.185.1">
+            <pc xml:id="IGC-Books-laki_mani_og.185.1.1" pos="pa">–</pc>
+            <w lemma="Esja" xml:id="IGC-Books-laki_mani_og.185.1.2" pos="nvengs">Esjan</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.185.1.3" pos="sfg3en">er</w>
+            <w lemma="fjall" xml:id="IGC-Books-laki_mani_og.185.1.4" pos="nhen">fjall</w>
+            <w lemma="við" xml:id="IGC-Books-laki_mani_og.185.1.5" pos="af">við</w>
+            <w lemma="Reykjavík" xml:id="IGC-Books-laki_mani_og.185.1.6" pos="nveo-s" join="right">Reykjavík</w>
+            <pc xml:id="IGC-Books-laki_mani_og.185.1.7" pos="pk">,</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.185.1.8" pos="sfg3en">les</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.185.1.9" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.185.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.186">
+          <s xml:id="IGC-Books-laki_mani_og.186.1">
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.186.1.1" pos="af">Í</w>
+            <w lemma="fjall" xml:id="IGC-Books-laki_mani_og.186.1.2" pos="nheþg">fjallinu</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.186.1.3" pos="sfg3en">er</w>
+            <w lemma="stór" xml:id="IGC-Books-laki_mani_og.186.1.4" pos="lkensf">stór</w>
+            <w lemma="hellir" xml:id="IGC-Books-laki_mani_og.186.1.5" pos="nken" join="right">hellir</w>
+            <pc xml:id="IGC-Books-laki_mani_og.186.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.187">
+          <s xml:id="IGC-Books-laki_mani_og.187.1">
+            <w lemma="þar" xml:id="IGC-Books-laki_mani_og.187.1.1" pos="aa">Þar</w>
+            <w lemma="geyma" xml:id="IGC-Books-laki_mani_og.187.1.2" pos="sfg3fn">geyma</w>
+            <w lemma="borgarbúi" xml:id="IGC-Books-laki_mani_og.187.1.3" pos="nkfn">borgarbúar</w>
+            <w lemma="fjársjóður" xml:id="IGC-Books-laki_mani_og.187.1.4" pos="nkfo" join="right">fjársjóði</w>
+            <pc xml:id="IGC-Books-laki_mani_og.187.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.188">
+          <s xml:id="IGC-Books-laki_mani_og.188.1">
+            <w lemma="grimmur" xml:id="IGC-Books-laki_mani_og.188.1.1" pos="lvfnsf">Grimmar</w>
+            <w lemma="slanga" xml:id="IGC-Books-laki_mani_og.188.1.2" pos="nvfn">slöngur</w>
+            <w lemma="vakta" xml:id="IGC-Books-laki_mani_og.188.1.3" pos="sfg3fn">vakta</w>
+            <w lemma="fjársjóður" xml:id="IGC-Books-laki_mani_og.188.1.4" pos="nkfog" join="right">fjársjóðina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.188.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.189">
+          <s xml:id="IGC-Books-laki_mani_og.189.1">
+            <w lemma="hvá" xml:id="IGC-Books-laki_mani_og.189.1.1" pos="sfg3en">hváir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.189.1.2" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.189.1.3" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.189.1.4" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.189.2">
+            <pc xml:id="IGC-Books-laki_mani_og.189.2.1" pos="pa">–</pc>
+            <w lemma="ha" xml:id="IGC-Books-laki_mani_og.189.2.2" pos="au" join="right">Ha</w>
+            <pc xml:id="IGC-Books-laki_mani_og.189.2.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.190">
+          <s xml:id="IGC-Books-laki_mani_og.190.1">
+            <w lemma="þessi" xml:id="IGC-Books-laki_mani_og.190.1.1" pos="faheo">Þetta</w>
+            <w lemma="hafa" xml:id="IGC-Books-laki_mani_og.190.1.2" pos="sfg1en">hef</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.190.1.3" pos="fp1en">ég</w>
+            <w lemma="aldrei" xml:id="IGC-Books-laki_mani_og.190.1.4" pos="aa">aldrei</w>
+            <w lemma="heyra" xml:id="IGC-Books-laki_mani_og.190.1.5" pos="sþghen" join="right">heyrt</w>
+            <pc xml:id="IGC-Books-laki_mani_og.190.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.191">
+          <s xml:id="IGC-Books-laki_mani_og.191.1">
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.191.1.1" pos="fp2en">Þú</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.191.1.2" pos="sfg2en">ert</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.191.1.3" pos="cn">að</w>
+            <w lemma="plata" xml:id="IGC-Books-laki_mani_og.191.1.4" pos="sng" join="right">plata</w>
+            <pc xml:id="IGC-Books-laki_mani_og.191.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.192">
+          <s xml:id="IGC-Books-laki_mani_og.192.1">
+            <w lemma="hlusta" xml:id="IGC-Books-laki_mani_og.192.1.1" pos="sbg2en" join="right">Hlustaðu</w>
+            <pc xml:id="IGC-Books-laki_mani_og.192.1.2" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.192.2">
+            <pc xml:id="IGC-Books-laki_mani_og.192.2.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-laki_mani_og.192.2.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-laki_mani_og.192.2.3" pos="pk">,</pc>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.192.2.4" pos="c">og</w>
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.192.2.5" pos="fp2en">þú</w>
+            <w lemma="vita" xml:id="IGC-Books-laki_mani_og.192.2.6" pos="sfg2en">veist</w>
+            <w lemma="nú" xml:id="IGC-Books-laki_mani_og.192.2.7" pos="aa">nú</w>
+            <w lemma="ekki" xml:id="IGC-Books-laki_mani_og.192.2.8" pos="aa">ekki</w>
+            <w lemma="allur" xml:id="IGC-Books-laki_mani_og.192.2.9" pos="foheo" join="right">allt</w>
+            <pc xml:id="IGC-Books-laki_mani_og.192.2.10" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.192.2.11" pos="sfg3en">segir</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.192.2.12" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.192.2.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.193">
+          <s xml:id="IGC-Books-laki_mani_og.193.1">
+            <w lemma="rugl" xml:id="IGC-Books-laki_mani_og.193.1.1" pos="nken">Rugl</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.194">
+          <s xml:id="IGC-Books-laki_mani_og.194.1">
+            <pc xml:id="IGC-Books-laki_mani_og.194.1.1" pos="pa">–</pc>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.194.1.2" pos="af">Á</w>
+            <w lemma="Akureyri" xml:id="IGC-Books-laki_mani_og.194.1.3" pos="nveþ-s">Akureyri</w>
+            <w lemma="búa" xml:id="IGC-Books-laki_mani_og.194.1.4" pos="sfg3en">býr</w>
+            <w lemma="drottning" xml:id="IGC-Books-laki_mani_og.194.1.5" pos="nveng">drottningin</w>
+            <w lemma="yfir" xml:id="IGC-Books-laki_mani_og.194.1.6" pos="af">yfir</w>
+            <w lemma="Ísland" xml:id="IGC-Books-laki_mani_og.194.1.7" pos="nheþ-s" join="right">Íslandi</w>
+            <pc xml:id="IGC-Books-laki_mani_og.194.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.195">
+          <s xml:id="IGC-Books-laki_mani_og.195.1">
+            <w lemma="hún" xml:id="IGC-Books-laki_mani_og.195.1.1" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.195.1.2" pos="sfg3en">er</w>
+            <w lemma="göldróttur" xml:id="IGC-Books-laki_mani_og.195.1.3" pos="lvensf">göldrótt</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.195.1.4" pos="c">og</w>
+            <w lemma="mjög" xml:id="IGC-Books-laki_mani_og.195.1.5" pos="aa">mjög</w>
+            <w lemma="hættulegur" xml:id="IGC-Books-laki_mani_og.195.1.6" pos="lvensf" join="right">hættuleg</w>
+            <pc xml:id="IGC-Books-laki_mani_og.195.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.196">
+          <s xml:id="IGC-Books-laki_mani_og.196.1">
+            <w lemma="þú" xml:id="IGC-Books-laki_mani_og.196.1.1" pos="fp2en">Þú</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.196.1.2" pos="sfg2en">ert</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.196.1.3" pos="cn">að</w>
+            <w lemma="skálda" xml:id="IGC-Books-laki_mani_og.196.1.4" pos="sng" join="right">skálda</w>
+            <pc xml:id="IGC-Books-laki_mani_og.196.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.196.1.6" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.196.1.7" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.196.1.8" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.196.2">
+            <pc xml:id="IGC-Books-laki_mani_og.196.2.1" pos="pa">–</pc>
+            <w lemma="hvaða" xml:id="IGC-Books-laki_mani_og.196.2.2" pos="fsheo">Hvaða</w>
+            <w lemma="rugl" xml:id="IGC-Books-laki_mani_og.196.2.3" pos="nheo" join="right">rugl</w>
+            <pc xml:id="IGC-Books-laki_mani_og.196.2.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.197">
+          <s xml:id="IGC-Books-laki_mani_og.197.1">
+            <w lemma="mega" xml:id="IGC-Books-laki_mani_og.197.1.1" pos="sfg1en">Má</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.197.1.2" pos="fp1en">ég</w>
+            <w lemma="sjá" xml:id="IGC-Books-laki_mani_og.197.1.3" pos="sng">sjá</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.197.1.4" pos="nveog" join="right">bókina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.197.1.5" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.198">
+          <s xml:id="IGC-Books-laki_mani_og.198.1">
+            <pc xml:id="IGC-Books-laki_mani_og.198.1.1" pos="pa">–</pc>
+            <w lemma="auðvitað" xml:id="IGC-Books-laki_mani_og.198.1.2" pos="aa" join="right">Auðvitað</w>
+            <pc xml:id="IGC-Books-laki_mani_og.198.1.3" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.198.1.4" pos="sfg3en">segir</w>
+            <w lemma="letikeppur" xml:id="IGC-Books-laki_mani_og.198.1.5" pos="nkeng" join="right">letikeppurinn</w>
+            <pc xml:id="IGC-Books-laki_mani_og.198.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.199">
+          <s xml:id="IGC-Books-laki_mani_og.199.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.199.1.1" pos="fpken">Hann</w>
+            <w lemma="blása" xml:id="IGC-Books-laki_mani_og.199.1.2" pos="sfg3en">blæs</w>
+            <w lemma="af" xml:id="IGC-Books-laki_mani_og.199.1.3" pos="af">af</w>
+            <w lemma="kraftur" xml:id="IGC-Books-laki_mani_og.199.1.4" pos="nkeþ">krafti</w>
+            <w lemma="yfir" xml:id="IGC-Books-laki_mani_og.199.1.5" pos="af">yfir</w>
+            <w lemma="síða" xml:id="IGC-Books-laki_mani_og.199.1.6" pos="nveog" join="right">síðuna</w>
+            <pc xml:id="IGC-Books-laki_mani_og.199.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.200">
+          <s xml:id="IGC-Books-laki_mani_og.200.1">
+            <w lemma="svo" xml:id="IGC-Books-laki_mani_og.200.1.1" pos="aa">Svo</w>
+            <w lemma="sýna" xml:id="IGC-Books-laki_mani_og.200.1.2" pos="sfg3en">sýnir</w>
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.200.1.3" pos="fpken">hann</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.201">
+          <s xml:id="IGC-Books-laki_mani_og.201.1">
+            <w lemma="láka" xml:id="IGC-Books-laki_mani_og.201.1.1" pos="sng">Láka</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.201.1.2" pos="nkee-s">Mána</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.201.1.3" pos="nveog" join="right">bókina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.201.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.202">
+          <s xml:id="IGC-Books-laki_mani_og.202.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.202.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.202.1.2" pos="nken-s">Máni</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.202.1.3" pos="sfg3en">er</w>
+            <w lemma="hissa" xml:id="IGC-Books-laki_mani_og.202.1.4" pos="lkenof" join="right">hissa</w>
+            <pc xml:id="IGC-Books-laki_mani_og.202.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.202.2">
+            <pc xml:id="IGC-Books-laki_mani_og.202.2.1" pos="pa">–</pc>
+            <w lemma="já" xml:id="IGC-Books-laki_mani_og.202.2.2" pos="au" join="right">Já</w>
+            <pc xml:id="IGC-Books-laki_mani_og.202.2.3" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.202.2.4" pos="fphen">það</w>
+            <w lemma="standa" xml:id="IGC-Books-laki_mani_og.202.2.5" pos="sfg3en">stendur</w>
+            <w lemma="hér" xml:id="IGC-Books-laki_mani_og.202.2.6" pos="aa" join="right">hér</w>
+            <pc xml:id="IGC-Books-laki_mani_og.202.2.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.203">
+          <s xml:id="IGC-Books-laki_mani_og.203.1">
+            <pc xml:id="IGC-Books-laki_mani_og.203.1.1" pos="pa">–</pc>
+            <w lemma="halda" xml:id="IGC-Books-laki_mani_og.203.1.2" pos="sfg2eþ">Hélstu</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.203.1.3" pos="c">að</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.203.1.4" pos="fp1en">ég</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.203.1.5" pos="svg1eþ">væri</w>
+            <w lemma="að" xml:id="IGC-Books-laki_mani_og.203.1.6" pos="cn">að</w>
+            <w lemma="ljúga" xml:id="IGC-Books-laki_mani_og.203.1.7" pos="sng" join="right">ljúga</w>
+            <pc xml:id="IGC-Books-laki_mani_og.203.1.8" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.204">
+          <s xml:id="IGC-Books-laki_mani_og.204.1">
+            <w lemma="hrekkur" xml:id="IGC-Books-laki_mani_og.204.1.1" pos="nken">Hrekkur</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.204.1.2" pos="sfg3en">er</w>
+            <w lemma="móðgaður" xml:id="IGC-Books-laki_mani_og.204.1.3" pos="lkensf" join="right">móðgaður</w>
+            <pc xml:id="IGC-Books-laki_mani_og.204.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.205">
+          <s xml:id="IGC-Books-laki_mani_og.205.1">
+            <w lemma="kjaftæði" xml:id="IGC-Books-laki_mani_og.205.1.1" pos="nhen">Kjaftæði</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.206">
+          <s xml:id="IGC-Books-laki_mani_og.206.1">
+            <pc xml:id="IGC-Books-laki_mani_og.206.1.1" pos="pa">–</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.206.1.2" pos="sbg2en">Lestu</w>
+            <w lemma="mikill" xml:id="IGC-Books-laki_mani_og.206.1.3" pos="lheovm" join="right">meira</w>
+            <pc xml:id="IGC-Books-laki_mani_og.206.1.4" pos="pk">,</pc>
+            <w lemma="skipa" xml:id="IGC-Books-laki_mani_og.206.1.5" pos="sfg3en">skipar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.206.1.6" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.206.1.7" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.206.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.207">
+          <s xml:id="IGC-Books-laki_mani_og.207.1">
+            <pc xml:id="IGC-Books-laki_mani_og.207.1.1" pos="pa">–</pc>
+            <w lemma="Húsdýragarður" xml:id="IGC-Books-laki_mani_og.207.1.2" pos="nken-s">Húsdýragarður</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.207.1.3" pos="sfg3en">er</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.207.1.4" pos="af">í</w>
+            <w lemma="Laugardalur" xml:id="IGC-Books-laki_mani_og.207.1.5" pos="nkeþ-s" join="right">Laugardal</w>
+            <pc xml:id="IGC-Books-laki_mani_og.207.1.6" pos="pk">,</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.207.1.7" pos="sfg3en">les</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.207.1.8" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.207.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.208">
+          <s xml:id="IGC-Books-laki_mani_og.208.1">
+            <pc xml:id="IGC-Books-laki_mani_og.208.1.1" pos="pa">–</pc>
+            <w lemma="já" xml:id="IGC-Books-laki_mani_og.208.1.2" pos="au" join="right">Já</w>
+            <pc xml:id="IGC-Books-laki_mani_og.208.1.3" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-laki_mani_og.208.1.4" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.208.1.5" pos="sfg3en">er</w>
+            <w lemma="réttur" xml:id="IGC-Books-laki_mani_og.208.1.6" pos="lhensf" join="right">rétt</w>
+            <pc xml:id="IGC-Books-laki_mani_og.208.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.208.1.8" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.208.1.9" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.208.1.10" pos="nken-s">Máni</w>
+            <w lemma="ánægður" xml:id="IGC-Books-laki_mani_og.208.1.11" pos="lkensf" join="right">ánægður</w>
+            <pc xml:id="IGC-Books-laki_mani_og.208.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.209">
+          <s xml:id="IGC-Books-laki_mani_og.209.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.209.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="baða" xml:id="IGC-Books-laki_mani_og.209.1.2" pos="sfg3fn">baða</w>
+            <w lemma="sig" xml:id="IGC-Books-laki_mani_og.209.1.3" pos="fpkfo">sig</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.209.1.4" pos="af">í</w>
+            <w lemma="epladjús" xml:id="IGC-Books-laki_mani_og.209.1.5" pos="nheo">epladjús</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.209.1.6" pos="af">á</w>
+            <w lemma="sunnudagur" xml:id="IGC-Books-laki_mani_og.209.1.7" pos="nkfþ" join="right">sunnudögum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.209.1.8" pos="pk">,</pc>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.209.1.9" pos="sfg3en">les</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.209.1.10" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.209.1.11" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.209.2">
+            <pc xml:id="IGC-Books-laki_mani_og.209.2.1" pos="pa">–</pc>
+            <w lemma="þar" xml:id="IGC-Books-laki_mani_og.209.2.2" pos="aa">Þar</w>
+            <w lemma="búa" xml:id="IGC-Books-laki_mani_og.209.2.3" pos="sfg3fn">búa</w>
+            <w lemma="rauður" xml:id="IGC-Books-laki_mani_og.209.2.4" pos="lkfnsf">rauðir</w>
+            <w lemma="dreki" xml:id="IGC-Books-laki_mani_og.209.2.5" pos="nkfn" join="right">drekar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.209.2.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.210">
+          <s xml:id="IGC-Books-laki_mani_og.210.1">
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.210.1.1" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.210.1.2" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.210.1.3" pos="nken-s" join="right">Máni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.210.1.4" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.210.2">
+            <pc xml:id="IGC-Books-laki_mani_og.210.2.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-laki_mani_og.210.2.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-laki_mani_og.210.2.3" pos="pk">,</pc>
+            <w lemma="hætta" xml:id="IGC-Books-laki_mani_og.210.2.4" pos="sbg2en">hættu</w>
+            <w lemma="nú" xml:id="IGC-Books-laki_mani_og.210.2.5" pos="aa" join="right">nú</w>
+            <pc xml:id="IGC-Books-laki_mani_og.210.2.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.211">
+          <s xml:id="IGC-Books-laki_mani_og.211.1">
+            <w lemma="mega" xml:id="IGC-Books-laki_mani_og.211.1.1" pos="sfg1en">Má</w>
+            <w lemma="ég" xml:id="IGC-Books-laki_mani_og.211.1.2" pos="fp1en">ég</w>
+            <w lemma="sjá" xml:id="IGC-Books-laki_mani_og.211.1.3" pos="sng" join="right">sjá</w>
+            <pc xml:id="IGC-Books-laki_mani_og.211.1.4" pos="pl">?</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.211.2">
+            <w lemma="hvaða" xml:id="IGC-Books-laki_mani_og.211.2.1" pos="fshen">Hvaða</w>
+            <w lemma="kjaftæði" xml:id="IGC-Books-laki_mani_og.211.2.2" pos="nhen" join="right">kjaftæði</w>
+            <pc xml:id="IGC-Books-laki_mani_og.211.2.3" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.212">
+          <s xml:id="IGC-Books-laki_mani_og.212.1">
+            <w lemma="Bull" xml:id="IGC-Books-laki_mani_og.212.1.1" pos="e">Bull</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.213">
+          <s xml:id="IGC-Books-laki_mani_og.213.1">
+            <w lemma="aftur" xml:id="IGC-Books-laki_mani_og.213.1.1" pos="aa">Aftur</w>
+            <w lemma="blása" xml:id="IGC-Books-laki_mani_og.213.1.2" pos="sfg3en">blæs</w>
+            <w lemma="hrökkva" xml:id="IGC-Books-laki_mani_og.213.1.3" pos="sfg3en">Hrekkur</w>
+            <w lemma="yfir" xml:id="IGC-Books-laki_mani_og.213.1.4" pos="af">yfir</w>
+            <w lemma="síða" xml:id="IGC-Books-laki_mani_og.213.1.5" pos="nvfog" join="right">síðurnar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.213.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.214">
+          <s xml:id="IGC-Books-laki_mani_og.214.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.214.1.1" pos="fpken">Hann</w>
+            <w lemma="rétta" xml:id="IGC-Books-laki_mani_og.214.1.2" pos="sfg3en">réttir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.214.1.3" pos="nkeþ-s">Láka</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.214.1.4" pos="nveog" join="right">bókina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.214.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.215">
+          <s xml:id="IGC-Books-laki_mani_og.215.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.215.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.215.1.2" pos="nken-s">Máni</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.215.1.3" pos="sfg3en" join="right">les</w>
+            <pc xml:id="IGC-Books-laki_mani_og.215.1.4" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.216">
+          <s xml:id="IGC-Books-laki_mani_og.216.1">
+            <pc xml:id="IGC-Books-laki_mani_og.216.1.1" pos="pa">–</pc>
+            <w lemma="rauður" xml:id="IGC-Books-laki_mani_og.216.1.2" pos="lkfnvf">Rauðu</w>
+            <w lemma="dreki" xml:id="IGC-Books-laki_mani_og.216.1.3" pos="nkfng">drekarnir</w>
+            <w lemma="finna" xml:id="IGC-Books-laki_mani_og.216.1.4" pos="sfm3fn">finnast</w>
+            <w lemma="líka" xml:id="IGC-Books-laki_mani_og.216.1.5" pos="aa">líka</w>
+            <w lemma="villtur" xml:id="IGC-Books-laki_mani_og.216.1.6" pos="lkfnsf">villtir</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.216.1.7" pos="af">í</w>
+            <w lemma="hraun" xml:id="IGC-Books-laki_mani_og.216.1.8" pos="nheþ" join="right">hrauni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.216.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.217">
+          <s xml:id="IGC-Books-laki_mani_og.217.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.217.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="kalla" xml:id="IGC-Books-laki_mani_og.217.1.2" pos="sfm3fn">kallast</w>
+            <w lemma="hraundreki" xml:id="IGC-Books-laki_mani_og.217.1.3" pos="nkfn" join="right">hraundrekar</w>
+            <pc xml:id="IGC-Books-laki_mani_og.217.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.218">
+          <s xml:id="IGC-Books-laki_mani_og.218.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.218.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="spúa" xml:id="IGC-Books-laki_mani_og.218.1.2" pos="sfg3fn">spúa</w>
+            <w lemma="eldi" xml:id="IGC-Books-laki_mani_og.218.1.3" pos="nheþ" join="right">eldi</w>
+            <pc xml:id="IGC-Books-laki_mani_og.218.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.219">
+          <s xml:id="IGC-Books-laki_mani_og.219.1">
+            <pc xml:id="IGC-Books-laki_mani_og.219.1.1" pos="pa">–</pc>
+            <w lemma="hvaða" xml:id="IGC-Books-laki_mani_og.219.1.2" pos="fshen">Hvaða</w>
+            <w lemma="bull" xml:id="IGC-Books-laki_mani_og.219.1.3" pos="nhen">bull</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.219.1.4" pos="sfg3en">er</w>
+            <w lemma="þessi" xml:id="IGC-Books-laki_mani_og.219.1.5" pos="fahen" join="right">þetta</w>
+            <pc xml:id="IGC-Books-laki_mani_og.219.1.6" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.220">
+          <s xml:id="IGC-Books-laki_mani_og.220.1">
+            <w lemma="tauta" xml:id="IGC-Books-laki_mani_og.220.1.1" pos="sfg3en">tautar</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.220.1.2" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.220.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.221">
+          <s xml:id="IGC-Books-laki_mani_og.221.1">
+            <w lemma="svona" xml:id="IGC-Books-laki_mani_og.221.1.1" pos="aa">Svona</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.221.1.2" pos="sfg3en">er</w>
+            <w lemma="þessi" xml:id="IGC-Books-laki_mani_og.221.1.3" pos="fahen">þetta</w>
+            <w lemma="bara" xml:id="IGC-Books-laki_mani_og.221.1.4" pos="aa">bara</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.221.1.5" pos="af">á</w>
+            <w lemma="Ísland" xml:id="IGC-Books-laki_mani_og.221.1.6" pos="nheþ-s" join="right">Íslandi</w>
+            <pc xml:id="IGC-Books-laki_mani_og.221.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.221.1.8" pos="sfg3en">segir</w>
+            <w lemma="Hrekkur" xml:id="IGC-Books-laki_mani_og.221.1.9" pos="nken-s" join="right">Hrekkur</w>
+            <pc xml:id="IGC-Books-laki_mani_og.221.1.10" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laki_mani_og.221.2">
+            <pc xml:id="IGC-Books-laki_mani_og.221.2.1" pos="pa">–</pc>
+            <w lemma="enginn" xml:id="IGC-Books-laki_mani_og.221.2.2" pos="fohen">Ekkert</w>
+            <w lemma="bull" xml:id="IGC-Books-laki_mani_og.221.2.3" pos="nhen" join="right">bull</w>
+            <pc xml:id="IGC-Books-laki_mani_og.221.2.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.222">
+          <s xml:id="IGC-Books-laki_mani_og.222.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.222.1.1" pos="fpken">Hann</w>
+            <w lemma="hrifsa" xml:id="IGC-Books-laki_mani_og.222.1.2" pos="sfg3en">hrifsar</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.222.1.3" pos="nveog">bókina</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.222.1.4" pos="c">og</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.222.1.5" pos="sfg3en">les</w>
+            <w lemma="áfram" xml:id="IGC-Books-laki_mani_og.222.1.6" pos="aa" join="right">áfram</w>
+            <pc xml:id="IGC-Books-laki_mani_og.222.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.223">
+          <s xml:id="IGC-Books-laki_mani_og.223.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.223.1.1" pos="fpken">Hann</w>
+            <w lemma="lesa" xml:id="IGC-Books-laki_mani_og.223.1.2" pos="sfg3en">les</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.223.1.3" pos="af">um</w>
+            <w lemma="gosdvergur" xml:id="IGC-Books-laki_mani_og.223.1.4" pos="nkfo">gosdverga</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.223.1.5" pos="af">í</w>
+            <w lemma="eldfjall" xml:id="IGC-Books-laki_mani_og.223.1.6" pos="nhfþ" join="right">eldfjöllum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.223.1.7" pos="pk">,</pc>
+            <w lemma="sundmús" xml:id="IGC-Books-laki_mani_og.223.1.8" pos="nvfo">sundmýs</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.223.1.9" pos="af">í</w>
+            <w lemma="laug" xml:id="IGC-Books-laki_mani_og.223.1.10" pos="nvfþg">laugunum</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.223.1.11" pos="c">og</w>
+            <w lemma="flughestur" xml:id="IGC-Books-laki_mani_og.223.1.12" pos="nkfo">flughesta</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.223.1.13" pos="af">í</w>
+            <w lemma="Skagafjörður" xml:id="IGC-Books-laki_mani_og.223.1.14" pos="nkeþ-s" join="right">Skagafirði</w>
+            <pc xml:id="IGC-Books-laki_mani_og.223.1.15" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.224">
+          <s xml:id="IGC-Books-laki_mani_og.224.1">
+            <w lemma="grín" xml:id="IGC-Books-laki_mani_og.224.1.1" pos="nhen">Grín</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.225">
+          <s xml:id="IGC-Books-laki_mani_og.225.1">
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.225.1.1" pos="nken-s">Láki</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.225.1.2" pos="nken-s">Máni</w>
+            <w lemma="fara" xml:id="IGC-Books-laki_mani_og.225.1.3" pos="sfg3en">fer</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.225.1.4" pos="af">í</w>
+            <w lemma="skóli" xml:id="IGC-Books-laki_mani_og.225.1.5" pos="nkeog" join="right">skólann</w>
+            <pc xml:id="IGC-Books-laki_mani_og.225.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.226">
+          <s xml:id="IGC-Books-laki_mani_og.226.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.226.1.1" pos="fpken">Hann</w>
+            <w lemma="skrifa" xml:id="IGC-Books-laki_mani_og.226.1.2" pos="sfg3en">skrifar</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.226.1.3" pos="af">um</w>
+            <w lemma="fjársjóður" xml:id="IGC-Books-laki_mani_og.226.1.4" pos="nkfo">fjársjóði</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.226.1.5" pos="af">í</w>
+            <w lemma="Esja" xml:id="IGC-Books-laki_mani_og.226.1.6" pos="nveþ-s" join="right">Esju</w>
+            <pc xml:id="IGC-Books-laki_mani_og.226.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.227">
+          <s xml:id="IGC-Books-laki_mani_og.227.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.227.1.1" pos="fpken">Hann</w>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.227.1.2" pos="sfg3en">segir</w>
+            <w lemma="frá" xml:id="IGC-Books-laki_mani_og.227.1.3" pos="af">frá</w>
+            <w lemma="rauður" xml:id="IGC-Books-laki_mani_og.227.1.4" pos="lvfþsf">rauðum</w>
+            <w lemma="dreka" xml:id="IGC-Books-laki_mani_og.227.1.5" pos="nvfþ" join="right">drekum</w>
+            <pc xml:id="IGC-Books-laki_mani_og.227.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.228">
+          <s xml:id="IGC-Books-laki_mani_og.228.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.228.1.1" pos="fpken">Hann</w>
+            <w lemma="skrifa" xml:id="IGC-Books-laki_mani_og.228.1.2" pos="sfg3en">skrifar</w>
+            <w lemma="um" xml:id="IGC-Books-laki_mani_og.228.1.3" pos="af">um</w>
+            <w lemma="vondur" xml:id="IGC-Books-laki_mani_og.228.1.4" pos="lveosf">vonda</w>
+            <w lemma="drottning" xml:id="IGC-Books-laki_mani_og.228.1.5" pos="nveo">drottningu</w>
+            <w lemma="á" xml:id="IGC-Books-laki_mani_og.228.1.6" pos="af">á</w>
+            <w lemma="Akureyri" xml:id="IGC-Books-laki_mani_og.228.1.7" pos="nveþ-s" join="right">Akureyri</w>
+            <pc xml:id="IGC-Books-laki_mani_og.228.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.229">
+          <s xml:id="IGC-Books-laki_mani_og.229.1">
+            <w lemma="kennari" xml:id="IGC-Books-laki_mani_og.229.1.1" pos="nkeng">Kennarinn</w>
+            <w lemma="skoða" xml:id="IGC-Books-laki_mani_og.229.1.2" pos="sfg3en">skoðar</w>
+            <w lemma="blað" xml:id="IGC-Books-laki_mani_og.229.1.3" pos="nheo">blað</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.229.1.4" pos="nkee-s">Láka</w>
+            <w lemma="Máni" xml:id="IGC-Books-laki_mani_og.229.1.5" pos="nkee-s" join="right">Mána</w>
+            <pc xml:id="IGC-Books-laki_mani_og.229.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.230">
+          <s xml:id="IGC-Books-laki_mani_og.230.1">
+            <pc xml:id="IGC-Books-laki_mani_og.230.1.1" pos="pa">–</pc>
+            <w lemma="rauður" xml:id="IGC-Books-laki_mani_og.230.1.2" pos="lkfnsf">Rauðir</w>
+            <w lemma="dreki" xml:id="IGC-Books-laki_mani_og.230.1.3" pos="nkfn">drekar</w>
+            <w lemma="og" xml:id="IGC-Books-laki_mani_og.230.1.4" pos="c">og</w>
+            <w lemma="drottning" xml:id="IGC-Books-laki_mani_og.230.1.5" pos="nven" join="right">drottning</w>
+            <pc xml:id="IGC-Books-laki_mani_og.230.1.6" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.231">
+          <s xml:id="IGC-Books-laki_mani_og.231.1">
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.231.1.1" pos="sfg3en">Er</w>
+            <w lemma="þessi" xml:id="IGC-Books-laki_mani_og.231.1.2" pos="fahen">þetta</w>
+            <w lemma="grín" xml:id="IGC-Books-laki_mani_og.231.1.3" pos="nhen" join="right">grín</w>
+            <pc xml:id="IGC-Books-laki_mani_og.231.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.232">
+          <s xml:id="IGC-Books-laki_mani_og.232.1">
+            <w lemma="þykisa" xml:id="IGC-Books-laki_mani_og.232.1.1" pos="sfg2en">Þykistu</w>
+            <w lemma="vera" xml:id="IGC-Books-laki_mani_og.232.1.2" pos="sng">vera</w>
+            <w lemma="fyndinn" xml:id="IGC-Books-laki_mani_og.232.1.3" pos="lkensf" join="right">fyndinn</w>
+            <pc xml:id="IGC-Books-laki_mani_og.232.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.233">
+          <s xml:id="IGC-Books-laki_mani_og.233.1">
+            <w lemma="spyrja" xml:id="IGC-Books-laki_mani_og.233.1.1" pos="sfg3en">spyr</w>
+            <w lemma="kennari" xml:id="IGC-Books-laki_mani_og.233.1.2" pos="nkeng">kennarinn</w>
+            <w lemma="móðgaður" xml:id="IGC-Books-laki_mani_og.233.1.3" pos="lkensf" join="right">móðgaður</w>
+            <pc xml:id="IGC-Books-laki_mani_og.233.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.234">
+          <s xml:id="IGC-Books-laki_mani_og.234.1">
+            <w lemma="Hróp" xml:id="IGC-Books-laki_mani_og.234.1.1" pos="nhen-s">Hróp</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.235">
+          <s xml:id="IGC-Books-laki_mani_og.235.1">
+            <pc xml:id="IGC-Books-laki_mani_og.235.1.1" pos="pa">–</pc>
+            <w lemma="þessi" xml:id="IGC-Books-laki_mani_og.235.1.2" pos="fahen">Þetta</w>
+            <w lemma="standa" xml:id="IGC-Books-laki_mani_og.235.1.3" pos="sfg3en">stendur</w>
+            <w lemma="allur" xml:id="IGC-Books-laki_mani_og.235.1.4" pos="fohen">allt</w>
+            <w lemma="í" xml:id="IGC-Books-laki_mani_og.235.1.5" pos="af">í</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.235.1.6" pos="nveþg" join="right">bókinni</w>
+            <pc xml:id="IGC-Books-laki_mani_og.235.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laki_mani_og.235.1.8" pos="sfg3en">segir</w>
+            <w lemma="Láki" xml:id="IGC-Books-laki_mani_og.235.1.9" pos="nken-s" join="right">Láki</w>
+            <pc xml:id="IGC-Books-laki_mani_og.235.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laki_mani_og.236">
+          <s xml:id="IGC-Books-laki_mani_og.236.1">
+            <w lemma="hann" xml:id="IGC-Books-laki_mani_og.236.1.1" pos="fpken">Hann</w>
+            <w lemma="sýna" xml:id="IGC-Books-laki_mani_og.236.1.2" pos="sfg3en">sýnir</w>
+            <w lemma="kennari" xml:id="IGC-Books-laki_mani_og.236.1.3" pos="nkeþg">kennaranum</w>
+            <w lemma="bók" xml:id="IGC-Books-laki_mani_og.236.1.4" pos="nveog" join="right">bókina</w>
+            <pc xml:id="IGC-Books-laki_mani_og.236.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

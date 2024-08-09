@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="IGC-Books-laestur_inni.ana">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="is">Íslenska risamálheildin - útgefnar bækur [IGC-Books.ana]</title>
+        <title type="main" xml:lang="en">The Icelandic Gigaword Corpus - published books [IGC-Books.ana]</title>
+        <title type="sub" xml:lang="is">Læstur inni – Smábók</title>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Hildur Hafsteinsdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Finnur Ingimundarson</persName>
+          <resp xml:lang="is">Úrvinnsla texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Steinþór Steingrímsson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Árni Davíð Magnússon</persName>
+          <resp xml:lang="is">Söfnun texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Málfræðimörkun</resp>
+          <resp xml:lang="en">Linguistic annotation</resp>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words" quantity="313" xml:lang="en">313 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">Árni Magnússon Institute for Icelandic Studies</orgName>
+          <ref target="https://www.arnastofnun.is/">www.arnastofnun.is</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/20.500.12537/250</idno>
+        <availability status="restricted">
+          <licence>https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+        </availability>
+        <date when="2022-09-17">2022-09-17</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title xml:lang="is">Læstur inni – Smábók</title>
+            <author sameAs="#KristinSteinsdottir">Kristín Steinsdóttir</author>
+            <imprint>
+              <publisher>Menntamálastofnun</publisher>
+              <date when="2003">2003</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="is">Textum hefur verið skipt upp í hluta sem innhalda 500 orð eða færri og svo raðað upp á nýtt. Efnisgreinar eru ekki slitnar í sundur nema þær innihaldi meira en 500 orð. Ef texti inniheldur færri en 5000 orð þá eru setningar innan hverrar efnisgreinar einnig stokkaðar upp. Í sumum tilvikum hafa textabrot verið fjarlægð úr texta - t.d. ef ekki höfundur brots hafði ekki veitt leyfi eða ef texti var á erlendu máli.</p>
+        <p xml:lang="en">The texts have been split into parts that do not include more than 500 words and reordered in a random way. Paragraphs are not dismantled unless they contain more than 500 words. If a text contains less than 5000 words, sentences of each paragraph are also rearranged. In some instances, we have removed fragments from texts, for example, if we did not have permission from the author of that fragment or if the fragment was not in Icelandic.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="1" gi="text"/>
+          <tagUsage occurs="1" gi="body"/>
+          <tagUsage occurs="1" gi="div"/>
+          <tagUsage occurs="54" gi="p"/>
+          <tagUsage occurs="56" gi="s"/>
+          <tagUsage occurs="313" gi="w"/>
+          <tagUsage occurs="67" gi="pc"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="main">
+        <p xml:id="IGC-Books-laestur_inni.1">
+          <s xml:id="IGC-Books-laestur_inni.1.1">
+            <w lemma="góður" xml:id="IGC-Books-laestur_inni.1.1.1" pos="lkfnve">Bestu</w>
+            <w lemma="vinur" xml:id="IGC-Books-laestur_inni.1.1.2" pos="nkfn">vinir</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.2">
+          <s xml:id="IGC-Books-laestur_inni.2.1">
+            <w lemma="stama" xml:id="IGC-Books-laestur_inni.2.1.1" pos="sfg3en">stamar</w>
+            <w lemma="Stefán" xml:id="IGC-Books-laestur_inni.2.1.2" pos="nken-s" join="right">Stefán</w>
+            <pc xml:id="IGC-Books-laestur_inni.2.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laestur_inni.2.2">
+            <pc xml:id="IGC-Books-laestur_inni.2.2.1" pos="pa">–</pc>
+            <w lemma="vaskur" xml:id="IGC-Books-laestur_inni.2.2.2" pos="nken">Vaskur</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.2.2.3" pos="sfg3en">er</w>
+            <w lemma="týndur" xml:id="IGC-Books-laestur_inni.2.2.4" pos="lkensf" join="right">týndur</w>
+            <pc xml:id="IGC-Books-laestur_inni.2.2.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.3">
+          <s xml:id="IGC-Books-laestur_inni.3.1">
+            <w lemma="Stína" xml:id="IGC-Books-laestur_inni.3.1.1" pos="nven-s">Stína</w>
+            <w lemma="stökkva" xml:id="IGC-Books-laestur_inni.3.1.2" pos="sfg3en">stekkur</w>
+            <w lemma="upp" xml:id="IGC-Books-laestur_inni.3.1.3" pos="aa">upp</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.3.1.4" pos="c">og</w>
+            <w lemma="stara" xml:id="IGC-Books-laestur_inni.3.1.5" pos="sfg3en">starir</w>
+            <w lemma="á" xml:id="IGC-Books-laestur_inni.3.1.6" pos="af">á</w>
+            <w lemma="hann" xml:id="IGC-Books-laestur_inni.3.1.7" pos="fpkeo" join="right">hann</w>
+            <pc xml:id="IGC-Books-laestur_inni.3.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.4">
+          <s xml:id="IGC-Books-laestur_inni.4.1">
+            <w lemma="Vaskur" xml:id="IGC-Books-laestur_inni.4.1.1" pos="nken-s">Vaskur</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.4.1.2" pos="c">og</w>
+            <w lemma="Gáski" xml:id="IGC-Books-laestur_inni.4.1.3" pos="nken-s">Gáski</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.4.1.4" pos="sfg3fn">eru</w>
+            <w lemma="vinur" xml:id="IGC-Books-laestur_inni.4.1.5" pos="nkfn">vinir</w>
+            <w lemma="krakki" xml:id="IGC-Books-laestur_inni.4.1.6" pos="nkfeg">krakkanna</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.4.1.7" pos="af">í</w>
+            <w lemma="gata" xml:id="IGC-Books-laestur_inni.4.1.8" pos="nveþg" join="right">götunni</w>
+            <pc xml:id="IGC-Books-laestur_inni.4.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.5">
+          <s xml:id="IGC-Books-laestur_inni.5.1">
+            <pc xml:id="IGC-Books-laestur_inni.5.1.1" pos="pa">–</pc>
+            <w lemma="fara" xml:id="IGC-Books-laestur_inni.5.1.2" pos="sfg1fn">Förum</w>
+            <w lemma="til" xml:id="IGC-Books-laestur_inni.5.1.3" pos="af">til</w>
+            <w lemma="Óli" xml:id="IGC-Books-laestur_inni.5.1.4" pos="nkee-s" join="right">Óla</w>
+            <pc xml:id="IGC-Books-laestur_inni.5.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laestur_inni.5.1.6" pos="sfg3en">segir</w>
+            <w lemma="Stína" xml:id="IGC-Books-laestur_inni.5.1.7" pos="nven-s" join="right">Stína</w>
+            <pc xml:id="IGC-Books-laestur_inni.5.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.6">
+          <s xml:id="IGC-Books-laestur_inni.6.1">
+            <w lemma="hún" xml:id="IGC-Books-laestur_inni.6.1.1" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.6.1.2" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-laestur_inni.6.1.3" pos="cn">að</w>
+            <w lemma="passa" xml:id="IGC-Books-laestur_inni.6.1.4" pos="sng">passa</w>
+            <w lemma="Ásta" xml:id="IGC-Books-laestur_inni.6.1.5" pos="nveo-s" join="right">Ástu</w>
+            <pc xml:id="IGC-Books-laestur_inni.6.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.7">
+          <s xml:id="IGC-Books-laestur_inni.7.1">
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.7.1.1" pos="af">Í</w>
+            <w lemma="band" xml:id="IGC-Books-laestur_inni.7.1.2" pos="nheþ">bandi</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.8">
+          <s xml:id="IGC-Books-laestur_inni.8.1">
+            <pc xml:id="IGC-Books-laestur_inni.8.1.1" pos="pa">–</pc>
+            <w lemma="hvar" xml:id="IGC-Books-laestur_inni.8.1.2" pos="aa">Hvar</w>
+            <w lemma="ætla" xml:id="IGC-Books-laestur_inni.8.1.3" pos="svg3en">ætli</w>
+            <w lemma="Vaskur" xml:id="IGC-Books-laestur_inni.8.1.4" pos="nken-s">Vaskur</w>
+            <w lemma="gista" xml:id="IGC-Books-laestur_inni.8.1.5" pos="sfg3eþ">gisti</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.8.1.6" pos="af">í</w>
+            <w lemma="nótt" xml:id="IGC-Books-laestur_inni.8.1.7" pos="nveo" join="right">nótt</w>
+            <pc xml:id="IGC-Books-laestur_inni.8.1.8" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.9">
+          <s xml:id="IGC-Books-laestur_inni.9.1">
+            <w lemma="stynja" xml:id="IGC-Books-laestur_inni.9.1.1" pos="sfg3en">stynur</w>
+            <w lemma="Óli" xml:id="IGC-Books-laestur_inni.9.1.2" pos="nken-s">Óli</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.9.1.3" pos="c">og</w>
+            <w lemma="strjúka" xml:id="IGC-Books-laestur_inni.9.1.4" pos="sfg3en">strýkur</w>
+            <w lemma="Gáska" xml:id="IGC-Books-laestur_inni.9.1.5" pos="nveo-s" join="right">Gáska</w>
+            <pc xml:id="IGC-Books-laestur_inni.9.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.10">
+          <s xml:id="IGC-Books-laestur_inni.10.1">
+            <w lemma="gáski" xml:id="IGC-Books-laestur_inni.10.1.1" pos="nken">Gáski</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.10.1.2" pos="sfg3en">er</w>
+            <w lemma="mjög" xml:id="IGC-Books-laestur_inni.10.1.3" pos="aa">mjög</w>
+            <w lemma="dapur" xml:id="IGC-Books-laestur_inni.10.1.4" pos="lkensf" join="right">dapur</w>
+            <pc xml:id="IGC-Books-laestur_inni.10.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.11">
+          <s xml:id="IGC-Books-laestur_inni.11.1">
+            <w lemma="segja" xml:id="IGC-Books-laestur_inni.11.1.1" pos="sfg3en">segir</w>
+            <w lemma="Stína" xml:id="IGC-Books-laestur_inni.11.1.2" pos="nven-s">Stína</w>
+            <w lemma="æst" xml:id="IGC-Books-laestur_inni.11.1.3" pos="aa" join="right">æst</w>
+            <pc xml:id="IGC-Books-laestur_inni.11.1.4" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-laestur_inni.11.2">
+            <pc xml:id="IGC-Books-laestur_inni.11.2.1" pos="pa">–</pc>
+            <w lemma="hver" xml:id="IGC-Books-laestur_inni.11.2.2" pos="fshen">Hvað</w>
+            <w lemma="gera" xml:id="IGC-Books-laestur_inni.11.2.3" pos="sfm3eþ" join="right">gerðist</w>
+            <pc xml:id="IGC-Books-laestur_inni.11.2.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.12">
+          <s xml:id="IGC-Books-laestur_inni.12.1">
+            <pc xml:id="IGC-Books-laestur_inni.12.1.1" pos="pa">–</pc>
+            <w lemma="þegar" xml:id="IGC-Books-laestur_inni.12.1.2" pos="c">Þegar</w>
+            <w lemma="enginn" xml:id="IGC-Books-laestur_inni.12.1.3" pos="foken">enginn</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.12.1.4" pos="sfg3en">er</w>
+            <w lemma="heima" xml:id="IGC-Books-laestur_inni.12.1.5" pos="aa">heima</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.12.1.6" pos="sfg3fn">eru</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.13">
+          <s xml:id="IGC-Books-laestur_inni.13.1">
+            <w lemma="vaskur" xml:id="IGC-Books-laestur_inni.13.1.1" pos="nken">Vaskur</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.13.1.2" pos="c">og</w>
+            <w lemma="Gáski" xml:id="IGC-Books-laestur_inni.13.1.3" pos="nken-s">Gáski</w>
+            <w lemma="loka" xml:id="IGC-Books-laestur_inni.13.1.4" pos="sþgkfn">lokaðir</w>
+            <w lemma="inni" xml:id="IGC-Books-laestur_inni.13.1.5" pos="aa" join="right">inni</w>
+            <pc xml:id="IGC-Books-laestur_inni.13.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laestur_inni.13.1.7" pos="sfg3en">segir</w>
+            <w lemma="Óli" xml:id="IGC-Books-laestur_inni.13.1.8" pos="nken-s" join="right">Óli</w>
+            <pc xml:id="IGC-Books-laestur_inni.13.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.14">
+          <s xml:id="IGC-Books-laestur_inni.14.1">
+            <w lemma="hann" xml:id="IGC-Books-laestur_inni.14.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="mega" xml:id="IGC-Books-laestur_inni.14.1.2" pos="sfg3fn">mega</w>
+            <w lemma="ekki" xml:id="IGC-Books-laestur_inni.14.1.3" pos="aa">ekki</w>
+            <w lemma="strjúka" xml:id="IGC-Books-laestur_inni.14.1.4" pos="sng">strjúka</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.14.1.5" pos="c">og</w>
+            <w lemma="fara" xml:id="IGC-Books-laestur_inni.14.1.6" pos="sng">fara</w>
+            <w lemma="aldrei" xml:id="IGC-Books-laestur_inni.14.1.7" pos="aa">aldrei</w>
+            <w lemma="út" xml:id="IGC-Books-laestur_inni.14.1.8" pos="aa">út</w>
+            <w lemma="nema" xml:id="IGC-Books-laestur_inni.14.1.9" pos="c">nema</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.14.1.10" pos="af">í</w>
+            <w lemma="band" xml:id="IGC-Books-laestur_inni.14.1.11" pos="nheþ" join="right">bandi</w>
+            <pc xml:id="IGC-Books-laestur_inni.14.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.15">
+          <s xml:id="IGC-Books-laestur_inni.15.1">
+            <w lemma="póstur" xml:id="IGC-Books-laestur_inni.15.1.1" pos="nkeng">Pósturinn</w>
+            <w lemma="þekkja" xml:id="IGC-Books-laestur_inni.15.1.2" pos="sfg3en">þekkir</w>
+            <w lemma="allur" xml:id="IGC-Books-laestur_inni.15.1.3" pos="fokfo">alla</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.16">
+          <s xml:id="IGC-Books-laestur_inni.16.1">
+            <pc xml:id="IGC-Books-laestur_inni.16.1.1" pos="pa">–</pc>
+            <w lemma="þegar" xml:id="IGC-Books-laestur_inni.16.1.2" pos="c">Þegar</w>
+            <w lemma="ég" xml:id="IGC-Books-laestur_inni.16.1.3" pos="fp1en">ég</w>
+            <w lemma="koma" xml:id="IGC-Books-laestur_inni.16.1.4" pos="sfg1eþ">kom</w>
+            <w lemma="úr" xml:id="IGC-Books-laestur_inni.16.1.5" pos="af">úr</w>
+            <w lemma="skóli" xml:id="IGC-Books-laestur_inni.16.1.6" pos="nkeþg">skólanum</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.16.1.7" pos="sfg3eþ">var</w>
+            <w lemma="gluggi" xml:id="IGC-Books-laestur_inni.16.1.8" pos="nkeng">glugginn</w>
+            <w lemma="galopinn" xml:id="IGC-Books-laestur_inni.16.1.9" pos="lkensf" join="right">galopinn</w>
+            <pc xml:id="IGC-Books-laestur_inni.16.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.17">
+          <s xml:id="IGC-Books-laestur_inni.17.1">
+            <w lemma="gáski" xml:id="IGC-Books-laestur_inni.17.1.1" pos="nken">Gáski</w>
+            <w lemma="stökkva" xml:id="IGC-Books-laestur_inni.17.1.2" pos="sfg3eþ">stökk</w>
+            <w lemma="á" xml:id="IGC-Books-laestur_inni.17.1.3" pos="aa">á</w>
+            <w lemma="móti" xml:id="IGC-Books-laestur_inni.17.1.4" pos="af">móti</w>
+            <w lemma="ég" xml:id="IGC-Books-laestur_inni.17.1.5" pos="fp1eþ" join="right">mér</w>
+            <pc xml:id="IGC-Books-laestur_inni.17.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.18">
+          <s xml:id="IGC-Books-laestur_inni.18.1">
+            <w lemma="en" xml:id="IGC-Books-laestur_inni.18.1.1" pos="c">En</w>
+            <w lemma="Vaskur" xml:id="IGC-Books-laestur_inni.18.1.2" pos="nken-s">Vaskur</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.18.1.3" pos="sfg3eþ">var</w>
+            <w lemma="hverfa" xml:id="IGC-Books-laestur_inni.18.1.4" pos="sþgken" join="right">horfinn</w>
+            <pc xml:id="IGC-Books-laestur_inni.18.1.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.19">
+          <s xml:id="IGC-Books-laestur_inni.19.1">
+            <w lemma="stama" xml:id="IGC-Books-laestur_inni.19.1.1" pos="sfg3en">stamar</w>
+            <w lemma="Óli" xml:id="IGC-Books-laestur_inni.19.1.2" pos="nken-s" join="right">Óli</w>
+            <pc xml:id="IGC-Books-laestur_inni.19.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.20">
+          <s xml:id="IGC-Books-laestur_inni.20.1">
+            <pc xml:id="IGC-Books-laestur_inni.20.1.1" pos="pa">–</pc>
+            <w lemma="fara" xml:id="IGC-Books-laestur_inni.20.1.2" pos="sfg2eþ">Fórstu</w>
+            <w lemma="til" xml:id="IGC-Books-laestur_inni.20.1.3" pos="af">til</w>
+            <w lemma="lögga" xml:id="IGC-Books-laestur_inni.20.1.4" pos="nveeg" join="right">löggunnar</w>
+            <pc xml:id="IGC-Books-laestur_inni.20.1.5" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.21">
+          <s xml:id="IGC-Books-laestur_inni.21.1">
+            <w lemma="segja" xml:id="IGC-Books-laestur_inni.21.1.1" pos="sfg3en">segir</w>
+            <w lemma="Stína" xml:id="IGC-Books-laestur_inni.21.1.2" pos="nven-s" join="right">Stína</w>
+            <pc xml:id="IGC-Books-laestur_inni.21.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.22">
+          <s xml:id="IGC-Books-laestur_inni.22.1">
+            <pc xml:id="IGC-Books-laestur_inni.22.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-laestur_inni.22.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-laestur_inni.22.1.3" pos="pk">,</pc>
+            <w lemma="en" xml:id="IGC-Books-laestur_inni.22.1.4" pos="c">en</w>
+            <w lemma="stjúpi" xml:id="IGC-Books-laestur_inni.22.1.5" pos="nken">stjúpi</w>
+            <w lemma="minn" xml:id="IGC-Books-laestur_inni.22.1.6" pos="feken">minn</w>
+            <w lemma="fara" xml:id="IGC-Books-laestur_inni.22.1.7" pos="sfg3eþ" join="right">fór</w>
+            <pc xml:id="IGC-Books-laestur_inni.22.1.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laestur_inni.22.1.9" pos="sfg3en">segir</w>
+            <w lemma="Óli" xml:id="IGC-Books-laestur_inni.22.1.10" pos="nken-s" join="right">Óli</w>
+            <pc xml:id="IGC-Books-laestur_inni.22.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.23">
+          <s xml:id="IGC-Books-laestur_inni.23.1">
+            <w lemma="stjúpi" xml:id="IGC-Books-laestur_inni.23.1.1" pos="nken">Stjúpi</w>
+            <w lemma="minn" xml:id="IGC-Books-laestur_inni.23.1.2" pos="feken">minn</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.23.1.3" pos="sfg3en">er</w>
+            <w lemma="póstur" xml:id="IGC-Books-laestur_inni.23.1.4" pos="nken">póstur</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.23.1.5" pos="c">og</w>
+            <w lemma="þekkja" xml:id="IGC-Books-laestur_inni.23.1.6" pos="sfg3en">þekkir</w>
+            <w lemma="allur" xml:id="IGC-Books-laestur_inni.23.1.7" pos="fokfo" join="right">alla</w>
+            <pc xml:id="IGC-Books-laestur_inni.23.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.24">
+          <s xml:id="IGC-Books-laestur_inni.24.1">
+            <w lemma="strax" xml:id="IGC-Books-laestur_inni.24.1.1" pos="aa">Strax</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.25">
+          <s xml:id="IGC-Books-laestur_inni.25.1">
+            <w lemma="krakki" xml:id="IGC-Books-laestur_inni.25.1.1" pos="nkfng">Krakkarnir</w>
+            <w lemma="fara" xml:id="IGC-Books-laestur_inni.25.1.2" pos="sfg3fn">fara</w>
+            <w lemma="strax" xml:id="IGC-Books-laestur_inni.25.1.3" pos="aa">strax</w>
+            <w lemma="út" xml:id="IGC-Books-laestur_inni.25.1.4" pos="aa">út</w>
+            <w lemma="að" xml:id="IGC-Books-laestur_inni.25.1.5" pos="cn">að</w>
+            <w lemma="leita" xml:id="IGC-Books-laestur_inni.25.1.6" pos="sng" join="right">leita</w>
+            <pc xml:id="IGC-Books-laestur_inni.25.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.26">
+          <s xml:id="IGC-Books-laestur_inni.26.1">
+            <w lemma="það" xml:id="IGC-Books-laestur_inni.26.1.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.26.1.2" pos="sfg3fn">eru</w>
+            <w lemma="Stefán" xml:id="IGC-Books-laestur_inni.26.1.3" pos="nken-s" join="right">Stefán</w>
+            <pc xml:id="IGC-Books-laestur_inni.26.1.4" pos="pk">,</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.27">
+          <s xml:id="IGC-Books-laestur_inni.27.1">
+            <w lemma="Rósa" xml:id="IGC-Books-laestur_inni.27.1.1" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-laestur_inni.27.1.2" pos="pk">,</pc>
+            <w lemma="Óskar" xml:id="IGC-Books-laestur_inni.27.1.3" pos="nken-s">Óskar</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.27.1.4" pos="c">og</w>
+            <w lemma="Dísa" xml:id="IGC-Books-laestur_inni.27.1.5" pos="nven-s">Dísa</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.27.1.6" pos="c">og</w>
+            <w lemma="Óli" xml:id="IGC-Books-laestur_inni.27.1.7" pos="nken-s">Óli</w>
+            <w lemma="með" xml:id="IGC-Books-laestur_inni.27.1.8" pos="af">með</w>
+            <w lemma="Gáski" xml:id="IGC-Books-laestur_inni.27.1.9" pos="nkeo-s" join="right">Gáska</w>
+            <pc xml:id="IGC-Books-laestur_inni.27.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.28">
+          <s xml:id="IGC-Books-laestur_inni.28.1">
+            <w lemma="síðust" xml:id="IGC-Books-laestur_inni.28.1.1" pos="aae">Síðust</w>
+            <w lemma="stika" xml:id="IGC-Books-laestur_inni.28.1.2" pos="sfg3en">stikar</w>
+            <w lemma="Stína" xml:id="IGC-Books-laestur_inni.28.1.3" pos="nven-s">Stína</w>
+            <w lemma="með" xml:id="IGC-Books-laestur_inni.28.1.4" pos="af">með</w>
+            <w lemma="Ásta" xml:id="IGC-Books-laestur_inni.28.1.5" pos="nveþ-s" join="right">Ástu</w>
+            <pc xml:id="IGC-Books-laestur_inni.28.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.29">
+          <s xml:id="IGC-Books-laestur_inni.29.1">
+            <w lemma="það" xml:id="IGC-Books-laestur_inni.29.1.1" pos="fphfn">Þau</w>
+            <w lemma="fara" xml:id="IGC-Books-laestur_inni.29.1.2" pos="sfg3fn">fara</w>
+            <w lemma="út" xml:id="IGC-Books-laestur_inni.29.1.3" pos="aa">út</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.29.1.4" pos="c">og</w>
+            <w lemma="suður" xml:id="IGC-Books-laestur_inni.29.1.5" pos="aa" join="right">suður</w>
+            <pc xml:id="IGC-Books-laestur_inni.29.1.6" pos="pk">,</pc>
+            <w lemma="henda" xml:id="IGC-Books-laestur_inni.29.1.7" pos="sfm3fn">hendast</w>
+            <w lemma="fram" xml:id="IGC-Books-laestur_inni.29.1.8" pos="aa">fram</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.29.1.9" pos="c">og</w>
+            <w lemma="aftur" xml:id="IGC-Books-laestur_inni.29.1.10" pos="aa">aftur</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.29.1.11" pos="c">og</w>
+            <w lemma="það" xml:id="IGC-Books-laestur_inni.29.1.12" pos="fphen">það</w>
+            <w lemma="tísta" xml:id="IGC-Books-laestur_inni.29.1.13" pos="sfg3en">tístir</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.29.1.14" pos="af">í</w>
+            <w lemma="Ásta" xml:id="IGC-Books-laestur_inni.29.1.15" pos="nveþ-s" join="right">Ástu</w>
+            <pc xml:id="IGC-Books-laestur_inni.29.1.16" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.30">
+          <s xml:id="IGC-Books-laestur_inni.30.1">
+            <w lemma="strætó" xml:id="IGC-Books-laestur_inni.30.1.1" pos="nken">Strætó</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.31">
+          <s xml:id="IGC-Books-laestur_inni.31.1">
+            <w lemma="Þóra" xml:id="IGC-Books-laestur_inni.31.1.1" pos="nven-s">Þóra</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.31.1.2" pos="af">í</w>
+            <w lemma="búð" xml:id="IGC-Books-laestur_inni.31.1.3" pos="nveþg">búðinni</w>
+            <w lemma="hafa" xml:id="IGC-Books-laestur_inni.31.1.4" pos="sfg3en">hefur</w>
+            <w lemma="ekki" xml:id="IGC-Books-laestur_inni.31.1.5" pos="aa">ekki</w>
+            <w lemma="sjá" xml:id="IGC-Books-laestur_inni.31.1.6" pos="sþghen">séð</w>
+            <w lemma="Vaskur" xml:id="IGC-Books-laestur_inni.31.1.7" pos="nkeo-s" join="right">Vask</w>
+            <pc xml:id="IGC-Books-laestur_inni.31.1.8" pos="pk">,</pc>
+            <w lemma="ekki" xml:id="IGC-Books-laestur_inni.31.1.9" pos="aa">ekki</w>
+            <w lemma="gjarnan" xml:id="IGC-Books-laestur_inni.31.1.10" pos="aam">heldur</w>
+            <w lemma="Skúlína" xml:id="IGC-Books-laestur_inni.31.1.11" pos="nven-s">Skúlína</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.31.1.12" pos="c">og</w>
+            <w lemma="ekki" xml:id="IGC-Books-laestur_inni.31.1.13" pos="aa">ekki</w>
+            <w lemma="Stella" xml:id="IGC-Books-laestur_inni.31.1.14" pos="nven-s">Stella</w>
+            <w lemma="sem" xml:id="IGC-Books-laestur_inni.31.1.15" pos="ct">sem</w>
+            <w lemma="keyra" xml:id="IGC-Books-laestur_inni.31.1.16" pos="sfg3en">keyrir</w>
+            <w lemma="strætó" xml:id="IGC-Books-laestur_inni.31.1.17" pos="nkeo" join="right">strætó</w>
+            <pc xml:id="IGC-Books-laestur_inni.31.1.18" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.32">
+          <s xml:id="IGC-Books-laestur_inni.32.1">
+            <w lemma="Gústi" xml:id="IGC-Books-laestur_inni.32.1.1" pos="nken-s">Gústi</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.32.1.2" pos="sfg3eþ">var</w>
+            <w lemma="uppi" xml:id="IGC-Books-laestur_inni.32.1.3" pos="aa">uppi</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.32.1.4" pos="af">í</w>
+            <w lemma="stigi" xml:id="IGC-Books-laestur_inni.32.1.5" pos="nkeþ">stiga</w>
+            <w lemma="að" xml:id="IGC-Books-laestur_inni.32.1.6" pos="cn">að</w>
+            <w lemma="gera" xml:id="IGC-Books-laestur_inni.32.1.7" pos="sng">gera</w>
+            <w lemma="við" xml:id="IGC-Books-laestur_inni.32.1.8" pos="af">við</w>
+            <w lemma="strompur" xml:id="IGC-Books-laestur_inni.32.1.9" pos="nkeog" join="right">strompinn</w>
+            <pc xml:id="IGC-Books-laestur_inni.32.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.33">
+          <s xml:id="IGC-Books-laestur_inni.33.1">
+            <w lemma="hann" xml:id="IGC-Books-laestur_inni.33.1.1" pos="fpken">Hann</w>
+            <w lemma="sjá" xml:id="IGC-Books-laestur_inni.33.1.2" pos="sfg3eþ">sá</w>
+            <w lemma="Vask" xml:id="IGC-Books-laestur_inni.33.1.3" pos="n----s">Vask</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-laestur_inni.33.1.4" pos="sng">hlaupa</w>
+            <w lemma="vestur" xml:id="IGC-Books-laestur_inni.33.1.5" pos="af">vestur</w>
+            <w lemma="gata" xml:id="IGC-Books-laestur_inni.33.1.6" pos="nveog" join="right">götuna</w>
+            <pc xml:id="IGC-Books-laestur_inni.33.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.34">
+          <s xml:id="IGC-Books-laestur_inni.34.1">
+            <w lemma="á" xml:id="IGC-Books-laestur_inni.34.1.1" pos="aa">Á</w>
+            <w lemma="eftir" xml:id="IGC-Books-laestur_inni.34.1.2" pos="af">eftir</w>
+            <w lemma="hann" xml:id="IGC-Books-laestur_inni.34.1.3" pos="fpkeþ">honum</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-laestur_inni.34.1.4" pos="sfg3eþ">hljóp</w>
+            <w lemma="kona" xml:id="IGC-Books-laestur_inni.34.1.5" pos="nven">kona</w>
+            <w lemma="sem" xml:id="IGC-Books-laestur_inni.34.1.6" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.34.1.7" pos="sfg3eþ">var</w>
+            <w lemma="mjög" xml:id="IGC-Books-laestur_inni.34.1.8" pos="aa">mjög</w>
+            <w lemma="æstur" xml:id="IGC-Books-laestur_inni.34.1.9" pos="lvensf" join="right">æst</w>
+            <pc xml:id="IGC-Books-laestur_inni.34.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.35">
+          <s xml:id="IGC-Books-laestur_inni.35.1">
+            <w lemma="Leistar" xml:id="IGC-Books-laestur_inni.35.1.1" pos="nken-s">Leistar</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.36">
+          <s xml:id="IGC-Books-laestur_inni.36.1">
+            <pc xml:id="IGC-Books-laestur_inni.36.1.1" pos="pa">–</pc>
+            <w lemma="kona" xml:id="IGC-Books-laestur_inni.36.1.2" pos="nveng">Konan</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.36.1.3" pos="sfg3eþ">var</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.36.1.4" pos="af">í</w>
+            <w lemma="gulur" xml:id="IGC-Books-laestur_inni.36.1.5" pos="lkfþsf">gulum</w>
+            <w lemma="leistur" xml:id="IGC-Books-laestur_inni.36.1.6" pos="nkfþ">leistum</w>
+            <w lemma="með" xml:id="IGC-Books-laestur_inni.36.1.7" pos="af">með</w>
+            <w lemma="langur" xml:id="IGC-Books-laestur_inni.36.1.8" pos="lkeovf">langa</w>
+            <w lemma="festi" xml:id="IGC-Books-laestur_inni.36.1.9" pos="nheo">festi</w>
+            <w lemma="um" xml:id="IGC-Books-laestur_inni.36.1.10" pos="af">um</w>
+            <w lemma="háls" xml:id="IGC-Books-laestur_inni.36.1.11" pos="nkeog" join="right">hálsinn</w>
+            <pc xml:id="IGC-Books-laestur_inni.36.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.37">
+          <s xml:id="IGC-Books-laestur_inni.37.1">
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.37.1.1" pos="c">Og</w>
+            <w lemma="hár" xml:id="IGC-Books-laestur_inni.37.1.2" pos="nheng">hárið</w>
+            <w lemma="standa" xml:id="IGC-Books-laestur_inni.37.1.3" pos="sfg3eþ">stóð</w>
+            <w lemma="út" xml:id="IGC-Books-laestur_inni.37.1.4" pos="aa">út</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.37.1.5" pos="af">í</w>
+            <w lemma="allur" xml:id="IGC-Books-laestur_inni.37.1.6" pos="fovfo">allar</w>
+            <w lemma="átt" xml:id="IGC-Books-laestur_inni.37.1.7" pos="nvfo" join="right">áttir</w>
+            <pc xml:id="IGC-Books-laestur_inni.37.1.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laestur_inni.37.1.9" pos="sfg3en">segir</w>
+            <w lemma="Gústi" xml:id="IGC-Books-laestur_inni.37.1.10" pos="nken-s" join="right">Gústi</w>
+            <pc xml:id="IGC-Books-laestur_inni.37.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.38">
+          <s xml:id="IGC-Books-laestur_inni.38.1">
+            <w lemma="hún" xml:id="IGC-Books-laestur_inni.38.1.1" pos="fpven">Hún</w>
+            <w lemma="veifa" xml:id="IGC-Books-laestur_inni.38.1.2" pos="sfg3eþ">veifaði</w>
+            <w lemma="kústur" xml:id="IGC-Books-laestur_inni.38.1.3" pos="nkeþ">kústi</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.38.1.4" pos="c">og</w>
+            <w lemma="kasta" xml:id="IGC-Books-laestur_inni.38.1.5" pos="sfg3eþ">kastaði</w>
+            <w lemma="hann" xml:id="IGC-Books-laestur_inni.38.1.6" pos="fpkeþ">honum</w>
+            <w lemma="á" xml:id="IGC-Books-laestur_inni.38.1.7" pos="aa">á</w>
+            <w lemma="eftir" xml:id="IGC-Books-laestur_inni.38.1.8" pos="af">eftir</w>
+            <w lemma="Vaski" xml:id="IGC-Books-laestur_inni.38.1.9" pos="n----s" join="right">Vaski</w>
+            <pc xml:id="IGC-Books-laestur_inni.38.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.39">
+          <s xml:id="IGC-Books-laestur_inni.39.1">
+            <pc xml:id="IGC-Books-laestur_inni.39.1.1" pos="pa">–</pc>
+            <w lemma="Steinunn" xml:id="IGC-Books-laestur_inni.39.1.2" pos="nven-s">Steinunn</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.39.1.3" pos="af">í</w>
+            <w lemma="ostabúð" xml:id="IGC-Books-laestur_inni.39.1.4" pos="nveþg" join="right">ostabúðinni</w>
+            <pc xml:id="IGC-Books-laestur_inni.39.1.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.40">
+          <s xml:id="IGC-Books-laestur_inni.40.1">
+            <w lemma="hrópa" xml:id="IGC-Books-laestur_inni.40.1.1" pos="sng">hrópa</w>
+            <w lemma="stelpa" xml:id="IGC-Books-laestur_inni.40.1.2" pos="nvfng" join="right">stelpurnar</w>
+            <pc xml:id="IGC-Books-laestur_inni.40.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.41">
+          <s xml:id="IGC-Books-laestur_inni.41.1">
+            <w lemma="hún" xml:id="IGC-Books-laestur_inni.41.1.1" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.41.1.2" pos="sfg3en">er</w>
+            <w lemma="alltaf" xml:id="IGC-Books-laestur_inni.41.1.3" pos="aa">alltaf</w>
+            <w lemma="með" xml:id="IGC-Books-laestur_inni.41.1.4" pos="af">með</w>
+            <w lemma="festi" xml:id="IGC-Books-laestur_inni.41.1.5" pos="nheo" join="right">festi</w>
+            <pc xml:id="IGC-Books-laestur_inni.41.1.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.42">
+          <s xml:id="IGC-Books-laestur_inni.42.1">
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.42.1.1" pos="c">Og</w>
+            <w lemma="alltaf" xml:id="IGC-Books-laestur_inni.42.1.2" pos="aa">alltaf</w>
+            <w lemma="fúll" xml:id="IGC-Books-laestur_inni.42.1.3" pos="lvensf" join="right">fúl</w>
+            <pc xml:id="IGC-Books-laestur_inni.42.1.4" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.43">
+          <s xml:id="IGC-Books-laestur_inni.43.1">
+            <w lemma="pósthús" xml:id="IGC-Books-laestur_inni.43.1.1" pos="nhen">Pósthús</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.44">
+          <s xml:id="IGC-Books-laestur_inni.44.1">
+            <w lemma="það" xml:id="IGC-Books-laestur_inni.44.1.1" pos="fphfn">Þau</w>
+            <w lemma="leggja" xml:id="IGC-Books-laestur_inni.44.1.2" pos="sfg3fn">leggja</w>
+            <w lemma="strax" xml:id="IGC-Books-laestur_inni.44.1.3" pos="aa">strax</w>
+            <w lemma="af" xml:id="IGC-Books-laestur_inni.44.1.4" pos="af">af</w>
+            <w lemma="staður" xml:id="IGC-Books-laestur_inni.44.1.5" pos="nkeþ">stað</w>
+            <w lemma="heim" xml:id="IGC-Books-laestur_inni.44.1.6" pos="aa">heim</w>
+            <w lemma="til" xml:id="IGC-Books-laestur_inni.44.1.7" pos="af">til</w>
+            <w lemma="Steinunn" xml:id="IGC-Books-laestur_inni.44.1.8" pos="nvee-s" join="right">Steinunnar</w>
+            <pc xml:id="IGC-Books-laestur_inni.44.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.45">
+          <s xml:id="IGC-Books-laestur_inni.45.1">
+            <w lemma="við" xml:id="IGC-Books-laestur_inni.45.1.1" pos="af">Við</w>
+            <w lemma="pósthús" xml:id="IGC-Books-laestur_inni.45.1.2" pos="nheog">pósthúsið</w>
+            <w lemma="byrja" xml:id="IGC-Books-laestur_inni.45.1.3" pos="sfg3en">byrjar</w>
+            <w lemma="Gáski" xml:id="IGC-Books-laestur_inni.45.1.4" pos="nhen-s">Gáski</w>
+            <w lemma="að" xml:id="IGC-Books-laestur_inni.45.1.5" pos="cn">að</w>
+            <w lemma="gelta" xml:id="IGC-Books-laestur_inni.45.1.6" pos="sng" join="right">gelta</w>
+            <pc xml:id="IGC-Books-laestur_inni.45.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.46">
+          <s xml:id="IGC-Books-laestur_inni.46.1">
+            <w lemma="gáski" xml:id="IGC-Books-laestur_inni.46.1.1" pos="nken">Gáski</w>
+            <w lemma="rífa" xml:id="IGC-Books-laestur_inni.46.1.2" pos="sfg3en">rífur</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.46.1.3" pos="af">í</w>
+            <w lemma="band" xml:id="IGC-Books-laestur_inni.46.1.4" pos="nheog">bandið</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.46.1.5" pos="c">og</w>
+            <w lemma="taka" xml:id="IGC-Books-laestur_inni.46.1.6" pos="sfg3en">tekur</w>
+            <w lemma="stökk" xml:id="IGC-Books-laestur_inni.46.1.7" pos="nheo">stökk</w>
+            <w lemma="til" xml:id="IGC-Books-laestur_inni.46.1.8" pos="aa">til</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.46.1.9" pos="c">og</w>
+            <w lemma="frá" xml:id="IGC-Books-laestur_inni.46.1.10" pos="aa">frá</w>
+            <w lemma="en" xml:id="IGC-Books-laestur_inni.46.1.11" pos="c">en</w>
+            <w lemma="Óli" xml:id="IGC-Books-laestur_inni.46.1.12" pos="nken-s">Óli</w>
+            <w lemma="halda" xml:id="IGC-Books-laestur_inni.46.1.13" pos="sfg3en">heldur</w>
+            <w lemma="fast" xml:id="IGC-Books-laestur_inni.46.1.14" pos="aa" join="right">fast</w>
+            <pc xml:id="IGC-Books-laestur_inni.46.1.15" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.47">
+          <s xml:id="IGC-Books-laestur_inni.47.1">
+            <w lemma="krakki" xml:id="IGC-Books-laestur_inni.47.1.1" pos="nkfng">Krakkarnir</w>
+            <w lemma="stoppa" xml:id="IGC-Books-laestur_inni.47.1.2" pos="sfg3fn">stoppa</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.47.1.3" pos="c">og</w>
+            <w lemma="stara" xml:id="IGC-Books-laestur_inni.47.1.4" pos="sfg3fn" join="right">stara</w>
+            <pc xml:id="IGC-Books-laestur_inni.47.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.48">
+          <s xml:id="IGC-Books-laestur_inni.48.1">
+            <w lemma="stafur" xml:id="IGC-Books-laestur_inni.48.1.1" pos="nken">Stafur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.49">
+          <s xml:id="IGC-Books-laestur_inni.49.1">
+            <w lemma="Skúlína" xml:id="IGC-Books-laestur_inni.49.1.1" pos="nvengs">Skúlína</w>
+            <w lemma="birta" xml:id="IGC-Books-laestur_inni.49.1.2" pos="sfm3en">birtist</w>
+            <w lemma="með" xml:id="IGC-Books-laestur_inni.49.1.3" pos="af">með</w>
+            <w lemma="Vask" xml:id="IGC-Books-laestur_inni.49.1.4" pos="n----s">Vask</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.49.1.5" pos="af">í</w>
+            <w lemma="band" xml:id="IGC-Books-laestur_inni.49.1.6" pos="nheþ" join="right">bandi</w>
+            <pc xml:id="IGC-Books-laestur_inni.49.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.50">
+          <s xml:id="IGC-Books-laestur_inni.50.1">
+            <pc xml:id="IGC-Books-laestur_inni.50.1.1" pos="pa">–</pc>
+            <w lemma="vaskur" xml:id="IGC-Books-laestur_inni.50.1.2" pos="nken">Vaskur</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.50.1.3" pos="sfg3eþ">var</w>
+            <w lemma="læsa" xml:id="IGC-Books-laestur_inni.50.1.4" pos="sþgken">læstur</w>
+            <w lemma="inni" xml:id="IGC-Books-laestur_inni.50.1.5" pos="aa">inni</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.50.1.6" pos="af">í</w>
+            <w lemma="skúr" xml:id="IGC-Books-laestur_inni.50.1.7" pos="nkeþ">skúr</w>
+            <w lemma="úti" xml:id="IGC-Books-laestur_inni.50.1.8" pos="aa">úti</w>
+            <w lemma="á" xml:id="IGC-Books-laestur_inni.50.1.9" pos="af">á</w>
+            <w lemma="strönd" xml:id="IGC-Books-laestur_inni.50.1.10" pos="nveþ" join="right">strönd</w>
+            <pc xml:id="IGC-Books-laestur_inni.50.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.51">
+          <s xml:id="IGC-Books-laestur_inni.51.1">
+            <w lemma="ég" xml:id="IGC-Books-laestur_inni.51.1.1" pos="fp1en">Ég</w>
+            <w lemma="heyra" xml:id="IGC-Books-laestur_inni.51.1.2" pos="sfg1eþ">heyrði</w>
+            <w lemma="gelt" xml:id="IGC-Books-laestur_inni.51.1.3" pos="nheog">geltið</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.51.1.4" pos="c">og</w>
+            <w lemma="brjóta" xml:id="IGC-Books-laestur_inni.51.1.5" pos="sfm1eþ">braust</w>
+            <w lemma="inn" xml:id="IGC-Books-laestur_inni.51.1.6" pos="aa" join="right">inn</w>
+            <pc xml:id="IGC-Books-laestur_inni.51.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-laestur_inni.51.1.8" pos="sfg3en">segir</w>
+            <w lemma="hún" xml:id="IGC-Books-laestur_inni.51.1.9" pos="fpven" join="right">hún</w>
+            <pc xml:id="IGC-Books-laestur_inni.51.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.52">
+          <s xml:id="IGC-Books-laestur_inni.52.1">
+            <w lemma="Skúlína" xml:id="IGC-Books-laestur_inni.52.1.1" pos="nvengs">Skúlína</w>
+            <w lemma="vera" xml:id="IGC-Books-laestur_inni.52.1.2" pos="sfg3en">er</w>
+            <w lemma="stoltur" xml:id="IGC-Books-laestur_inni.52.1.3" pos="lvensf">stolt</w>
+            <w lemma="og" xml:id="IGC-Books-laestur_inni.52.1.4" pos="c">og</w>
+            <w lemma="veifa" xml:id="IGC-Books-laestur_inni.52.1.5" pos="sfg3en">veifar</w>
+            <w lemma="stafur" xml:id="IGC-Books-laestur_inni.52.1.6" pos="nkeþg">stafnum</w>
+            <w lemma="sinn" xml:id="IGC-Books-laestur_inni.52.1.7" pos="fekeþ" join="right">sínum</w>
+            <pc xml:id="IGC-Books-laestur_inni.52.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.53">
+          <s xml:id="IGC-Books-laestur_inni.53.1">
+            <w lemma="töfrastafur" xml:id="IGC-Books-laestur_inni.53.1.1" pos="nken" join="right">Töfrastafur</w>
+            <pc xml:id="IGC-Books-laestur_inni.53.1.2" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-laestur_inni.54">
+          <s xml:id="IGC-Books-laestur_inni.54.1">
+            <w lemma="svo" xml:id="IGC-Books-laestur_inni.54.1.1" pos="aa">Svo</w>
+            <w lemma="borða" xml:id="IGC-Books-laestur_inni.54.1.2" pos="sfg3fn">borða</w>
+            <w lemma="allur" xml:id="IGC-Books-laestur_inni.54.1.3" pos="fokfn">allir</w>
+            <w lemma="vinur" xml:id="IGC-Books-laestur_inni.54.1.4" pos="nkfng">vinirnir</w>
+            <w lemma="pasta" xml:id="IGC-Books-laestur_inni.54.1.5" pos="nheo">pasta</w>
+            <w lemma="í" xml:id="IGC-Books-laestur_inni.54.1.6" pos="af">í</w>
+            <w lemma="stofa" xml:id="IGC-Books-laestur_inni.54.1.7" pos="nveþg">stofunni</w>
+            <w lemma="heima" xml:id="IGC-Books-laestur_inni.54.1.8" pos="aa">heima</w>
+            <w lemma="hjá" xml:id="IGC-Books-laestur_inni.54.1.9" pos="af">hjá</w>
+            <w lemma="Óli" xml:id="IGC-Books-laestur_inni.54.1.10" pos="nkeþ-s" join="right">Óla</w>
+            <pc xml:id="IGC-Books-laestur_inni.54.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

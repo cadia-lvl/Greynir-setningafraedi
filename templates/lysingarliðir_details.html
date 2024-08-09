@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ analysis.word }}</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+    <script>
+        function sendGuess_lysingarliðir(type, guess) {
+            fetch(`/guess?word=${encodeURIComponent('{{ analysis.word }}')}&sentence=${encodeURIComponent('{{ sentence }}')}&type=${type}&guess=${guess}`)
+                .then(response => response.json())
+                .then(data => {
+                    const button = document.getElementById(`${type}-${guess}`);
+                    const feedback = document.getElementById(`feedback-${type}`);
+                    if (data.correct) {
+                        button.classList.add('correct');
+                        feedback.innerText = 'Rétt!';
+                    } else {
+                        button.classList.add('wrong');
+                        setTimeout(() => button.classList.remove('wrong'), 500);
+                        feedback.innerText = 'Rangt!';
+                    }
+                });
+        }
+
+        function goBack() {
+            window.history.back();
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const level = '{{ analysis.level }}';
+            const inflectionContainer = document.getElementById('inflection-container');
+            const messageElement = document.getElementById('instruction-message');
+
+            if (level !== 'frumstig') {
+                inflectionContainer.style.display = 'none';
+                messageElement.innerText = `Veldu kyn, tölu, fall og stig fyrir lýsingarliðinn "{{analysis.word}}".`;
+            } else {
+                inflectionContainer.style.display = 'block';
+                messageElement.innerText = `Veldu kyn, tölu, fall, stig og beygingu fyrir lýsingarliðinn "{{analysis.word}}".`;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="lysingarliðir"> 
+        <div class="container overlay-container">
+            <div class="back-one-step-button" onclick="goBack()"></div>
+            <h1 style="color: #4CAF50;">{{ analysis.word }}</h1>
+            <div class="content">
+                <p class="sentence">{{ sentence }}</p>
+                <p class="sentence" id="instruction-message" style="color: #4CAF50;"> Veldu kyn, tölu, fall, stig og beygingu fyrir lýsingarliðinn "{{analysis.word}}".</p>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Kyn</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="gender-kk" onclick="sendGuess_lysingarliðir('gender', 'kk')">Karlkyn</button>
+                            <button class="guess-button" id="gender-kvk" onclick="sendGuess_lysingarliðir('gender', 'kvk')">Kvenkyn</button>
+                            <button class="guess-button" id="gender-hk" onclick="sendGuess_lysingarliðir('gender', 'hk')">Hvorugkyn</button>
+                        </div>
+                        <p id="feedback-gender" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Tala</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="number-et" onclick="sendGuess_lysingarliðir('number', 'et')">Eintala</button>
+                            <button class="guess-button" id="number-ft" onclick="sendGuess_lysingarliðir('number', 'ft')">Fleirtala</button>
+                        </div>
+                        <p id="feedback-number" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Fall</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="case-nf" onclick="sendGuess_lysingarliðir('case', 'nf')">Nefnifall</button>
+                            <button class="guess-button" id="case-þf" onclick="sendGuess_lysingarliðir('case', 'þf')">Þolfall</button>
+                            <button class="guess-button" id="case-þgf" onclick="sendGuess_lysingarliðir('case', 'þgf')">Þágufall</button>
+                            <button class="guess-button" id="case-ef" onclick="sendGuess_lysingarliðir('case', 'ef')">Eignarfall</button>
+                        </div>
+                        <p id="feedback-case" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Stig</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="level-frumstig" onclick="sendGuess_lysingarliðir('level', 'frumstig')">Frumstig</button>
+                            <button class="guess-button" id="level-mst" onclick="sendGuess_lysingarliðir('level', 'mst')">Miðstig</button>
+                            <button class="guess-button" id="level-esb" onclick="sendGuess_lysingarliðir('level', 'esb')">Efsta stig</button>
+                        </div>
+                        <p id="feedback-level" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container" id="inflection-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Beyging</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="inflection-sb" onclick="sendGuess_lysingarliðir('inflection', 'sb')">Sterk beyging</button>
+                            <button class="guess-button" id="inflection-vb" onclick="sendGuess_lysingarliðir('inflection', 'vb')">Veik beyging</button>
+                        </div>
+                        <p id="feedback-inflection" class="feedback"></p>
+                    </div>
+                </div>
+                <form action="/lysingarliðir">
+                    <button type="submit" class="button custom-button">Næsta setning &#x21bb;</button>
+                </form>
+                <form action="/index">
+                    <button type="submit" class="button custom-button">Til baka á upphafssíðu &#x2190;</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

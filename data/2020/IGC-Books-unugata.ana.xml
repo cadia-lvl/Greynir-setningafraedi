@@ -1,0 +1,3013 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="IGC-Books-unugata.ana">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="is">Íslenska risamálheildin - útgefnar bækur [IGC-Books.ana]</title>
+        <title type="main" xml:lang="en">The Icelandic Gigaword Corpus - published books [IGC-Books.ana]</title>
+        <title type="sub" xml:lang="is">Unugata</title>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Hildur Hafsteinsdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Finnur Ingimundarson</persName>
+          <resp xml:lang="is">Úrvinnsla texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Steinþór Steingrímsson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Árni Davíð Magnússon</persName>
+          <resp xml:lang="is">Söfnun texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Málfræðimörkun</resp>
+          <resp xml:lang="en">Linguistic annotation</resp>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words" quantity="1498" xml:lang="en">1498 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">Árni Magnússon Institute for Icelandic Studies</orgName>
+          <ref target="https://www.arnastofnun.is/">www.arnastofnun.is</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/20.500.12537/250</idno>
+        <availability status="restricted">
+          <licence>https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+        </availability>
+        <date when="2022-09-17">2022-09-17</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title xml:lang="is">Unugata</title>
+            <author sameAs="#AslaugJonsdottir">Áslaug Jónsdóttir</author>
+            <imprint>
+              <publisher>Menntamálastofnun</publisher>
+              <date when="2020">2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="is">Textum hefur verið skipt upp í hluta sem innhalda 500 orð eða færri og svo raðað upp á nýtt. Efnisgreinar eru ekki slitnar í sundur nema þær innihaldi meira en 500 orð. Ef texti inniheldur færri en 5000 orð þá eru setningar innan hverrar efnisgreinar einnig stokkaðar upp. Í sumum tilvikum hafa textabrot verið fjarlægð úr texta - t.d. ef ekki höfundur brots hafði ekki veitt leyfi eða ef texti var á erlendu máli.</p>
+        <p xml:lang="en">The texts have been split into parts that do not include more than 500 words and reordered in a random way. Paragraphs are not dismantled unless they contain more than 500 words. If a text contains less than 5000 words, sentences of each paragraph are also rearranged. In some instances, we have removed fragments from texts, for example, if we did not have permission from the author of that fragment or if the fragment was not in Icelandic.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="1" gi="text"/>
+          <tagUsage occurs="1" gi="body"/>
+          <tagUsage occurs="1" gi="div"/>
+          <tagUsage occurs="246" gi="p"/>
+          <tagUsage occurs="264" gi="s"/>
+          <tagUsage occurs="1498" gi="w"/>
+          <tagUsage occurs="403" gi="pc"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="main">
+        <p xml:id="IGC-Books-unugata.1">
+          <s xml:id="IGC-Books-unugata.1.1">
+            <pc xml:id="IGC-Books-unugata.1.1.1" pos="pa">–</pc>
+            <w lemma="æ" xml:id="IGC-Books-unugata.1.1.2" pos="au" join="right">Æ</w>
+            <pc xml:id="IGC-Books-unugata.1.1.3" pos="pk">,</pc>
+            <w lemma="Kisi" xml:id="IGC-Books-unugata.1.1.4" pos="nken-s">kisi</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.1.1.5" pos="sfm3eþ">komst</w>
+            <w lemma="upp" xml:id="IGC-Books-unugata.1.1.6" pos="aa">upp</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.1.1.7" pos="af">á</w>
+            <w lemma="þak" xml:id="IGC-Books-unugata.1.1.8" pos="nheo">þak</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.1.1.9" pos="c">og</w>
+            <w lemma="þora" xml:id="IGC-Books-unugata.1.1.10" pos="sfg3en">þorir</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.1.1.11" pos="aa">ekki</w>
+            <w lemma="niður" xml:id="IGC-Books-unugata.1.1.12" pos="aa" join="right">niður</w>
+            <pc xml:id="IGC-Books-unugata.1.1.13" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.1.1.14" pos="sfg3eþ">sagði</w>
+            <w lemma="Lára" xml:id="IGC-Books-unugata.1.1.15" pos="nven-s" join="right">Lára</w>
+            <pc xml:id="IGC-Books-unugata.1.1.16" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.2">
+          <s xml:id="IGC-Books-unugata.2.1">
+            <pc xml:id="IGC-Books-unugata.2.1.1" pos="pa">–</pc>
+            <w lemma="koma" xml:id="IGC-Books-unugata.2.1.2" pos="sbg2en">Komdu</w>
+            <w lemma="kisa-kis" xml:id="IGC-Books-unugata.2.1.3" pos="n-eo" join="right">kisa-kis</w>
+            <pc xml:id="IGC-Books-unugata.2.1.4" pos="pk">,</pc>
+            <w lemma="kalla" xml:id="IGC-Books-unugata.2.1.5" pos="sfg3eþ">kallaði</w>
+            <w lemma="Gunnar" xml:id="IGC-Books-unugata.2.1.6" pos="nken-s" join="right">Gunnar</w>
+            <pc xml:id="IGC-Books-unugata.2.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.3">
+          <s xml:id="IGC-Books-unugata.3.1">
+            <pc xml:id="IGC-Books-unugata.3.1.1" pos="pa">–</pc>
+            <w lemma="hann" xml:id="IGC-Books-unugata.3.1.2" pos="fpken">Hann</w>
+            <w lemma="ætla" xml:id="IGC-Books-unugata.3.1.3" pos="sfg3en">ætlar</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.3.1.4" pos="cn">að</w>
+            <w lemma="lokka" xml:id="IGC-Books-unugata.3.1.5" pos="sng">lokka</w>
+            <w lemma="kisa" xml:id="IGC-Books-unugata.3.1.6" pos="nkeog">kisa</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.3.1.7" pos="af">til</w>
+            <w lemma="sig" xml:id="IGC-Books-unugata.3.1.8" pos="fpkee">sín</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.3.1.9" pos="af">með</w>
+            <w lemma="sardína" xml:id="IGC-Books-unugata.3.1.10" pos="nvfþ" join="right">sardínum</w>
+            <pc xml:id="IGC-Books-unugata.3.1.11" pos="pk">,</pc>
+            <w lemma="útskýra" xml:id="IGC-Books-unugata.3.1.12" pos="sfg3eþ">útskýrði</w>
+            <w lemma="Lára" xml:id="IGC-Books-unugata.3.1.13" pos="nven-s" join="right">Lára</w>
+            <pc xml:id="IGC-Books-unugata.3.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.4">
+          <s xml:id="IGC-Books-unugata.4.1">
+            <w lemma="Gunnar" xml:id="IGC-Books-unugata.4.1.1" pos="nken-s">Gunnar</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.4.1.2" pos="sfg3eþ">kom</w>
+            <w lemma="hægt" xml:id="IGC-Books-unugata.4.1.3" pos="aa">hægt</w>
+            <w lemma="niður" xml:id="IGC-Books-unugata.4.1.4" pos="af">niður</w>
+            <w lemma="stigi" xml:id="IGC-Books-unugata.4.1.5" pos="nkeog">stigann</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.4.1.6" pos="af">með</w>
+            <w lemma="kisi" xml:id="IGC-Books-unugata.4.1.7" pos="nkeo">kisa</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.4.1.8" pos="af">í</w>
+            <w lemma="fang" xml:id="IGC-Books-unugata.4.1.9" pos="nheþg" join="right">fanginu</w>
+            <pc xml:id="IGC-Books-unugata.4.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.5">
+          <s xml:id="IGC-Books-unugata.5.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.5.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.5.1.2" pos="sfg3fþ">voru</w>
+            <w lemma="báðir" xml:id="IGC-Books-unugata.5.1.3" pos="fokfn">báðir</w>
+            <w lemma="útataður" xml:id="IGC-Books-unugata.5.1.4" pos="lkfnsf">útataðir</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.5.1.5" pos="af">í</w>
+            <w lemma="sardína" xml:id="IGC-Books-unugata.5.1.6" pos="nvfþ" join="right">sardínum</w>
+            <pc xml:id="IGC-Books-unugata.5.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.6">
+          <s xml:id="IGC-Books-unugata.6.1">
+            <w lemma="nafn" xml:id="IGC-Books-unugata.6.1.1" pos="nheng">Nafnið</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.7">
+          <s xml:id="IGC-Books-unugata.7.1">
+            <w lemma="Gunnar" xml:id="IGC-Books-unugata.7.1.1" pos="nken-s">Gunnar</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.7.1.2" pos="c">og</w>
+            <w lemma="Lára" xml:id="IGC-Books-unugata.7.1.3" pos="nven-s">Lára</w>
+            <w lemma="rýna" xml:id="IGC-Books-unugata.7.1.4" pos="sfg3fþ">rýndu</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.7.1.5" pos="af">í</w>
+            <w lemma="skrift" xml:id="IGC-Books-unugata.7.1.6" pos="nveog">skriftina</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.7.1.7" pos="af">á</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.7.1.8" pos="nkeþg" join="right">pakkanum</w>
+            <pc xml:id="IGC-Books-unugata.7.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.8">
+          <s xml:id="IGC-Books-unugata.8.1">
+            <pc xml:id="IGC-Books-unugata.8.1.1" pos="pa">–</pc>
+            <w lemma="BRY" xml:id="IGC-Books-unugata.8.1.2" pos="n----s">BRY</w>
+            <w lemma="N" xml:id="IGC-Books-unugata.8.1.3" pos="n----s">N</w>
+            <w lemma="DÍS" xml:id="IGC-Books-unugata.8.1.4" pos="e" join="right">DÍS</w>
+            <pc xml:id="IGC-Books-unugata.8.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.8.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="Gunnar" xml:id="IGC-Books-unugata.8.1.7" pos="nken-s" join="right">Gunnar</w>
+            <pc xml:id="IGC-Books-unugata.8.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.9">
+          <s xml:id="IGC-Books-unugata.9.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.9.1.1" pos="fpheo">Það</w>
+            <w lemma="geta" xml:id="IGC-Books-unugata.9.1.2" pos="sfg1en">get</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.9.1.3" pos="fp1en">ég</w>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.9.1.4" pos="sþghen" join="right">lesið</w>
+            <pc xml:id="IGC-Books-unugata.9.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.10">
+          <s xml:id="IGC-Books-unugata.10.1">
+            <pc xml:id="IGC-Books-unugata.10.1.1" pos="pa">–</pc>
+            <w lemma="en" xml:id="IGC-Books-unugata.10.1.2" pos="c">En</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.10.1.3" pos="fphen">það</w>
+            <w lemma="búa" xml:id="IGC-Books-unugata.10.1.4" pos="sfg3en">býr</w>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.10.1.5" pos="foven">engin</w>
+            <w lemma="Bryndís" xml:id="IGC-Books-unugata.10.1.6" pos="nven-s">Bryndís</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.10.1.7" pos="af">í</w>
+            <w lemma="Unugata" xml:id="IGC-Books-unugata.10.1.8" pos="nveþ-s" join="right">Unugötu</w>
+            <pc xml:id="IGC-Books-unugata.10.1.9" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.10.1.10" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.10.1.11" pos="nven-s">Rósa</w>
+            <w lemma="hissa" xml:id="IGC-Books-unugata.10.1.12" pos="lvenof" join="right">hissa</w>
+            <pc xml:id="IGC-Books-unugata.10.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.11">
+          <s xml:id="IGC-Books-unugata.11.1">
+            <pc xml:id="IGC-Books-unugata.11.1.1" pos="pa">–</pc>
+            <w lemma="kannski" xml:id="IGC-Books-unugata.11.1.2" pos="aa">Kannski</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.11.1.3" pos="sfg3en">er</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.11.1.4" pos="fphen">það</w>
+            <w lemma="nýr" xml:id="IGC-Books-unugata.11.1.5" pos="lvensf">ný</w>
+            <w lemma="kærasta" xml:id="IGC-Books-unugata.11.1.6" pos="nven">kærasta</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.11.1.7" pos="af">í</w>
+            <w lemma="næstur" xml:id="IGC-Books-unugata.11.1.8" pos="lheþve">næsta</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.11.1.9" pos="nheþ" join="right">húsi</w>
+            <pc xml:id="IGC-Books-unugata.11.1.10" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.11.1.11" pos="sfg3eþ">sagði</w>
+            <w lemma="Lára" xml:id="IGC-Books-unugata.11.1.12" pos="nven-s" join="right">Lára</w>
+            <pc xml:id="IGC-Books-unugata.11.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.12">
+          <s xml:id="IGC-Books-unugata.12.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.12.1.1" pos="fpken">Hann</w>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.12.1.2" pos="nken-s">Rúnar</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.12.1.3" pos="sfg3en">er</w>
+            <w lemma="svo" xml:id="IGC-Books-unugata.12.1.4" pos="aa">svo</w>
+            <w lemma="mikill" xml:id="IGC-Books-unugata.12.1.5" pos="lkensf">mikill</w>
+            <w lemma="gosi" xml:id="IGC-Books-unugata.12.1.6" pos="nken" join="right">gosi</w>
+            <pc xml:id="IGC-Books-unugata.12.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.13">
+          <s xml:id="IGC-Books-unugata.13.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.13.1.1" pos="fp1en">Ég</w>
+            <w lemma="segja" xml:id="IGC-Books-unugata.13.1.2" pos="sfg1en">segi</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.13.1.3" pos="aa">ekki</w>
+            <w lemma="meir" xml:id="IGC-Books-unugata.13.1.4" pos="lkeovm" join="right">meir</w>
+            <pc xml:id="IGC-Books-unugata.13.1.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.14">
+          <s xml:id="IGC-Books-unugata.14.1">
+            <pc xml:id="IGC-Books-unugata.14.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.14.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-unugata.14.1.3" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.14.1.4" pos="fp1fn">við</w>
+            <w lemma="skulu" xml:id="IGC-Books-unugata.14.1.5" pos="sfg1fn">skulum</w>
+            <w lemma="bara" xml:id="IGC-Books-unugata.14.1.6" pos="aa">bara</w>
+            <w lemma="athuga" xml:id="IGC-Books-unugata.14.1.7" pos="sng">athuga</w>
+            <w lemma="mál" xml:id="IGC-Books-unugata.14.1.8" pos="nheog" join="right">málið</w>
+            <pc xml:id="IGC-Books-unugata.14.1.9" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.14.1.10" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.14.1.11" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.14.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.15">
+          <s xml:id="IGC-Books-unugata.15.1">
+            <w lemma="kær" xml:id="IGC-Books-unugata.15.1.1" pos="lvfosf">Kærar</w>
+            <w lemma="þökk" xml:id="IGC-Books-unugata.15.1.2" pos="nvfo" join="right">þakkir</w>
+            <pc xml:id="IGC-Books-unugata.15.1.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.16">
+          <s xml:id="IGC-Books-unugata.16.1">
+            <w lemma="allur" xml:id="IGC-Books-unugata.16.1.1" pos="fohen">Allt</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.16.1.2" pos="af">í</w>
+            <w lemma="botn" xml:id="IGC-Books-unugata.16.1.3" pos="nkeþ">botni</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.17">
+          <s xml:id="IGC-Books-unugata.17.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.17.1.1" pos="nven-s">Rósa</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.17.1.2" pos="c">og</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.17.1.3" pos="nken-s">Finnur</w>
+            <w lemma="flýta" xml:id="IGC-Books-unugata.17.1.4" pos="sfg3fþ">flýttu</w>
+            <w lemma="sig" xml:id="IGC-Books-unugata.17.1.5" pos="fphfþ">sér</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.17.1.6" pos="af">að</w>
+            <w lemma="næstur" xml:id="IGC-Books-unugata.17.1.7" pos="lheþve">næsta</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.17.1.8" pos="nheþ" join="right">húsi</w>
+            <pc xml:id="IGC-Books-unugata.17.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.18">
+          <s xml:id="IGC-Books-unugata.18.1">
+            <w lemma="fyrir" xml:id="IGC-Books-unugata.18.1.1" pos="af">Fyrir</w>
+            <w lemma="utan" xml:id="IGC-Books-unugata.18.1.2" pos="aa">utan</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.18.1.3" pos="nheog">húsið</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.18.1.4" pos="sfg3eþ">stóð</w>
+            <w lemma="stór" xml:id="IGC-Books-unugata.18.1.5" pos="lhensf">stórt</w>
+            <w lemma="mótorhjól" xml:id="IGC-Books-unugata.18.1.6" pos="nhen" join="right">mótorhjól</w>
+            <pc xml:id="IGC-Books-unugata.18.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.19">
+          <s xml:id="IGC-Books-unugata.19.1">
+            <w lemma="hús" xml:id="IGC-Books-unugata.19.1.1" pos="nheng">Húsið</w>
+            <w lemma="skjálfa" xml:id="IGC-Books-unugata.19.1.2" pos="sfg3eþ">skalf</w>
+            <w lemma="af" xml:id="IGC-Books-unugata.19.1.3" pos="af">af</w>
+            <w lemma="þungur" xml:id="IGC-Books-unugata.19.1.4" pos="lkeþsf">þungum</w>
+            <w lemma="taktur" xml:id="IGC-Books-unugata.19.1.5" pos="nkeþ" join="right">takti</w>
+            <pc xml:id="IGC-Books-unugata.19.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.20">
+          <s xml:id="IGC-Books-unugata.20.1">
+            <w lemma="rosalega" xml:id="IGC-Books-unugata.20.1.1" pos="aa">Rosalega</w>
+            <w lemma="spila" xml:id="IGC-Books-unugata.20.1.2" pos="sfg3en">spilar</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.20.1.3" pos="fpken">hann</w>
+            <w lemma="tónlist" xml:id="IGC-Books-unugata.20.1.4" pos="nveo">tónlist</w>
+            <w lemma="hátt" xml:id="IGC-Books-unugata.20.1.5" pos="aa" join="right">hátt</w>
+            <pc xml:id="IGC-Books-unugata.20.1.6" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.20.2">
+            <pc xml:id="IGC-Books-unugata.20.2.1" pos="pa">–</pc>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.20.2.2" pos="nken-s">Rúnar</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.20.2.3" pos="sfg3en">er</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.20.2.4" pos="af">með</w>
+            <w lemma="allur" xml:id="IGC-Books-unugata.20.2.5" pos="foheo">allt</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.20.2.6" pos="af">í</w>
+            <w lemma="botn" xml:id="IGC-Books-unugata.20.2.7" pos="nkeþ" join="right">botni</w>
+            <pc xml:id="IGC-Books-unugata.20.2.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.20.2.9" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.20.2.10" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.20.2.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.21">
+          <s xml:id="IGC-Books-unugata.21.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.21.1.1" pos="fphfn">Þau</w>
+            <w lemma="hringja" xml:id="IGC-Books-unugata.21.1.2" pos="sfg3fþ">hringdu</w>
+            <w lemma="dyrabjalla" xml:id="IGC-Books-unugata.21.1.3" pos="nveþg" join="right">dyrabjöllunni</w>
+            <pc xml:id="IGC-Books-unugata.21.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.22">
+          <s xml:id="IGC-Books-unugata.22.1">
+            <w lemma="enginn" xml:id="IGC-Books-unugata.22.1.1" pos="foken">Enginn</w>
+            <w lemma="svara" xml:id="IGC-Books-unugata.22.1.2" pos="sfg3eþ" join="right">svaraði</w>
+            <pc xml:id="IGC-Books-unugata.22.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.23">
+          <s xml:id="IGC-Books-unugata.23.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.23.1.1" pos="fphfn">Þau</w>
+            <w lemma="berja" xml:id="IGC-Books-unugata.23.1.2" pos="sfg3fþ">börðu</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.23.1.3" pos="af">á</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.23.1.4" pos="nvfo">dyr</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.23.1.5" pos="c">og</w>
+            <w lemma="hringja" xml:id="IGC-Books-unugata.23.1.6" pos="sfg3fþ">hringdu</w>
+            <w lemma="aftur" xml:id="IGC-Books-unugata.23.1.7" pos="aa" join="right">aftur</w>
+            <pc xml:id="IGC-Books-unugata.23.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.24">
+          <s xml:id="IGC-Books-unugata.24.1">
+            <pc xml:id="IGC-Books-unugata.24.1.1" pos="pa">–</pc>
+            <w lemma="það" xml:id="IGC-Books-unugata.24.1.2" pos="fphfn">Þau</w>
+            <w lemma="heyra" xml:id="IGC-Books-unugata.24.1.3" pos="sfg3fn">heyra</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.24.1.4" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-unugata.24.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.24.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.24.1.7" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.24.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.25">
+          <s xml:id="IGC-Books-unugata.25.1">
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.25.1.1" pos="nken-s">Rúnar</w>
+            <w lemma="rokkari" xml:id="IGC-Books-unugata.25.1.2" pos="nken">rokkari</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.26">
+          <s xml:id="IGC-Books-unugata.26.1">
+            <w lemma="loks" xml:id="IGC-Books-unugata.26.1.1" pos="aa">Loks</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.26.1.2" pos="sfg3fþ">komu</w>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.26.1.3" pos="nken-s">Rúnar</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.26.1.4" pos="c">og</w>
+            <w lemma="kærasta" xml:id="IGC-Books-unugata.26.1.5" pos="nveng">kærastan</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.26.1.6" pos="af">til</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.26.1.7" pos="nvfe" join="right">dyra</w>
+            <pc xml:id="IGC-Books-unugata.26.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.27">
+          <s xml:id="IGC-Books-unugata.27.1">
+            <pc xml:id="IGC-Books-unugata.27.1.1" pos="pa">–</pc>
+            <w lemma="hey" xml:id="IGC-Books-unugata.27.1.2" pos="au" join="right">Hey</w>
+            <pc xml:id="IGC-Books-unugata.27.1.3" pos="pk">,</pc>
+            <w lemma="allur" xml:id="IGC-Books-unugata.27.1.4" pos="fohen">allt</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.27.1.5" pos="af">í</w>
+            <w lemma="fínn" xml:id="IGC-Books-unugata.27.1.6" pos="lkfosf" join="right">fína</w>
+            <pc xml:id="IGC-Books-unugata.27.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.27.1.8" pos="sfg3eþ">sagði</w>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.27.1.9" pos="nken-s">Rúnar</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.27.1.10" pos="c">og</w>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.27.1.11" pos="sfg3eþ">las</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.27.1.12" pos="af">á</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.27.1.13" pos="nkeog" join="right">pakkann</w>
+            <pc xml:id="IGC-Books-unugata.27.1.14" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.28">
+          <s xml:id="IGC-Books-unugata.28.1">
+            <w lemma="B" xml:id="IGC-Books-unugata.28.1.1" pos="x">B</w>
+            <w lemma="R" xml:id="IGC-Books-unugata.28.1.2" pos="x">R</w>
+            <w lemma="Y" xml:id="IGC-Books-unugata.28.1.3" pos="x">Y</w>
+            <w lemma="N" xml:id="IGC-Books-unugata.28.1.4" pos="x">N</w>
+            <w lemma="D" xml:id="IGC-Books-unugata.28.1.5" pos="x">D</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.28.1.6" pos="af">Í</w>
+            <w lemma="S" xml:id="IGC-Books-unugata.28.1.7" pos="x">S</w>
+            <w lemma="J" xml:id="IGC-Books-unugata.28.1.8" pos="n----s">J</w>
+            <w lemma="Ó." xml:id="IGC-Books-unugata.28.1.9" pos="ks">Ó.</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.29">
+          <s xml:id="IGC-Books-unugata.29.1">
+            <w lemma="spyrja" xml:id="IGC-Books-unugata.29.1.1" pos="sfg3eþ">spurði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.29.1.2" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.29.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.29.2">
+            <pc xml:id="IGC-Books-unugata.29.2.1" pos="pa">–</pc>
+            <w lemma="vera" xml:id="IGC-Books-unugata.29.2.2" pos="sfg3en">Er</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.29.2.3" pos="fphen">það</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.29.2.4" pos="fpven" join="right">hún</w>
+            <pc xml:id="IGC-Books-unugata.29.2.5" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.30">
+          <s xml:id="IGC-Books-unugata.30.1">
+            <pc xml:id="IGC-Books-unugata.30.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.30.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-unugata.30.1.3" pos="pk">,</pc>
+            <w lemma="maður" xml:id="IGC-Books-unugata.30.1.4" pos="nken" join="right">maður</w>
+            <pc xml:id="IGC-Books-unugata.30.1.5" pos="pk">,</pc>
+            <w lemma="S" xml:id="IGC-Books-unugata.30.1.6" pos="x">S</w>
+            <w lemma="V" xml:id="IGC-Books-unugata.30.1.7" pos="x">V</w>
+            <w lemma="A" xml:id="IGC-Books-unugata.30.1.8" pos="x">A</w>
+            <w lemma="N" xml:id="IGC-Books-unugata.30.1.9" pos="x">N</w>
+            <w lemma="D" xml:id="IGC-Books-unugata.30.1.10" pos="x">D</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.30.1.11" pos="af">Í</w>
+            <w lemma="S" xml:id="IGC-Books-unugata.30.1.12" pos="x" join="right">S</w>
+            <pc xml:id="IGC-Books-unugata.30.1.13" pos="pk">,</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.31">
+          <s xml:id="IGC-Books-unugata.31.1">
+            <w lemma="Svandís" xml:id="IGC-Books-unugata.31.1.1" pos="nven-s">Svandís</w>
+            <w lemma="Perla" xml:id="IGC-Books-unugata.31.1.2" pos="nven-s">Perla</w>
+            <w lemma="heita" xml:id="IGC-Books-unugata.31.1.3" pos="sfg3en">heitir</w>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.31.1.4" pos="faven">þessi</w>
+            <w lemma="elska" xml:id="IGC-Books-unugata.31.1.5" pos="nven" join="right">elska</w>
+            <pc xml:id="IGC-Books-unugata.31.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.31.1.7" pos="sfg3eþ">sagði</w>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.31.1.8" pos="nken-s">Rúnar</w>
+            <w lemma="blíður" xml:id="IGC-Books-unugata.31.1.9" pos="lkeþsf">blíðum</w>
+            <w lemma="rómur" xml:id="IGC-Books-unugata.31.1.10" pos="nkeþ" join="right">rómi</w>
+            <pc xml:id="IGC-Books-unugata.31.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.32">
+          <s xml:id="IGC-Books-unugata.32.1">
+            <pc xml:id="IGC-Books-unugata.32.1.1" pos="pa">–</pc>
+            <w lemma="þú" xml:id="IGC-Books-unugata.32.1.2" pos="fp2en">Þú</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.32.1.3" pos="sfg2en">ert</w>
+            <w lemma="krútt" xml:id="IGC-Books-unugata.32.1.4" pos="nhen" join="right">krútt</w>
+            <pc xml:id="IGC-Books-unugata.32.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.32.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="Svandís" xml:id="IGC-Books-unugata.32.1.7" pos="nven-s">Svandís</w>
+            <w lemma="Perla" xml:id="IGC-Books-unugata.32.1.8" pos="nven-s">Perla</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.32.1.9" pos="c">og</w>
+            <w lemma="kyssa" xml:id="IGC-Books-unugata.32.1.10" pos="sfg3eþ">kyssti</w>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.32.1.11" pos="nkeo-s" join="right">Rúnar</w>
+            <pc xml:id="IGC-Books-unugata.32.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.33">
+          <s xml:id="IGC-Books-unugata.33.1">
+            <pc xml:id="IGC-Books-unugata.33.1.1" pos="pa">–</pc>
+            <w lemma="hey" xml:id="IGC-Books-unugata.33.1.2" pos="au" join="right">Hey</w>
+            <pc xml:id="IGC-Books-unugata.33.1.3" pos="pk">,</pc>
+            <w lemma="allur" xml:id="IGC-Books-unugata.33.1.4" pos="fohen">allt</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.33.1.5" pos="af">í</w>
+            <w lemma="fínn" xml:id="IGC-Books-unugata.33.1.6" pos="lkfosf" join="right">fína</w>
+            <pc xml:id="IGC-Books-unugata.33.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.33.1.8" pos="sfg3eþ">sagði</w>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.33.1.9" pos="nken-s" join="right">Rúnar</w>
+            <pc xml:id="IGC-Books-unugata.33.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.34">
+          <s xml:id="IGC-Books-unugata.34.1">
+            <pc xml:id="IGC-Books-unugata.34.1.1" pos="pa">–</pc>
+            <w lemma="jæja" xml:id="IGC-Books-unugata.34.1.2" pos="au" join="right">Jæja</w>
+            <pc xml:id="IGC-Books-unugata.34.1.3" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.34.1.4" pos="fp1fn">við</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.34.1.5" pos="sfg1fn">erum</w>
+            <w lemma="þá" xml:id="IGC-Books-unugata.34.1.6" pos="aa">þá</w>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.34.1.7" pos="fohen">ekkert</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.34.1.8" pos="cn">að</w>
+            <w lemma="trufla" xml:id="IGC-Books-unugata.34.1.9" pos="sng">trufla</w>
+            <w lemma="mjög" xml:id="IGC-Books-unugata.34.1.10" pos="aam" join="right">meira</w>
+            <pc xml:id="IGC-Books-unugata.34.1.11" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.34.1.12" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.34.1.13" pos="nken-s">Finnur</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.34.1.14" pos="c">og</w>
+            <w lemma="rétta" xml:id="IGC-Books-unugata.34.1.15" pos="sfg3eþ">rétti</w>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.34.1.16" pos="nkeþ-s">Rúnari</w>
+            <w lemma="póstur" xml:id="IGC-Books-unugata.34.1.17" pos="nkeog">póstinn</w>
+            <w lemma="sinn" xml:id="IGC-Books-unugata.34.1.18" pos="fekeo" join="right">sinn</w>
+            <pc xml:id="IGC-Books-unugata.34.1.19" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.35">
+          <s xml:id="IGC-Books-unugata.35.1">
+            <pc xml:id="IGC-Books-unugata.35.1.1" pos="pa">–</pc>
+            <w lemma="hey" xml:id="IGC-Books-unugata.35.1.2" pos="au" join="right">Hey</w>
+            <pc xml:id="IGC-Books-unugata.35.1.3" pos="pk">,</pc>
+            <w lemma="allur" xml:id="IGC-Books-unugata.35.1.4" pos="fohen">allt</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.35.1.5" pos="af">í</w>
+            <w lemma="fínn" xml:id="IGC-Books-unugata.35.1.6" pos="lkfosf" join="right">fína</w>
+            <pc xml:id="IGC-Books-unugata.35.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.35.1.8" pos="sfg3eþ">sagði</w>
+            <w lemma="Rúnar" xml:id="IGC-Books-unugata.35.1.9" pos="nken-s" join="right">Rúnar</w>
+            <pc xml:id="IGC-Books-unugata.35.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.36">
+          <s xml:id="IGC-Books-unugata.36.1">
+            <w lemma="Karl" xml:id="IGC-Books-unugata.36.1.1" pos="nken-s">Karl</w>
+            <w lemma="Ottó" xml:id="IGC-Books-unugata.36.1.2" pos="nken-s">Ottó</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.37">
+          <s xml:id="IGC-Books-unugata.37.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.37.1.1" pos="nven-s">Rósa</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.37.1.2" pos="sfg3eþ">var</w>
+            <w lemma="hugsi" xml:id="IGC-Books-unugata.37.1.3" pos="lvenof" join="right">hugsi</w>
+            <pc xml:id="IGC-Books-unugata.37.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.38">
+          <s xml:id="IGC-Books-unugata.38.1">
+            <w lemma="hver" xml:id="IGC-Books-unugata.38.1.1" pos="fsven">Hver</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.38.1.2" pos="sfg3eþ">var</w>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.38.1.3" pos="faven">þessi</w>
+            <w lemma="Bryndís" xml:id="IGC-Books-unugata.38.1.4" pos="nven-s" join="right">Bryndís</w>
+            <pc xml:id="IGC-Books-unugata.38.1.5" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.39">
+          <s xml:id="IGC-Books-unugata.39.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.39.1.1" pos="fphfn">Þau</w>
+            <w lemma="hafa" xml:id="IGC-Books-unugata.39.1.2" pos="sfg3fþ">höfðu</w>
+            <w lemma="brátt" xml:id="IGC-Books-unugata.39.1.3" pos="aa">brátt</w>
+            <w lemma="ganga" xml:id="IGC-Books-unugata.39.1.4" pos="sþghen">gengið</w>
+            <w lemma="gata" xml:id="IGC-Books-unugata.39.1.5" pos="nveog">götuna</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.39.1.6" pos="af">á</w>
+            <w lemma="endi" xml:id="IGC-Books-unugata.39.1.7" pos="nkeo" join="right">enda</w>
+            <pc xml:id="IGC-Books-unugata.39.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.40">
+          <s xml:id="IGC-Books-unugata.40.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.40.1.1" pos="nken-s">Finnur</w>
+            <w lemma="dæsa" xml:id="IGC-Books-unugata.40.1.2" pos="sfg3eþ" join="right">dæsti</w>
+            <pc xml:id="IGC-Books-unugata.40.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.41">
+          <s xml:id="IGC-Books-unugata.41.1">
+            <pc xml:id="IGC-Books-unugata.41.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.41.1.2" pos="fp1fn">Við</w>
+            <w lemma="skulu" xml:id="IGC-Books-unugata.41.1.3" pos="sfg1fn">skulum</w>
+            <w lemma="tala" xml:id="IGC-Books-unugata.41.1.4" pos="sng">tala</w>
+            <w lemma="við" xml:id="IGC-Books-unugata.41.1.5" pos="af">við</w>
+            <w lemma="Karlottó" xml:id="IGC-Books-unugata.41.1.6" pos="nheo-s" join="right">KarlOttó</w>
+            <pc xml:id="IGC-Books-unugata.41.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.42">
+          <s xml:id="IGC-Books-unugata.42.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.42.1.1" pos="fpken">Hann</w>
+            <w lemma="sjá" xml:id="IGC-Books-unugata.42.1.2" pos="sfg3en">sér</w>
+            <w lemma="oft" xml:id="IGC-Books-unugata.42.1.3" pos="aa">oft</w>
+            <w lemma="sá" xml:id="IGC-Books-unugata.42.1.4" pos="faheo">það</w>
+            <w lemma="sem" xml:id="IGC-Books-unugata.42.1.5" pos="ct">sem</w>
+            <w lemma="annar" xml:id="IGC-Books-unugata.42.1.6" pos="fokfn">aðrir</w>
+            <w lemma="sjá" xml:id="IGC-Books-unugata.42.1.7" pos="sfg3fn">sjá</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.42.1.8" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-unugata.42.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.43">
+          <s xml:id="IGC-Books-unugata.43.1">
+            <pc xml:id="IGC-Books-unugata.43.1.1" pos="pa">–</pc>
+            <w lemma="halda" xml:id="IGC-Books-unugata.43.1.2" pos="sfg3en">Heldur</w>
+            <w lemma="vel" xml:id="IGC-Books-unugata.43.1.3" pos="aam" join="right">betur</w>
+            <pc xml:id="IGC-Books-unugata.43.1.4" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.43.1.5" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.43.1.6" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.43.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.44">
+          <s xml:id="IGC-Books-unugata.44.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.44.1.1" pos="fpken">Hann</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.44.1.2" pos="sfg3eþ">hélt</w>
+            <w lemma="einn" xml:id="IGC-Books-unugata.44.1.3" pos="foheþ">einu</w>
+            <w lemma="sinn" xml:id="IGC-Books-unugata.44.1.4" pos="nheþ">sinni</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.44.1.5" pos="c">að</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.44.1.6" pos="fp1en">ég</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.44.1.7" pos="svg1eþ">væri</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.44.1.8" pos="af">með</w>
+            <w lemma="byssa" xml:id="IGC-Books-unugata.44.1.9" pos="nveo">byssu</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.44.1.10" pos="c">og</w>
+            <w lemma="hringja" xml:id="IGC-Books-unugata.44.1.11" pos="sfg3eþ">hringdi</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.44.1.12" pos="af">á</w>
+            <w lemma="lögga" xml:id="IGC-Books-unugata.44.1.13" pos="nveog" join="right">lögguna</w>
+            <pc xml:id="IGC-Books-unugata.44.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.45">
+          <s xml:id="IGC-Books-unugata.45.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.45.1.1" pos="fp1en">Ég</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.45.1.2" pos="sfg1eþ">var</w>
+            <w lemma="bara" xml:id="IGC-Books-unugata.45.1.3" pos="aa">bara</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.45.1.4" pos="af">með</w>
+            <w lemma="prik" xml:id="IGC-Books-unugata.45.1.5" pos="nheo" join="right">prik</w>
+            <pc xml:id="IGC-Books-unugata.45.1.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.46">
+          <s xml:id="IGC-Books-unugata.46.1">
+            <w lemma="draugur" xml:id="IGC-Books-unugata.46.1.1" pos="nkfn">Draugar</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.47">
+          <s xml:id="IGC-Books-unugata.47.1">
+            <w lemma="Karl" xml:id="IGC-Books-unugata.47.1.1" pos="nken-s">Karl</w>
+            <w lemma="Ottó" xml:id="IGC-Books-unugata.47.1.2" pos="nken-s">Ottó</w>
+            <w lemma="opna" xml:id="IGC-Books-unugata.47.1.3" pos="sfg3eþ">opnaði</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.47.1.4" pos="nvfog" join="right">dyrnar</w>
+            <pc xml:id="IGC-Books-unugata.47.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.48">
+          <s xml:id="IGC-Books-unugata.48.1">
+            <pc xml:id="IGC-Books-unugata.48.1.1" pos="pa">–</pc>
+            <w lemma="passa" xml:id="IGC-Books-unugata.48.1.2" pos="sbg2fn">Passið</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.48.1.3" pos="fp2fo" join="right">ykkur</w>
+            <pc xml:id="IGC-Books-unugata.48.1.4" pos="pk">,</pc>
+            <w lemma="hvísla" xml:id="IGC-Books-unugata.48.1.5" pos="sfg3eþ">hvíslaði</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.48.1.6" pos="fpken" join="right">hann</w>
+            <pc xml:id="IGC-Books-unugata.48.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.49">
+          <s xml:id="IGC-Books-unugata.49.1">
+            <w lemma="nú" xml:id="IGC-Books-unugata.49.1.1" pos="aa">Nú</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.49.1.2" pos="sfg3fn">eru</w>
+            <w lemma="draugur" xml:id="IGC-Books-unugata.49.1.3" pos="nkfn">draugar</w>
+            <w lemma="flytja" xml:id="IGC-Books-unugata.49.1.4" pos="sþgkfn">fluttir</w>
+            <w lemma="inn" xml:id="IGC-Books-unugata.49.1.5" pos="aa" join="right">inn</w>
+            <pc xml:id="IGC-Books-unugata.49.1.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.50">
+          <s xml:id="IGC-Books-unugata.50.1">
+            <pc xml:id="IGC-Books-unugata.50.1.1" pos="pa">–</pc>
+            <w lemma="hvaða" xml:id="IGC-Books-unugata.50.1.2" pos="fskfn">Hvaða</w>
+            <w lemma="draugur" xml:id="IGC-Books-unugata.50.1.3" pos="nkfn">draugar</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.50.1.4" pos="sfg3fn">eru</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.50.1.5" pos="fphen" join="right">það</w>
+            <pc xml:id="IGC-Books-unugata.50.1.6" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.51">
+          <s xml:id="IGC-Books-unugata.51.1">
+            <w lemma="spyrja" xml:id="IGC-Books-unugata.51.1.1" pos="sfg3eþ">spurði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.51.1.2" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.51.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.52">
+          <s xml:id="IGC-Books-unugata.52.1">
+            <w lemma="segja" xml:id="IGC-Books-unugata.52.1.1" pos="sfg3eþ">sagði</w>
+            <w lemma="Karl" xml:id="IGC-Books-unugata.52.1.2" pos="nken-s">Karl</w>
+            <w lemma="Ottó" xml:id="IGC-Books-unugata.52.1.3" pos="nken-s">Ottó</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.52.1.4" pos="c">og</w>
+            <w lemma="benda" xml:id="IGC-Books-unugata.52.1.5" pos="sfg3eþ" join="right">benti</w>
+            <pc xml:id="IGC-Books-unugata.52.1.6" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.52.2">
+            <pc xml:id="IGC-Books-unugata.52.2.1" pos="pa">–</pc>
+            <w lemma="þarna" xml:id="IGC-Books-unugata.52.2.2" pos="aa" join="right">Þarna</w>
+            <pc xml:id="IGC-Books-unugata.52.2.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.53">
+          <s xml:id="IGC-Books-unugata.53.1">
+            <w lemma="við" xml:id="IGC-Books-unugata.53.1.1" pos="af">Við</w>
+            <w lemma="endi" xml:id="IGC-Books-unugata.53.1.2" pos="nkeo">enda</w>
+            <w lemma="gata" xml:id="IGC-Books-unugata.53.1.3" pos="nveeg">götunnar</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.53.1.4" pos="sfg3eþ">stóð</w>
+            <w lemma="gamall" xml:id="IGC-Books-unugata.53.1.5" pos="lhensf">gamalt</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.53.1.6" pos="nhen" join="right">hús</w>
+            <pc xml:id="IGC-Books-unugata.53.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.54">
+          <s xml:id="IGC-Books-unugata.54.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.54.1.1" pos="fphen">Það</w>
+            <w lemma="hafa" xml:id="IGC-Books-unugata.54.1.2" pos="sfg3eþ">hafði</w>
+            <w lemma="lengi" xml:id="IGC-Books-unugata.54.1.3" pos="aa">lengi</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.54.1.4" pos="sþghen">staðið</w>
+            <w lemma="auður" xml:id="IGC-Books-unugata.54.1.5" pos="lhensf" join="right">autt</w>
+            <pc xml:id="IGC-Books-unugata.54.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.55">
+          <s xml:id="IGC-Books-unugata.55.1">
+            <w lemma="nú" xml:id="IGC-Books-unugata.55.1.1" pos="aa">Nú</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.55.1.2" pos="sfg3fþ">voru</w>
+            <w lemma="þar" xml:id="IGC-Books-unugata.55.1.3" pos="aa">þar</w>
+            <w lemma="blóm" xml:id="IGC-Books-unugata.55.1.4" pos="nhfn">blóm</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.55.1.5" pos="af">í</w>
+            <w lemma="gluggi" xml:id="IGC-Books-unugata.55.1.6" pos="nkeþ" join="right">glugga</w>
+            <pc xml:id="IGC-Books-unugata.55.1.7" pos="pk">,</pc>
+            <w lemma="teppi" xml:id="IGC-Books-unugata.55.1.8" pos="nhfn">teppi</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.55.1.9" pos="c">og</w>
+            <w lemma="motta" xml:id="IGC-Books-unugata.55.1.10" pos="nvfn">mottur</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.55.1.11" pos="af">á</w>
+            <w lemma="snúra" xml:id="IGC-Books-unugata.55.1.12" pos="nveþ">snúru</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.55.1.13" pos="c">og</w>
+            <w lemma="fyrir" xml:id="IGC-Books-unugata.55.1.14" pos="af">fyrir</w>
+            <w lemma="utan" xml:id="IGC-Books-unugata.55.1.15" pos="aa">utan</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.55.1.16" pos="nheog">húsið</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.55.1.17" pos="sfg3eþ">stóð</w>
+            <w lemma="lítill" xml:id="IGC-Books-unugata.55.1.18" pos="lkensf">lítill</w>
+            <w lemma="rauður" xml:id="IGC-Books-unugata.55.1.19" pos="lkensf">rauður</w>
+            <w lemma="bíll" xml:id="IGC-Books-unugata.55.1.20" pos="nken" join="right">bíll</w>
+            <pc xml:id="IGC-Books-unugata.55.1.21" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.56">
+          <s xml:id="IGC-Books-unugata.56.1">
+            <w lemma="segja" xml:id="IGC-Books-unugata.56.1.1" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.56.1.2" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.56.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.56.2">
+            <pc xml:id="IGC-Books-unugata.56.2.1" pos="pa">–</pc>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.56.2.2" pos="faheo">Þetta</w>
+            <w lemma="vita" xml:id="IGC-Books-unugata.56.2.3" pos="sfg1eþ">vissi</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.56.2.4" pos="fp1en">ég</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.56.2.5" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-unugata.56.2.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.57">
+          <s xml:id="IGC-Books-unugata.57.1">
+            <pc xml:id="IGC-Books-unugata.57.1.1" pos="pa">–</pc>
+            <w lemma="hann" xml:id="IGC-Books-unugata.57.1.2" pos="fpkfn">Þeir</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.57.1.3" pos="sfg3fþ">komu</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.57.1.4" pos="af">í</w>
+            <w lemma="nótt" xml:id="IGC-Books-unugata.57.1.5" pos="nveo" join="right">nótt</w>
+            <pc xml:id="IGC-Books-unugata.57.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.57.1.7" pos="sfg3eþ">sagði</w>
+            <w lemma="Karl" xml:id="IGC-Books-unugata.57.1.8" pos="nken-s">Karl</w>
+            <w lemma="Ottó" xml:id="IGC-Books-unugata.57.1.9" pos="nken-s">Ottó</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.57.1.10" pos="c">og</w>
+            <w lemma="flýta" xml:id="IGC-Books-unugata.57.1.11" pos="sfg3eþ">flýtti</w>
+            <w lemma="sig" xml:id="IGC-Books-unugata.57.1.12" pos="fpkeþ">sér</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.57.1.13" pos="cn">að</w>
+            <w lemma="loka" xml:id="IGC-Books-unugata.57.1.14" pos="sng">loka</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.57.1.15" pos="nvfþg" join="right">dyrunum</w>
+            <pc xml:id="IGC-Books-unugata.57.1.16" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.58">
+          <s xml:id="IGC-Books-unugata.58.1">
+            <w lemma="gamall" xml:id="IGC-Books-unugata.58.1.1" pos="lhenvf">Gamla</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.58.1.2" pos="nheng">húsið</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.59">
+          <s xml:id="IGC-Books-unugata.59.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.59.1.1" pos="nken-s">Finnur</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.59.1.2" pos="c">og</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.59.1.3" pos="nven-s">Rósa</w>
+            <w lemma="ganga" xml:id="IGC-Books-unugata.59.1.4" pos="sfg3fþ">gengu</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.59.1.5" pos="af">að</w>
+            <w lemma="gamall" xml:id="IGC-Books-unugata.59.1.6" pos="lheþvf">gamla</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.59.1.7" pos="nheþg" join="right">húsinu</w>
+            <pc xml:id="IGC-Books-unugata.59.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.60">
+          <s xml:id="IGC-Books-unugata.60.1">
+            <w lemma="garður" xml:id="IGC-Books-unugata.60.1.1" pos="nkeng">Garðurinn</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.60.1.2" pos="sfg3eþ">var</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.60.1.3" pos="af">í</w>
+            <w lemma="órækt" xml:id="IGC-Books-unugata.60.1.4" pos="nveþ">órækt</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.60.1.5" pos="c">og</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.60.1.6" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.60.1.7" pos="sfg3eþ">var</w>
+            <w lemma="langur" xml:id="IGC-Books-unugata.60.1.8" pos="lhensf">langt</w>
+            <w lemma="síðan" xml:id="IGC-Books-unugata.60.1.9" pos="c">síðan</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.60.1.10" pos="nheng">húsið</w>
+            <w lemma="hafa" xml:id="IGC-Books-unugata.60.1.11" pos="sfg3eþ">hafði</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.60.1.12" pos="sþghen">verið</w>
+            <w lemma="mála" xml:id="IGC-Books-unugata.60.1.13" pos="sþghen" join="right">málað</w>
+            <pc xml:id="IGC-Books-unugata.60.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.61">
+          <s xml:id="IGC-Books-unugata.61.1">
+            <pc xml:id="IGC-Books-unugata.61.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.61.1.2" pos="fp1fn">Við</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.61.1.3" pos="svg1fþ">ættum</w>
+            <w lemma="kannski" xml:id="IGC-Books-unugata.61.1.4" pos="aa">kannski</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.61.1.5" pos="cn">að</w>
+            <w lemma="læða" xml:id="IGC-Books-unugata.61.1.6" pos="snm" join="right">læðast</w>
+            <pc xml:id="IGC-Books-unugata.61.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.61.1.8" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.61.1.9" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.61.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.62">
+          <s xml:id="IGC-Books-unugata.62.1">
+            <w lemma="þessi" xml:id="IGC-Books-unugata.62.1.1" pos="fahen">Þetta</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.62.1.2" pos="sfg3en">er</w>
+            <w lemma="draugalegur" xml:id="IGC-Books-unugata.62.1.3" pos="lhensf" join="right">draugalegt</w>
+            <pc xml:id="IGC-Books-unugata.62.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.63">
+          <s xml:id="IGC-Books-unugata.63.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.63.1.1" pos="nven-s">Rósa</w>
+            <w lemma="nema" xml:id="IGC-Books-unugata.63.1.2" pos="sfg3eþ">nam</w>
+            <w lemma="staður" xml:id="IGC-Books-unugata.63.1.3" pos="nkee" join="right">staðar</w>
+            <pc xml:id="IGC-Books-unugata.63.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.64">
+          <s xml:id="IGC-Books-unugata.64.1">
+            <w lemma="hurð" xml:id="IGC-Books-unugata.64.1.1" pos="nveng">Hurðin</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.64.1.2" pos="af">á</w>
+            <w lemma="gamall" xml:id="IGC-Books-unugata.64.1.3" pos="lheþvf">gamla</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.64.1.4" pos="nheþg">húsinu</w>
+            <w lemma="opna" xml:id="IGC-Books-unugata.64.1.5" pos="sfm3eþ">opnaðist</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.64.1.6" pos="af">með</w>
+            <w lemma="marr" xml:id="IGC-Books-unugata.64.1.7" pos="nheþ" join="right">marri</w>
+            <pc xml:id="IGC-Books-unugata.64.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.65">
+          <s xml:id="IGC-Books-unugata.65.1">
+            <w lemma="út" xml:id="IGC-Books-unugata.65.1.1" pos="aa">Út</w>
+            <w lemma="um" xml:id="IGC-Books-unugata.65.1.2" pos="af">um</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.65.1.3" pos="nvfog">dyrnar</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.65.1.4" pos="sfg3eþ">kom</w>
+            <w lemma="maður" xml:id="IGC-Books-unugata.65.1.5" pos="nken">maður</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.65.1.6" pos="af">með</w>
+            <w lemma="fang" xml:id="IGC-Books-unugata.65.1.7" pos="nheog">fangið</w>
+            <w lemma="fullur" xml:id="IGC-Books-unugata.65.1.8" pos="lheosf">fullt</w>
+            <w lemma="af" xml:id="IGC-Books-unugata.65.1.9" pos="af">af</w>
+            <w lemma="tómur" xml:id="IGC-Books-unugata.65.1.10" pos="lkfþsf">tómum</w>
+            <w lemma="kassi" xml:id="IGC-Books-unugata.65.1.11" pos="nkfþ" join="right">kössum</w>
+            <pc xml:id="IGC-Books-unugata.65.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.66">
+          <s xml:id="IGC-Books-unugata.66.1">
+            <w lemma="nýr" xml:id="IGC-Books-unugata.66.1.1" pos="lkfnsf">Nýir</w>
+            <w lemma="íbúi" xml:id="IGC-Books-unugata.66.1.2" pos="nkfn">íbúar</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.67">
+          <s xml:id="IGC-Books-unugata.67.1">
+            <pc xml:id="IGC-Books-unugata.67.1.1" pos="pa">–</pc>
+            <w lemma="góður" xml:id="IGC-Books-unugata.67.1.2" pos="lkeosf">Góðan</w>
+            <w lemma="dagur" xml:id="IGC-Books-unugata.67.1.3" pos="nkeo" join="right">dag</w>
+            <pc xml:id="IGC-Books-unugata.67.1.4" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.67.1.5" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.67.1.6" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.67.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.68">
+          <s xml:id="IGC-Books-unugata.68.1">
+            <w lemma="búa" xml:id="IGC-Books-unugata.68.1.1" pos="sfg3en">Býr</w>
+            <w lemma="Bryndís" xml:id="IGC-Books-unugata.68.1.2" pos="nven-s">Bryndís</w>
+            <w lemma="hér" xml:id="IGC-Books-unugata.68.1.3" pos="aa" join="right">hér</w>
+            <pc xml:id="IGC-Books-unugata.68.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.69">
+          <s xml:id="IGC-Books-unugata.69.1">
+            <w lemma="maður" xml:id="IGC-Books-unugata.69.1.1" pos="nkeng">Maðurinn</w>
+            <w lemma="kinka" xml:id="IGC-Books-unugata.69.1.2" pos="sfg3eþ">kinkaði</w>
+            <w lemma="kollur" xml:id="IGC-Books-unugata.69.1.3" pos="nkeþ" join="right">kolli</w>
+            <pc xml:id="IGC-Books-unugata.69.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.70">
+          <s xml:id="IGC-Books-unugata.70.1">
+            <w lemma="kalla" xml:id="IGC-Books-unugata.70.1.1" pos="sfg3eþ">kallaði</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.70.1.2" pos="fpken" join="right">hann</w>
+            <pc xml:id="IGC-Books-unugata.70.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.70.2">
+            <pc xml:id="IGC-Books-unugata.70.2.1" pos="pa">–</pc>
+            <w lemma="Bryndís" xml:id="IGC-Books-unugata.70.2.2" pos="n-en-s" join="right">BRYNDÍS</w>
+            <pc xml:id="IGC-Books-unugata.70.2.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.71">
+          <s xml:id="IGC-Books-unugata.71.1">
+            <w lemma="póstur" xml:id="IGC-Books-unugata.71.1.1" pos="nken">Póstur</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.71.1.2" pos="af">til</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.71.1.3" pos="fp2ee" join="right">þín</w>
+            <pc xml:id="IGC-Books-unugata.71.1.4" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.72">
+          <s xml:id="IGC-Books-unugata.72.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.72.1.1" pos="nven-s">Rósa</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.72.1.2" pos="sfg3eþ">var</w>
+            <w lemma="spenntur" xml:id="IGC-Books-unugata.72.1.3" pos="lvensf">spennt</w>
+            <w lemma="þótt" xml:id="IGC-Books-unugata.72.1.4" pos="c">þótt</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.72.1.5" pos="fphfn">þau</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.72.1.6" pos="svg3fþ">væru</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.72.1.7" pos="aa">ekki</w>
+            <w lemma="draugur" xml:id="IGC-Books-unugata.72.1.8" pos="nkfn" join="right">draugar</w>
+            <pc xml:id="IGC-Books-unugata.72.1.9" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.73">
+          <s xml:id="IGC-Books-unugata.73.1">
+            <w lemma="maður" xml:id="IGC-Books-unugata.73.1.1" pos="nkeng">Maðurinn</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.73.1.2" pos="sfg3eþ">var</w>
+            <w lemma="ósköp" xml:id="IGC-Books-unugata.73.1.3" pos="nhfn">ósköp</w>
+            <w lemma="venjulegur" xml:id="IGC-Books-unugata.73.1.4" pos="lkensf" join="right">venjulegur</w>
+            <pc xml:id="IGC-Books-unugata.73.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.74">
+          <s xml:id="IGC-Books-unugata.74.1">
+            <w lemma="þá" xml:id="IGC-Books-unugata.74.1.1" pos="aa">Þá</w>
+            <w lemma="birta" xml:id="IGC-Books-unugata.74.1.2" pos="sfm3en">birtist</w>
+            <w lemma="dökkhærður" xml:id="IGC-Books-unugata.74.1.3" pos="lvensf">dökkhærð</w>
+            <w lemma="stelpa" xml:id="IGC-Books-unugata.74.1.4" pos="nven">stelpa</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.74.1.5" pos="af">í</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.74.1.6" pos="nvfþg" join="right">dyrunum</w>
+            <pc xml:id="IGC-Books-unugata.74.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.75">
+          <s xml:id="IGC-Books-unugata.75.1">
+            <pc xml:id="IGC-Books-unugata.75.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.75.1.2" pos="fp1en">Ég</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.75.1.3" pos="sfg1en">er</w>
+            <w lemma="Bryndís" xml:id="IGC-Books-unugata.75.1.4" pos="nven-s" join="right">Bryndís</w>
+            <pc xml:id="IGC-Books-unugata.75.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.75.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.75.1.7" pos="fpven" join="right">hún</w>
+            <pc xml:id="IGC-Books-unugata.75.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.76">
+          <s xml:id="IGC-Books-unugata.76.1">
+            <w lemma="hún" xml:id="IGC-Books-unugata.76.1.1" pos="fpven">Hún</w>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.76.1.2" pos="sfg3eþ">las</w>
+            <w lemma="sjálfur" xml:id="IGC-Books-unugata.76.1.3" pos="fbven">sjálf</w>
+            <w lemma="utan" xml:id="IGC-Books-unugata.76.1.4" pos="aa">utan</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.76.1.5" pos="af">á</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.76.1.6" pos="nkeog" join="right">pakkann</w>
+            <pc xml:id="IGC-Books-unugata.76.1.7" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.77">
+          <s xml:id="IGC-Books-unugata.77.1">
+            <pc xml:id="IGC-Books-unugata.77.1.1" pos="pa">–</pc>
+            <w lemma="Bryndís" xml:id="IGC-Books-unugata.77.1.2" pos="nven-s">BRYNDÍS</w>
+            <w lemma="Jónsdóttir" xml:id="IGC-Books-unugata.77.1.3" pos="nven-s">JÓNSDÓTTIR</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.78">
+          <s xml:id="IGC-Books-unugata.78.1">
+            <w lemma="Unugata" xml:id="IGC-Books-unugata.78.1.1" pos="nveþ-s" join="right">UNUGÖTU</w>
+            <w lemma="12" xml:id="IGC-Books-unugata.78.1.2" pos="ta" join="right">12</w>
+            <pc xml:id="IGC-Books-unugata.78.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.79">
+          <s xml:id="IGC-Books-unugata.79.1">
+            <pc xml:id="IGC-Books-unugata.79.1.1" pos="pa">–</pc>
+            <w lemma="það" xml:id="IGC-Books-unugata.79.1.2" pos="fphen">Það</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.79.1.3" pos="sfg3en">stendur</w>
+            <w lemma="BR" xml:id="IGC-Books-unugata.79.1.4" pos="n----s" join="right">BR</w>
+            <pc xml:id="IGC-Books-unugata.79.1.5" pos="pk">,</pc>
+            <w lemma="en" xml:id="IGC-Books-unugata.79.1.6" pos="c">en</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.79.1.7" pos="aa">ekki</w>
+            <w lemma="B" xml:id="IGC-Books-unugata.79.1.8" pos="x">B</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.79.1.9" pos="aa" join="right">Á</w>
+            <pc xml:id="IGC-Books-unugata.79.1.10" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.79.1.11" pos="sfg3eþ">sagði</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.79.1.12" pos="fpven" join="right">hún</w>
+            <pc xml:id="IGC-Books-unugata.79.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.80">
+          <s xml:id="IGC-Books-unugata.80.1">
+            <pc xml:id="IGC-Books-unugata.80.1.1" pos="pa">–</pc>
+            <w lemma="þá" xml:id="IGC-Books-unugata.80.1.2" pos="aa">Þá</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.80.1.3" pos="sfg3en">er</w>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.80.1.4" pos="fahen">þetta</w>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.80.1.5" pos="fohen">ekkert</w>
+            <w lemma="mál" xml:id="IGC-Books-unugata.80.1.6" pos="nhen" join="right">mál</w>
+            <pc xml:id="IGC-Books-unugata.80.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.80.1.8" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.80.1.9" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.80.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.81">
+          <s xml:id="IGC-Books-unugata.81.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.81.1.1" pos="fpken">Hann</w>
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.81.1.2" pos="nken-s">Broddi</w>
+            <w lemma="búa" xml:id="IGC-Books-unugata.81.1.3" pos="sfg3en">býr</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.81.1.4" pos="af">í</w>
+            <w lemma="næstur" xml:id="IGC-Books-unugata.81.1.5" pos="lheþve">næsta</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.81.1.6" pos="nheþ" join="right">húsi</w>
+            <pc xml:id="IGC-Books-unugata.81.1.7" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.82">
+          <s xml:id="IGC-Books-unugata.82.1">
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.82.1.1" pos="nken-s">Broddi</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.82.1.2" pos="c">og</w>
+            <w lemma="Bóris" xml:id="IGC-Books-unugata.82.1.3" pos="nken-s">Bóris</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.83">
+          <s xml:id="IGC-Books-unugata.83.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.83.1.1" pos="nken-s">Finnur</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.83.1.2" pos="c">og</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.83.1.3" pos="nven-s">Rósa</w>
+            <w lemma="heyra" xml:id="IGC-Books-unugata.83.1.4" pos="sfg3fþ">heyrðu</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.83.1.5" pos="c">að</w>
+            <w lemma="Bára" xml:id="IGC-Books-unugata.83.1.6" pos="nven-s">Bára</w>
+            <w lemma="fara" xml:id="IGC-Books-unugata.83.1.7" pos="sfg3eþ">fór</w>
+            <w lemma="aftur" xml:id="IGC-Books-unugata.83.1.8" pos="aa">aftur</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.83.1.9" pos="cn">að</w>
+            <w lemma="syngja" xml:id="IGC-Books-unugata.83.1.10" pos="sng" join="right">syngja</w>
+            <pc xml:id="IGC-Books-unugata.83.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.84">
+          <s xml:id="IGC-Books-unugata.84.1">
+            <w lemma="um" xml:id="IGC-Books-unugata.84.1.1" pos="af">Um</w>
+            <w lemma="leið" xml:id="IGC-Books-unugata.84.1.2" pos="nveo">leið</w>
+            <w lemma="fara" xml:id="IGC-Books-unugata.84.1.3" pos="sfg3eþ">fór</w>
+            <w lemma="hundur" xml:id="IGC-Books-unugata.84.1.4" pos="nken">hundur</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.84.1.5" pos="cn">að</w>
+            <w lemma="spangóla" xml:id="IGC-Books-unugata.84.1.6" pos="sng">spangóla</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.84.1.7" pos="af">í</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.84.1.8" pos="nheþ">húsi</w>
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.84.1.9" pos="nkee-s" join="right">Brodda</w>
+            <pc xml:id="IGC-Books-unugata.84.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.85">
+          <s xml:id="IGC-Books-unugata.85.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.85.1.1" pos="nven-s">Rósa</w>
+            <w lemma="hringja" xml:id="IGC-Books-unugata.85.1.2" pos="sfg3eþ" join="right">hringdi</w>
+            <pc xml:id="IGC-Books-unugata.85.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.86">
+          <s xml:id="IGC-Books-unugata.86.1">
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.86.1.1" pos="nken-s">Broddi</w>
+            <w lemma="opna" xml:id="IGC-Books-unugata.86.1.2" pos="sfg3eþ">opnaði</w>
+            <w lemma="rifa" xml:id="IGC-Books-unugata.86.1.3" pos="nveo">rifu</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.86.1.4" pos="af">á</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.86.1.5" pos="nvfog" join="right">dyrnar</w>
+            <pc xml:id="IGC-Books-unugata.86.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.87">
+          <s xml:id="IGC-Books-unugata.87.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.87.1.1" pos="fpken">Hann</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.87.1.2" pos="sfg3eþ">hélt</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.87.1.3" pos="af">í</w>
+            <w lemma="hundur" xml:id="IGC-Books-unugata.87.1.4" pos="nkeog">hundinn</w>
+            <w lemma="sinn" xml:id="IGC-Books-unugata.87.1.5" pos="fekeo" join="right">sinn</w>
+            <pc xml:id="IGC-Books-unugata.87.1.6" pos="pk">,</pc>
+            <w lemma="Bóris" xml:id="IGC-Books-unugata.87.1.7" pos="n----s" join="right">Bóris</w>
+            <pc xml:id="IGC-Books-unugata.87.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.88">
+          <s xml:id="IGC-Books-unugata.88.1">
+            <w lemma="Bóris" xml:id="IGC-Books-unugata.88.1.1" pos="n----s">Bóris</w>
+            <w lemma="láta" xml:id="IGC-Books-unugata.88.1.2" pos="sfg3eþ">lét</w>
+            <w lemma="skína" xml:id="IGC-Books-unugata.88.1.3" pos="sng">skína</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.88.1.4" pos="af">í</w>
+            <w lemma="tönn" xml:id="IGC-Books-unugata.88.1.5" pos="nvfog" join="right">tennurnar</w>
+            <pc xml:id="IGC-Books-unugata.88.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.89">
+          <s xml:id="IGC-Books-unugata.89.1">
+            <pc xml:id="IGC-Books-unugata.89.1.1" pos="pa">–</pc>
+            <w lemma="vera" xml:id="IGC-Books-unugata.89.1.2" pos="sfg2en">Ertu</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.89.1.3" pos="af">með</w>
+            <w lemma="bréf" xml:id="IGC-Books-unugata.89.1.4" pos="nheo">bréf</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.89.1.5" pos="af">til</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.89.1.6" pos="fp1ee" join="right">mín</w>
+            <pc xml:id="IGC-Books-unugata.89.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.90">
+          <s xml:id="IGC-Books-unugata.90.1">
+            <w lemma="spyrja" xml:id="IGC-Books-unugata.90.1.1" pos="sfg3eþ">spurði</w>
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.90.1.2" pos="nken-s">Broddi</w>
+            <w lemma="hvasst" xml:id="IGC-Books-unugata.90.1.3" pos="aa" join="right">hvasst</w>
+            <pc xml:id="IGC-Books-unugata.90.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.91">
+          <s xml:id="IGC-Books-unugata.91.1">
+            <pc xml:id="IGC-Books-unugata.91.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.91.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-unugata.91.1.3" pos="pk">,</pc>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.91.1.4" pos="fohen">ekkert</w>
+            <w lemma="bréf" xml:id="IGC-Books-unugata.91.1.5" pos="nhen">bréf</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.91.1.6" pos="af">í</w>
+            <w lemma="dagur" xml:id="IGC-Books-unugata.91.1.7" pos="nkeo" join="right">dag</w>
+            <pc xml:id="IGC-Books-unugata.91.1.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.91.1.9" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.91.1.10" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.91.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.92">
+          <s xml:id="IGC-Books-unugata.92.1">
+            <w lemma="broða" xml:id="IGC-Books-unugata.92.1.1" pos="sfg3eþ">Broddi</w>
+            <w lemma="láta" xml:id="IGC-Books-unugata.92.1.2" pos="sfg3eþ">lét</w>
+            <w lemma="brýnnar" xml:id="IGC-Books-unugata.92.1.3" pos="x">brýnnar</w>
+            <w lemma="síga" xml:id="IGC-Books-unugata.92.1.4" pos="sng">síga</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.92.1.5" pos="c">og</w>
+            <w lemma="Bóris" xml:id="IGC-Books-unugata.92.1.6" pos="n----s">Bóris</w>
+            <w lemma="urra" xml:id="IGC-Books-unugata.92.1.7" pos="sfg3eþ">urraði</w>
+            <w lemma="lágt" xml:id="IGC-Books-unugata.92.1.8" pos="aa" join="right">lágt</w>
+            <pc xml:id="IGC-Books-unugata.92.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.93">
+          <s xml:id="IGC-Books-unugata.93.1">
+            <pc xml:id="IGC-Books-unugata.93.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.93.1.2" pos="fp1en">Ég</w>
+            <w lemma="vilja" xml:id="IGC-Books-unugata.93.1.3" pos="sfg1en">vil</w>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.93.1.4" pos="fokeo">engan</w>
+            <w lemma="ruslpóstur" xml:id="IGC-Books-unugata.93.1.5" pos="nkeo" join="right">ruslpóst</w>
+            <pc xml:id="IGC-Books-unugata.93.1.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.94">
+          <s xml:id="IGC-Books-unugata.94.1">
+            <pc xml:id="IGC-Books-unugata.94.1.1" pos="pa">–</pc>
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.94.1.2" pos="nken-s">Broddi</w>
+            <w lemma="minn" xml:id="IGC-Books-unugata.94.1.3" pos="feken" join="right">minn</w>
+            <pc xml:id="IGC-Books-unugata.94.1.4" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.94.1.5" pos="fp1en">ég</w>
+            <w lemma="vita" xml:id="IGC-Books-unugata.94.1.6" pos="sfg1en">veit</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.94.1.7" pos="fpheo" join="right">það</w>
+            <pc xml:id="IGC-Books-unugata.94.1.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.94.1.9" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.94.1.10" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.94.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.95">
+          <s xml:id="IGC-Books-unugata.95.1">
+            <w lemma="hurð" xml:id="IGC-Books-unugata.95.1.1" pos="nveng">Hurðin</w>
+            <w lemma="skella" xml:id="IGC-Books-unugata.95.1.2" pos="sfg3en">skellur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.96">
+          <s xml:id="IGC-Books-unugata.96.1">
+            <pc xml:id="IGC-Books-unugata.96.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.96.1.2" pos="fp1en">Ég</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.96.1.3" pos="sfg1en">á</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.96.1.4" pos="af">í</w>
+            <w lemma="vandi" xml:id="IGC-Books-unugata.96.1.5" pos="nkeþ">vanda</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.96.1.6" pos="af">með</w>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.96.1.7" pos="fakeo">þennan</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.96.1.8" pos="nkeo" join="right">pakka</w>
+            <pc xml:id="IGC-Books-unugata.96.1.9" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.96.1.10" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.96.1.11" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.96.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.97">
+          <s xml:id="IGC-Books-unugata.97.1">
+            <w lemma="halda" xml:id="IGC-Books-unugata.97.1.1" pos="sfg2en">Heldur</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.97.1.2" pos="fp2en">þú</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.97.1.3" pos="c">að</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.97.1.4" pos="fpken">hann</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.97.1.5" pos="svg3en">sé</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.97.1.6" pos="af">til</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.97.1.7" pos="fp2ee" join="right">þín</w>
+            <pc xml:id="IGC-Books-unugata.97.1.8" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.98">
+          <s xml:id="IGC-Books-unugata.98.1">
+            <pc xml:id="IGC-Books-unugata.98.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.98.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-unugata.98.1.3" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.98.1.4" pos="sfg3eþ">sagði</w>
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.98.1.5" pos="nken-s" join="right">Broddi</w>
+            <pc xml:id="IGC-Books-unugata.98.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.99">
+          <s xml:id="IGC-Books-unugata.99.1">
+            <w lemma="ef" xml:id="IGC-Books-unugata.99.1.1" pos="c">Ef</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.99.1.2" pos="fpken">hann</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.99.1.3" pos="svg3eþ">væri</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.99.1.4" pos="af">til</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.99.1.5" pos="fp1ee">mín</w>
+            <w lemma="þá" xml:id="IGC-Books-unugata.99.1.6" pos="aa">þá</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.99.1.7" pos="svg3eþ">stæði</w>
+            <w lemma="þarna" xml:id="IGC-Books-unugata.99.1.8" pos="aa" join="right">þarna</w>
+            <pc xml:id="IGC-Books-unugata.99.1.9" pos="pa">:</pc>
+            <w lemma="B" xml:id="IGC-Books-unugata.99.1.10" pos="n----s">B</w>
+            <w lemma="R" xml:id="IGC-Books-unugata.99.1.11" pos="n----s">R</w>
+            <w lemma="O" xml:id="IGC-Books-unugata.99.1.12" pos="x">O</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.100">
+          <s xml:id="IGC-Books-unugata.100.1">
+            <w lemma="en" xml:id="IGC-Books-unugata.100.1.1" pos="c">en</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.100.1.2" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-unugata.100.1.3" pos="pa">:</pc>
+            <w lemma="B" xml:id="IGC-Books-unugata.100.1.4" pos="n----s">B</w>
+            <w lemma="RY" xml:id="IGC-Books-unugata.100.1.5" pos="e" join="right">RY</w>
+            <pc xml:id="IGC-Books-unugata.100.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.101">
+          <s xml:id="IGC-Books-unugata.101.1">
+            <pc xml:id="IGC-Books-unugata.101.1.1" pos="pa">–</pc>
+            <w lemma="B" xml:id="IGC-Books-unugata.101.1.2" pos="n----s">B</w>
+            <w lemma="R" xml:id="IGC-Books-unugata.101.1.3" pos="n----s">R</w>
+            <w lemma="Y" xml:id="IGC-Books-unugata.101.1.4" pos="n-en-s" join="right">Y</w>
+            <pc xml:id="IGC-Books-unugata.101.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.101.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.101.1.7" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.101.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.102">
+          <s xml:id="IGC-Books-unugata.102.1">
+            <w lemma="já" xml:id="IGC-Books-unugata.102.1.1" pos="au" join="right">Já</w>
+            <pc xml:id="IGC-Books-unugata.102.1.2" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-unugata.102.1.3" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.102.1.4" pos="sfg3en">er</w>
+            <w lemma="réttur" xml:id="IGC-Books-unugata.102.1.5" pos="lhensf">rétt</w>
+            <w lemma="hjá" xml:id="IGC-Books-unugata.102.1.6" pos="af">hjá</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.102.1.7" pos="fp2eþ" join="right">þér</w>
+            <pc xml:id="IGC-Books-unugata.102.1.8" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.103">
+          <s xml:id="IGC-Books-unugata.103.1">
+            <w lemma="en" xml:id="IGC-Books-unugata.103.1.1" pos="c">En</w>
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.103.1.2" pos="nken-s">Broddi</w>
+            <w lemma="svara" xml:id="IGC-Books-unugata.103.1.3" pos="sfg3eþ">svaraði</w>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.103.1.4" pos="foheþ" join="right">engu</w>
+            <pc xml:id="IGC-Books-unugata.103.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.104">
+          <s xml:id="IGC-Books-unugata.104.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.104.1.1" pos="fpken">Hann</w>
+            <w lemma="skella" xml:id="IGC-Books-unugata.104.1.2" pos="sfg3eþ">skellti</w>
+            <w lemma="bara" xml:id="IGC-Books-unugata.104.1.3" pos="aa">bara</w>
+            <w lemma="hurð" xml:id="IGC-Books-unugata.104.1.4" pos="nveþg" join="right">hurðinni</w>
+            <pc xml:id="IGC-Books-unugata.104.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.105">
+          <s xml:id="IGC-Books-unugata.105.1">
+            <pc xml:id="IGC-Books-unugata.105.1.1" pos="pa">–</pc>
+            <w lemma="Broddi" xml:id="IGC-Books-unugata.105.1.2" pos="nken-s">Broddi</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.105.1.3" pos="sfg3en">er</w>
+            <w lemma="dóni" xml:id="IGC-Books-unugata.105.1.4" pos="nken" join="right">dóni</w>
+            <pc xml:id="IGC-Books-unugata.105.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.105.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.105.1.7" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.105.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.106">
+          <s xml:id="IGC-Books-unugata.106.1">
+            <w lemma="og" xml:id="IGC-Books-unugata.106.1.1" pos="c">Og</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.106.1.2" pos="fpken">hann</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.106.1.3" pos="sfg3en">á</w>
+            <w lemma="brjálaður" xml:id="IGC-Books-unugata.106.1.4" pos="lkeosf">brjálaðan</w>
+            <w lemma="hundur" xml:id="IGC-Books-unugata.106.1.5" pos="nkeo" join="right">hund</w>
+            <pc xml:id="IGC-Books-unugata.106.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.107">
+          <s xml:id="IGC-Books-unugata.107.1">
+            <w lemma="pönnukaka" xml:id="IGC-Books-unugata.107.1.1" pos="nvfn">Pönnukökur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.108">
+          <s xml:id="IGC-Books-unugata.108.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.108.1.1" pos="fphfn">Þau</w>
+            <w lemma="ganga" xml:id="IGC-Books-unugata.108.1.2" pos="sfg3fþ">gengu</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.108.1.3" pos="af">að</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.108.1.4" pos="nheþ">húsi</w>
+            <w lemma="Helga" xml:id="IGC-Books-unugata.108.1.5" pos="nvee-s">Helgu</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.108.1.6" pos="c">og</w>
+            <w lemma="Anna" xml:id="IGC-Books-unugata.108.1.7" pos="nvee-s" join="right">Önnu</w>
+            <pc xml:id="IGC-Books-unugata.108.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.109">
+          <s xml:id="IGC-Books-unugata.109.1">
+            <w lemma="hún" xml:id="IGC-Books-unugata.109.1.1" pos="fpvfn">Þær</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.109.1.2" pos="sfg3fþ">voru</w>
+            <w lemma="systir" xml:id="IGC-Books-unugata.109.1.3" pos="nvfn" join="right">systur</w>
+            <pc xml:id="IGC-Books-unugata.109.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.110">
+          <s xml:id="IGC-Books-unugata.110.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.110.1.1" pos="fphfn">Þau</w>
+            <w lemma="finna" xml:id="IGC-Books-unugata.110.1.2" pos="sfg3fþ">fundu</w>
+            <w lemma="lykt" xml:id="IGC-Books-unugata.110.1.3" pos="nveo">lykt</w>
+            <w lemma="af" xml:id="IGC-Books-unugata.110.1.4" pos="af">af</w>
+            <w lemma="pönnukaka" xml:id="IGC-Books-unugata.110.1.5" pos="nvfþ">pönnukökum</w>
+            <w lemma="langt" xml:id="IGC-Books-unugata.110.1.6" pos="aa">langt</w>
+            <w lemma="út" xml:id="IGC-Books-unugata.110.1.7" pos="aa">út</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.110.1.8" pos="af">á</w>
+            <w lemma="gata" xml:id="IGC-Books-unugata.110.1.9" pos="nveo" join="right">götu</w>
+            <pc xml:id="IGC-Books-unugata.110.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.111">
+          <s xml:id="IGC-Books-unugata.111.1">
+            <w lemma="Helga" xml:id="IGC-Books-unugata.111.1.1" pos="nven-s">Helga</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.111.1.2" pos="sfg3eþ">kom</w>
+            <w lemma="strax" xml:id="IGC-Books-unugata.111.1.3" pos="aa">strax</w>
+            <w lemma="út" xml:id="IGC-Books-unugata.111.1.4" pos="aa">út</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.111.1.5" pos="af">á</w>
+            <w lemma="trappa" xml:id="IGC-Books-unugata.111.1.6" pos="nvfo" join="right">tröppur</w>
+            <pc xml:id="IGC-Books-unugata.111.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.112">
+          <s xml:id="IGC-Books-unugata.112.1">
+            <w lemma="hún" xml:id="IGC-Books-unugata.112.1.1" pos="fpven">Hún</w>
+            <w lemma="þekkja" xml:id="IGC-Books-unugata.112.1.2" pos="sfg3eþ">þekkti</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.112.1.3" pos="nkeo-s">Finn</w>
+            <w lemma="vel" xml:id="IGC-Books-unugata.112.1.4" pos="aa" join="right">vel</w>
+            <pc xml:id="IGC-Books-unugata.112.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.113">
+          <s xml:id="IGC-Books-unugata.113.1">
+            <pc xml:id="IGC-Books-unugata.113.1.1" pos="pa">–</pc>
+            <w lemma="koma" xml:id="IGC-Books-unugata.113.1.2" pos="sbg2fn">Komið</w>
+            <w lemma="inn" xml:id="IGC-Books-unugata.113.1.3" pos="aa">inn</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.113.1.4" pos="c">og</w>
+            <w lemma="fá" xml:id="IGC-Books-unugata.113.1.5" pos="sbg2fn">fáið</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.113.1.6" pos="fp2fþ">ykkur</w>
+            <w lemma="kaffi" xml:id="IGC-Books-unugata.113.1.7" pos="nheo" join="right">kaffi</w>
+            <pc xml:id="IGC-Books-unugata.113.1.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.113.1.9" pos="sfg3eþ">sagði</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.113.1.10" pos="fpven" join="right">hún</w>
+            <pc xml:id="IGC-Books-unugata.113.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.114">
+          <s xml:id="IGC-Books-unugata.114.1">
+            <pc xml:id="IGC-Books-unugata.114.1.1" pos="pa">–</pc>
+            <w lemma="æ" xml:id="IGC-Books-unugata.114.1.2" pos="au" join="right">Æ</w>
+            <pc xml:id="IGC-Books-unugata.114.1.3" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-unugata.114.1.4" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.114.1.5" pos="sfg3en">er</w>
+            <w lemma="svo" xml:id="IGC-Books-unugata.114.1.6" pos="aa">svo</w>
+            <w lemma="mikill" xml:id="IGC-Books-unugata.114.1.7" pos="lhensf">mikið</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.114.1.8" pos="cn">að</w>
+            <w lemma="gera" xml:id="IGC-Books-unugata.114.1.9" pos="sng" join="right">gera</w>
+            <pc xml:id="IGC-Books-unugata.114.1.10" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.114.1.11" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.114.1.12" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.114.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.115">
+          <s xml:id="IGC-Books-unugata.115.1">
+            <w lemma="og" xml:id="IGC-Books-unugata.115.1.1" pos="c">Og</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.115.1.2" pos="fp1en">ég</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.115.1.3" pos="sfg1en">er</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.115.1.4" pos="af">í</w>
+            <w lemma="vandræði" xml:id="IGC-Books-unugata.115.1.5" pos="nhfþ">vandræðum</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.115.1.6" pos="af">með</w>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.115.1.7" pos="fakeo">þennan</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.115.1.8" pos="nkeo" join="right">pakka</w>
+            <pc xml:id="IGC-Books-unugata.115.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.116">
+          <s xml:id="IGC-Books-unugata.116.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.116.1.1" pos="fp1en">Ég</w>
+            <w lemma="geta" xml:id="IGC-Books-unugata.116.1.2" pos="sfg1en">get</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.116.1.3" pos="aa">ekki</w>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.116.1.4" pos="sþghen">lesið</w>
+            <w lemma="skrift" xml:id="IGC-Books-unugata.116.1.5" pos="nveog" join="right">skriftina</w>
+            <pc xml:id="IGC-Books-unugata.116.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.117">
+          <s xml:id="IGC-Books-unugata.117.1">
+            <pc xml:id="IGC-Books-unugata.117.1.1" pos="pa">–</pc>
+            <w lemma="vera" xml:id="IGC-Books-unugata.117.1.2" pos="sbg2en">Vertu</w>
+            <w lemma="rólegur" xml:id="IGC-Books-unugata.117.1.3" pos="lkensf" join="right">rólegur</w>
+            <pc xml:id="IGC-Books-unugata.117.1.4" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.117.1.5" pos="sfg3eþ">sagði</w>
+            <w lemma="Helga" xml:id="IGC-Books-unugata.117.1.6" pos="nven-s" join="right">Helga</w>
+            <pc xml:id="IGC-Books-unugata.117.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.118">
+          <s xml:id="IGC-Books-unugata.118.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.118.1.1" pos="fp1en">Ég</w>
+            <w lemma="kunna" xml:id="IGC-Books-unugata.118.1.2" pos="sfg1en">kann</w>
+            <w lemma="ráð" xml:id="IGC-Books-unugata.118.1.3" pos="nheo">ráð</w>
+            <w lemma="við" xml:id="IGC-Books-unugata.118.1.4" pos="af">við</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.118.1.5" pos="fpheþ" join="right">því</w>
+            <pc xml:id="IGC-Books-unugata.118.1.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.119">
+          <s xml:id="IGC-Books-unugata.119.1">
+            <w lemma="Anna" xml:id="IGC-Books-unugata.119.1.1" pos="nven-s">Anna</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.119.1.2" pos="c">og</w>
+            <w lemma="Helga" xml:id="IGC-Books-unugata.119.1.3" pos="nven-s">Helga</w>
+            <w lemma="kunna" xml:id="IGC-Books-unugata.119.1.4" pos="sfg3fn">kunna</w>
+            <w lemma="ráð" xml:id="IGC-Books-unugata.119.1.5" pos="nhfn">ráð</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.120">
+          <s xml:id="IGC-Books-unugata.120.1">
+            <w lemma="Helga" xml:id="IGC-Books-unugata.120.1.1" pos="nven-s">Helga</w>
+            <w lemma="skjóta" xml:id="IGC-Books-unugata.120.1.2" pos="sfm3eþ">skaust</w>
+            <w lemma="inn" xml:id="IGC-Books-unugata.120.1.3" pos="aa">inn</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.120.1.4" pos="af">í</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.120.1.5" pos="nheog">húsið</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.120.1.6" pos="c">og</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.120.1.7" pos="sfg3eþ">kom</w>
+            <w lemma="aftur" xml:id="IGC-Books-unugata.120.1.8" pos="aa">aftur</w>
+            <w lemma="út" xml:id="IGC-Books-unugata.120.1.9" pos="aa">út</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.120.1.10" pos="af">með</w>
+            <w lemma="karfa" xml:id="IGC-Books-unugata.120.1.11" pos="nveo">körfu</w>
+            <w lemma="fullur" xml:id="IGC-Books-unugata.120.1.12" pos="lveosf">fulla</w>
+            <w lemma="af" xml:id="IGC-Books-unugata.120.1.13" pos="af">af</w>
+            <w lemma="gleraugu" xml:id="IGC-Books-unugata.120.1.14" pos="nhfþ" join="right">gleraugum</w>
+            <pc xml:id="IGC-Books-unugata.120.1.15" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.121">
+          <s xml:id="IGC-Books-unugata.121.1">
+            <pc xml:id="IGC-Books-unugata.121.1.1" pos="pa">–</pc>
+            <w lemma="þú" xml:id="IGC-Books-unugata.121.1.2" pos="fp2en">Þú</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.121.1.3" pos="sfg2en">ert</w>
+            <w lemma="bara" xml:id="IGC-Books-unugata.121.1.4" pos="aa">bara</w>
+            <w lemma="fara" xml:id="IGC-Books-unugata.121.1.5" pos="sþgken">farinn</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.121.1.6" pos="cn">að</w>
+            <w lemma="sjá" xml:id="IGC-Books-unugata.121.1.7" pos="sng">sjá</w>
+            <w lemma="illa" xml:id="IGC-Books-unugata.121.1.8" pos="aa" join="right">illa</w>
+            <pc xml:id="IGC-Books-unugata.121.1.9" pos="pk">,</pc>
+            <w lemma="vinur" xml:id="IGC-Books-unugata.121.1.10" pos="nken">vinur</w>
+            <w lemma="minn" xml:id="IGC-Books-unugata.121.1.11" pos="feken" join="right">minn</w>
+            <pc xml:id="IGC-Books-unugata.121.1.12" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.121.1.13" pos="sfg3eþ">sagði</w>
+            <w lemma="Helga" xml:id="IGC-Books-unugata.121.1.14" pos="nven-s" join="right">Helga</w>
+            <pc xml:id="IGC-Books-unugata.121.1.15" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.122">
+          <s xml:id="IGC-Books-unugata.122.1">
+            <w lemma="nú" xml:id="IGC-Books-unugata.122.1.1" pos="aa">Nú</w>
+            <w lemma="skulu" xml:id="IGC-Books-unugata.122.1.2" pos="sfg2en">skaltu</w>
+            <w lemma="prófa" xml:id="IGC-Books-unugata.122.1.3" pos="sng">prófa</w>
+            <w lemma="gleraugu" xml:id="IGC-Books-unugata.122.1.4" pos="nhfo" join="right">gleraugu</w>
+            <pc xml:id="IGC-Books-unugata.122.1.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.123">
+          <s xml:id="IGC-Books-unugata.123.1">
+            <w lemma="Anna" xml:id="IGC-Books-unugata.123.1.1" pos="nven-s">Anna</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.123.1.2" pos="sfg3eþ">kom</w>
+            <w lemma="með" xml:id="IGC-Books-unugata.123.1.3" pos="af">með</w>
+            <w lemma="pönnukaka" xml:id="IGC-Books-unugata.123.1.4" pos="nvfo">pönnukökur</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.123.1.5" pos="af">á</w>
+            <w lemma="diskur" xml:id="IGC-Books-unugata.123.1.6" pos="nkeþ" join="right">diski</w>
+            <pc xml:id="IGC-Books-unugata.123.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.124">
+          <s xml:id="IGC-Books-unugata.124.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.124.1.1" pos="nven-s">Rósa</w>
+            <w lemma="éta" xml:id="IGC-Books-unugata.124.1.2" pos="sfg3eþ">át</w>
+            <w lemma="sjö" xml:id="IGC-Books-unugata.124.1.3" pos="tfvfo">sjö</w>
+            <w lemma="pönnukaka" xml:id="IGC-Books-unugata.124.1.4" pos="nvfo">pönnukökur</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.124.1.5" pos="af">á</w>
+            <w lemma="mettími" xml:id="IGC-Books-unugata.124.1.6" pos="nkeþ" join="right">mettíma</w>
+            <pc xml:id="IGC-Books-unugata.124.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.125">
+          <s xml:id="IGC-Books-unugata.125.1">
+            <w lemma="á" xml:id="IGC-Books-unugata.125.1.1" pos="aa">Á</w>
+            <w lemma="meðan" xml:id="IGC-Books-unugata.125.1.2" pos="c">meðan</w>
+            <w lemma="reyna" xml:id="IGC-Books-unugata.125.1.3" pos="sfg3eþ">reyndi</w>
+            <w lemma="Helga" xml:id="IGC-Books-unugata.125.1.4" pos="nven-s">Helga</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.125.1.5" pos="cn">að</w>
+            <w lemma="máta" xml:id="IGC-Books-unugata.125.1.6" pos="sng">máta</w>
+            <w lemma="gleraugu" xml:id="IGC-Books-unugata.125.1.7" pos="nhfo">gleraugu</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.125.1.8" pos="af">á</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.125.1.9" pos="nkeo-s" join="right">Finn</w>
+            <pc xml:id="IGC-Books-unugata.125.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.126">
+          <s xml:id="IGC-Books-unugata.126.1">
+            <pc xml:id="IGC-Books-unugata.126.1.1" pos="pa">–</pc>
+            <w lemma="hvernig" xml:id="IGC-Books-unugata.126.1.2" pos="aa">Hvernig</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.126.1.3" pos="sfg3fn">eru</w>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.126.1.4" pos="fahfn" join="right">þessi</w>
+            <pc xml:id="IGC-Books-unugata.126.1.5" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.127">
+          <s xml:id="IGC-Books-unugata.127.1">
+            <pc xml:id="IGC-Books-unugata.127.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.127.1.2" pos="fp1en">Ég</w>
+            <w lemma="sjá" xml:id="IGC-Books-unugata.127.1.3" pos="sfg1en">sé</w>
+            <w lemma="bara" xml:id="IGC-Books-unugata.127.1.4" pos="aa">bara</w>
+            <w lemma="illa" xml:id="IGC-Books-unugata.127.1.5" pos="aam" join="right">verr</w>
+            <pc xml:id="IGC-Books-unugata.127.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.127.1.7" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.127.1.8" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.127.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.128">
+          <s xml:id="IGC-Books-unugata.128.1">
+            <w lemma="nú" xml:id="IGC-Books-unugata.128.1.1" pos="aa">Nú</w>
+            <w lemma="setja" xml:id="IGC-Books-unugata.128.1.2" pos="sfg3eþ">setti</w>
+            <w lemma="Anna" xml:id="IGC-Books-unugata.128.1.3" pos="nven-s">Anna</w>
+            <w lemma="upp" xml:id="IGC-Books-unugata.128.1.4" pos="aa">upp</w>
+            <w lemma="gleraugu" xml:id="IGC-Books-unugata.128.1.5" pos="nhfo" join="right">gleraugu</w>
+            <pc xml:id="IGC-Books-unugata.128.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.129">
+          <s xml:id="IGC-Books-unugata.129.1">
+            <w lemma="einhver" xml:id="IGC-Books-unugata.129.1.1" pos="foken">Einhver</w>
+            <w lemma="Bryn" xml:id="IGC-Books-unugata.129.1.2" pos="n----s" join="right">Bryn</w>
+            <pc xml:id="IGC-Books-unugata.129.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.129.2">
+            <pc xml:id="IGC-Books-unugata.129.2.1" pos="pa">–</pc>
+            <w lemma="BRY" xml:id="IGC-Books-unugata.129.2.2" pos="n----s">BRY</w>
+            <w lemma="N" xml:id="IGC-Books-unugata.129.2.3" pos="n----s" join="right">N</w>
+            <pc xml:id="IGC-Books-unugata.129.2.4" pos="pk">,</pc>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.129.2.5" pos="sfg3eþ">las</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.129.2.6" pos="fpven" join="right">hún</w>
+            <pc xml:id="IGC-Books-unugata.129.2.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.130">
+          <s xml:id="IGC-Books-unugata.130.1">
+            <pc xml:id="IGC-Books-unugata.130.1.1" pos="pa">–</pc>
+            <w lemma="það" xml:id="IGC-Books-unugata.130.1.2" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.130.1.3" pos="sfg3en">er</w>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.130.1.4" pos="fohen">ekkert</w>
+            <w lemma="nafn" xml:id="IGC-Books-unugata.130.1.5" pos="nhen" join="right">nafn</w>
+            <pc xml:id="IGC-Books-unugata.130.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.130.1.7" pos="sfg3eþ">sagði</w>
+            <w lemma="Helga" xml:id="IGC-Books-unugata.130.1.8" pos="nven-s" join="right">Helga</w>
+            <pc xml:id="IGC-Books-unugata.130.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.131">
+          <s xml:id="IGC-Books-unugata.131.1">
+            <pc xml:id="IGC-Books-unugata.131.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.131.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-unugata.131.1.3" pos="pk">,</pc>
+            <w lemma="en" xml:id="IGC-Books-unugata.131.1.4" pos="c">en</w>
+            <w lemma="það" xml:id="IGC-Books-unugata.131.1.5" pos="fphen">það</w>
+            <w lemma="geta" xml:id="IGC-Books-unugata.131.1.6" pos="svg3eþ">gæti</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.131.1.7" pos="sþghen">verið</w>
+            <w lemma="Brynjar" xml:id="IGC-Books-unugata.131.1.8" pos="nken-s" join="right">Brynjar</w>
+            <pc xml:id="IGC-Books-unugata.131.1.9" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.132">
+          <s xml:id="IGC-Books-unugata.132.1">
+            <w lemma="af" xml:id="IGC-Books-unugata.132.1.1" pos="af">Af</w>
+            <w lemma="staður" xml:id="IGC-Books-unugata.132.1.2" pos="nkeþ" join="right">stað</w>
+            <pc xml:id="IGC-Books-unugata.132.1.3" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.132.2">
+            <w lemma="segja" xml:id="IGC-Books-unugata.132.2.1" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.132.2.2" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.132.2.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.133">
+          <s xml:id="IGC-Books-unugata.133.1">
+            <w lemma="tilraun" xml:id="IGC-Books-unugata.133.1.1" pos="nven">Tilraun</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.134">
+          <s xml:id="IGC-Books-unugata.134.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.134.1.1" pos="fphfn">Þau</w>
+            <w lemma="ganga" xml:id="IGC-Books-unugata.134.1.2" pos="sfg3fþ">gengu</w>
+            <w lemma="rakleitt" xml:id="IGC-Books-unugata.134.1.3" pos="aa">rakleitt</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.134.1.4" pos="af">að</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.134.1.5" pos="nheþ">húsi</w>
+            <w lemma="númer" xml:id="IGC-Books-unugata.134.1.6" pos="nhen">númer</w>
+            <w lemma="sjö" xml:id="IGC-Books-unugata.134.1.7" pos="ta" join="right">sjö</w>
+            <pc xml:id="IGC-Books-unugata.134.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.135">
+          <s xml:id="IGC-Books-unugata.135.1">
+            <pc xml:id="IGC-Books-unugata.135.1.1" pos="pa">–</pc>
+            <w lemma="sjá" xml:id="IGC-Books-unugata.135.1.2" pos="sbg2en">Sjáðu</w>
+            <w lemma="nú" xml:id="IGC-Books-unugata.135.1.3" pos="aa" join="right">nú</w>
+            <pc xml:id="IGC-Books-unugata.135.1.4" pos="pk">,</pc>
+            <w lemma="hvísla" xml:id="IGC-Books-unugata.135.1.5" pos="sfg3eþ">hvíslaði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.135.1.6" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.135.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.136">
+          <s xml:id="IGC-Books-unugata.136.1">
+            <w lemma="smá" xml:id="IGC-Books-unugata.136.1.1" pos="lvenof">Smá</w>
+            <w lemma="tilraun" xml:id="IGC-Books-unugata.136.1.2" pos="nven" join="right">tilraun</w>
+            <pc xml:id="IGC-Books-unugata.136.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.137">
+          <s xml:id="IGC-Books-unugata.137.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.137.1.1" pos="fpken">Hann</w>
+            <w lemma="stinga" xml:id="IGC-Books-unugata.137.1.2" pos="sfg3eþ">stakk</w>
+            <w lemma="tímarit" xml:id="IGC-Books-unugata.137.1.3" pos="nheþ">tímariti</w>
+            <w lemma="inn" xml:id="IGC-Books-unugata.137.1.4" pos="aa">inn</w>
+            <w lemma="um" xml:id="IGC-Books-unugata.137.1.5" pos="af">um</w>
+            <w lemma="lúga" xml:id="IGC-Books-unugata.137.1.6" pos="nveog" join="right">lúguna</w>
+            <pc xml:id="IGC-Books-unugata.137.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.138">
+          <s xml:id="IGC-Books-unugata.138.1">
+            <w lemma="inni" xml:id="IGC-Books-unugata.138.1.1" pos="aa">Inni</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.138.1.2" pos="af">í</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.138.1.3" pos="nheþg">húsinu</w>
+            <w lemma="fara" xml:id="IGC-Books-unugata.138.1.4" pos="sfg3eþ">fór</w>
+            <w lemma="allur" xml:id="IGC-Books-unugata.138.1.5" pos="fohen">allt</w>
+            <w lemma="af" xml:id="IGC-Books-unugata.138.1.6" pos="af">af</w>
+            <w lemma="staður" xml:id="IGC-Books-unugata.138.1.7" pos="nkeþ" join="right">stað</w>
+            <pc xml:id="IGC-Books-unugata.138.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.139">
+          <s xml:id="IGC-Books-unugata.139.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.139.1.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.139.1.2" pos="sfg3eþ">var</w>
+            <w lemma="hrópa" xml:id="IGC-Books-unugata.139.1.3" pos="sþghen">hrópað</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.139.1.4" pos="c">og</w>
+            <w lemma="kalla" xml:id="IGC-Books-unugata.139.1.5" pos="sþghen" join="right">kallað</w>
+            <pc xml:id="IGC-Books-unugata.139.1.6" pos="pk">,</pc>
+            <w lemma="stökkva" xml:id="IGC-Books-unugata.139.1.7" pos="sþghen">stokkið</w>
+            <w lemma="um" xml:id="IGC-Books-unugata.139.1.8" pos="aa">um</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.139.1.9" pos="c">og</w>
+            <w lemma="stympt" xml:id="IGC-Books-unugata.139.1.10" pos="aae" join="right">stympast</w>
+            <pc xml:id="IGC-Books-unugata.139.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.140">
+          <s xml:id="IGC-Books-unugata.140.1">
+            <w lemma="segja" xml:id="IGC-Books-unugata.140.1.1" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.140.1.2" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.140.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.140.2">
+            <pc xml:id="IGC-Books-unugata.140.2.1" pos="pa">–</pc>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.140.2.2" pos="fahen">Þetta</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.140.2.3" pos="sfg3en">er</w>
+            <w lemma="eins" xml:id="IGC-Books-unugata.140.2.4" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.140.2.5" pos="c">og</w>
+            <w lemma="jarðskjálfti" xml:id="IGC-Books-unugata.140.2.6" pos="nken" join="right">jarðskjálfti</w>
+            <pc xml:id="IGC-Books-unugata.140.2.7" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.141">
+          <s xml:id="IGC-Books-unugata.141.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.141.1.1" pos="fp1en">Ég</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.141.1.2" pos="sfg1en">held</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.141.1.3" pos="c">að</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.141.1.4" pos="fpkfn">þeir</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.141.1.5" pos="svg3fn">séu</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.141.1.6" pos="cn">að</w>
+            <w lemma="slá" xml:id="IGC-Books-unugata.141.1.7" pos="snm" join="right">slást</w>
+            <pc xml:id="IGC-Books-unugata.141.1.8" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.142">
+          <s xml:id="IGC-Books-unugata.142.1">
+            <pc xml:id="IGC-Books-unugata.142.1.1" pos="pa">–</pc>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.142.1.2" pos="fahen">Þetta</w>
+            <w lemma="gera" xml:id="IGC-Books-unugata.142.1.3" pos="sfm3en">gerist</w>
+            <w lemma="alltaf" xml:id="IGC-Books-unugata.142.1.4" pos="aa" join="right">alltaf</w>
+            <pc xml:id="IGC-Books-unugata.142.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.142.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.142.1.7" pos="nken-s">Finnur</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.142.1.8" pos="c">og</w>
+            <w lemma="hringja" xml:id="IGC-Books-unugata.142.1.9" pos="sfg3eþ">hringdi</w>
+            <w lemma="bjalla" xml:id="IGC-Books-unugata.142.1.10" pos="nveþg" join="right">bjöllunni</w>
+            <pc xml:id="IGC-Books-unugata.142.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.143">
+          <s xml:id="IGC-Books-unugata.143.1">
+            <w lemma="Ari" xml:id="IGC-Books-unugata.143.1.1" pos="nken-s" join="right">Ari</w>
+            <pc xml:id="IGC-Books-unugata.143.1.2" pos="pk">,</pc>
+            <w lemma="Brynjar" xml:id="IGC-Books-unugata.143.1.3" pos="nken-s">Brynjar</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.143.1.4" pos="c">og</w>
+            <w lemma="Dagur" xml:id="IGC-Books-unugata.143.1.5" pos="nken-s">Dagur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.144">
+          <s xml:id="IGC-Books-unugata.144.1">
+            <w lemma="Ari" xml:id="IGC-Books-unugata.144.1.1" pos="nken-s">Ari</w>
+            <w lemma="opna" xml:id="IGC-Books-unugata.144.1.2" pos="sfg3eþ">opnaði</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.144.1.3" pos="nvfog" join="right">dyrnar</w>
+            <pc xml:id="IGC-Books-unugata.144.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.145">
+          <s xml:id="IGC-Books-unugata.145.1">
+            <w lemma="Brynjar" xml:id="IGC-Books-unugata.145.1.1" pos="nken-s">Brynjar</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.145.1.2" pos="c">og</w>
+            <w lemma="Dagur" xml:id="IGC-Books-unugata.145.1.3" pos="nken-s">Dagur</w>
+            <w lemma="rífa" xml:id="IGC-Books-unugata.145.1.4" pos="sfm3fþ" join="right">rifust</w>
+            <pc xml:id="IGC-Books-unugata.145.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.146">
+          <s xml:id="IGC-Books-unugata.146.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.146.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.146.1.2" pos="sfg3fþ">voru</w>
+            <w lemma="þríburi" xml:id="IGC-Books-unugata.146.1.3" pos="nkfn" join="right">þríburar</w>
+            <pc xml:id="IGC-Books-unugata.146.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.147">
+          <s xml:id="IGC-Books-unugata.147.1">
+            <w lemma="inni" xml:id="IGC-Books-unugata.147.1.1" pos="aa">Inni</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.147.1.2" pos="sfg3eþ">var</w>
+            <w lemma="allur" xml:id="IGC-Books-unugata.147.1.3" pos="fohen">allt</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.147.1.4" pos="af">á</w>
+            <w lemma="tjá" xml:id="IGC-Books-unugata.147.1.5" pos="nveþ">tjá</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.147.1.6" pos="c">og</w>
+            <w lemma="tundur" xml:id="IGC-Books-unugata.147.1.7" pos="nheþ" join="right">tundri</w>
+            <pc xml:id="IGC-Books-unugata.147.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.148">
+          <s xml:id="IGC-Books-unugata.148.1">
+            <w lemma="tímarit" xml:id="IGC-Books-unugata.148.1.1" pos="nheng">Tímaritið</w>
+            <w lemma="liggja" xml:id="IGC-Books-unugata.148.1.2" pos="sfg3eþ">lá</w>
+            <w lemma="rifinn" xml:id="IGC-Books-unugata.148.1.3" pos="lhensf">rifið</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.148.1.4" pos="af">á</w>
+            <w lemma="gólf" xml:id="IGC-Books-unugata.148.1.5" pos="nheþg" join="right">gólfinu</w>
+            <pc xml:id="IGC-Books-unugata.148.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.149">
+          <s xml:id="IGC-Books-unugata.149.1">
+            <w lemma="Ari" xml:id="IGC-Books-unugata.149.1.1" pos="nken-s">Ari</w>
+            <w lemma="skoða" xml:id="IGC-Books-unugata.149.1.2" pos="sfg3eþ">skoðaði</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.149.1.3" pos="nkeog" join="right">pakkann</w>
+            <pc xml:id="IGC-Books-unugata.149.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.150">
+          <s xml:id="IGC-Books-unugata.150.1">
+            <pc xml:id="IGC-Books-unugata.150.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.150.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-unugata.150.1.3" pos="pk">,</pc>
+            <w lemma="þarna" xml:id="IGC-Books-unugata.150.1.4" pos="aa">þarna</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.150.1.5" pos="sfg3en">stendur</w>
+            <w lemma="B" xml:id="IGC-Books-unugata.150.1.6" pos="x">B</w>
+            <w lemma="R" xml:id="IGC-Books-unugata.150.1.7" pos="x">R</w>
+            <w lemma="Y" xml:id="IGC-Books-unugata.150.1.8" pos="x">Y</w>
+            <w lemma="N" xml:id="IGC-Books-unugata.150.1.9" pos="x">N</w>
+            <w lemma="D" xml:id="IGC-Books-unugata.150.1.10" pos="x" join="right">D</w>
+            <pc xml:id="IGC-Books-unugata.150.1.11" pos="pk">,</pc>
+            <w lemma="en" xml:id="IGC-Books-unugata.150.1.12" pos="c">en</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.150.1.13" pos="aa">ekki</w>
+            <w lemma="B" xml:id="IGC-Books-unugata.150.1.14" pos="x">B</w>
+            <w lemma="R" xml:id="IGC-Books-unugata.150.1.15" pos="x">R</w>
+            <w lemma="Y" xml:id="IGC-Books-unugata.150.1.16" pos="e">Y</w>
+            <w lemma="N" xml:id="IGC-Books-unugata.150.1.17" pos="e">N</w>
+            <w lemma="J." xml:id="IGC-Books-unugata.150.1.18" pos="ks">J.</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.151">
+          <s xml:id="IGC-Books-unugata.151.1">
+            <w lemma="um" xml:id="IGC-Books-unugata.151.1.1" pos="af">Um</w>
+            <w lemma="leið" xml:id="IGC-Books-unugata.151.1.2" pos="nveo">leið</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.151.1.3" pos="c">og</w>
+            <w lemma="hurð" xml:id="IGC-Books-unugata.151.1.4" pos="nveng">hurðin</w>
+            <w lemma="loka" xml:id="IGC-Books-unugata.151.1.5" pos="sfm3eþ">lokaðist</w>
+            <w lemma="hefja" xml:id="IGC-Books-unugata.151.1.6" pos="sfm3fþ">hófust</w>
+            <w lemma="læti" xml:id="IGC-Books-unugata.151.1.7" pos="nhfng">lætin</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.151.1.8" pos="af">að</w>
+            <w lemma="nýr" xml:id="IGC-Books-unugata.151.1.9" pos="lheþsf" join="right">nýju</w>
+            <pc xml:id="IGC-Books-unugata.151.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.152">
+          <s xml:id="IGC-Books-unugata.152.1">
+            <pc xml:id="IGC-Books-unugata.152.1.1" pos="pa">–</pc>
+            <w lemma="unglingur" xml:id="IGC-Books-unugata.152.1.2" pos="nkfn" join="right">Unglingar</w>
+            <pc xml:id="IGC-Books-unugata.152.1.3" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.152.1.4" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.152.1.5" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.152.1.6" pos="pk">,</pc>
+            <w lemma="hann" xml:id="IGC-Books-unugata.152.1.7" pos="fpkfn">þeir</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.152.1.8" pos="sfg3fn">eru</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.152.1.9" pos="aa">ekki</w>
+            <w lemma="alveg" xml:id="IGC-Books-unugata.152.1.10" pos="aa">alveg</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.152.1.11" pos="af">í</w>
+            <w lemma="lag" xml:id="IGC-Books-unugata.152.1.12" pos="nheþ" join="right">lagi</w>
+            <pc xml:id="IGC-Books-unugata.152.1.13" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.153">
+          <s xml:id="IGC-Books-unugata.153.1">
+            <w lemma="uppi" xml:id="IGC-Books-unugata.153.1.1" pos="aa">Uppi</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.153.1.2" pos="af">á</w>
+            <w lemma="þak" xml:id="IGC-Books-unugata.153.1.3" pos="nheþ">þaki</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.154">
+          <s xml:id="IGC-Books-unugata.154.1">
+            <w lemma="Gunnar" xml:id="IGC-Books-unugata.154.1.1" pos="nken-s">Gunnar</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.154.1.2" pos="c">og</w>
+            <w lemma="Lára" xml:id="IGC-Books-unugata.154.1.3" pos="nven-s">Lára</w>
+            <w lemma="búa" xml:id="IGC-Books-unugata.154.1.4" pos="sfg3fþ">bjuggu</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.154.1.5" pos="af">í</w>
+            <w lemma="stór" xml:id="IGC-Books-unugata.154.1.6" pos="lheþsf">stóru</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.154.1.7" pos="nheþ" join="right">húsi</w>
+            <pc xml:id="IGC-Books-unugata.154.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.155">
+          <s xml:id="IGC-Books-unugata.155.1">
+            <w lemma="Gunnar" xml:id="IGC-Books-unugata.155.1.1" pos="nken-s">Gunnar</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.155.1.2" pos="sfg3eþ">var</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.155.1.3" pos="cn">að</w>
+            <w lemma="príla" xml:id="IGC-Books-unugata.155.1.4" pos="sng">príla</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.155.1.5" pos="af">í</w>
+            <w lemma="stigi" xml:id="IGC-Books-unugata.155.1.6" pos="nkeþ">stiga</w>
+            <w lemma="upp" xml:id="IGC-Books-unugata.155.1.7" pos="aa">upp</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.155.1.8" pos="af">á</w>
+            <w lemma="þak" xml:id="IGC-Books-unugata.155.1.9" pos="nheog" join="right">þakið</w>
+            <pc xml:id="IGC-Books-unugata.155.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.156">
+          <s xml:id="IGC-Books-unugata.156.1">
+            <w lemma="Lára" xml:id="IGC-Books-unugata.156.1.1" pos="nven-s">Lára</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.156.1.2" pos="sfg3eþ">hélt</w>
+            <w lemma="við" xml:id="IGC-Books-unugata.156.1.3" pos="af">við</w>
+            <w lemma="stigi" xml:id="IGC-Books-unugata.156.1.4" pos="nkeog" join="right">stigann</w>
+            <pc xml:id="IGC-Books-unugata.156.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.157">
+          <s xml:id="IGC-Books-unugata.157.1">
+            <pc xml:id="IGC-Books-unugata.157.1.1" pos="pa">–</pc>
+            <w lemma="sæll" xml:id="IGC-Books-unugata.157.1.2" pos="lvensf">Sæl</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.157.1.3" pos="sbg2fn">verið</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.157.1.4" pos="fp2fn" join="right">þið</w>
+            <pc xml:id="IGC-Books-unugata.157.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.157.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.157.1.7" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.157.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.158">
+          <s xml:id="IGC-Books-unugata.158.1">
+            <w lemma="vera" xml:id="IGC-Books-unugata.158.1.1" pos="sfg3en">Er</w>
+            <w lemma="einhver" xml:id="IGC-Books-unugata.158.1.2" pos="fohen">eitthvað</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.158.1.3" pos="aa" join="right">að</w>
+            <pc xml:id="IGC-Books-unugata.158.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.159">
+          <s xml:id="IGC-Books-unugata.159.1">
+            <w lemma="þessi" xml:id="IGC-Books-unugata.159.1.1" pos="fahen">Þetta</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.159.1.2" pos="sfg3en">er</w>
+            <w lemma="skrift" xml:id="IGC-Books-unugata.159.1.3" pos="nveng">skriftin</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.159.1.4" pos="fpvee">hennar</w>
+            <w lemma="amma" xml:id="IGC-Books-unugata.159.1.5" pos="nvee" join="right">ömmu</w>
+            <pc xml:id="IGC-Books-unugata.159.1.6" pos="pk">,</pc>
+            <w lemma="hún" xml:id="IGC-Books-unugata.159.1.7" pos="fpven">hún</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.159.1.8" pos="sfg3en">er</w>
+            <w lemma="verða" xml:id="IGC-Books-unugata.159.1.9" pos="sþgven">orðin</w>
+            <w lemma="svo" xml:id="IGC-Books-unugata.159.1.10" pos="aa">svo</w>
+            <w lemma="skjálfhentur" xml:id="IGC-Books-unugata.159.1.11" pos="lvensf" join="right">skjálfhent</w>
+            <pc xml:id="IGC-Books-unugata.159.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.160">
+          <s xml:id="IGC-Books-unugata.160.1">
+            <w lemma="vinur" xml:id="IGC-Books-unugata.160.1.1" pos="nkfn">Vinir</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.161">
+          <s xml:id="IGC-Books-unugata.161.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.161.1.1" pos="nken-s">Finnur</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.161.1.2" pos="sfg3eþ">var</w>
+            <w lemma="feginn" xml:id="IGC-Books-unugata.161.1.3" pos="lkensf">feginn</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.161.1.4" pos="c">að</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.161.1.5" pos="nkeng">pakkinn</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.161.1.6" pos="sfg3eþ">var</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.161.1.7" pos="sþgken">kominn</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.161.1.8" pos="af">í</w>
+            <w lemma="réttur" xml:id="IGC-Books-unugata.161.1.9" pos="lvfosf">réttar</w>
+            <w lemma="hönd" xml:id="IGC-Books-unugata.161.1.10" pos="nvfo" join="right">hendur</w>
+            <pc xml:id="IGC-Books-unugata.161.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.162">
+          <s xml:id="IGC-Books-unugata.162.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.162.1.1" pos="fpken">Hann</w>
+            <w lemma="kveðja" xml:id="IGC-Books-unugata.162.1.2" pos="sfg3eþ">kvaddi</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.162.1.3" pos="c">og</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.162.1.4" pos="sfg3eþ">hélt</w>
+            <w lemma="áfram" xml:id="IGC-Books-unugata.162.1.5" pos="aa" join="right">áfram</w>
+            <pc xml:id="IGC-Books-unugata.162.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.163">
+          <s xml:id="IGC-Books-unugata.163.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.163.1.1" pos="nven-s">Rósa</w>
+            <w lemma="doka" xml:id="IGC-Books-unugata.163.1.2" pos="sfg3eþ">dokaði</w>
+            <w lemma="við" xml:id="IGC-Books-unugata.163.1.3" pos="aa" join="right">við</w>
+            <pc xml:id="IGC-Books-unugata.163.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.164">
+          <s xml:id="IGC-Books-unugata.164.1">
+            <pc xml:id="IGC-Books-unugata.164.1.1" pos="pa">–</pc>
+            <w lemma="Karl" xml:id="IGC-Books-unugata.164.1.2" pos="nken-s">Karl</w>
+            <w lemma="Ottó" xml:id="IGC-Books-unugata.164.1.3" pos="nken-s">Ottó</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.164.1.4" pos="sfg3en">á</w>
+            <w lemma="númer" xml:id="IGC-Books-unugata.164.1.5" pos="nhen">númer</w>
+            <w lemma="tíu" xml:id="IGC-Books-unugata.164.1.6" pos="ta">tíu</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.164.1.7" pos="sfg3en">heldur</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.164.1.8" pos="c">að</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.164.1.9" pos="fp2fn">þið</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.164.1.10" pos="svg2fn">séuð</w>
+            <w lemma="draugur" xml:id="IGC-Books-unugata.164.1.11" pos="nkfn" join="right">draugar</w>
+            <pc xml:id="IGC-Books-unugata.164.1.12" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.164.1.13" pos="sfg3eþ">sagði</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.164.1.14" pos="fpven" join="right">hún</w>
+            <pc xml:id="IGC-Books-unugata.164.1.15" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.165">
+          <s xml:id="IGC-Books-unugata.165.1">
+            <w lemma="segja" xml:id="IGC-Books-unugata.165.1.1" pos="sfg3eþ">sagði</w>
+            <w lemma="Bryndís" xml:id="IGC-Books-unugata.165.1.2" pos="nven-s" join="right">Bryndís</w>
+            <pc xml:id="IGC-Books-unugata.165.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.165.2">
+            <pc xml:id="IGC-Books-unugata.165.2.1" pos="pa">–</pc>
+            <w lemma="það" xml:id="IGC-Books-unugata.165.2.2" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.165.2.3" pos="sfg3eþ">var</w>
+            <w lemma="skrýtinn" xml:id="IGC-Books-unugata.165.2.4" pos="lhensf" join="right">skrýtið</w>
+            <pc xml:id="IGC-Books-unugata.165.2.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.166">
+          <s xml:id="IGC-Books-unugata.166.1">
+            <w lemma="hér" xml:id="IGC-Books-unugata.166.1.1" pos="aa">Hér</w>
+            <w lemma="búa" xml:id="IGC-Books-unugata.166.1.2" pos="sfg3fn">búa</w>
+            <w lemma="þá" xml:id="IGC-Books-unugata.166.1.3" pos="aa">þá</w>
+            <w lemma="drauga-pabbi" xml:id="IGC-Books-unugata.166.1.4" pos="nkfn" join="right">drauga-pabbi</w>
+            <pc xml:id="IGC-Books-unugata.166.1.5" pos="pk">,</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.167">
+          <s xml:id="IGC-Books-unugata.167.1">
+            <w lemma="drauga-mammur" xml:id="IGC-Books-unugata.167.1.1" pos="nkfo">drauga-mamma</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.167.1.2" pos="c">og</w>
+            <w lemma="þrír" xml:id="IGC-Books-unugata.167.1.3" pos="tfhfn">þrjú</w>
+            <w lemma="drauga-börn" xml:id="IGC-Books-unugata.167.1.4" pos="nkfn" join="right">drauga-börn</w>
+            <pc xml:id="IGC-Books-unugata.167.1.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.168">
+          <s xml:id="IGC-Books-unugata.168.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.168.1.1" pos="nven-s">Rósa</w>
+            <w lemma="hlæja" xml:id="IGC-Books-unugata.168.1.2" pos="sfg3eþ" join="right">hló</w>
+            <pc xml:id="IGC-Books-unugata.168.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.169">
+          <s xml:id="IGC-Books-unugata.169.1">
+            <w lemma="Bryndís" xml:id="IGC-Books-unugata.169.1.1" pos="nven-s">Bryndís</w>
+            <w lemma="hlæja" xml:id="IGC-Books-unugata.169.1.2" pos="sfg3eþ">hló</w>
+            <w lemma="líka" xml:id="IGC-Books-unugata.169.1.3" pos="aa" join="right">líka</w>
+            <pc xml:id="IGC-Books-unugata.169.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.170">
+          <s xml:id="IGC-Books-unugata.170.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.170.1.1" pos="fp1en">Ég</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.170.1.2" pos="sfg1en">á</w>
+            <w lemma="afmæli" xml:id="IGC-Books-unugata.170.1.3" pos="nheo">afmæli</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.170.1.4" pos="af">á</w>
+            <w lemma="morgunn" xml:id="IGC-Books-unugata.170.1.5" pos="nkeo" join="right">morgun</w>
+            <pc xml:id="IGC-Books-unugata.170.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.170.1.7" pos="sfg3eþ">sagði</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.170.1.8" pos="fpven" join="right">hún</w>
+            <pc xml:id="IGC-Books-unugata.170.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.171">
+          <s xml:id="IGC-Books-unugata.171.1">
+            <w lemma="vilja" xml:id="IGC-Books-unugata.171.1.1" pos="sfg2en">Viltu</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.171.1.2" pos="sng">koma</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.171.1.3" pos="af">í</w>
+            <w lemma="afmæli" xml:id="IGC-Books-unugata.171.1.4" pos="nheog">afmælið</w>
+            <w lemma="minn" xml:id="IGC-Books-unugata.171.1.5" pos="feheo" join="right">mitt</w>
+            <pc xml:id="IGC-Books-unugata.171.1.6" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.172">
+          <s xml:id="IGC-Books-unugata.172.1">
+            <pc xml:id="IGC-Books-unugata.172.1.1" pos="pa">–</pc>
+            <w lemma="já" xml:id="IGC-Books-unugata.172.1.2" pos="au" join="right">Já</w>
+            <pc xml:id="IGC-Books-unugata.172.1.3" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.172.1.4" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.172.1.5" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.172.1.6" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-unugata.172.1.7" pos="fphen">það</w>
+            <w lemma="verða" xml:id="IGC-Books-unugata.172.1.8" pos="sfg3en">verður</w>
+            <w lemma="gaman" xml:id="IGC-Books-unugata.172.1.9" pos="nhen" join="right">gaman</w>
+            <pc xml:id="IGC-Books-unugata.172.1.10" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.173">
+          <s xml:id="IGC-Books-unugata.173.1">
+            <w lemma="sjá" xml:id="IGC-Books-unugata.173.1.1" pos="svm1fn">Sjáumst</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.173.1.2" pos="af">á</w>
+            <w lemma="morgunn" xml:id="IGC-Books-unugata.173.1.3" pos="nkeo" join="right">morgun</w>
+            <pc xml:id="IGC-Books-unugata.173.1.4" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.174">
+          <s xml:id="IGC-Books-unugata.174.1">
+            <w lemma="Áslaug" xml:id="IGC-Books-unugata.174.1.1" pos="nven-s">Áslaug</w>
+            <w lemma="Jónsdóttir" xml:id="IGC-Books-unugata.174.1.2" pos="nven-s">Jónsdóttir</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.175">
+          <s xml:id="IGC-Books-unugata.175.1">
+            <w lemma="unugata" xml:id="IGC-Books-unugata.175.1.1" pos="nhen">Unugata</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.176">
+          <s xml:id="IGC-Books-unugata.176.1">
+            <w lemma="póstur" xml:id="IGC-Books-unugata.176.1.1" pos="nken">Póstur</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.176.1.2" pos="af">í</w>
+            <w lemma="vandi" xml:id="IGC-Books-unugata.176.1.3" pos="nkeþ">vanda</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.177">
+          <s xml:id="IGC-Books-unugata.177.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.177.1.1" pos="nken-s">Finnur</w>
+            <w lemma="póstur" xml:id="IGC-Books-unugata.177.1.2" pos="nken">póstur</w>
+            <w lemma="ganga" xml:id="IGC-Books-unugata.177.1.3" pos="sfg3eþ">gekk</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.177.1.4" pos="af">í</w>
+            <w lemma="þungur" xml:id="IGC-Books-unugata.177.1.5" pos="lkfþsf">þungum</w>
+            <w lemma="þanki" xml:id="IGC-Books-unugata.177.1.6" pos="nkfþ">þönkum</w>
+            <w lemma="inn" xml:id="IGC-Books-unugata.177.1.7" pos="af">inn</w>
+            <w lemma="Unugata" xml:id="IGC-Books-unugata.177.1.8" pos="nveo-s" join="right">Unugötu</w>
+            <pc xml:id="IGC-Books-unugata.177.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.178">
+          <s xml:id="IGC-Books-unugata.178.1">
+            <w lemma="þar" xml:id="IGC-Books-unugata.178.1.1" pos="aa">Þar</w>
+            <w lemma="nema" xml:id="IGC-Books-unugata.178.1.2" pos="sfg3eþ">nam</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.178.1.3" pos="fpken">hann</w>
+            <w lemma="staður" xml:id="IGC-Books-unugata.178.1.4" pos="nkee">staðar</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.178.1.5" pos="c">og</w>
+            <w lemma="taka" xml:id="IGC-Books-unugata.178.1.6" pos="sfg3eþ">tók</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.178.1.7" pos="nkeo">pakka</w>
+            <w lemma="upp" xml:id="IGC-Books-unugata.178.1.8" pos="aa">upp</w>
+            <w lemma="úr" xml:id="IGC-Books-unugata.178.1.9" pos="af">úr</w>
+            <w lemma="taska" xml:id="IGC-Books-unugata.178.1.10" pos="nveþg" join="right">töskunni</w>
+            <pc xml:id="IGC-Books-unugata.178.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.179">
+          <s xml:id="IGC-Books-unugata.179.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.179.1.1" pos="nken-s">Finnur</w>
+            <w lemma="telja" xml:id="IGC-Books-unugata.179.1.2" pos="sfg3eþ">taldi</w>
+            <w lemma="sig" xml:id="IGC-Books-unugata.179.1.3" pos="fpkeo">sig</w>
+            <w lemma="þekkja" xml:id="IGC-Books-unugata.179.1.4" pos="sng">þekkja</w>
+            <w lemma="allur" xml:id="IGC-Books-unugata.179.1.5" pos="fokfo">alla</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.179.1.6" pos="af">í</w>
+            <w lemma="Unugata" xml:id="IGC-Books-unugata.179.1.7" pos="nveþ-s">Unugötu</w>
+            <w lemma="en" xml:id="IGC-Books-unugata.179.1.8" pos="c">en</w>
+            <w lemma="nú" xml:id="IGC-Books-unugata.179.1.9" pos="aa">nú</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.179.1.10" pos="sfg3eþ">var</w>
+            <w lemma="hann" xml:id="IGC-Books-unugata.179.1.11" pos="fpken">hann</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.179.1.12" pos="af">í</w>
+            <w lemma="vafi" xml:id="IGC-Books-unugata.179.1.13" pos="nkeþ" join="right">vafa</w>
+            <pc xml:id="IGC-Books-unugata.179.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.180">
+          <s xml:id="IGC-Books-unugata.180.1">
+            <w lemma="gulur" xml:id="IGC-Books-unugata.180.1.1" pos="lkensf">Gulur</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.180.1.2" pos="nken">pakki</w>
+            <w lemma="hafa" xml:id="IGC-Books-unugata.180.1.3" pos="sfg3eþ">hafði</w>
+            <w lemma="bera" xml:id="IGC-Books-unugata.180.1.4" pos="sþmhen">borist</w>
+            <w lemma="óþekktur" xml:id="IGC-Books-unugata.180.1.5" pos="lkeþsf">óþekktum</w>
+            <w lemma="íbúi" xml:id="IGC-Books-unugata.180.1.6" pos="nkeþ">íbúa</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.180.1.7" pos="af">í</w>
+            <w lemma="Unugata" xml:id="IGC-Books-unugata.180.1.8" pos="nveþ-s" join="right">Unugötu</w>
+            <pc xml:id="IGC-Books-unugata.180.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.181">
+          <s xml:id="IGC-Books-unugata.181.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.181.1.1" pos="nken-s">Finnur</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.181.1.2" pos="sfg3eþ">var</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.181.1.3" pos="af">í</w>
+            <w lemma="vandi" xml:id="IGC-Books-unugata.181.1.4" pos="nkeþ" join="right">vanda</w>
+            <pc xml:id="IGC-Books-unugata.181.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.182">
+          <s xml:id="IGC-Books-unugata.182.1">
+            <w lemma="pakki" xml:id="IGC-Books-unugata.182.1.1" pos="nkeng">Pakkinn</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.183">
+          <s xml:id="IGC-Books-unugata.183.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.183.1.1" pos="nken-s">Finnur</w>
+            <w lemma="geta" xml:id="IGC-Books-unugata.183.1.2" pos="sfg3eþ">gat</w>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.183.1.3" pos="sþghen">lesið</w>
+            <w lemma="nafn" xml:id="IGC-Books-unugata.183.1.4" pos="nheo">nafn</w>
+            <w lemma="gata" xml:id="IGC-Books-unugata.183.1.5" pos="nveeg" join="right">götunnar</w>
+            <pc xml:id="IGC-Books-unugata.183.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.184">
+          <s xml:id="IGC-Books-unugata.184.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.184.1.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.184.1.2" pos="sfg3eþ">var</w>
+            <w lemma="Unugata" xml:id="IGC-Books-unugata.184.1.3" pos="nhen-s" join="right">Unugata</w>
+            <pc xml:id="IGC-Books-unugata.184.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.185">
+          <s xml:id="IGC-Books-unugata.185.1">
+            <w lemma="lítill" xml:id="IGC-Books-unugata.185.1.1" pos="lvenvf">Litla</w>
+            <w lemma="gata" xml:id="IGC-Books-unugata.185.1.2" pos="nveng">gatan</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.185.1.3" pos="af">í</w>
+            <w lemma="miðbær" xml:id="IGC-Books-unugata.185.1.4" pos="nkeþg" join="right">miðbænum</w>
+            <pc xml:id="IGC-Books-unugata.185.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.186">
+          <s xml:id="IGC-Books-unugata.186.1">
+            <w lemma="en" xml:id="IGC-Books-unugata.186.1.1" pos="c">En</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.186.1.2" pos="nken-s">Finnur</w>
+            <w lemma="geta" xml:id="IGC-Books-unugata.186.1.3" pos="sfg3eþ">gat</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.186.1.4" pos="aa">ekki</w>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.186.1.5" pos="sþghen">lesið</w>
+            <w lemma="nafn" xml:id="IGC-Books-unugata.186.1.6" pos="nheo">nafn</w>
+            <w lemma="eigandi" xml:id="IGC-Books-unugata.186.1.7" pos="nkee" join="right">eiganda</w>
+            <pc xml:id="IGC-Books-unugata.186.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.187">
+          <s xml:id="IGC-Books-unugata.187.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.187.1.1" pos="fpken">Hann</w>
+            <w lemma="geta" xml:id="IGC-Books-unugata.187.1.2" pos="sfg3eþ">gat</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.187.1.3" pos="aa">ekki</w>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.187.1.4" pos="sþghen">lesið</w>
+            <w lemma="númer" xml:id="IGC-Books-unugata.187.1.5" pos="nheog">númerið</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.187.1.6" pos="af">á</w>
+            <w lemma="hús" xml:id="IGC-Books-unugata.187.1.7" pos="nheþg" join="right">húsinu</w>
+            <pc xml:id="IGC-Books-unugata.187.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.188">
+          <s xml:id="IGC-Books-unugata.188.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.188.1.1" pos="nken-s">Finnur</w>
+            <w lemma="hafa" xml:id="IGC-Books-unugata.188.1.2" pos="sfg3eþ">hafði</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.188.1.3" pos="aa">ekki</w>
+            <w lemma="hugmynd" xml:id="IGC-Books-unugata.188.1.4" pos="nveo">hugmynd</w>
+            <w lemma="um" xml:id="IGC-Books-unugata.188.1.5" pos="aa">um</w>
+            <w lemma="hver" xml:id="IGC-Books-unugata.188.1.6" pos="fsken">hver</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.188.1.7" pos="svg3eþ">ætti</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.188.1.8" pos="cn">að</w>
+            <w lemma="fá" xml:id="IGC-Books-unugata.188.1.9" pos="sng">fá</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.188.1.10" pos="nkeog" join="right">pakkann</w>
+            <pc xml:id="IGC-Books-unugata.188.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.189">
+          <s xml:id="IGC-Books-unugata.189.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.189.1.1" pos="fp1en">Ég</w>
+            <w lemma="hljóta" xml:id="IGC-Books-unugata.189.1.2" pos="sfg1en">hlýt</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.189.1.3" pos="cn">að</w>
+            <w lemma="finna" xml:id="IGC-Books-unugata.189.1.4" pos="sng">finna</w>
+            <w lemma="réttur" xml:id="IGC-Books-unugata.189.1.5" pos="lkeosf">réttan</w>
+            <w lemma="eigandi" xml:id="IGC-Books-unugata.189.1.6" pos="nkeo">eiganda</w>
+            <w lemma="um" xml:id="IGC-Books-unugata.189.1.7" pos="af">um</w>
+            <w lemma="leið" xml:id="IGC-Books-unugata.189.1.8" pos="nveo">leið</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.189.1.9" pos="c">og</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.189.1.10" pos="fp1en">ég</w>
+            <w lemma="bera" xml:id="IGC-Books-unugata.189.1.11" pos="sfg1en">ber</w>
+            <w lemma="út" xml:id="IGC-Books-unugata.189.1.12" pos="aa">út</w>
+            <w lemma="póstur" xml:id="IGC-Books-unugata.189.1.13" pos="nkeog">póstinn</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.189.1.14" pos="af">í</w>
+            <w lemma="Unugata" xml:id="IGC-Books-unugata.189.1.15" pos="nveþ-s" join="right">Unugötu</w>
+            <pc xml:id="IGC-Books-unugata.189.1.16" pos="pk">,</pc>
+            <w lemma="hugsa" xml:id="IGC-Books-unugata.189.1.17" pos="sfg3eþ">hugsaði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.189.1.18" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.189.1.19" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.190">
+          <s xml:id="IGC-Books-unugata.190.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.190.1.1" pos="nven-s">Rósa</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.191">
+          <s xml:id="IGC-Books-unugata.191.1">
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.191.1.1" pos="nven-s">Rósa</w>
+            <w lemma="sitja" xml:id="IGC-Books-unugata.191.1.2" pos="sfg3eþ">sat</w>
+            <w lemma="úti" xml:id="IGC-Books-unugata.191.1.3" pos="aa">úti</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.191.1.4" pos="af">á</w>
+            <w lemma="trappa" xml:id="IGC-Books-unugata.191.1.5" pos="nvfþ">tröppum</w>
+            <w lemma="þegar" xml:id="IGC-Books-unugata.191.1.6" pos="c">þegar</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.191.1.7" pos="nken-s">Finnur</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.191.1.8" pos="sfg3eþ">kom</w>
+            <w lemma="ganga" xml:id="IGC-Books-unugata.191.1.9" pos="slg" join="right">gangandi</w>
+            <pc xml:id="IGC-Books-unugata.191.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.192">
+          <s xml:id="IGC-Books-unugata.192.1">
+            <w lemma="spyrja" xml:id="IGC-Books-unugata.192.1.1" pos="sfg3eþ">spurði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.192.1.2" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.192.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.192.2">
+            <pc xml:id="IGC-Books-unugata.192.2.1" pos="pa">–</pc>
+            <w lemma="sæll" xml:id="IGC-Books-unugata.192.2.2" pos="lvensf">Sæl</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.192.2.3" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.192.2.4" pos="pk">,</pc>
+            <w lemma="vera" xml:id="IGC-Books-unugata.192.2.5" pos="sfg2en">ertu</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.192.2.6" pos="aa">ekki</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.192.2.7" pos="af">í</w>
+            <w lemma="skóli" xml:id="IGC-Books-unugata.192.2.8" pos="nkeþ">skóla</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.192.2.9" pos="af">í</w>
+            <w lemma="dagur" xml:id="IGC-Books-unugata.192.2.10" pos="nkeo" join="right">dag</w>
+            <pc xml:id="IGC-Books-unugata.192.2.11" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.193">
+          <s xml:id="IGC-Books-unugata.193.1">
+            <w lemma="og" xml:id="IGC-Books-unugata.193.1.1" pos="c">Og</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.193.1.2" pos="fp1eþ">mér</w>
+            <w lemma="leiða" xml:id="IGC-Books-unugata.193.1.3" pos="sfm3en" join="right">leiðist</w>
+            <pc xml:id="IGC-Books-unugata.193.1.4" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.193.2">
+            <pc xml:id="IGC-Books-unugata.193.2.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.193.2.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-unugata.193.2.3" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-unugata.193.2.4" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.193.2.5" pos="sfg3en">er</w>
+            <w lemma="frí" xml:id="IGC-Books-unugata.193.2.6" pos="nhen">frí</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.193.2.7" pos="af">í</w>
+            <w lemma="dagur" xml:id="IGC-Books-unugata.193.2.8" pos="nkeo" join="right">dag</w>
+            <pc xml:id="IGC-Books-unugata.193.2.9" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.193.2.10" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.193.2.11" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.193.2.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.194">
+          <s xml:id="IGC-Books-unugata.194.1">
+            <w lemma="hér" xml:id="IGC-Books-unugata.194.1.1" pos="aa">Hér</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.194.1.2" pos="sfg3fn">eru</w>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.194.1.3" pos="fohfn">engin</w>
+            <w lemma="barn" xml:id="IGC-Books-unugata.194.1.4" pos="nhfn">börn</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.194.1.5" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.194.1.6" pos="cn">að</w>
+            <w lemma="leika" xml:id="IGC-Books-unugata.194.1.7" pos="sng">leika</w>
+            <w lemma="sig" xml:id="IGC-Books-unugata.194.1.8" pos="fphfþ">sér</w>
+            <w lemma="við" xml:id="IGC-Books-unugata.194.1.9" pos="aa" join="right">við</w>
+            <pc xml:id="IGC-Books-unugata.194.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.195">
+          <s xml:id="IGC-Books-unugata.195.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.195.1.1" pos="fp1en">Ég</w>
+            <w lemma="vita" xml:id="IGC-Books-unugata.195.1.2" pos="sfg1en">veit</w>
+            <w lemma="enginn" xml:id="IGC-Books-unugata.195.1.3" pos="foheo">ekkert</w>
+            <w lemma="hver" xml:id="IGC-Books-unugata.195.1.4" pos="fsheo">hvað</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.195.1.5" pos="fp1en">ég</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.195.1.6" pos="sfg1en">á</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.195.1.7" pos="cn">að</w>
+            <w lemma="gera" xml:id="IGC-Books-unugata.195.1.8" pos="sng" join="right">gera</w>
+            <pc xml:id="IGC-Books-unugata.195.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.196">
+          <s xml:id="IGC-Books-unugata.196.1">
+            <pc xml:id="IGC-Books-unugata.196.1.1" pos="pa">–</pc>
+            <w lemma="jæja" xml:id="IGC-Books-unugata.196.1.2" pos="au" join="right">Jæja</w>
+            <pc xml:id="IGC-Books-unugata.196.1.3" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.196.1.4" pos="fp1en">ég</w>
+            <w lemma="vita" xml:id="IGC-Books-unugata.196.1.5" pos="sfg1en">veit</w>
+            <w lemma="nú" xml:id="IGC-Books-unugata.196.1.6" pos="aa">nú</w>
+            <w lemma="sjálfur" xml:id="IGC-Books-unugata.196.1.7" pos="fbken">sjálfur</w>
+            <w lemma="varla" xml:id="IGC-Books-unugata.196.1.8" pos="aa">varla</w>
+            <w lemma="hver" xml:id="IGC-Books-unugata.196.1.9" pos="fsheo">hvað</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.196.1.10" pos="fp1en">ég</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.196.1.11" pos="sfg1en">á</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.196.1.12" pos="cn">að</w>
+            <w lemma="gera" xml:id="IGC-Books-unugata.196.1.13" pos="sng" join="right">gera</w>
+            <pc xml:id="IGC-Books-unugata.196.1.14" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.196.1.15" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.196.1.16" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.196.1.17" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.197">
+          <s xml:id="IGC-Books-unugata.197.1">
+            <w lemma="hann" xml:id="IGC-Books-unugata.197.1.1" pos="fpken">Hann</w>
+            <w lemma="sýna" xml:id="IGC-Books-unugata.197.1.2" pos="sfg3eþ">sýndi</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.197.1.3" pos="nveþ-s">Rósu</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.197.1.4" pos="nkeog" join="right">pakkann</w>
+            <pc xml:id="IGC-Books-unugata.197.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.198">
+          <s xml:id="IGC-Books-unugata.198.1">
+            <w lemma="enginn" xml:id="IGC-Books-unugata.198.1.1" pos="fohen">Ekkert</w>
+            <w lemma="mál" xml:id="IGC-Books-unugata.198.1.2" pos="nhen" join="right">mál</w>
+            <pc xml:id="IGC-Books-unugata.198.1.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.199">
+          <s xml:id="IGC-Books-unugata.199.1">
+            <w lemma="segja" xml:id="IGC-Books-unugata.199.1.1" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.199.1.2" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.199.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.199.2">
+            <pc xml:id="IGC-Books-unugata.199.2.1" pos="pa">–</pc>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.199.2.2" pos="fahen">Þetta</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.199.2.3" pos="sfg3en">er</w>
+            <w lemma="frábær" xml:id="IGC-Books-unugata.199.2.4" pos="lhensf" join="right">frábært</w>
+            <pc xml:id="IGC-Books-unugata.199.2.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.200">
+          <s xml:id="IGC-Books-unugata.200.1">
+            <w lemma="þú" xml:id="IGC-Books-unugata.200.1.1" pos="fp2en">Þú</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.200.1.2" pos="sfg2eþ">varst</w>
+            <w lemma="heppinn" xml:id="IGC-Books-unugata.200.1.3" pos="lkensf">heppinn</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.200.1.4" pos="c">að</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.200.1.5" pos="fp1en">ég</w>
+            <w lemma="skulu" xml:id="IGC-Books-unugata.200.1.6" pos="svg1eþ">skyldi</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.200.1.7" pos="sng">eiga</w>
+            <w lemma="frí" xml:id="IGC-Books-unugata.200.1.8" pos="nheo" join="right">frí</w>
+            <pc xml:id="IGC-Books-unugata.200.1.9" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.201">
+          <s xml:id="IGC-Books-unugata.201.1">
+            <w lemma="hún" xml:id="IGC-Books-unugata.201.1.1" pos="fpven">Hún</w>
+            <w lemma="stökkva" xml:id="IGC-Books-unugata.201.1.2" pos="sfg3eþ">stökk</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.201.1.3" pos="af">á</w>
+            <w lemma="fótur" xml:id="IGC-Books-unugata.201.1.4" pos="nkfo">fætur</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.201.1.5" pos="c">og</w>
+            <w lemma="hvísla" xml:id="IGC-Books-unugata.201.1.6" pos="sfg3eþ" join="right">hvíslaði</w>
+            <pc xml:id="IGC-Books-unugata.201.1.7" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.202">
+          <s xml:id="IGC-Books-unugata.202.1">
+            <pc xml:id="IGC-Books-unugata.202.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.202.1.2" pos="fp1en">Ég</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.202.1.3" pos="sfg1en">er</w>
+            <w lemma="nefnilega" xml:id="IGC-Books-unugata.202.1.4" pos="aa">nefnilega</w>
+            <w lemma="líka" xml:id="IGC-Books-unugata.202.1.5" pos="aa">líka</w>
+            <w lemma="njósnari" xml:id="IGC-Books-unugata.202.1.6" pos="nken" join="right">njósnari</w>
+            <pc xml:id="IGC-Books-unugata.202.1.7" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.203">
+          <s xml:id="IGC-Books-unugata.203.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.203.1.1" pos="fp1en">Ég</w>
+            <w lemma="leysa" xml:id="IGC-Books-unugata.203.1.2" pos="sfg1en">leysi</w>
+            <w lemma="ráðgáta" xml:id="IGC-Books-unugata.203.1.3" pos="nvfo">ráðgátur</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.203.1.4" pos="c">og</w>
+            <w lemma="þraut" xml:id="IGC-Books-unugata.203.1.5" pos="nvfo">þrautir</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.203.1.6" pos="c">og</w>
+            <w lemma="dularfullur" xml:id="IGC-Books-unugata.203.1.7" pos="lhfosf">dularfull</w>
+            <w lemma="mál" xml:id="IGC-Books-unugata.203.1.8" pos="nhfo" join="right">mál</w>
+            <pc xml:id="IGC-Books-unugata.203.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.204">
+          <s xml:id="IGC-Books-unugata.204.1">
+            <w lemma="koma" xml:id="IGC-Books-unugata.204.1.1" pos="sbg2en" join="right">Komdu</w>
+            <pc xml:id="IGC-Books-unugata.204.1.2" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.204.2">
+            <w lemma="ég" xml:id="IGC-Books-unugata.204.2.1" pos="fp1en">Ég</w>
+            <w lemma="hjálpa" xml:id="IGC-Books-unugata.204.2.2" pos="sfg1en">hjálpa</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.204.2.3" pos="fp2eþ" join="right">þér</w>
+            <pc xml:id="IGC-Books-unugata.204.2.4" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.205">
+          <s xml:id="IGC-Books-unugata.205.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.205.1.1" pos="nken-s">Finnur</w>
+            <w lemma="hlæja" xml:id="IGC-Books-unugata.205.1.2" pos="sfg3eþ">hló</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.205.1.3" pos="c">og</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.205.1.4" pos="sfg3eþ">hélt</w>
+            <w lemma="af" xml:id="IGC-Books-unugata.205.1.5" pos="af">af</w>
+            <w lemma="staður" xml:id="IGC-Books-unugata.205.1.6" pos="nkeþ">stað</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.205.1.7" pos="aa">á</w>
+            <w lemma="eftir" xml:id="IGC-Books-unugata.205.1.8" pos="af">eftir</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.205.1.9" pos="nveþ-s" join="right">Rósu</w>
+            <pc xml:id="IGC-Books-unugata.205.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.206">
+          <s xml:id="IGC-Books-unugata.206.1">
+            <w lemma="nú" xml:id="IGC-Books-unugata.206.1.1" pos="aa">Nú</w>
+            <w lemma="verða" xml:id="IGC-Books-unugata.206.1.2" pos="sfg1fn">verðum</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.206.1.3" pos="fp1fn">við</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.206.1.4" pos="cn">að</w>
+            <w lemma="læða" xml:id="IGC-Books-unugata.206.1.5" pos="snm">læðast</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.206.1.6" pos="c">og</w>
+            <w lemma="hvísla" xml:id="IGC-Books-unugata.206.1.7" pos="sng" join="right">hvísla</w>
+            <pc xml:id="IGC-Books-unugata.206.1.8" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.206.2">
+            <pc xml:id="IGC-Books-unugata.206.2.1" pos="pa">–</pc>
+            <w lemma="uss" xml:id="IGC-Books-unugata.206.2.2" pos="au" join="right">Uss</w>
+            <pc xml:id="IGC-Books-unugata.206.2.3" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.206.2.4" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.206.2.5" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.206.2.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.207">
+          <s xml:id="IGC-Books-unugata.207.1">
+            <w lemma="í" xml:id="IGC-Books-unugata.207.1.1" pos="af">Í</w>
+            <w lemma="garður" xml:id="IGC-Books-unugata.207.1.2" pos="nkeþ">garði</w>
+            <w lemma="Hulda" xml:id="IGC-Books-unugata.207.1.3" pos="nvee-s">Huldu</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.208">
+          <s xml:id="IGC-Books-unugata.208.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.208.1.1" pos="fphen">Það</w>
+            <w lemma="anga" xml:id="IGC-Books-unugata.208.1.2" pos="sfg3eþ">angaði</w>
+            <w lemma="af" xml:id="IGC-Books-unugata.208.1.3" pos="af">af</w>
+            <w lemma="rós" xml:id="IGC-Books-unugata.208.1.4" pos="nvfþ">rósum</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.208.1.5" pos="af">í</w>
+            <w lemma="garður" xml:id="IGC-Books-unugata.208.1.6" pos="nkeþ">garði</w>
+            <w lemma="Hulda" xml:id="IGC-Books-unugata.208.1.7" pos="nvee-s" join="right">Huldu</w>
+            <pc xml:id="IGC-Books-unugata.208.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.209">
+          <s xml:id="IGC-Books-unugata.209.1">
+            <w lemma="hún" xml:id="IGC-Books-unugata.209.1.1" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.209.1.2" pos="sfg3eþ">var</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.209.1.3" pos="cn">að</w>
+            <w lemma="raka" xml:id="IGC-Books-unugata.209.1.4" pos="sng">raka</w>
+            <w lemma="saman" xml:id="IGC-Books-unugata.209.1.5" pos="aa">saman</w>
+            <w lemma="lauf" xml:id="IGC-Books-unugata.209.1.6" pos="nheþ" join="right">laufi</w>
+            <pc xml:id="IGC-Books-unugata.209.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.210">
+          <s xml:id="IGC-Books-unugata.210.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.210.1.1" pos="nken-s">Finnur</w>
+            <w lemma="sjá" xml:id="IGC-Books-unugata.210.1.2" pos="sfg3eþ">sá</w>
+            <w lemma="glitta" xml:id="IGC-Books-unugata.210.1.3" pos="sng">glitta</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.210.1.4" pos="af">í</w>
+            <w lemma="hattur" xml:id="IGC-Books-unugata.210.1.5" pos="nkeog">hattinn</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.210.1.6" pos="fpvee">hennar</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.210.1.7" pos="aa">á</w>
+            <w lemma="milli" xml:id="IGC-Books-unugata.210.1.8" pos="af">milli</w>
+            <w lemma="runni" xml:id="IGC-Books-unugata.210.1.9" pos="nkfe" join="right">runna</w>
+            <pc xml:id="IGC-Books-unugata.210.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.211">
+          <s xml:id="IGC-Books-unugata.211.1">
+            <pc xml:id="IGC-Books-unugata.211.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.211.1.2" pos="fp1en">Ég</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.211.1.3" pos="sfg1en">held</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.211.1.4" pos="c">að</w>
+            <w lemma="póstur" xml:id="IGC-Books-unugata.211.1.5" pos="nkfn">póstar</w>
+            <w lemma="mega" xml:id="IGC-Books-unugata.211.1.6" pos="svg3fn">megi</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.211.1.7" pos="aa">ekki</w>
+            <w lemma="læða" xml:id="IGC-Books-unugata.211.1.8" pos="snm">læðast</w>
+            <w lemma="svona" xml:id="IGC-Books-unugata.211.1.9" pos="aa">svona</w>
+            <w lemma="um" xml:id="IGC-Books-unugata.211.1.10" pos="aa" join="right">um</w>
+            <pc xml:id="IGC-Books-unugata.211.1.11" pos="pk">,</pc>
+            <w lemma="hvísla" xml:id="IGC-Books-unugata.211.1.12" pos="sfg3eþ">hvíslaði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.211.1.13" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.211.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.212">
+          <s xml:id="IGC-Books-unugata.212.1">
+            <pc xml:id="IGC-Books-unugata.212.1.1" pos="pa">–</pc>
+            <w lemma="jæja" xml:id="IGC-Books-unugata.212.1.2" pos="au" join="right">Jæja</w>
+            <pc xml:id="IGC-Books-unugata.212.1.3" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.212.1.4" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.212.1.5" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.212.1.6" pos="pk">,</pc>
+            <w lemma="þá" xml:id="IGC-Books-unugata.212.1.7" pos="aa">þá</w>
+            <w lemma="læða" xml:id="IGC-Books-unugata.212.1.8" pos="sfm1en">læðist</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.212.1.9" pos="fp1en" join="right">ég</w>
+            <pc xml:id="IGC-Books-unugata.212.1.10" pos="pk">,</pc>
+            <w lemma="þú" xml:id="IGC-Books-unugata.212.1.11" pos="fp2en">þú</w>
+            <w lemma="ganga" xml:id="IGC-Books-unugata.212.1.12" pos="sfg2en" join="right">gengur</w>
+            <pc xml:id="IGC-Books-unugata.212.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.213">
+          <s xml:id="IGC-Books-unugata.213.1">
+            <w lemma="kalla" xml:id="IGC-Books-unugata.213.1.1" pos="sfg3eþ">kallaði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.213.1.2" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.213.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.213.2">
+            <pc xml:id="IGC-Books-unugata.213.2.1" pos="pa">–</pc>
+            <w lemma="halló" xml:id="IGC-Books-unugata.213.2.2" pos="au" join="right">Halló</w>
+            <pc xml:id="IGC-Books-unugata.213.2.3" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.213.3">
+            <w lemma="Hulda" xml:id="IGC-Books-unugata.213.3.1" pos="nven-s" join="right">Hulda</w>
+            <pc xml:id="IGC-Books-unugata.213.3.2" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.214">
+          <s xml:id="IGC-Books-unugata.214.1">
+            <w lemma="það" xml:id="IGC-Books-unugata.214.1.1" pos="fphen">Það</w>
+            <w lemma="bresta" xml:id="IGC-Books-unugata.214.1.2" pos="sfg3eþ">brast</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.214.1.3" pos="af">í</w>
+            <w lemma="grein" xml:id="IGC-Books-unugata.214.1.4" pos="nvfþ">greinum</w>
+            <w lemma="þegar" xml:id="IGC-Books-unugata.214.1.5" pos="c">þegar</w>
+            <w lemma="Hulda" xml:id="IGC-Books-unugata.214.1.6" pos="nven-s">Hulda</w>
+            <w lemma="ryðja" xml:id="IGC-Books-unugata.214.1.7" pos="sfm3eþ">ruddist</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.214.1.8" pos="aa">í</w>
+            <w lemma="gegnum" xml:id="IGC-Books-unugata.214.1.9" pos="af">gegnum</w>
+            <w lemma="runni" xml:id="IGC-Books-unugata.214.1.10" pos="nkeo" join="right">runna</w>
+            <pc xml:id="IGC-Books-unugata.214.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.215">
+          <s xml:id="IGC-Books-unugata.215.1">
+            <pc xml:id="IGC-Books-unugata.215.1.1" pos="pa">–</pc>
+            <w lemma="æ" xml:id="IGC-Books-unugata.215.1.2" pos="au" join="right">Æ</w>
+            <pc xml:id="IGC-Books-unugata.215.1.3" pos="pk">,</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.215.1.4" pos="fp1eþ">mér</w>
+            <w lemma="bregða" xml:id="IGC-Books-unugata.215.1.5" pos="sfg3eþ" join="right">brá</w>
+            <pc xml:id="IGC-Books-unugata.215.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.215.1.7" pos="sfg3eþ">sagði</w>
+            <w lemma="Hulda" xml:id="IGC-Books-unugata.215.1.8" pos="nven-s" join="right">Hulda</w>
+            <pc xml:id="IGC-Books-unugata.215.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.216">
+          <s xml:id="IGC-Books-unugata.216.1">
+            <w lemma="ég" xml:id="IGC-Books-unugata.216.1.1" pos="fp1en">Ég</w>
+            <w lemma="heyra" xml:id="IGC-Books-unugata.216.1.2" pos="sfg1eþ">heyrði</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.216.1.3" pos="fp2fo">ykkur</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.216.1.4" pos="aa">ekki</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.216.1.5" pos="sng" join="right">koma</w>
+            <pc xml:id="IGC-Books-unugata.216.1.6" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.217">
+          <s xml:id="IGC-Books-unugata.217.1">
+            <w lemma="b" xml:id="IGC-Books-unugata.217.1.1" pos="nhen">B</w>
+            <w lemma="eins" xml:id="IGC-Books-unugata.217.1.2" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.217.1.3" pos="c">og</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.217.1.4" pos="aa">í</w>
+            <w lemma="blóm" xml:id="IGC-Books-unugata.217.1.5" pos="nhfo">blóm</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.218">
+          <s xml:id="IGC-Books-unugata.218.1">
+            <w lemma="Hulda" xml:id="IGC-Books-unugata.218.1.1" pos="nven-s">Hulda</w>
+            <w lemma="kaupa" xml:id="IGC-Books-unugata.218.1.2" pos="sfg3eþ">keypti</w>
+            <w lemma="ótal" xml:id="IGC-Books-unugata.218.1.3" pos="nhen">ótal</w>
+            <w lemma="blað" xml:id="IGC-Books-unugata.218.1.4" pos="nhfo">blöð</w>
+            <w lemma="um" xml:id="IGC-Books-unugata.218.1.5" pos="af">um</w>
+            <w lemma="garður" xml:id="IGC-Books-unugata.218.1.6" pos="nkfo">garða</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.218.1.7" pos="c">og</w>
+            <w lemma="gróður" xml:id="IGC-Books-unugata.218.1.8" pos="nkeo" join="right">gróður</w>
+            <pc xml:id="IGC-Books-unugata.218.1.9" pos="pk">,</pc>
+            <w lemma="rós" xml:id="IGC-Books-unugata.218.1.10" pos="nvfo">rósir</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.218.1.11" pos="c">og</w>
+            <w lemma="runni" xml:id="IGC-Books-unugata.218.1.12" pos="nkfo" join="right">runna</w>
+            <pc xml:id="IGC-Books-unugata.218.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.219">
+          <s xml:id="IGC-Books-unugata.219.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.219.1.1" pos="nken-s">Finnur</w>
+            <w lemma="rétta" xml:id="IGC-Books-unugata.219.1.2" pos="sfg3eþ">rétti</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.219.1.3" pos="fpveþ">henni</w>
+            <w lemma="þykkur" xml:id="IGC-Books-unugata.219.1.4" pos="lkeosf">þykkan</w>
+            <w lemma="bunki" xml:id="IGC-Books-unugata.219.1.5" pos="nkeo" join="right">bunka</w>
+            <pc xml:id="IGC-Books-unugata.219.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.220">
+          <s xml:id="IGC-Books-unugata.220.1">
+            <pc xml:id="IGC-Books-unugata.220.1.1" pos="pa">–</pc>
+            <w lemma="geta" xml:id="IGC-Books-unugata.220.1.2" pos="sfg2en">Getur</w>
+            <w lemma="þú" xml:id="IGC-Books-unugata.220.1.3" pos="fp2en">þú</w>
+            <w lemma="hjálpa" xml:id="IGC-Books-unugata.220.1.4" pos="sþghen">hjálpað</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.220.1.5" pos="fp1eþ" join="right">mér</w>
+            <pc xml:id="IGC-Books-unugata.220.1.6" pos="pk">,</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.221">
+          <s xml:id="IGC-Books-unugata.221.1">
+            <w lemma="spyrja" xml:id="IGC-Books-unugata.221.1.1" pos="sfg3eþ">spurði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.221.1.2" pos="nken-s">Finnur</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.221.1.3" pos="c">og</w>
+            <w lemma="sýna" xml:id="IGC-Books-unugata.221.1.4" pos="sfg3eþ">sýndi</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.221.1.5" pos="fpveþ">henni</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.221.1.6" pos="nkeog" join="right">pakkann</w>
+            <pc xml:id="IGC-Books-unugata.221.1.7" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.221.2">
+            <w lemma="Hulda" xml:id="IGC-Books-unugata.221.2.1" pos="nven-s" join="right">Hulda</w>
+            <pc xml:id="IGC-Books-unugata.221.2.2" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.222">
+          <s xml:id="IGC-Books-unugata.222.1">
+            <w lemma="hver" xml:id="IGC-Books-unugata.222.1.1" pos="fshen">Hvað</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.222.1.2" pos="sfg3en">stendur</w>
+            <w lemma="þarna" xml:id="IGC-Books-unugata.222.1.3" pos="aa" join="right">þarna</w>
+            <pc xml:id="IGC-Books-unugata.222.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.223">
+          <s xml:id="IGC-Books-unugata.223.1">
+            <pc xml:id="IGC-Books-unugata.223.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-unugata.223.1.2" pos="fp1en">Ég</w>
+            <w lemma="geta" xml:id="IGC-Books-unugata.223.1.3" pos="sfg1en">get</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.223.1.4" pos="aa">ekki</w>
+            <w lemma="lesa" xml:id="IGC-Books-unugata.223.1.5" pos="sþghen">lesið</w>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.223.1.6" pos="faheo">þetta</w>
+            <w lemma="allur" xml:id="IGC-Books-unugata.223.1.7" pos="foheo" join="right">allt</w>
+            <pc xml:id="IGC-Books-unugata.223.1.8" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.223.1.9" pos="sfg3eþ">sagði</w>
+            <w lemma="Hulda" xml:id="IGC-Books-unugata.223.1.10" pos="nven-s" join="right">Hulda</w>
+            <pc xml:id="IGC-Books-unugata.223.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.224">
+          <s xml:id="IGC-Books-unugata.224.1">
+            <w lemma="en" xml:id="IGC-Books-unugata.224.1.1" pos="c">En</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.224.1.2" pos="fp1en">ég</w>
+            <w lemma="sjá" xml:id="IGC-Books-unugata.224.1.3" pos="sfg1en">sé</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.224.1.4" pos="c">að</w>
+            <w lemma="fyrstur" xml:id="IGC-Books-unugata.224.1.5" pos="lkenve">fyrsti</w>
+            <w lemma="stafur" xml:id="IGC-Books-unugata.224.1.6" pos="nkeng">stafurinn</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.224.1.7" pos="sfg3en">er</w>
+            <w lemma="b" xml:id="IGC-Books-unugata.224.1.8" pos="nhen" join="right">B</w>
+            <pc xml:id="IGC-Books-unugata.224.1.9" pos="pk">,</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.225">
+          <s xml:id="IGC-Books-unugata.225.1">
+            <w lemma="b" xml:id="IGC-Books-unugata.225.1.1" pos="nhen">B</w>
+            <w lemma="eins" xml:id="IGC-Books-unugata.225.1.2" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.225.1.3" pos="c">og</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.225.1.4" pos="af">í</w>
+            <w lemma="blóm" xml:id="IGC-Books-unugata.225.1.5" pos="n-eþ" join="right">BLÓM</w>
+            <pc xml:id="IGC-Books-unugata.225.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.226">
+          <s xml:id="IGC-Books-unugata.226.1">
+            <pc xml:id="IGC-Books-unugata.226.1.1" pos="pa">–</pc>
+            <w lemma="þá" xml:id="IGC-Books-unugata.226.1.2" pos="aa">Þá</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.226.1.3" pos="sfg3en">er</w>
+            <w lemma="bréf" xml:id="IGC-Books-unugata.226.1.4" pos="nheng">bréfið</w>
+            <w lemma="kannski" xml:id="IGC-Books-unugata.226.1.5" pos="aa">kannski</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.226.1.6" pos="af">til</w>
+            <w lemma="Bára" xml:id="IGC-Books-unugata.226.1.7" pos="nvee-s">Báru</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.226.1.8" pos="af">á</w>
+            <w lemma="númer" xml:id="IGC-Books-unugata.226.1.9" pos="nhen">númer</w>
+            <w lemma="fimm" xml:id="IGC-Books-unugata.226.1.10" pos="ta" join="right">fimm</w>
+            <pc xml:id="IGC-Books-unugata.226.1.11" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.226.1.12" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.226.1.13" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.226.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.227">
+          <s xml:id="IGC-Books-unugata.227.1">
+            <w lemma="drífa" xml:id="IGC-Books-unugata.227.1.1" pos="sfg1fn">Drífum</w>
+            <w lemma="ég" xml:id="IGC-Books-unugata.227.1.2" pos="fp1fo">okkur</w>
+            <w lemma="þangað" xml:id="IGC-Books-unugata.227.1.3" pos="aa" join="right">þangað</w>
+            <pc xml:id="IGC-Books-unugata.227.1.4" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.228">
+          <s xml:id="IGC-Books-unugata.228.1">
+            <w lemma="opinn" xml:id="IGC-Books-unugata.228.1.1" pos="lkensf">Opinn</w>
+            <w lemma="gluggi" xml:id="IGC-Books-unugata.228.1.2" pos="nken">gluggi</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.229">
+          <s xml:id="IGC-Books-unugata.229.1">
+            <w lemma="Bára" xml:id="IGC-Books-unugata.229.1.1" pos="nven-s">Bára</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.229.1.2" pos="sfg3eþ">var</w>
+            <w lemma="heima" xml:id="IGC-Books-unugata.229.1.3" pos="aa" join="right">heima</w>
+            <pc xml:id="IGC-Books-unugata.229.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.230">
+          <s xml:id="IGC-Books-unugata.230.1">
+            <w lemma="a" xml:id="IGC-Books-unugata.230.1.1" pos="nhen">A</w>
+            <w lemma="-" xml:id="IGC-Books-unugata.230.1.2" pos="nhen">-</w>
+            <w lemma="ú" xml:id="IGC-Books-unugata.230.1.3" pos="nhen">ú</w>
+            <w lemma="-" xml:id="IGC-Books-unugata.230.1.4" pos="nhen">-</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.230.1.5" pos="nhen">í</w>
+            <w lemma="-" xml:id="IGC-Books-unugata.230.1.6" pos="nhen">-</w>
+            <w lemma="a" xml:id="IGC-Books-unugata.230.1.7" pos="nhen" join="right">a</w>
+            <pc xml:id="IGC-Books-unugata.230.1.8" pos="pk">,</pc>
+            <w lemma="heyra" xml:id="IGC-Books-unugata.230.1.9" pos="sfm3eþ">heyrðist</w>
+            <w lemma="út" xml:id="IGC-Books-unugata.230.1.10" pos="aa">út</w>
+            <w lemma="um" xml:id="IGC-Books-unugata.230.1.11" pos="af">um</w>
+            <w lemma="opinn" xml:id="IGC-Books-unugata.230.1.12" pos="lkeosf">opinn</w>
+            <w lemma="gluggi" xml:id="IGC-Books-unugata.230.1.13" pos="nkeo" join="right">glugga</w>
+            <pc xml:id="IGC-Books-unugata.230.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.231">
+          <s xml:id="IGC-Books-unugata.231.1">
+            <w lemma="Bára" xml:id="IGC-Books-unugata.231.1.1" pos="nven-s">Bára</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.231.1.2" pos="sfg3eþ">var</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.231.1.3" pos="cn">að</w>
+            <w lemma="æfa" xml:id="IGC-Books-unugata.231.1.4" pos="sng">æfa</w>
+            <w lemma="söngur" xml:id="IGC-Books-unugata.231.1.5" pos="nkeo" join="right">söng</w>
+            <pc xml:id="IGC-Books-unugata.231.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.232">
+          <s xml:id="IGC-Books-unugata.232.1">
+            <pc xml:id="IGC-Books-unugata.232.1.1" pos="pa">–</pc>
+            <w lemma="hún" xml:id="IGC-Books-unugata.232.1.2" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.232.1.3" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.232.1.4" pos="cn">að</w>
+            <w lemma="syngja" xml:id="IGC-Books-unugata.232.1.5" pos="sng">syngja</w>
+            <w lemma="tónstigi" xml:id="IGC-Books-unugata.232.1.6" pos="nkeo" join="right">tónstiga</w>
+            <pc xml:id="IGC-Books-unugata.232.1.7" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.232.1.8" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.232.1.9" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.232.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.233">
+          <s xml:id="IGC-Books-unugata.233.1">
+            <pc xml:id="IGC-Books-unugata.233.1.1" pos="pa">–</pc>
+            <w lemma="hún" xml:id="IGC-Books-unugata.233.1.2" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.233.1.3" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.233.1.4" pos="cn">að</w>
+            <w lemma="veina" xml:id="IGC-Books-unugata.233.1.5" pos="sng" join="right">veina</w>
+            <pc xml:id="IGC-Books-unugata.233.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.233.1.7" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.233.1.8" pos="nven-s" join="right">Rósa</w>
+            <pc xml:id="IGC-Books-unugata.233.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.234">
+          <s xml:id="IGC-Books-unugata.234.1">
+            <w lemma="þessi" xml:id="IGC-Books-unugata.234.1.1" pos="fahen">Þetta</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.234.1.2" pos="sfg3en">er</w>
+            <w lemma="hræðilegur" xml:id="IGC-Books-unugata.234.1.3" pos="lhensf" join="right">hræðilegt</w>
+            <pc xml:id="IGC-Books-unugata.234.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.235">
+          <s xml:id="IGC-Books-unugata.235.1">
+            <pc xml:id="IGC-Books-unugata.235.1.1" pos="pa">–</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.235.1.2" pos="au" join="right">Nei</w>
+            <pc xml:id="IGC-Books-unugata.235.1.3" pos="pk">,</pc>
+            <w lemma="nei" xml:id="IGC-Books-unugata.235.1.4" pos="au" join="right">nei</w>
+            <pc xml:id="IGC-Books-unugata.235.1.5" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.235.1.6" pos="sfg3eþ">sagði</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.235.1.7" pos="nken-s" join="right">Finnur</w>
+            <pc xml:id="IGC-Books-unugata.235.1.8" pos="pk">,</pc>
+            <w lemma="þessi" xml:id="IGC-Books-unugata.235.1.9" pos="fahen">þetta</w>
+            <w lemma="vera" xml:id="IGC-Books-unugata.235.1.10" pos="sfg3en">er</w>
+            <w lemma="fínn" xml:id="IGC-Books-unugata.235.1.11" pos="lkensf">fínn</w>
+            <w lemma="söngur" xml:id="IGC-Books-unugata.235.1.12" pos="nken" join="right">söngur</w>
+            <pc xml:id="IGC-Books-unugata.235.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.236">
+          <s xml:id="IGC-Books-unugata.236.1">
+            <pc xml:id="IGC-Books-unugata.236.1.1" pos="pa">–</pc>
+            <w lemma="hún" xml:id="IGC-Books-unugata.236.1.2" pos="fpven">Hún</w>
+            <w lemma="hætta" xml:id="IGC-Books-unugata.236.1.3" pos="sfg3en">hættir</w>
+            <w lemma="kannski" xml:id="IGC-Books-unugata.236.1.4" pos="aa">kannski</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.236.1.5" pos="cn">að</w>
+            <w lemma="veina" xml:id="IGC-Books-unugata.236.1.6" pos="sng">veina</w>
+            <w lemma="ef" xml:id="IGC-Books-unugata.236.1.7" pos="c">ef</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.236.1.8" pos="fpven">hún</w>
+            <w lemma="fá" xml:id="IGC-Books-unugata.236.1.9" pos="sfg3en">fær</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.236.1.10" pos="nkeog">pakkann</w>
+            <w lemma="sinn" xml:id="IGC-Books-unugata.236.1.11" pos="fekeo" join="right">sinn</w>
+            <pc xml:id="IGC-Books-unugata.236.1.12" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-unugata.236.1.13" pos="sfg3eþ">sagði</w>
+            <w lemma="Rósa" xml:id="IGC-Books-unugata.236.1.14" pos="nven-s">Rósa</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.236.1.15" pos="c">og</w>
+            <w lemma="hringja" xml:id="IGC-Books-unugata.236.1.16" pos="sfg3eþ">hringdi</w>
+            <w lemma="dyrabjalla" xml:id="IGC-Books-unugata.236.1.17" pos="nveþg" join="right">dyrabjöllunni</w>
+            <pc xml:id="IGC-Books-unugata.236.1.18" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.237">
+          <s xml:id="IGC-Books-unugata.237.1">
+            <w lemma="Bára" xml:id="IGC-Books-unugata.237.1.1" pos="nven-s">Bára</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.238">
+          <s xml:id="IGC-Books-unugata.238.1">
+            <w lemma="Bára" xml:id="IGC-Books-unugata.238.1.1" pos="nven-s">Bára</w>
+            <w lemma="koma" xml:id="IGC-Books-unugata.238.1.2" pos="sfg3eþ">kom</w>
+            <w lemma="til" xml:id="IGC-Books-unugata.238.1.3" pos="af">til</w>
+            <w lemma="dyr" xml:id="IGC-Books-unugata.238.1.4" pos="nvfe" join="right">dyra</w>
+            <pc xml:id="IGC-Books-unugata.238.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.239">
+          <s xml:id="IGC-Books-unugata.239.1">
+            <w lemma="hár" xml:id="IGC-Books-unugata.239.1.1" pos="nheng">Hárið</w>
+            <w lemma="standa" xml:id="IGC-Books-unugata.239.1.2" pos="sfg3eþ">stóð</w>
+            <w lemma="í" xml:id="IGC-Books-unugata.239.1.3" pos="af">í</w>
+            <w lemma="allur" xml:id="IGC-Books-unugata.239.1.4" pos="fovfo">allar</w>
+            <w lemma="átt" xml:id="IGC-Books-unugata.239.1.5" pos="nvfo" join="right">áttir</w>
+            <pc xml:id="IGC-Books-unugata.239.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.240">
+          <s xml:id="IGC-Books-unugata.240.1">
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.240.1.1" pos="nken-s">Finnur</w>
+            <w lemma="bjóða" xml:id="IGC-Books-unugata.240.1.2" pos="sfg3eþ">bauð</w>
+            <w lemma="góður" xml:id="IGC-Books-unugata.240.1.3" pos="lkeosf">góðan</w>
+            <w lemma="dagur" xml:id="IGC-Books-unugata.240.1.4" pos="nkeo">dag</w>
+            <w lemma="og" xml:id="IGC-Books-unugata.240.1.5" pos="c">og</w>
+            <w lemma="rétta" xml:id="IGC-Books-unugata.240.1.6" pos="sfg3eþ">rétti</w>
+            <w lemma="hún" xml:id="IGC-Books-unugata.240.1.7" pos="fpveþ">henni</w>
+            <w lemma="snemma" xml:id="IGC-Books-unugata.240.1.8" pos="aae">fyrst</w>
+            <w lemma="stór" xml:id="IGC-Books-unugata.240.1.9" pos="lheosf">stórt</w>
+            <w lemma="umslag" xml:id="IGC-Books-unugata.240.1.10" pos="nheo" join="right">umslag</w>
+            <pc xml:id="IGC-Books-unugata.240.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.241">
+          <s xml:id="IGC-Books-unugata.241.1">
+            <w lemma="Bára" xml:id="IGC-Books-unugata.241.1.1" pos="nven-s">Bára</w>
+            <w lemma="hrópa" xml:id="IGC-Books-unugata.241.1.2" pos="sfg3eþ">hrópaði</w>
+            <w lemma="upp" xml:id="IGC-Books-unugata.241.1.3" pos="aa">upp</w>
+            <w lemma="yfir" xml:id="IGC-Books-unugata.241.1.4" pos="af">yfir</w>
+            <w lemma="sig" xml:id="IGC-Books-unugata.241.1.5" pos="fpveo" join="right">sig</w>
+            <pc xml:id="IGC-Books-unugata.241.1.6" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.242">
+          <s xml:id="IGC-Books-unugata.242.1">
+            <w lemma="nótur" xml:id="IGC-Books-unugata.242.1.1" pos="nken">Nótur</w>
+            <w lemma="frá" xml:id="IGC-Books-unugata.242.1.2" pos="af">frá</w>
+            <w lemma="Róm" xml:id="IGC-Books-unugata.242.1.3" pos="nveþ-s" join="right">Róm</w>
+            <pc xml:id="IGC-Books-unugata.242.1.4" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-unugata.242.2">
+            <pc xml:id="IGC-Books-unugata.242.2.1" pos="pa">–</pc>
+            <w lemma="ah" xml:id="IGC-Books-unugata.242.2.2" pos="au" join="right">Ah</w>
+            <pc xml:id="IGC-Books-unugata.242.2.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.243">
+          <s xml:id="IGC-Books-unugata.243.1">
+            <w lemma="hún" xml:id="IGC-Books-unugata.243.1.1" pos="fpven">Hún</w>
+            <w lemma="þrýsta" xml:id="IGC-Books-unugata.243.1.2" pos="sfg3eþ">þrýsti</w>
+            <w lemma="umslag" xml:id="IGC-Books-unugata.243.1.3" pos="nheþg">umslaginu</w>
+            <w lemma="að" xml:id="IGC-Books-unugata.243.1.4" pos="af">að</w>
+            <w lemma="barmur" xml:id="IGC-Books-unugata.243.1.5" pos="nkeþ">barmi</w>
+            <w lemma="sig" xml:id="IGC-Books-unugata.243.1.6" pos="fpveþ" join="right">sér</w>
+            <pc xml:id="IGC-Books-unugata.243.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.244">
+          <s xml:id="IGC-Books-unugata.244.1">
+            <pc xml:id="IGC-Books-unugata.244.1.1" pos="pa">–</pc>
+            <w lemma="og" xml:id="IGC-Books-unugata.244.1.2" pos="c">Og</w>
+            <w lemma="mikill" xml:id="IGC-Books-unugata.244.1.3" pos="lhenvm" join="right">meira</w>
+            <pc xml:id="IGC-Books-unugata.244.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.245">
+          <s xml:id="IGC-Books-unugata.245.1">
+            <w lemma="hún" xml:id="IGC-Books-unugata.245.1.1" pos="fpven">Hún</w>
+            <w lemma="líta" xml:id="IGC-Books-unugata.245.1.2" pos="sfg3eþ">leit</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.245.1.3" pos="af">á</w>
+            <w lemma="Finnur" xml:id="IGC-Books-unugata.245.1.4" pos="nkeo-s">Finn</w>
+            <w lemma="sem" xml:id="IGC-Books-unugata.245.1.5" pos="ct">sem</w>
+            <w lemma="halda" xml:id="IGC-Books-unugata.245.1.6" pos="sfg3eþ">hélt</w>
+            <w lemma="á" xml:id="IGC-Books-unugata.245.1.7" pos="af">á</w>
+            <w lemma="gulur" xml:id="IGC-Books-unugata.245.1.8" pos="lkeþvf">gula</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.245.1.9" pos="nkeþg" join="right">pakkanum</w>
+            <pc xml:id="IGC-Books-unugata.245.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-unugata.246">
+          <s xml:id="IGC-Books-unugata.246.1">
+            <w lemma="en" xml:id="IGC-Books-unugata.246.1.1" pos="c">En</w>
+            <w lemma="Bára" xml:id="IGC-Books-unugata.246.1.2" pos="nven-s">Bára</w>
+            <w lemma="eiga" xml:id="IGC-Books-unugata.246.1.3" pos="sfg3eþ">átti</w>
+            <w lemma="ekki" xml:id="IGC-Books-unugata.246.1.4" pos="aa">ekki</w>
+            <w lemma="pakki" xml:id="IGC-Books-unugata.246.1.5" pos="nkeog" join="right">pakkann</w>
+            <pc xml:id="IGC-Books-unugata.246.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

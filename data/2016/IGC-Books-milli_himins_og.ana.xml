@@ -1,0 +1,2121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="IGC-Books-milli_himins_og.ana">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="is">Íslenska risamálheildin - útgefnar bækur [IGC-Books.ana]</title>
+        <title type="main" xml:lang="en">The Icelandic Gigaword Corpus - published books [IGC-Books.ana]</title>
+        <title type="sub" xml:lang="is">Milli himins og jarðar – Hvalir</title>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Hildur Hafsteinsdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Finnur Ingimundarson</persName>
+          <resp xml:lang="is">Úrvinnsla texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Steinþór Steingrímsson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Árni Davíð Magnússon</persName>
+          <resp xml:lang="is">Söfnun texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Málfræðimörkun</resp>
+          <resp xml:lang="en">Linguistic annotation</resp>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words" quantity="1438" xml:lang="en">1438 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">Árni Magnússon Institute for Icelandic Studies</orgName>
+          <ref target="https://www.arnastofnun.is/">www.arnastofnun.is</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/20.500.12537/250</idno>
+        <availability status="restricted">
+          <licence>https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+        </availability>
+        <date when="2022-09-17">2022-09-17</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title xml:lang="is">Milli himins og jarðar – Hvalir</title>
+            <author sameAs="#HarpaJonsdottir">Harpa Jónsdóttir</author>
+            <imprint>
+              <publisher>Menntamálastofnun</publisher>
+              <date when="2016">2016</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="is">Textum hefur verið skipt upp í hluta sem innhalda 500 orð eða færri og svo raðað upp á nýtt. Efnisgreinar eru ekki slitnar í sundur nema þær innihaldi meira en 500 orð. Ef texti inniheldur færri en 5000 orð þá eru setningar innan hverrar efnisgreinar einnig stokkaðar upp. Í sumum tilvikum hafa textabrot verið fjarlægð úr texta - t.d. ef ekki höfundur brots hafði ekki veitt leyfi eða ef texti var á erlendu máli.</p>
+        <p xml:lang="en">The texts have been split into parts that do not include more than 500 words and reordered in a random way. Paragraphs are not dismantled unless they contain more than 500 words. If a text contains less than 5000 words, sentences of each paragraph are also rearranged. In some instances, we have removed fragments from texts, for example, if we did not have permission from the author of that fragment or if the fragment was not in Icelandic.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="1" gi="text"/>
+          <tagUsage occurs="1" gi="body"/>
+          <tagUsage occurs="1" gi="div"/>
+          <tagUsage occurs="77" gi="p"/>
+          <tagUsage occurs="139" gi="s"/>
+          <tagUsage occurs="1438" gi="w"/>
+          <tagUsage occurs="159" gi="pc"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="main">
+        <p xml:id="IGC-Books-milli_himins_og.1">
+          <s xml:id="IGC-Books-milli_himins_og.1.1">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.1.1.1" pos="nkfo">Hvali</w>
+            <w lemma="mega" xml:id="IGC-Books-milli_himins_og.1.1.2" pos="sfg3en">má</w>
+            <w lemma="finna" xml:id="IGC-Books-milli_himins_og.1.1.3" pos="sng">finna</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.1.1.4" pos="af">í</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.1.1.5" pos="fohfþ">öllum</w>
+            <w lemma="heimshaf" xml:id="IGC-Books-milli_himins_og.1.1.6" pos="nhfþ" join="right">heimshöfum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.1.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.2">
+          <s xml:id="IGC-Books-milli_himins_og.2.1">
+            <w lemma="sumur" xml:id="IGC-Books-milli_himins_og.2.1.1" pos="fovfn">Sumar</w>
+            <w lemma="tegund" xml:id="IGC-Books-milli_himins_og.2.1.2" pos="nvfn">tegundir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.2.1.3" pos="sfg3fn">eru</w>
+            <w lemma="risastór" xml:id="IGC-Books-milli_himins_og.2.1.4" pos="lvfnsf" join="right">risastórar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.2.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.3">
+          <s xml:id="IGC-Books-milli_himins_og.3.1">
+            <w lemma="svo" xml:id="IGC-Books-milli_himins_og.3.1.1" pos="aa">Svo</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.3.1.2" pos="lvfnsf">stórar</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.3.1.3" pos="aa">að</w>
+            <w lemma="tíu" xml:id="IGC-Books-milli_himins_og.3.1.4" pos="tfhfn">tíu</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.3.1.5" pos="lhfnve">stærstu</w>
+            <w lemma="núlifandi" xml:id="IGC-Books-milli_himins_og.3.1.6" pos="lhfnof">núlifandi</w>
+            <w lemma="dýr" xml:id="IGC-Books-milli_himins_og.3.1.7" pos="nhfn">dýr</w>
+            <w lemma="jörð" xml:id="IGC-Books-milli_himins_og.3.1.8" pos="nvee">jarðar</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.3.1.9" pos="sfg3fn">eru</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.3.1.10" pos="fohfn">öll</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.3.1.11" pos="nkfn" join="right">hvalir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.3.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.4">
+          <s xml:id="IGC-Books-milli_himins_og.4.1">
+            <w lemma="steypireyður" xml:id="IGC-Books-milli_himins_og.4.1.1" pos="nken">Steypireyður</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.4.1.2" pos="sfg3en">er</w>
+            <w lemma="álíka" xml:id="IGC-Books-milli_himins_og.4.1.3" pos="aa">álíka</w>
+            <w lemma="langur" xml:id="IGC-Books-milli_himins_og.4.1.4" pos="lvensf">löng</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.4.1.5" pos="c">og</w>
+            <w lemma="farþegaþota" xml:id="IGC-Books-milli_himins_og.4.1.6" pos="nven">farþegaþota</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.4.1.7" pos="c">og</w>
+            <w lemma="jafn" xml:id="IGC-Books-milli_himins_og.4.1.8" pos="aa">jafn</w>
+            <w lemma="þungur" xml:id="IGC-Books-milli_himins_og.4.1.9" pos="lvensf">þung</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.4.1.10" pos="c">og</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.4.1.11" pos="fokfn">allir</w>
+            <w lemma="íbúi" xml:id="IGC-Books-milli_himins_og.4.1.12" pos="nkfn">íbúar</w>
+            <w lemma="Húsavík" xml:id="IGC-Books-milli_himins_og.4.1.13" pos="nvee-s">Húsavíkur</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.4.1.14" pos="af">til</w>
+            <w lemma="samans" xml:id="IGC-Books-milli_himins_og.4.1.15" pos="aa" join="right">samans</w>
+            <pc xml:id="IGC-Books-milli_himins_og.4.1.16" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.4.2">
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.4.2.1" pos="lkenve">Stærsti</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.4.2.2" pos="nkeng">hvalurinn</w>
+            <w lemma="kalla" xml:id="IGC-Books-milli_himins_og.4.2.3" pos="sfm3en">kallast</w>
+            <w lemma="steypireyður" xml:id="IGC-Books-milli_himins_og.4.2.4" pos="nken" join="right">steypireyður</w>
+            <pc xml:id="IGC-Books-milli_himins_og.4.2.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.5">
+          <s xml:id="IGC-Books-milli_himins_og.5.1">
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.5.1.1" pos="c">En</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.5.1.2" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.5.1.3" pos="sfg3fn">eru</w>
+            <w lemma="líka" xml:id="IGC-Books-milli_himins_og.5.1.4" pos="aa">líka</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.5.1.5" pos="aa">til</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.5.1.6" pos="lheþsf">miklu</w>
+            <w lemma="lítill" xml:id="IGC-Books-milli_himins_og.5.1.7" pos="lkfnvm">minni</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.5.1.8" pos="nkfn" join="right">hvalir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.5.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.6">
+          <s xml:id="IGC-Books-milli_himins_og.6.1">
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.6.1.1" pos="af">Til</w>
+            <w lemma="dæmi" xml:id="IGC-Books-milli_himins_og.6.1.2" pos="nhee">dæmis</w>
+            <w lemma="höfrungur" xml:id="IGC-Books-milli_himins_og.6.1.3" pos="nken">höfrungur</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.6.1.4" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.6.1.5" pos="sfg3en">er</w>
+            <w lemma="álíka" xml:id="IGC-Books-milli_himins_og.6.1.6" pos="aa">álíka</w>
+            <w lemma="langur" xml:id="IGC-Books-milli_himins_og.6.1.7" pos="lkensf">langur</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.6.1.8" pos="c">og</w>
+            <w lemma="þungur" xml:id="IGC-Books-milli_himins_og.6.1.9" pos="lkensf">þungur</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.6.1.10" pos="c">og</w>
+            <w lemma="tíu" xml:id="IGC-Books-milli_himins_og.6.1.11" pos="tfhfe">tíu</w>
+            <w lemma="ár" xml:id="IGC-Books-milli_himins_og.6.1.12" pos="nhfe">ára</w>
+            <w lemma="barn" xml:id="IGC-Books-milli_himins_og.6.1.13" pos="nhen" join="right">barn</w>
+            <pc xml:id="IGC-Books-milli_himins_og.6.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.7">
+          <s xml:id="IGC-Books-milli_himins_og.7.1">
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.7.1.1" pos="sfg2en">Getur</w>
+            <w lemma="þú" xml:id="IGC-Books-milli_himins_og.7.1.2" pos="fp2en">þú</w>
+            <w lemma="nefna" xml:id="IGC-Books-milli_himins_og.7.1.3" pos="sþghen">nefnt</w>
+            <w lemma="einhver" xml:id="IGC-Books-milli_himins_og.7.1.4" pos="fovfo">einhverjar</w>
+            <w lemma="tegund" xml:id="IGC-Books-milli_himins_og.7.1.5" pos="nvfo">tegundir</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.7.1.6" pos="nkfe" join="right">hvala</w>
+            <pc xml:id="IGC-Books-milli_himins_og.7.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.8">
+          <s xml:id="IGC-Books-milli_himins_og.8.1">
+            <w lemma="þessi" xml:id="IGC-Books-milli_himins_og.8.1.1" pos="fahen">Þetta</w>
+            <w lemma="vaxtarlag" xml:id="IGC-Books-milli_himins_og.8.1.2" pos="nhen">vaxtarlag</w>
+            <w lemma="auðvelda" xml:id="IGC-Books-milli_himins_og.8.1.3" pos="sfg3en">auðveldar</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.8.1.4" pos="fpkfþ">þeim</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.8.1.5" pos="cn">að</w>
+            <w lemma="synda" xml:id="IGC-Books-milli_himins_og.8.1.6" pos="sng">synda</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.8.1.7" pos="af">í</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.8.1.8" pos="nkeþ">sjó</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.8.1.9" pos="c">og</w>
+            <w lemma="vatn" xml:id="IGC-Books-milli_himins_og.8.1.10" pos="nheþ" join="right">vatni</w>
+            <pc xml:id="IGC-Books-milli_himins_og.8.1.11" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.8.2">
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.8.2.1" pos="fphen">Það</w>
+            <w lemma="þýða" xml:id="IGC-Books-milli_himins_og.8.2.2" pos="sfg3en">þýðir</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.8.2.3" pos="c">að</w>
+            <w lemma="líkami" xml:id="IGC-Books-milli_himins_og.8.2.4" pos="nkeng">líkaminn</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.8.2.5" pos="sfg3en">er</w>
+            <w lemma="mjór" xml:id="IGC-Books-milli_himins_og.8.2.6" pos="lkenvm">mjórri</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.8.2.7" pos="c">að</w>
+            <w lemma="framan" xml:id="IGC-Books-milli_himins_og.8.2.8" pos="aa">framan</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.8.2.9" pos="c">og</w>
+            <w lemma="aftan" xml:id="IGC-Books-milli_himins_og.8.2.10" pos="aa">aftan</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.8.2.11" pos="c">en</w>
+            <w lemma="breiður" xml:id="IGC-Books-milli_himins_og.8.2.12" pos="lkenvm">breiðari</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.8.2.13" pos="af">í</w>
+            <w lemma="miðja" xml:id="IGC-Books-milli_himins_og.8.2.14" pos="nveþg" join="right">miðjunni</w>
+            <pc xml:id="IGC-Books-milli_himins_og.8.2.15" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.8.3">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.8.3.1" pos="nkfn">Hvalir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.8.3.2" pos="sfg3fn">eru</w>
+            <w lemma="straumlínulaga" xml:id="IGC-Books-milli_himins_og.8.3.3" pos="lkfnof" join="right">straumlínulaga</w>
+            <pc xml:id="IGC-Books-milli_himins_og.8.3.4" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.8.4">
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.8.4.1" pos="fpkfn">Þeir</w>
+            <w lemma="hafa" xml:id="IGC-Books-milli_himins_og.8.4.2" pos="sfg3fn">hafa</w>
+            <w lemma="líka" xml:id="IGC-Books-milli_himins_og.8.4.3" pos="aa">líka</w>
+            <w lemma="þykkur" xml:id="IGC-Books-milli_himins_og.8.4.4" pos="lheosf">þykkt</w>
+            <w lemma="spiklag" xml:id="IGC-Books-milli_himins_og.8.4.5" pos="nheo">spiklag</w>
+            <w lemma="undir" xml:id="IGC-Books-milli_himins_og.8.4.6" pos="af">undir</w>
+            <w lemma="húð" xml:id="IGC-Books-milli_himins_og.8.4.7" pos="nveþg">húðinni</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.8.4.8" pos="ct">sem</w>
+            <w lemma="verja" xml:id="IGC-Books-milli_himins_og.8.4.9" pos="sfg3en">ver</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.8.4.10" pos="fpkfo">þá</w>
+            <w lemma="fyrir" xml:id="IGC-Books-milli_himins_og.8.4.11" pos="af">fyrir</w>
+            <w lemma="kuldi" xml:id="IGC-Books-milli_himins_og.8.4.12" pos="nkeþ" join="right">kulda</w>
+            <pc xml:id="IGC-Books-milli_himins_og.8.4.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.9">
+          <s xml:id="IGC-Books-milli_himins_og.9.1">
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.9.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.9.1.2" pos="sfg3fn">geta</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.9.1.3" pos="aa">ekki</w>
+            <w lemma="anda" xml:id="IGC-Books-milli_himins_og.9.1.4" pos="sþghen">andað</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.9.1.5" pos="af">í</w>
+            <w lemma="kaf" xml:id="IGC-Books-milli_himins_og.9.1.6" pos="nheþ">kafi</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.9.1.7" pos="c">og</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.9.1.8" pos="sfg3fn">verða</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.9.1.9" pos="cn">að</w>
+            <w lemma="koma" xml:id="IGC-Books-milli_himins_og.9.1.10" pos="sng">koma</w>
+            <w lemma="upp" xml:id="IGC-Books-milli_himins_og.9.1.11" pos="aa">upp</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.9.1.12" pos="af">á</w>
+            <w lemma="yfirborð" xml:id="IGC-Books-milli_himins_og.9.1.13" pos="nheog">yfirborðið</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.9.1.14" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.9.1.15" pos="cn">að</w>
+            <w lemma="ná" xml:id="IGC-Books-milli_himins_og.9.1.16" pos="sng">ná</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.9.1.17" pos="fpkfþ">sér</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.9.1.18" pos="af">í</w>
+            <w lemma="súrefni" xml:id="IGC-Books-milli_himins_og.9.1.19" pos="nheo" join="right">súrefni</w>
+            <pc xml:id="IGC-Books-milli_himins_og.9.1.20" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.9.2">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.9.2.1" pos="nkfn">Hvalir</w>
+            <w lemma="anda" xml:id="IGC-Books-milli_himins_og.9.2.2" pos="sfg3fn">anda</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.9.2.3" pos="af">með</w>
+            <w lemma="lunga" xml:id="IGC-Books-milli_himins_og.9.2.4" pos="nhfþ">lungum</w>
+            <w lemma="alveg" xml:id="IGC-Books-milli_himins_og.9.2.5" pos="aa">alveg</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.9.2.6" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.9.2.7" pos="c">og</w>
+            <w lemma="ég" xml:id="IGC-Books-milli_himins_og.9.2.8" pos="fp1fn" join="right">við</w>
+            <pc xml:id="IGC-Books-milli_himins_og.9.2.9" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.9.3">
+            <w lemma="sumur" xml:id="IGC-Books-milli_himins_og.9.3.1" pos="fokfn">Sumir</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.9.3.2" pos="nkfn">hvalir</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.9.3.3" pos="sfg3fn">geta</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.9.3.4" pos="sþghen">verið</w>
+            <w lemma="mjög" xml:id="IGC-Books-milli_himins_og.9.3.5" pos="aa">mjög</w>
+            <w lemma="lengi" xml:id="IGC-Books-milli_himins_og.9.3.6" pos="aa">lengi</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.9.3.7" pos="af">í</w>
+            <w lemma="kaf" xml:id="IGC-Books-milli_himins_og.9.3.8" pos="nheþ" join="right">kafi</w>
+            <pc xml:id="IGC-Books-milli_himins_og.9.3.9" pos="pk">,</pc>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.9.3.10" pos="af">í</w>
+            <w lemma="klukkustund" xml:id="IGC-Books-milli_himins_og.9.3.11" pos="nveo">klukkustund</w>
+            <w lemma="eða" xml:id="IGC-Books-milli_himins_og.9.3.12" pos="c">eða</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.9.3.13" pos="lheovm" join="right">meira</w>
+            <pc xml:id="IGC-Books-milli_himins_og.9.3.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.10">
+          <s xml:id="IGC-Books-milli_himins_og.10.1">
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.10.1.1" pos="fokfn">Allir</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.10.1.2" pos="nkfn">hvalir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.10.1.3" pos="sfg3fn">eru</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.10.1.4" pos="af">með</w>
+            <w lemma="nös" xml:id="IGC-Books-milli_himins_og.10.1.5" pos="nvfog">nasirnar</w>
+            <w lemma="ofan" xml:id="IGC-Books-milli_himins_og.10.1.6" pos="aa">ofan</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.10.1.7" pos="af">á</w>
+            <w lemma="höfuð" xml:id="IGC-Books-milli_himins_og.10.1.8" pos="nheþg" join="right">höfðinu</w>
+            <pc xml:id="IGC-Books-milli_himins_og.10.1.9" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.10.2">
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.10.2.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.10.2.2" pos="sfg3en">er</w>
+            <w lemma="hentugur" xml:id="IGC-Books-milli_himins_og.10.2.3" pos="lhensf" join="right">hentugt</w>
+            <pc xml:id="IGC-Books-milli_himins_og.10.2.4" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.10.2.5" pos="fpheþ">því</w>
+            <w lemma="þá" xml:id="IGC-Books-milli_himins_og.10.2.6" pos="aa">þá</w>
+            <w lemma="þurfa" xml:id="IGC-Books-milli_himins_og.10.2.7" pos="sfg3fn">þurfa</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.10.2.8" pos="fpkfn">þeir</w>
+            <w lemma="aðeins" xml:id="IGC-Books-milli_himins_og.10.2.9" pos="aa">aðeins</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.10.2.10" pos="cn">að</w>
+            <w lemma="lyfta" xml:id="IGC-Books-milli_himins_og.10.2.11" pos="sng">lyfta</w>
+            <w lemma="efri" xml:id="IGC-Books-milli_himins_og.10.2.12" pos="lkeþve">efsta</w>
+            <w lemma="hluti" xml:id="IGC-Books-milli_himins_og.10.2.13" pos="nkeþ">hluta</w>
+            <w lemma="höfuð" xml:id="IGC-Books-milli_himins_og.10.2.14" pos="nheeg">höfuðsins</w>
+            <w lemma="upp" xml:id="IGC-Books-milli_himins_og.10.2.15" pos="aa">upp</w>
+            <w lemma="úr" xml:id="IGC-Books-milli_himins_og.10.2.16" pos="af">úr</w>
+            <w lemma="haf" xml:id="IGC-Books-milli_himins_og.10.2.17" pos="nheþg">hafinu</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.10.2.18" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.10.2.19" pos="cn">að</w>
+            <w lemma="anda" xml:id="IGC-Books-milli_himins_og.10.2.20" pos="sng" join="right">anda</w>
+            <pc xml:id="IGC-Books-milli_himins_og.10.2.21" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.10.3">
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.10.3.1" pos="fpvfn">Þær</w>
+            <w lemma="kalla" xml:id="IGC-Books-milli_himins_og.10.3.2" pos="sfm3fn">kallast</w>
+            <w lemma="blástursop" xml:id="IGC-Books-milli_himins_og.10.3.3" pos="nhen" join="right">blástursop</w>
+            <pc xml:id="IGC-Books-milli_himins_og.10.3.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.11">
+          <s xml:id="IGC-Books-milli_himins_og.11.1">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.11.1.1" pos="nkfn">Hvalir</w>
+            <w lemma="synda" xml:id="IGC-Books-milli_himins_og.11.1.2" pos="sfg3fn">synda</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.11.1.3" pos="af">í</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.11.1.4" pos="nkeþg">sjónum</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.11.1.5" pos="c">og</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.11.1.6" pos="sfg3fn">geta</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.11.1.7" pos="aa">ekki</w>
+            <w lemma="lifa" xml:id="IGC-Books-milli_himins_og.11.1.8" pos="sþghen">lifað</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.11.1.9" pos="af">á</w>
+            <w lemma="land" xml:id="IGC-Books-milli_himins_og.11.1.10" pos="nheþ" join="right">landi</w>
+            <pc xml:id="IGC-Books-milli_himins_og.11.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.12">
+          <s xml:id="IGC-Books-milli_himins_og.12.1">
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.12.1.1" pos="c">En</w>
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.12.1.2" pos="fokee">hvers</w>
+            <w lemma="konar" xml:id="IGC-Books-milli_himins_og.12.1.3" pos="nkee">konar</w>
+            <w lemma="dýr" xml:id="IGC-Books-milli_himins_og.12.1.4" pos="nhfn">dýr</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.12.1.5" pos="sfg3fn">eru</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.12.1.6" pos="nkfn" join="right">hvalir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.12.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.13">
+          <s xml:id="IGC-Books-milli_himins_og.13.1">
+            <w lemma="hvaða" xml:id="IGC-Books-milli_himins_og.13.1.1" pos="fshfo">Hvaða</w>
+            <w lemma="annar" xml:id="IGC-Books-milli_himins_og.13.1.2" pos="fohfo">önnur</w>
+            <w lemma="dýr" xml:id="IGC-Books-milli_himins_og.13.1.3" pos="nhfo">dýr</w>
+            <w lemma="þekkja" xml:id="IGC-Books-milli_himins_og.13.1.4" pos="sfg2en">þekkir</w>
+            <w lemma="þú" xml:id="IGC-Books-milli_himins_og.13.1.5" pos="fp2en">þú</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.13.1.6" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.13.1.7" pos="sfg3fn">eru</w>
+            <w lemma="straumlínulagaður" xml:id="IGC-Books-milli_himins_og.13.1.8" pos="lhfnsf" join="right">straumlínulöguð</w>
+            <pc xml:id="IGC-Books-milli_himins_og.13.1.9" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.14">
+          <s xml:id="IGC-Books-milli_himins_og.14.1">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.14.1.1" pos="nkfn">Hvalir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.14.1.2" pos="sfg3fn">eru</w>
+            <w lemma="spendýr" xml:id="IGC-Books-milli_himins_og.14.1.3" pos="nhfn" join="right">spendýr</w>
+            <pc xml:id="IGC-Books-milli_himins_og.14.1.4" pos="pk">,</pc>
+            <w lemma="alveg" xml:id="IGC-Books-milli_himins_og.14.1.5" pos="aa">alveg</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.14.1.6" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.14.1.7" pos="c">og</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.14.1.8" pos="af">til</w>
+            <w lemma="dæmi" xml:id="IGC-Books-milli_himins_og.14.1.9" pos="nhee">dæmis</w>
+            <w lemma="kind" xml:id="IGC-Books-milli_himins_og.14.1.10" pos="nvfn">kindur</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.14.1.11" pos="c">og</w>
+            <w lemma="maður" xml:id="IGC-Books-milli_himins_og.14.1.12" pos="nkfn" join="right">menn</w>
+            <pc xml:id="IGC-Books-milli_himins_og.14.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.15">
+          <s xml:id="IGC-Books-milli_himins_og.15.1">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.15.1.1" pos="nkfn">Hvalir</w>
+            <w lemma="eigna" xml:id="IGC-Books-milli_himins_og.15.1.2" pos="sfm3fn">eignast</w>
+            <w lemma="lifandi" xml:id="IGC-Books-milli_himins_og.15.1.3" pos="lhfoof">lifandi</w>
+            <w lemma="afkvæmi" xml:id="IGC-Books-milli_himins_og.15.1.4" pos="nhfo">afkvæmi</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.15.1.5" pos="c">og</w>
+            <w lemma="næra" xml:id="IGC-Books-milli_himins_og.15.1.6" pos="sfg3fn">næra</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.15.1.7" pos="fphfo">þau</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.15.1.8" pos="af">með</w>
+            <w lemma="mjólk" xml:id="IGC-Books-milli_himins_og.15.1.9" pos="nveþ" join="right">mjólk</w>
+            <pc xml:id="IGC-Books-milli_himins_og.15.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.16">
+          <s xml:id="IGC-Books-milli_himins_og.16.1">
+            <w lemma="kvendýr" xml:id="IGC-Books-milli_himins_og.16.1.1" pos="nhfng">Kvendýrin</w>
+            <w lemma="kalla" xml:id="IGC-Books-milli_himins_og.16.1.2" pos="sfm3fn">kallast</w>
+            <w lemma="kýr" xml:id="IGC-Books-milli_himins_og.16.1.3" pos="nvfn" join="right">kýr</w>
+            <pc xml:id="IGC-Books-milli_himins_og.16.1.4" pos="pk">,</pc>
+            <w lemma="karldýr" xml:id="IGC-Books-milli_himins_og.16.1.5" pos="nhfng">karldýrin</w>
+            <w lemma="tarfar" xml:id="IGC-Books-milli_himins_og.16.1.6" pos="nken">tarfar</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.16.1.7" pos="c">og</w>
+            <w lemma="afkvæmi" xml:id="IGC-Books-milli_himins_og.16.1.8" pos="nhfng">afkvæmin</w>
+            <w lemma="kálfur" xml:id="IGC-Books-milli_himins_og.16.1.9" pos="nkfn" join="right">kálfar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.16.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.17">
+          <s xml:id="IGC-Books-milli_himins_og.17.1">
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.17.1.1" pos="c">Þegar</w>
+            <w lemma="hvala-kálfur" xml:id="IGC-Books-milli_himins_og.17.1.2" pos="nken">hvala-kálfur</w>
+            <w lemma="fæða" xml:id="IGC-Books-milli_himins_og.17.1.3" pos="sfm3en">fæðist</w>
+            <w lemma="hjálpa" xml:id="IGC-Books-milli_himins_og.17.1.4" pos="sfg3en">hjálpar</w>
+            <w lemma="móðir" xml:id="IGC-Books-milli_himins_og.17.1.5" pos="nveng">móðirin</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.17.1.6" pos="fpkeþ">honum</w>
+            <w lemma="upp" xml:id="IGC-Books-milli_himins_og.17.1.7" pos="aa">upp</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.17.1.8" pos="af">á</w>
+            <w lemma="yfirborð" xml:id="IGC-Books-milli_himins_og.17.1.9" pos="nheog">yfirborðið</w>
+            <w lemma="svo" xml:id="IGC-Books-milli_himins_og.17.1.10" pos="aa">svo</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.17.1.11" pos="fpken">hann</w>
+            <w lemma="fara" xml:id="IGC-Books-milli_himins_og.17.1.12" pos="svg3en">fari</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.17.1.13" pos="cn">að</w>
+            <w lemma="anda" xml:id="IGC-Books-milli_himins_og.17.1.14" pos="sng" join="right">anda</w>
+            <pc xml:id="IGC-Books-milli_himins_og.17.1.15" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.18">
+          <s xml:id="IGC-Books-milli_himins_og.18.1">
+            <w lemma="kálfur" xml:id="IGC-Books-milli_himins_og.18.1.1" pos="nkeng">Kálfurinn</w>
+            <w lemma="næra" xml:id="IGC-Books-milli_himins_og.18.1.2" pos="sfm3en">nærist</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.18.1.3" pos="af">á</w>
+            <w lemma="mjólk" xml:id="IGC-Books-milli_himins_og.18.1.4" pos="nveo">mjólk</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.18.1.5" pos="ct">sem</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.18.1.6" pos="fpken">hann</w>
+            <w lemma="sjúga" xml:id="IGC-Books-milli_himins_og.18.1.7" pos="sfg3en">sýgur</w>
+            <w lemma="úr" xml:id="IGC-Books-milli_himins_og.18.1.8" pos="af">úr</w>
+            <w lemma="speni" xml:id="IGC-Books-milli_himins_og.18.1.9" pos="nkeþ">spena</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.18.1.10" pos="af">á</w>
+            <w lemma="síða" xml:id="IGC-Books-milli_himins_og.18.1.11" pos="nveþ">síðu</w>
+            <w lemma="móðir" xml:id="IGC-Books-milli_himins_og.18.1.12" pos="nveeg" join="right">móðurinnar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.18.1.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.19">
+          <s xml:id="IGC-Books-milli_himins_og.19.1">
+            <w lemma="þar" xml:id="IGC-Books-milli_himins_og.19.1.1" pos="aa">Þar</w>
+            <w lemma="éta" xml:id="IGC-Books-milli_himins_og.19.1.2" pos="sfg3fn">éta</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.19.1.3" pos="nkfng">hvalirnir</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.19.1.4" pos="aa">eins</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.19.1.5" pos="lheosf">mikið</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.19.1.6" pos="c">og</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.19.1.7" pos="fpkfn">þeir</w>
+            <w lemma="mögulega" xml:id="IGC-Books-milli_himins_og.19.1.8" pos="aa">mögulega</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.19.1.9" pos="sfg3fn">geta</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.19.1.10" pos="c">og</w>
+            <w lemma="safna" xml:id="IGC-Books-milli_himins_og.19.1.11" pos="sfg3fn">safna</w>
+            <w lemma="spikforði" xml:id="IGC-Books-milli_himins_og.19.1.12" pos="nkeþ" join="right">spikforða</w>
+            <pc xml:id="IGC-Books-milli_himins_og.19.1.13" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.19.2">
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.19.2.1" pos="fpkfn">Þeir</w>
+            <w lemma="dvelja" xml:id="IGC-Books-milli_himins_og.19.2.2" pos="sfg3fn">dvelja</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.19.2.3" pos="af">í</w>
+            <w lemma="kaldur" xml:id="IGC-Books-milli_himins_og.19.2.4" pos="lkeþsf">köldum</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.19.2.5" pos="nkeþ">sjó</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.19.2.6" pos="af">á</w>
+            <w lemma="sumar" xml:id="IGC-Books-milli_himins_og.19.2.7" pos="nhfog" join="right">sumrin</w>
+            <pc xml:id="IGC-Books-milli_himins_og.19.2.8" pos="pk">,</pc>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.19.2.9" pos="af">til</w>
+            <w lemma="dæmi" xml:id="IGC-Books-milli_himins_og.19.2.10" pos="nhee">dæmis</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.19.2.11" pos="af">við</w>
+            <w lemma="Ísland" xml:id="IGC-Books-milli_himins_og.19.2.12" pos="nheo-s" join="right">Ísland</w>
+            <pc xml:id="IGC-Books-milli_himins_og.19.2.13" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.19.3">
+            <w lemma="margur" xml:id="IGC-Books-milli_himins_og.19.3.1" pos="lkfnsf">Margir</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.19.3.2" pos="nkfn">hvalir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.19.3.3" pos="sfg3fn">eru</w>
+            <w lemma="fardýr" xml:id="IGC-Books-milli_himins_og.19.3.4" pos="nhfn" join="right">fardýr</w>
+            <pc xml:id="IGC-Books-milli_himins_og.19.3.5" pos="pk">,</pc>
+            <w lemma="alveg" xml:id="IGC-Books-milli_himins_og.19.3.6" pos="aa">alveg</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.19.3.7" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.19.3.8" pos="c">og</w>
+            <w lemma="farfugl" xml:id="IGC-Books-milli_himins_og.19.3.9" pos="nkfng" join="right">farfuglarnir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.19.3.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.20">
+          <s xml:id="IGC-Books-milli_himins_og.20.1">
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.20.1.1" pos="af">Á</w>
+            <w lemma="vetur" xml:id="IGC-Books-milli_himins_og.20.1.2" pos="nkfog">veturna</w>
+            <w lemma="synda" xml:id="IGC-Books-milli_himins_og.20.1.3" pos="sfg3fn">synda</w>
+            <w lemma="sumur" xml:id="IGC-Books-milli_himins_og.20.1.4" pos="fokfn">sumir</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.20.1.5" pos="nkfn">hvalir</w>
+            <w lemma="suður" xml:id="IGC-Books-milli_himins_og.20.1.6" pos="aa">suður</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.20.1.7" pos="af">á</w>
+            <w lemma="bógur" xml:id="IGC-Books-milli_himins_og.20.1.8" pos="nkeog">bóginn</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.20.1.9" pos="c">og</w>
+            <w lemma="dvelja" xml:id="IGC-Books-milli_himins_og.20.1.10" pos="sfg3fn">dvelja</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.20.1.11" pos="af">í</w>
+            <w lemma="heitur" xml:id="IGC-Books-milli_himins_og.20.1.12" pos="lkeþvm">heitari</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.20.1.13" pos="nkeþ" join="right">sjó</w>
+            <pc xml:id="IGC-Books-milli_himins_og.20.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.21">
+          <s xml:id="IGC-Books-milli_himins_og.21.1">
+            <w lemma="þar" xml:id="IGC-Books-milli_himins_og.21.1.1" pos="aa">Þar</w>
+            <w lemma="eigna" xml:id="IGC-Books-milli_himins_og.21.1.2" pos="sfm3fn">eignast</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.21.1.3" pos="fpkfn">þeir</w>
+            <w lemma="kálfur" xml:id="IGC-Books-milli_himins_og.21.1.4" pos="nkfo">kálfa</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.21.1.5" pos="c">og</w>
+            <w lemma="ala" xml:id="IGC-Books-milli_himins_og.21.1.6" pos="sfg3fn">ala</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.21.1.7" pos="fpkfo">þá</w>
+            <w lemma="upp" xml:id="IGC-Books-milli_himins_og.21.1.8" pos="aa">upp</w>
+            <w lemma="fyrstur" xml:id="IGC-Books-milli_himins_og.21.1.9" pos="lkfove">fyrstu</w>
+            <w lemma="mánuður" xml:id="IGC-Books-milli_himins_og.21.1.10" pos="nkfog" join="right">mánuðina</w>
+            <pc xml:id="IGC-Books-milli_himins_og.21.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.22">
+          <s xml:id="IGC-Books-milli_himins_og.22.1">
+            <w lemma="mikið" xml:id="IGC-Books-milli_himins_og.22.1.1" pos="aa">Mikið</w>
+            <w lemma="hljóta" xml:id="IGC-Books-milli_himins_og.22.1.2" pos="sfg3fn">hljóta</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.22.1.3" pos="nkfng">hvalirnir</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.22.1.4" pos="cn">að</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.22.1.5" pos="sng">vera</w>
+            <w lemma="svangur" xml:id="IGC-Books-milli_himins_og.22.1.6" pos="lkfnsf">svangir</w>
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.22.1.7" pos="c">þegar</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.22.1.8" pos="fpkfn">þeir</w>
+            <w lemma="koma" xml:id="IGC-Books-milli_himins_og.22.1.9" pos="sfg3fn">koma</w>
+            <w lemma="aftur" xml:id="IGC-Books-milli_himins_og.22.1.10" pos="aa">aftur</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.22.1.11" pos="af">í</w>
+            <w lemma="kaldur" xml:id="IGC-Books-milli_himins_og.22.1.12" pos="lkeosf">kaldan</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.22.1.13" pos="nkeo">sjó</w>
+            <w lemma="eftir" xml:id="IGC-Books-milli_himins_og.22.1.14" pos="af">eftir</w>
+            <w lemma="vetrardvöl" xml:id="IGC-Books-milli_himins_og.22.1.15" pos="nveo">vetrardvöl</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.22.1.16" pos="af">í</w>
+            <w lemma="Suðurhöf" xml:id="IGC-Books-milli_himins_og.22.1.17" pos="nhfþ-s" join="right">Suðurhöfum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.22.1.18" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.22.2">
+            <w lemma="margur" xml:id="IGC-Books-milli_himins_og.22.2.1" pos="lkfnse">Flestir</w>
+            <w lemma="éta" xml:id="IGC-Books-milli_himins_og.22.2.2" pos="sfg3fn">éta</w>
+            <w lemma="lítill" xml:id="IGC-Books-milli_himins_og.22.2.3" pos="lheosf">lítið</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.22.2.4" pos="c">sem</w>
+            <w lemma="enginn" xml:id="IGC-Books-milli_himins_og.22.2.5" pos="foheo">ekkert</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.22.2.6" pos="af">í</w>
+            <w lemma="Suður-höf" xml:id="IGC-Books-milli_himins_og.22.2.7" pos="nhfþ-s">Suður-höfum</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.22.2.8" pos="c">og</w>
+            <w lemma="gjarnan" xml:id="IGC-Books-milli_himins_og.22.2.9" pos="aam">heldur</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.22.2.10" pos="aa">ekki</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.22.2.11" pos="af">á</w>
+            <w lemma="ferðalag" xml:id="IGC-Books-milli_himins_og.22.2.12" pos="nheþg">ferðalaginu</w>
+            <w lemma="langur" xml:id="IGC-Books-milli_himins_og.22.2.13" pos="lheþvf">langa</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.22.2.14" pos="aa">á</w>
+            <w lemma="milli" xml:id="IGC-Books-milli_himins_og.22.2.15" pos="af">milli</w>
+            <w lemma="staður" xml:id="IGC-Books-milli_himins_og.22.2.16" pos="nkfe" join="right">staða</w>
+            <pc xml:id="IGC-Books-milli_himins_og.22.2.17" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.23">
+          <s xml:id="IGC-Books-milli_himins_og.23.1">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.23.1.1" pos="nkfþ">Hvölum</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.23.1.2" pos="sfg3en">er</w>
+            <w lemma="skipta" xml:id="IGC-Books-milli_himins_og.23.1.3" pos="sþghen">skipt</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.23.1.4" pos="af">í</w>
+            <w lemma="tannhvalur" xml:id="IGC-Books-milli_himins_og.23.1.5" pos="nkfo">tannhvali</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.23.1.6" pos="c">og</w>
+            <w lemma="skíðishvalur" xml:id="IGC-Books-milli_himins_og.23.1.7" pos="nkfo" join="right">skíðishvali</w>
+            <pc xml:id="IGC-Books-milli_himins_og.23.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.24">
+          <s xml:id="IGC-Books-milli_himins_og.24.1">
+            <w lemma="tannhvalur" xml:id="IGC-Books-milli_himins_og.24.1.1" pos="nkfn">Tannhvalir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.24.1.2" pos="sfg3fn">eru</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.24.1.3" pos="af">með</w>
+            <w lemma="tönn" xml:id="IGC-Books-milli_himins_og.24.1.4" pos="nvfo">tennur</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.24.1.5" pos="c">en</w>
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.24.1.6" pos="fsheo">hvað</w>
+            <w lemma="ætla" xml:id="IGC-Books-milli_himins_og.24.1.7" pos="svg3fn">ætli</w>
+            <w lemma="skíðishvalur" xml:id="IGC-Books-milli_himins_og.24.1.8" pos="nkfn">skíðishvalir</w>
+            <w lemma="hafa" xml:id="IGC-Books-milli_himins_og.24.1.9" pos="svg3fn">hafi</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.24.1.10" pos="af">í</w>
+            <w lemma="skoltur" xml:id="IGC-Books-milli_himins_og.24.1.11" pos="nkeþg" join="right">skoltinum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.24.1.12" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.25">
+          <s xml:id="IGC-Books-milli_himins_og.25.1">
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.25.1.1" pos="fsheo">Hvað</w>
+            <w lemma="gera" xml:id="IGC-Books-milli_himins_og.25.1.2" pos="sfg3fn">gera</w>
+            <w lemma="farhvalur" xml:id="IGC-Books-milli_himins_og.25.1.3" pos="nkfn">farhvalir</w>
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.25.1.4" pos="c">þegar</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.25.1.5" pos="fpkfn">þeir</w>
+            <w lemma="dvelja" xml:id="IGC-Books-milli_himins_og.25.1.6" pos="sfg3fn">dvelja</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.25.1.7" pos="af">í</w>
+            <w lemma="kaldur" xml:id="IGC-Books-milli_himins_og.25.1.8" pos="lkeþsf">köldum</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.25.1.9" pos="nkeþ" join="right">sjó</w>
+            <pc xml:id="IGC-Books-milli_himins_og.25.1.10" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.26">
+          <s xml:id="IGC-Books-milli_himins_og.26.1">
+            <w lemma="skíðishvalur" xml:id="IGC-Books-milli_himins_og.26.1.1" pos="nkfn">Skíðishvalir</w>
+            <w lemma="hafa" xml:id="IGC-Books-milli_himins_og.26.1.2" pos="sfg3fn">hafa</w>
+            <w lemma="enginn" xml:id="IGC-Books-milli_himins_og.26.1.3" pos="fovfo">engar</w>
+            <w lemma="tönn" xml:id="IGC-Books-milli_himins_og.26.1.4" pos="nvfo" join="right">tennur</w>
+            <pc xml:id="IGC-Books-milli_himins_og.26.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.27">
+          <s xml:id="IGC-Books-milli_himins_og.27.1">
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.27.1.1" pos="af">Í</w>
+            <w lemma="staður" xml:id="IGC-Books-milli_himins_og.27.1.2" pos="nkeog">staðinn</w>
+            <w lemma="hafa" xml:id="IGC-Books-milli_himins_og.27.1.3" pos="sfg3fn">hafa</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.27.1.4" pos="fpkfn">þeir</w>
+            <w lemma="plata" xml:id="IGC-Books-milli_himins_og.27.1.5" pos="nvfo">plötur</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.27.1.6" pos="ct">sem</w>
+            <w lemma="kalla" xml:id="IGC-Books-milli_himins_og.27.1.7" pos="sfm3fn">kallast</w>
+            <w lemma="skíði" xml:id="IGC-Books-milli_himins_og.27.1.8" pos="nhfn" join="right">skíði</w>
+            <pc xml:id="IGC-Books-milli_himins_og.27.1.9" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.27.2">
+            <w lemma="síðan" xml:id="IGC-Books-milli_himins_og.27.2.1" pos="aa">Síðan</w>
+            <w lemma="loka" xml:id="IGC-Books-milli_himins_og.27.2.2" pos="sfg3fn">loka</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.27.2.3" pos="fpkfn">þeir</w>
+            <w lemma="gin" xml:id="IGC-Books-milli_himins_og.27.2.4" pos="nheþg">gininu</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.27.2.5" pos="c">og</w>
+            <w lemma="þrýsta" xml:id="IGC-Books-milli_himins_og.27.2.6" pos="sfg3fn">þrýsta</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.27.2.7" pos="nkeþg">sjónum</w>
+            <w lemma="út" xml:id="IGC-Books-milli_himins_og.27.2.8" pos="aa">út</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.27.2.9" pos="aa">á</w>
+            <w lemma="milli" xml:id="IGC-Books-milli_himins_og.27.2.10" pos="af">milli</w>
+            <w lemma="skíði" xml:id="IGC-Books-milli_himins_og.27.2.11" pos="nhfeg">skíðanna</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.27.2.12" pos="af">með</w>
+            <w lemma="tunga" xml:id="IGC-Books-milli_himins_og.27.2.13" pos="nveþg" join="right">tungunni</w>
+            <pc xml:id="IGC-Books-milli_himins_og.27.2.14" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.27.3">
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.27.3.1" pos="c">Þegar</w>
+            <w lemma="skíðishvalur" xml:id="IGC-Books-milli_himins_og.27.3.2" pos="nkfn">skíðishvalir</w>
+            <w lemma="éta" xml:id="IGC-Books-milli_himins_og.27.3.3" pos="sfg3fn">éta</w>
+            <w lemma="gleypa" xml:id="IGC-Books-milli_himins_og.27.3.4" pos="sfg3fn">gleypa</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.27.3.5" pos="fpkfn">þeir</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.27.3.6" pos="lheosf">mikið</w>
+            <w lemma="magn" xml:id="IGC-Books-milli_himins_og.27.3.7" pos="nheo">magn</w>
+            <w lemma="af" xml:id="IGC-Books-milli_himins_og.27.3.8" pos="af">af</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.27.3.9" pos="nkeþ" join="right">sjó</w>
+            <pc xml:id="IGC-Books-milli_himins_og.27.3.10" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.27.4">
+            <w lemma="lítill" xml:id="IGC-Books-milli_himins_og.27.4.1" pos="lhfnsf">Lítil</w>
+            <w lemma="sjávardýr" xml:id="IGC-Books-milli_himins_og.27.4.2" pos="nhfn">sjávardýr</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.27.4.3" pos="c">og</w>
+            <w lemma="smáfiskur" xml:id="IGC-Books-milli_himins_og.27.4.4" pos="nkfn">smáfiskar</w>
+            <w lemma="festa" xml:id="IGC-Books-milli_himins_og.27.4.5" pos="sfm3fn">festast</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.27.4.6" pos="af">í</w>
+            <w lemma="skíði" xml:id="IGC-Books-milli_himins_og.27.4.7" pos="nhfþg">skíðunum</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.27.4.8" pos="c">og</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.27.4.9" pos="nkeng">hvalurinn</w>
+            <w lemma="gleypa" xml:id="IGC-Books-milli_himins_og.27.4.10" pos="sfg3en">gleypir</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.27.4.11" pos="foheo">allt</w>
+            <w lemma="saman" xml:id="IGC-Books-milli_himins_og.27.4.12" pos="aa" join="right">saman</w>
+            <pc xml:id="IGC-Books-milli_himins_og.27.4.13" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.27.5">
+            <w lemma="sá" xml:id="IGC-Books-milli_himins_og.27.5.1" pos="faven">Sú</w>
+            <w lemma="hlið" xml:id="IGC-Books-milli_himins_og.27.5.2" pos="nven">hlið</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.27.5.3" pos="ct">sem</w>
+            <w lemma="snúa" xml:id="IGC-Books-milli_himins_og.27.5.4" pos="sfg3en">snýr</w>
+            <w lemma="inn" xml:id="IGC-Books-milli_himins_og.27.5.5" pos="aa">inn</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.27.5.6" pos="af">í</w>
+            <w lemma="munnur" xml:id="IGC-Books-milli_himins_og.27.5.7" pos="nkeog">munninn</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.27.5.8" pos="sfg3en">er</w>
+            <w lemma="þakinn" xml:id="IGC-Books-milli_himins_og.27.5.9" pos="lvensf">þakin</w>
+            <w lemma="stífur" xml:id="IGC-Books-milli_himins_og.27.5.10" pos="lhfþsf">stífum</w>
+            <w lemma="hár" xml:id="IGC-Books-milli_himins_og.27.5.11" pos="nhfþ" join="right">hárum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.27.5.12" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.27.6">
+            <w lemma="skíði" xml:id="IGC-Books-milli_himins_og.27.6.1" pos="nhfng">Skíðin</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.27.6.2" pos="sfg3fn">eru</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.27.6.3" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.27.6.4" pos="c">og</w>
+            <w lemma="loðinn" xml:id="IGC-Books-milli_himins_og.27.6.5" pos="lhensf">loðið</w>
+            <w lemma="sigti" xml:id="IGC-Books-milli_himins_og.27.6.6" pos="nhen" join="right">sigti</w>
+            <pc xml:id="IGC-Books-milli_himins_og.27.6.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.28">
+          <s xml:id="IGC-Books-milli_himins_og.28.1">
+            <w lemma="þó" xml:id="IGC-Books-milli_himins_og.28.1.1" pos="aa">Þó</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.28.1.2" pos="nkfng">hvalirnir</w>
+            <w lemma="éta" xml:id="IGC-Books-milli_himins_og.28.1.3" pos="svg3fn">éti</w>
+            <w lemma="svona" xml:id="IGC-Books-milli_himins_og.28.1.4" pos="aa">svona</w>
+            <w lemma="smágerður" xml:id="IGC-Books-milli_himins_og.28.1.5" pos="lveosf">smágerða</w>
+            <w lemma="fæða" xml:id="IGC-Books-milli_himins_og.28.1.6" pos="nveo">fæðu</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.28.1.7" pos="sfg3fn">eru</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.28.1.8" pos="fpkfn">þeir</w>
+            <w lemma="risi" xml:id="IGC-Books-milli_himins_og.28.1.9" pos="nkee">risa</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.28.1.10" pos="lkfnsf" join="right">stórir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.28.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.29">
+          <s xml:id="IGC-Books-milli_himins_og.29.1">
+            <w lemma="hvernig" xml:id="IGC-Books-milli_himins_og.29.1.1" pos="aa">Hvernig</w>
+            <w lemma="éta" xml:id="IGC-Books-milli_himins_og.29.1.2" pos="sfg3fn">éta</w>
+            <w lemma="skíðishvalur" xml:id="IGC-Books-milli_himins_og.29.1.3" pos="nkfn" join="right">skíðishvalir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.29.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.30">
+          <s xml:id="IGC-Books-milli_himins_og.30.1">
+            <w lemma="tönn" xml:id="IGC-Books-milli_himins_og.30.1.1" pos="nven">Tönn</w>
+            <w lemma="náhvalur" xml:id="IGC-Books-milli_himins_og.30.1.2" pos="nkfe">náhvala</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.30.1.3" pos="sfg3en">getur</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.30.1.4" pos="sþghen">orðið</w>
+            <w lemma="3" xml:id="IGC-Books-milli_himins_og.30.1.5" pos="ta">3</w>
+            <w lemma="metri" xml:id="IGC-Books-milli_himins_og.30.1.6" pos="nkfn">metrar</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.30.1.7" pos="af">á</w>
+            <w lemma="lengd" xml:id="IGC-Books-milli_himins_og.30.1.8" pos="nveo" join="right">lengd</w>
+            <pc xml:id="IGC-Books-milli_himins_og.30.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.31">
+          <s xml:id="IGC-Books-milli_himins_og.31.1">
+            <w lemma="hjá" xml:id="IGC-Books-milli_himins_og.31.1.1" pos="af">Hjá</w>
+            <w lemma="tarf" xml:id="IGC-Books-milli_himins_og.31.1.2" pos="nhfþ">törfum</w>
+            <w lemma="náhvalur" xml:id="IGC-Books-milli_himins_og.31.1.3" pos="nkfe">náhvala</w>
+            <w lemma="vaxa" xml:id="IGC-Books-milli_himins_og.31.1.4" pos="sfg3en">vex</w>
+            <w lemma="annar" xml:id="IGC-Books-milli_himins_og.31.1.5" pos="foven">önnur</w>
+            <w lemma="tönn" xml:id="IGC-Books-milli_himins_og.31.1.6" pos="nveng">tönnin</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.31.1.7" pos="aa">í</w>
+            <w lemma="gegnum" xml:id="IGC-Books-milli_himins_og.31.1.8" pos="af">gegnum</w>
+            <w lemma="efri" xml:id="IGC-Books-milli_himins_og.31.1.9" pos="lveovm">efri</w>
+            <w lemma="vör" xml:id="IGC-Books-milli_himins_og.31.1.10" pos="nveog">vörina</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.31.1.11" pos="c">og</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.31.1.12" pos="sfg3en">verður</w>
+            <w lemma="mjög" xml:id="IGC-Books-milli_himins_og.31.1.13" pos="aa">mjög</w>
+            <w lemma="langur" xml:id="IGC-Books-milli_himins_og.31.1.14" pos="lvensf" join="right">löng</w>
+            <pc xml:id="IGC-Books-milli_himins_og.31.1.15" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.31.2">
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.31.2.1" pos="af">Til</w>
+            <w lemma="dæmi" xml:id="IGC-Books-milli_himins_og.31.2.2" pos="nhee">dæmis</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.31.2.3" pos="af">með</w>
+            <w lemma="sá" xml:id="IGC-Books-milli_himins_og.31.2.4" pos="faheþ">því</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.31.2.5" pos="cn">að</w>
+            <w lemma="umkringja" xml:id="IGC-Books-milli_himins_og.31.2.6" pos="sng">umkringja</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.31.2.7" pos="lveosf">stóra</w>
+            <w lemma="bráð" xml:id="IGC-Books-milli_himins_og.31.2.8" pos="nveo">bráð</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.31.2.9" pos="c">og</w>
+            <w lemma="ráða" xml:id="IGC-Books-milli_himins_og.31.2.10" pos="snm">ráðast</w>
+            <w lemma="samtaka" xml:id="IGC-Books-milli_himins_og.31.2.11" pos="lkenof">samtaka</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.31.2.12" pos="af">á</w>
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.31.2.13" pos="fpveo" join="right">hana</w>
+            <pc xml:id="IGC-Books-milli_himins_og.31.2.14" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.31.3">
+            <w lemma="vatnahöfrungur" xml:id="IGC-Books-milli_himins_og.31.3.1" pos="nkfn">Vatnahöfrungar</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.31.3.2" pos="sfg3fn">geta</w>
+            <w lemma="hafa" xml:id="IGC-Books-milli_himins_og.31.3.3" pos="sþghen">haft</w>
+            <w lemma="tveir" xml:id="IGC-Books-milli_himins_og.31.3.4" pos="to">tvö</w>
+            <w lemma="hundruð" xml:id="IGC-Books-milli_himins_og.31.3.5" pos="tfvfo">hundruð</w>
+            <w lemma="tönn" xml:id="IGC-Books-milli_himins_og.31.3.6" pos="nvfo">tennur</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.31.3.7" pos="c">en</w>
+            <w lemma="náhvalur" xml:id="IGC-Books-milli_himins_og.31.3.8" pos="nkfn">náhvalir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.31.3.9" pos="sfg3fn">eru</w>
+            <w lemma="bara" xml:id="IGC-Books-milli_himins_og.31.3.10" pos="aa">bara</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.31.3.11" pos="af">með</w>
+            <w lemma="tveir" xml:id="IGC-Books-milli_himins_og.31.3.12" pos="tfvfo" join="right">tvær</w>
+            <pc xml:id="IGC-Books-milli_himins_og.31.3.13" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.31.4">
+            <w lemma="margur" xml:id="IGC-Books-milli_himins_og.31.4.1" pos="lkfnse">Flestir</w>
+            <w lemma="tannhvalur" xml:id="IGC-Books-milli_himins_og.31.4.2" pos="nkfn">tannhvalir</w>
+            <w lemma="lifa" xml:id="IGC-Books-milli_himins_og.31.4.3" pos="sfg3fn">lifa</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.31.4.4" pos="af">í</w>
+            <w lemma="hópur" xml:id="IGC-Books-milli_himins_og.31.4.5" pos="nkfþ">hópum</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.31.4.6" pos="c">og</w>
+            <w lemma="hjálpa" xml:id="IGC-Books-milli_himins_og.31.4.7" pos="sfm3fn">hjálpast</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.31.4.8" pos="aa">að</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.31.4.9" pos="af">við</w>
+            <w lemma="veiði" xml:id="IGC-Books-milli_himins_og.31.4.10" pos="nvfo" join="right">veiðar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.31.4.11" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.31.5">
+            <w lemma="sumur" xml:id="IGC-Books-milli_himins_og.31.5.1" pos="fokfn">Sumir</w>
+            <w lemma="tannhvalur" xml:id="IGC-Books-milli_himins_og.31.5.2" pos="nkfn">tannhvalir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.31.5.3" pos="sfg3fn">eru</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.31.5.4" pos="af">með</w>
+            <w lemma="mjög" xml:id="IGC-Books-milli_himins_og.31.5.5" pos="aa">mjög</w>
+            <w lemma="margur" xml:id="IGC-Books-milli_himins_og.31.5.6" pos="lvfosf">margar</w>
+            <w lemma="tönn" xml:id="IGC-Books-milli_himins_og.31.5.7" pos="nvfo" join="right">tennur</w>
+            <pc xml:id="IGC-Books-milli_himins_og.31.5.8" pos="pk">,</pc>
+            <w lemma="annar" xml:id="IGC-Books-milli_himins_og.31.5.9" pos="fokfn">aðrir</w>
+            <w lemma="fár" xml:id="IGC-Books-milli_himins_og.31.5.10" pos="lvfosf" join="right">fáar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.31.5.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.32">
+          <s xml:id="IGC-Books-milli_himins_og.32.1">
+            <w lemma="hversu" xml:id="IGC-Books-milli_himins_og.32.1.1" pos="aa">Hversu</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.32.1.2" pos="lkfnsf">stórir</w>
+            <w lemma="skulu" xml:id="IGC-Books-milli_himins_og.32.1.3" pos="svg3fþ">skyldu</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.32.1.4" pos="fokfe">allra</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.32.1.5" pos="lkfnve">stærstu</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.32.1.6" pos="nkfng">hvalirnir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.32.1.7" pos="sng" join="right">vera</w>
+            <pc xml:id="IGC-Books-milli_himins_og.32.1.8" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.33">
+          <s xml:id="IGC-Books-milli_himins_og.33.1">
+            <w lemma="steypireyður" xml:id="IGC-Books-milli_himins_og.33.1.1" pos="nken">Steypireyður</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.33.1.2" pos="sfg3en">er</w>
+            <w lemma="skíðishvalur" xml:id="IGC-Books-milli_himins_og.33.1.3" pos="nken">skíðishvalur</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.33.1.4" pos="c">og</w>
+            <w lemma="langstærstur" xml:id="IGC-Books-milli_himins_og.33.1.5" pos="lhenve">langstærsta</w>
+            <w lemma="dýr" xml:id="IGC-Books-milli_himins_og.33.1.6" pos="nhen">dýr</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.33.1.7" pos="af">á</w>
+            <w lemma="jörð" xml:id="IGC-Books-milli_himins_og.33.1.8" pos="nveþg" join="right">jörðinni</w>
+            <pc xml:id="IGC-Books-milli_himins_og.33.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.34">
+          <s xml:id="IGC-Books-milli_himins_og.34.1">
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.34.1.1" pos="fpven">Hún</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.34.1.2" pos="sfg3en">er</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.34.1.3" pos="lheþsf">miklu</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.34.1.4" pos="lvenvm">stærri</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.34.1.5" pos="c">en</w>
+            <w lemma="fíll" xml:id="IGC-Books-milli_himins_og.34.1.6" pos="nken" join="right">fíll</w>
+            <pc xml:id="IGC-Books-milli_himins_og.34.1.7" pos="pk">,</pc>
+            <w lemma="bara" xml:id="IGC-Books-milli_himins_og.34.1.8" pos="aa">bara</w>
+            <w lemma="tunga" xml:id="IGC-Books-milli_himins_og.34.1.9" pos="nveng">tungan</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.34.1.10" pos="sfg3en">er</w>
+            <w lemma="jafn" xml:id="IGC-Books-milli_himins_og.34.1.11" pos="aa">jafn</w>
+            <w lemma="þungur" xml:id="IGC-Books-milli_himins_og.34.1.12" pos="lvensf">þung</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.34.1.13" pos="c">og</w>
+            <w lemma="asíufíll" xml:id="IGC-Books-milli_himins_og.34.1.14" pos="nken" join="right">asíufíll</w>
+            <pc xml:id="IGC-Books-milli_himins_og.34.1.15" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.35">
+          <s xml:id="IGC-Books-milli_himins_og.35.1">
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.35.1.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.35.1.2" pos="sfg3en">er</w>
+            <w lemma="álíka" xml:id="IGC-Books-milli_himins_og.35.1.3" pos="aa">álíka</w>
+            <w lemma="þungur" xml:id="IGC-Books-milli_himins_og.35.1.4" pos="lhensf">þungt</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.35.1.5" pos="c">og</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.35.1.6" pos="fokfn">allir</w>
+            <w lemma="íbúi" xml:id="IGC-Books-milli_himins_og.35.1.7" pos="nkfn">íbúar</w>
+            <w lemma="Húsavík" xml:id="IGC-Books-milli_himins_og.35.1.8" pos="nvee-s">Húsavíkur</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.35.1.9" pos="af">til</w>
+            <w lemma="samans" xml:id="IGC-Books-milli_himins_og.35.1.10" pos="aa">samans</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.35.1.11" pos="c">en</w>
+            <w lemma="þar" xml:id="IGC-Books-milli_himins_og.35.1.12" pos="aa">þar</w>
+            <w lemma="búa" xml:id="IGC-Books-milli_himins_og.35.1.13" pos="sfg3fn">búa</w>
+            <w lemma="ríflega" xml:id="IGC-Books-milli_himins_og.35.1.14" pos="aa">ríflega</w>
+            <w lemma="2000" xml:id="IGC-Books-milli_himins_og.35.1.15" pos="ta">2000</w>
+            <w lemma="maður" xml:id="IGC-Books-milli_himins_og.35.1.16" pos="nkee" join="right">manns</w>
+            <pc xml:id="IGC-Books-milli_himins_og.35.1.17" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.35.2">
+            <w lemma="fullvaxinn" xml:id="IGC-Books-milli_himins_og.35.2.1" pos="lvensf">Fullvaxin</w>
+            <w lemma="steypireyður" xml:id="IGC-Books-milli_himins_og.35.2.2" pos="nven">steypireyður</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.35.2.3" pos="sfg3en">getur</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.35.2.4" pos="sþghen">orðið</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.35.2.5" pos="fohen">allt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.35.2.6" pos="aa">að</w>
+            <w lemma="150" xml:id="IGC-Books-milli_himins_og.35.2.7" pos="ta">150</w>
+            <w lemma="tonn" xml:id="IGC-Books-milli_himins_og.35.2.8" pos="nhfn">tonn</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.35.2.9" pos="af">að</w>
+            <w lemma="þyngd" xml:id="IGC-Books-milli_himins_og.35.2.10" pos="nveþ" join="right">þyngd</w>
+            <pc xml:id="IGC-Books-milli_himins_og.35.2.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.36">
+          <s xml:id="IGC-Books-milli_himins_og.36.1">
+            <w lemma="svif" xml:id="IGC-Books-milli_himins_og.36.1.1" pos="nhfn">Svif</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.36.1.2" pos="sfg3fn">eru</w>
+            <w lemma="smár" xml:id="IGC-Books-milli_himins_og.36.1.3" pos="lvfnsf">smáar</w>
+            <w lemma="ögn" xml:id="IGC-Books-milli_himins_og.36.1.4" pos="nvfn">agnir</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.36.1.5" pos="af">í</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.36.1.6" pos="nkeþg">sjónum</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.36.1.7" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.36.1.8" pos="c">og</w>
+            <w lemma="fiskaegg" xml:id="IGC-Books-milli_himins_og.36.1.9" pos="nhfn" join="right">fiskaegg</w>
+            <pc xml:id="IGC-Books-milli_himins_og.36.1.10" pos="pk">,</pc>
+            <w lemma="krabbafló" xml:id="IGC-Books-milli_himins_og.36.1.11" pos="nvfn" join="right">krabbaflær</w>
+            <pc xml:id="IGC-Books-milli_himins_og.36.1.12" pos="pk">,</pc>
+            <w lemma="lirfa" xml:id="IGC-Books-milli_himins_og.36.1.13" pos="nvfn">lirfur</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.36.1.14" pos="c">og</w>
+            <w lemma="lítill" xml:id="IGC-Books-milli_himins_og.36.1.15" pos="lkfnsf">litlir</w>
+            <w lemma="ormur" xml:id="IGC-Books-milli_himins_og.36.1.16" pos="nkfn" join="right">ormar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.36.1.17" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.36.2">
+            <w lemma="svona" xml:id="IGC-Books-milli_himins_og.36.2.1" pos="aa">Svona</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.36.2.2" pos="lhfnsf">stór</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.36.2.3" pos="c">og</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.36.2.4" pos="lhfnsf">mikil</w>
+            <w lemma="dýr" xml:id="IGC-Books-milli_himins_og.36.2.5" pos="nhfn">dýr</w>
+            <w lemma="þurfa" xml:id="IGC-Books-milli_himins_og.36.2.6" pos="sfg3fn">þurfa</w>
+            <w lemma="náttúrulega" xml:id="IGC-Books-milli_himins_og.36.2.7" pos="aa">náttúrulega</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.36.2.8" pos="cn">að</w>
+            <w lemma="éta" xml:id="IGC-Books-milli_himins_og.36.2.9" pos="sng">éta</w>
+            <w lemma="heill" xml:id="IGC-Books-milli_himins_og.36.2.10" pos="lhfosf">heil</w>
+            <w lemma="ósköp" xml:id="IGC-Books-milli_himins_og.36.2.11" pos="nhfo" join="right">ósköp</w>
+            <pc xml:id="IGC-Books-milli_himins_og.36.2.12" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.36.3">
+            <w lemma="steypireyðir" xml:id="IGC-Books-milli_himins_og.36.3.1" pos="nkfn">Steypireyðar</w>
+            <w lemma="éta" xml:id="IGC-Books-milli_himins_og.36.3.2" pos="sfg3fn">éta</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.36.3.3" pos="fohen">allt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.36.3.4" pos="aa">að</w>
+            <w lemma="fjórir" xml:id="IGC-Books-milli_himins_og.36.3.5" pos="tfhfo">fjögur</w>
+            <w lemma="tonn" xml:id="IGC-Books-milli_himins_og.36.3.6" pos="nhfo">tonn</w>
+            <w lemma="af" xml:id="IGC-Books-milli_himins_og.36.3.7" pos="af">af</w>
+            <w lemma="svif" xml:id="IGC-Books-milli_himins_og.36.3.8" pos="nheþ">svifi</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.36.3.9" pos="af">á</w>
+            <w lemma="dagur" xml:id="IGC-Books-milli_himins_og.36.3.10" pos="nkeo" join="right">dag</w>
+            <pc xml:id="IGC-Books-milli_himins_og.36.3.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.37">
+          <s xml:id="IGC-Books-milli_himins_og.37.1">
+            <w lemma="steypireyður" xml:id="IGC-Books-milli_himins_og.37.1.1" pos="nken">Steypireyður</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.37.1.2" pos="sfg3en">getur</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.37.1.3" pos="sþghen">orðið</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.37.1.4" pos="fohen">allt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.37.1.5" pos="aa">að</w>
+            <w lemma="30" xml:id="IGC-Books-milli_himins_og.37.1.6" pos="ta">30</w>
+            <w lemma="metri" xml:id="IGC-Books-milli_himins_og.37.1.7" pos="nkfn">metrar</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.37.1.8" pos="af">á</w>
+            <w lemma="lengd" xml:id="IGC-Books-milli_himins_og.37.1.9" pos="nveo">lengd</w>
+            <w lemma="eða" xml:id="IGC-Books-milli_himins_og.37.1.10" pos="c">eða</w>
+            <w lemma="álíka" xml:id="IGC-Books-milli_himins_og.37.1.11" pos="aa">álíka</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.37.1.12" pos="lvensf">stór</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.37.1.13" pos="c">og</w>
+            <w lemma="10" xml:id="IGC-Books-milli_himins_og.37.1.14" pos="ta">10</w>
+            <w lemma="hæð" xml:id="IGC-Books-milli_himins_og.37.1.15" pos="nvfe">hæða</w>
+            <w lemma="blokk" xml:id="IGC-Books-milli_himins_og.37.1.16" pos="nven" join="right">blokk</w>
+            <pc xml:id="IGC-Books-milli_himins_og.37.1.17" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.38">
+          <s xml:id="IGC-Books-milli_himins_og.38.1">
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.38.1.1" pos="c">En</w>
+            <w lemma="hljóð" xml:id="IGC-Books-milli_himins_og.38.1.2" pos="nhfng">hljóðin</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.38.1.3" pos="ct">sem</w>
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.38.1.4" pos="fpvfn">þær</w>
+            <w lemma="gefa" xml:id="IGC-Books-milli_himins_og.38.1.5" pos="sfg3fn">gefa</w>
+            <w lemma="frá" xml:id="IGC-Books-milli_himins_og.38.1.6" pos="af">frá</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.38.1.7" pos="fpvfþ">sér</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.38.1.8" pos="sfg3fn">eru</w>
+            <w lemma="svo" xml:id="IGC-Books-milli_himins_og.38.1.9" pos="aa">svo</w>
+            <w lemma="djúpur" xml:id="IGC-Books-milli_himins_og.38.1.10" pos="lhfnsf">djúp</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.38.1.11" pos="c">að</w>
+            <w lemma="mannseyra" xml:id="IGC-Books-milli_himins_og.38.1.12" pos="nheng">mannseyrað</w>
+            <w lemma="heyra" xml:id="IGC-Books-milli_himins_og.38.1.13" pos="sfg3en">heyrir</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.38.1.14" pos="fphfo">þau</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.38.1.15" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-milli_himins_og.38.1.16" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.38.2">
+            <w lemma="steypireyður" xml:id="IGC-Books-milli_himins_og.38.2.1" pos="nvfn">Steypireyðar</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.38.2.2" pos="sfg3fn">eru</w>
+            <w lemma="mjög" xml:id="IGC-Books-milli_himins_og.38.2.3" pos="aa">mjög</w>
+            <w lemma="hávær" xml:id="IGC-Books-milli_himins_og.38.2.4" pos="lvfnsf" join="right">háværar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.38.2.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.39">
+          <s xml:id="IGC-Books-milli_himins_og.39.1">
+            <w lemma="þannig" xml:id="IGC-Books-milli_himins_og.39.1.1" pos="aa">Þannig</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.39.1.2" pos="svg3eþ">gæti</w>
+            <w lemma="steypireyður" xml:id="IGC-Books-milli_himins_og.39.1.3" pos="nken">steypireyður</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.39.1.4" pos="af">við</w>
+            <w lemma="England" xml:id="IGC-Books-milli_himins_og.39.1.5" pos="nheo-s">England</w>
+            <w lemma="heyra" xml:id="IGC-Books-milli_himins_og.39.1.6" pos="sþghen">heyrt</w>
+            <w lemma="vel" xml:id="IGC-Books-milli_himins_og.39.1.7" pos="aa">vel</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.39.1.8" pos="af">í</w>
+            <w lemma="steypireyðir" xml:id="IGC-Books-milli_himins_og.39.1.9" pos="nkeþ">steypireyði</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.39.1.10" pos="ct">sem</w>
+            <w lemma="baula" xml:id="IGC-Books-milli_himins_og.39.1.11" pos="sfg3en">baular</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.39.1.12" pos="af">við</w>
+            <w lemma="Ísland" xml:id="IGC-Books-milli_himins_og.39.1.13" pos="nheo-s" join="right">Ísland</w>
+            <pc xml:id="IGC-Books-milli_himins_og.39.1.14" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.39.2">
+            <w lemma="steypireyðir" xml:id="IGC-Books-milli_himins_og.39.2.1" pos="nkfn">Steypireyðar</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.39.2.2" pos="sfg3fn">geta</w>
+            <w lemma="kalla" xml:id="IGC-Books-milli_himins_og.39.2.3" pos="sþmhen">kallast</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.39.2.4" pos="aa">á</w>
+            <w lemma="þvert" xml:id="IGC-Books-milli_himins_og.39.2.5" pos="aa">þvert</w>
+            <w lemma="yfir" xml:id="IGC-Books-milli_himins_og.39.2.6" pos="af">yfir</w>
+            <w lemma="heimshaf" xml:id="IGC-Books-milli_himins_og.39.2.7" pos="nhfog">heimshöfin</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.39.2.8" pos="fpheþ">því</w>
+            <w lemma="hljóð" xml:id="IGC-Books-milli_himins_og.39.2.9" pos="nhfng">hljóðin</w>
+            <w lemma="bera" xml:id="IGC-Books-milli_himins_og.39.2.10" pos="sfm3fn">berast</w>
+            <w lemma="margur" xml:id="IGC-Books-milli_himins_og.39.2.11" pos="lhfnsf">mörg</w>
+            <w lemma="þúsund" xml:id="IGC-Books-milli_himins_og.39.2.12" pos="tfkfo">þúsund</w>
+            <w lemma="kílómetri" xml:id="IGC-Books-milli_himins_og.39.2.13" pos="nkfo">kílómetra</w>
+            <w lemma="neðansjávar" xml:id="IGC-Books-milli_himins_og.39.2.14" pos="aa" join="right">neðansjávar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.39.2.15" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.40">
+          <s xml:id="IGC-Books-milli_himins_og.40.1">
+            <w lemma="hvernig" xml:id="IGC-Books-milli_himins_og.40.1.1" pos="aa">Hvernig</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.40.1.2" pos="sfg3fn">geta</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.40.1.3" pos="nkfn">hvalir</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.40.1.4" pos="sþghen">orðið</w>
+            <w lemma="svona" xml:id="IGC-Books-milli_himins_og.40.1.5" pos="aa">svona</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.40.1.6" pos="lkfnsf" join="right">stórir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.40.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.41">
+          <s xml:id="IGC-Books-milli_himins_og.41.1">
+            <w lemma="af" xml:id="IGC-Books-milli_himins_og.41.1.1" pos="af">Af</w>
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.41.1.2" pos="fsheþ">hverju</w>
+            <w lemma="heyra" xml:id="IGC-Books-milli_himins_og.41.1.3" pos="sfg1fn">heyrum</w>
+            <w lemma="ég" xml:id="IGC-Books-milli_himins_og.41.1.4" pos="fp1fn">við</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.41.1.5" pos="aa">ekki</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.41.1.6" pos="af">í</w>
+            <w lemma="steypireyðir" xml:id="IGC-Books-milli_himins_og.41.1.7" pos="nkfþ" join="right">steypireyðum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.41.1.8" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.42">
+          <s xml:id="IGC-Books-milli_himins_og.42.1">
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.42.1.1" pos="af">Í</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.42.1.2" pos="nkeþ">sjó</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.42.1.3" pos="c">og</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.42.1.4" pos="af">á</w>
+            <w lemma="land" xml:id="IGC-Books-milli_himins_og.42.1.5" pos="nheþ">landi</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.43">
+          <s xml:id="IGC-Books-milli_himins_og.43.1">
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.43.1.1" pos="c">Þegar</w>
+            <w lemma="ég" xml:id="IGC-Books-milli_himins_og.43.1.2" pos="fp1fn">við</w>
+            <w lemma="fljóta" xml:id="IGC-Books-milli_himins_og.43.1.3" pos="sfg1fn">fljótum</w>
+            <w lemma="eða" xml:id="IGC-Books-milli_himins_og.43.1.4" pos="c">eða</w>
+            <w lemma="synda" xml:id="IGC-Books-milli_himins_og.43.1.5" pos="sfg1fn">syndum</w>
+            <w lemma="halda" xml:id="IGC-Books-milli_himins_og.43.1.6" pos="sfg3en">heldur</w>
+            <w lemma="vatn" xml:id="IGC-Books-milli_himins_og.43.1.7" pos="nheng">vatnið</w>
+            <w lemma="ég" xml:id="IGC-Books-milli_himins_og.43.1.8" pos="fp1fþ">okkur</w>
+            <w lemma="uppi" xml:id="IGC-Books-milli_himins_og.43.1.9" pos="aa" join="right">uppi</w>
+            <pc xml:id="IGC-Books-milli_himins_og.43.1.10" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.43.2">
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.43.2.1" pos="af">Í</w>
+            <w lemma="vatn" xml:id="IGC-Books-milli_himins_og.43.2.2" pos="nheþ">vatni</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.43.2.3" pos="sfg3en">er</w>
+            <w lemma="þyngd" xml:id="IGC-Books-milli_himins_og.43.2.4" pos="nveng">þyngdin</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.43.2.5" pos="aa">ekki</w>
+            <w lemma="vandamál" xml:id="IGC-Books-milli_himins_og.43.2.6" pos="nhen" join="right">vandamál</w>
+            <pc xml:id="IGC-Books-milli_himins_og.43.2.7" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.43.3">
+            <w lemma="bein" xml:id="IGC-Books-milli_himins_og.43.3.1" pos="nhfn">Bein</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.43.3.2" pos="c">og</w>
+            <w lemma="fótur" xml:id="IGC-Books-milli_himins_og.43.3.3" pos="nkfn">fætur</w>
+            <w lemma="munu" xml:id="IGC-Books-milli_himins_og.43.3.4" pos="svg3fþ">myndu</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.43.3.5" pos="aa">ekki</w>
+            <w lemma="þola" xml:id="IGC-Books-milli_himins_og.43.3.6" pos="sng">þola</w>
+            <w lemma="þungi" xml:id="IGC-Books-milli_himins_og.43.3.7" pos="nkeog" join="right">þungann</w>
+            <pc xml:id="IGC-Books-milli_himins_og.43.3.8" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.43.4">
+            <w lemma="landdýr" xml:id="IGC-Books-milli_himins_og.43.4.1" pos="nhfn">Landdýr</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.43.4.2" pos="svg3fþ">gætu</w>
+            <w lemma="aldrei" xml:id="IGC-Books-milli_himins_og.43.4.3" pos="aa">aldrei</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.43.4.4" pos="sþghen">orðið</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.43.4.5" pos="aa">eins</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.43.4.6" pos="lhfnsf">stór</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.43.4.7" pos="c">og</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.43.4.8" pos="lkfnve">stærstu</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.43.4.9" pos="nkfn" join="right">hvalir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.43.4.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.44">
+          <s xml:id="IGC-Books-milli_himins_og.44.1">
+            <w lemma="þú" xml:id="IGC-Books-milli_himins_og.44.1.1" pos="fp2en">Þú</w>
+            <w lemma="hafa" xml:id="IGC-Books-milli_himins_og.44.1.2" pos="sfg2en">hefur</w>
+            <w lemma="eflaust" xml:id="IGC-Books-milli_himins_og.44.1.3" pos="aa">eflaust</w>
+            <w lemma="finna" xml:id="IGC-Books-milli_himins_og.44.1.4" pos="sþghen">fundið</w>
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.44.1.5" pos="fshen">hvað</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.44.1.6" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.44.1.7" pos="sfg3en">er</w>
+            <w lemma="auðveldur" xml:id="IGC-Books-milli_himins_og.44.1.8" pos="lhensf">auðvelt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.44.1.9" pos="cn">að</w>
+            <w lemma="hreyfa" xml:id="IGC-Books-milli_himins_og.44.1.10" pos="sng">hreyfa</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.44.1.11" pos="fpkeo">sig</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.44.1.12" pos="af">í</w>
+            <w lemma="vatn" xml:id="IGC-Books-milli_himins_og.44.1.13" pos="nheþ">vatni</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.44.1.14" pos="c">og</w>
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.44.1.15" pos="fshen">hvað</w>
+            <w lemma="líkami" xml:id="IGC-Books-milli_himins_og.44.1.16" pos="nkeng">líkaminn</w>
+            <w lemma="virða" xml:id="IGC-Books-milli_himins_og.44.1.17" pos="sfm3en">virðist</w>
+            <w lemma="léttur" xml:id="IGC-Books-milli_himins_og.44.1.18" pos="lkensf" join="right">léttur</w>
+            <pc xml:id="IGC-Books-milli_himins_og.44.1.19" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.45">
+          <s xml:id="IGC-Books-milli_himins_og.45.1">
+            <w lemma="vatn" xml:id="IGC-Books-milli_himins_og.45.1.1" pos="nheng">Vatnið</w>
+            <w lemma="hjálpa" xml:id="IGC-Books-milli_himins_og.45.1.2" pos="sfg3en">hjálpar</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.45.1.3" pos="fpkfþ">þeim</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.45.1.4" pos="cn">að</w>
+            <w lemma="halda" xml:id="IGC-Books-milli_himins_og.45.1.5" pos="sng">halda</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.45.1.6" pos="fphfþ">sér</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.45.1.7" pos="af">á</w>
+            <w lemma="flot" xml:id="IGC-Books-milli_himins_og.45.1.8" pos="nheþ">floti</w>
+            <w lemma="svo" xml:id="IGC-Books-milli_himins_og.45.1.9" pos="aa">svo</w>
+            <w lemma="álag" xml:id="IGC-Books-milli_himins_og.45.1.10" pos="nheng">álagið</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.45.1.11" pos="af">á</w>
+            <w lemma="bein" xml:id="IGC-Books-milli_himins_og.45.1.12" pos="nhfog">beinin</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.45.1.13" pos="sfg3en">verður</w>
+            <w lemma="lítill" xml:id="IGC-Books-milli_himins_og.45.1.14" pos="lhenvm">minna</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.45.1.15" pos="c">en</w>
+            <w lemma="ef" xml:id="IGC-Books-milli_himins_og.45.1.16" pos="c">ef</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.45.1.17" pos="fphfn">þau</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.45.1.18" pos="svg3fþ">væru</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.45.1.19" pos="af">á</w>
+            <w lemma="land" xml:id="IGC-Books-milli_himins_og.45.1.20" pos="nheþ" join="right">landi</w>
+            <pc xml:id="IGC-Books-milli_himins_og.45.1.21" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.45.2">
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.45.2.1" pos="fphen">Það</w>
+            <w lemma="sami" xml:id="IGC-Books-milli_himins_og.45.2.2" pos="fbhen">sama</w>
+            <w lemma="eiga" xml:id="IGC-Books-milli_himins_og.45.2.3" pos="sfg3en">á</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.45.2.4" pos="aa">við</w>
+            <w lemma="um" xml:id="IGC-Books-milli_himins_og.45.2.5" pos="af">um</w>
+            <w lemma="sjávardýr" xml:id="IGC-Books-milli_himins_og.45.2.6" pos="nhfog" join="right">sjávardýrin</w>
+            <pc xml:id="IGC-Books-milli_himins_og.45.2.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.46">
+          <s xml:id="IGC-Books-milli_himins_og.46.1">
+            <w lemma="stórhveli" xml:id="IGC-Books-milli_himins_og.46.1.1" pos="nhfng">Stórhvelin</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.46.1.2" pos="sfg3fn">eru</w>
+            <w lemma="oft" xml:id="IGC-Books-milli_himins_og.46.1.3" pos="aa">oft</w>
+            <w lemma="einfari" xml:id="IGC-Books-milli_himins_og.46.1.4" pos="nkfn">einfarar</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.46.1.5" pos="c">og</w>
+            <w lemma="þá" xml:id="IGC-Books-milli_himins_og.46.1.6" pos="aa">þá</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.46.1.7" pos="sfg3en">er</w>
+            <w lemma="góður" xml:id="IGC-Books-milli_himins_og.46.1.8" pos="lhensf">gott</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.46.1.9" pos="cn">að</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.46.1.10" pos="sng">vera</w>
+            <w lemma="tröllvaxinn" xml:id="IGC-Books-milli_himins_og.46.1.11" pos="lkensf" join="right">tröllvaxinn</w>
+            <pc xml:id="IGC-Books-milli_himins_og.46.1.12" pos="pk">,</pc>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.46.1.13" pos="fpheþ">því</w>
+            <w lemma="fár" xml:id="IGC-Books-milli_himins_og.46.1.14" pos="lkfnsf">fáir</w>
+            <w lemma="ráða" xml:id="IGC-Books-milli_himins_og.46.1.15" pos="sfg3fn">ráða</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.46.1.16" pos="af">við</w>
+            <w lemma="risi" xml:id="IGC-Books-milli_himins_og.46.1.17" pos="nkfog" join="right">risana</w>
+            <pc xml:id="IGC-Books-milli_himins_og.46.1.18" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.46.2">
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.46.2.1" pos="lhfnsf">Stór</w>
+            <w lemma="dýr" xml:id="IGC-Books-milli_himins_og.46.2.2" pos="nhfn">dýr</w>
+            <w lemma="eiga" xml:id="IGC-Books-milli_himins_og.46.2.3" pos="sfg3fn">eiga</w>
+            <w lemma="líka" xml:id="IGC-Books-milli_himins_og.46.2.4" pos="aa">líka</w>
+            <w lemma="auðveldur" xml:id="IGC-Books-milli_himins_og.46.2.5" pos="lheovm">auðveldara</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.46.2.6" pos="af">með</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.46.2.7" pos="cn">að</w>
+            <w lemma="hafa" xml:id="IGC-Books-milli_himins_og.46.2.8" pos="sng">hafa</w>
+            <w lemma="stjórn" xml:id="IGC-Books-milli_himins_og.46.2.9" pos="nveo">stjórn</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.46.2.10" pos="af">á</w>
+            <w lemma="hitatap" xml:id="IGC-Books-milli_himins_og.46.2.11" pos="nheþ">hitatapi</w>
+            <w lemma="líkami" xml:id="IGC-Books-milli_himins_og.46.2.12" pos="nkeeg">líkamans</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.46.2.13" pos="af">í</w>
+            <w lemma="kaldur" xml:id="IGC-Books-milli_himins_og.46.2.14" pos="lkeþsf">köldum</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.46.2.15" pos="nkeþ" join="right">sjó</w>
+            <pc xml:id="IGC-Books-milli_himins_og.46.2.16" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.46.3">
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.46.3.1" pos="af">Í</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.46.3.2" pos="nkeþg">sjónum</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.46.3.3" pos="sfg3en">er</w>
+            <w lemma="stærð" xml:id="IGC-Books-milli_himins_og.46.3.4" pos="nveng">stærðin</w>
+            <w lemma="kostur" xml:id="IGC-Books-milli_himins_og.46.3.5" pos="nken" join="right">kostur</w>
+            <pc xml:id="IGC-Books-milli_himins_og.46.3.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.47">
+          <s xml:id="IGC-Books-milli_himins_og.47.1">
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.47.1.1" pos="fshee">Hvers</w>
+            <w lemma="vegna" xml:id="IGC-Books-milli_himins_og.47.1.2" pos="af">vegna</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.47.1.3" pos="sfg3fn">geta</w>
+            <w lemma="landdýr" xml:id="IGC-Books-milli_himins_og.47.1.4" pos="nhfn">landdýr</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.47.1.5" pos="aa">ekki</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.47.1.6" pos="sþghen">orðið</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.47.1.7" pos="aa">eins</w>
+            <w lemma="risavaxinn" xml:id="IGC-Books-milli_himins_og.47.1.8" pos="lhfnsf">risavaxin</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.47.1.9" pos="c">og</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.47.1.10" pos="lkfnve">stærstu</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.47.1.11" pos="nkfn" join="right">hvalir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.47.1.12" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.48">
+          <s xml:id="IGC-Books-milli_himins_og.48.1">
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.48.1.1" pos="fokee">Hvers</w>
+            <w lemma="konar" xml:id="IGC-Books-milli_himins_og.48.1.2" pos="nkee">konar</w>
+            <w lemma="hljóð" xml:id="IGC-Books-milli_himins_og.48.1.3" pos="nhfn">hljóð</w>
+            <w lemma="koma" xml:id="IGC-Books-milli_himins_og.48.1.4" pos="sfg3fn">koma</w>
+            <w lemma="frá" xml:id="IGC-Books-milli_himins_og.48.1.5" pos="af">frá</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.48.1.6" pos="nkfþ" join="right">hvölum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.48.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.49">
+          <s xml:id="IGC-Books-milli_himins_og.49.1">
+            <w lemma="hnúfubakur" xml:id="IGC-Books-milli_himins_og.49.1.1" pos="nkeng">Hnúfubakurinn</w>
+            <w lemma="syngja" xml:id="IGC-Books-milli_himins_og.49.1.2" pos="slg">syngjandi</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.50">
+          <s xml:id="IGC-Books-milli_himins_og.50.1">
+            <w lemma="hnúfubakur" xml:id="IGC-Books-milli_himins_og.50.1.1" pos="nkfn">Hnúfubakar</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.50.1.2" pos="sfg3fn">eru</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.50.1.3" pos="lkfnsf">miklir</w>
+            <w lemma="söngsnillingur" xml:id="IGC-Books-milli_himins_og.50.1.4" pos="nkfn" join="right">söngsnillingar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.50.1.5" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.50.2">
+            <w lemma="margur" xml:id="IGC-Books-milli_himins_og.50.2.1" pos="lkfnsf">Margir</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.50.2.2" pos="nkfn">hvalir</w>
+            <w lemma="gefa" xml:id="IGC-Books-milli_himins_og.50.2.3" pos="sfg3fn">gefa</w>
+            <w lemma="frá" xml:id="IGC-Books-milli_himins_og.50.2.4" pos="af">frá</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.50.2.5" pos="fpkfþ">sér</w>
+            <w lemma="hljóð" xml:id="IGC-Books-milli_himins_og.50.2.6" pos="nhfo">hljóð</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.50.2.7" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.50.2.8" pos="sfg3fn">eru</w>
+            <w lemma="kalla" xml:id="IGC-Books-milli_himins_og.50.2.9" pos="sþghfn">kölluð</w>
+            <w lemma="söngur" xml:id="IGC-Books-milli_himins_og.50.2.10" pos="nken" join="right">söngur</w>
+            <pc xml:id="IGC-Books-milli_himins_og.50.2.11" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.50.3">
+            <w lemma="söngur" xml:id="IGC-Books-milli_himins_og.50.3.1" pos="nkeng">Söngurinn</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.50.3.2" pos="sfg3en">getur</w>
+            <w lemma="standa" xml:id="IGC-Books-milli_himins_og.50.3.3" pos="sþghen">staðið</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.50.3.4" pos="af">í</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.50.3.5" pos="foheo">allt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.50.3.6" pos="aa">að</w>
+            <w lemma="hálftími" xml:id="IGC-Books-milli_himins_og.50.3.7" pos="nkeo">hálftíma</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.50.3.8" pos="c">og</w>
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.50.3.9" pos="c">þegar</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.50.3.10" pos="fpkeþ">honum</w>
+            <w lemma="ljúka" xml:id="IGC-Books-milli_himins_og.50.3.11" pos="sfg3en">lýkur</w>
+            <w lemma="byrja" xml:id="IGC-Books-milli_himins_og.50.3.12" pos="sfg3en">byrjar</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.50.3.13" pos="nkeng">hvalurinn</w>
+            <w lemma="upp" xml:id="IGC-Books-milli_himins_og.50.3.14" pos="aa">upp</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.50.3.15" pos="af">á</w>
+            <w lemma="nýr" xml:id="IGC-Books-milli_himins_og.50.3.16" pos="lheosf" join="right">nýtt</w>
+            <pc xml:id="IGC-Books-milli_himins_og.50.3.17" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.50.4">
+            <w lemma="tarfur" xml:id="IGC-Books-milli_himins_og.50.4.1" pos="nkfng">Tarfarnir</w>
+            <w lemma="syngja" xml:id="IGC-Books-milli_himins_og.50.4.2" pos="sfg3fn">syngja</w>
+            <w lemma="ákveðinn" xml:id="IGC-Books-milli_himins_og.50.4.3" pos="lhfosf">ákveðin</w>
+            <w lemma="stef" xml:id="IGC-Books-milli_himins_og.50.4.4" pos="nhfo">stef</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.50.4.5" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.50.4.6" pos="sfg3fn">eru</w>
+            <w lemma="setja" xml:id="IGC-Books-milli_himins_og.50.4.7" pos="sþghfn">sett</w>
+            <w lemma="saman" xml:id="IGC-Books-milli_himins_og.50.4.8" pos="aa">saman</w>
+            <w lemma="úr" xml:id="IGC-Books-milli_himins_og.50.4.9" pos="af">úr</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.50.4.10" pos="fokee">alls</w>
+            <w lemma="konar" xml:id="IGC-Books-milli_himins_og.50.4.11" pos="nkee">konar</w>
+            <w lemma="hljóð" xml:id="IGC-Books-milli_himins_og.50.4.12" pos="nhfþ" join="right">hljóðum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.50.4.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.51">
+          <s xml:id="IGC-Books-milli_himins_og.51.1">
+            <w lemma="söngur" xml:id="IGC-Books-milli_himins_og.51.1.1" pos="nkfng">Söngvarnir</w>
+            <w lemma="breyta" xml:id="IGC-Books-milli_himins_og.51.1.2" pos="sfm3fn">breytast</w>
+            <w lemma="þó" xml:id="IGC-Books-milli_himins_og.51.1.3" pos="aa">þó</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.51.1.4" pos="aa">á</w>
+            <w lemma="milli" xml:id="IGC-Books-milli_himins_og.51.1.5" pos="af">milli</w>
+            <w lemma="ár" xml:id="IGC-Books-milli_himins_og.51.1.6" pos="nhfe">ára</w>
+            <w lemma="rétt" xml:id="IGC-Books-milli_himins_og.51.1.7" pos="aa">rétt</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.51.1.8" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.51.1.9" pos="c">og</w>
+            <w lemma="nýr" xml:id="IGC-Books-milli_himins_og.51.1.10" pos="lhfnsf">ný</w>
+            <w lemma="lög" xml:id="IGC-Books-milli_himins_og.51.1.11" pos="nhfn">lög</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.51.1.12" pos="sfg3fn">verða</w>
+            <w lemma="vinsæll" xml:id="IGC-Books-milli_himins_og.51.1.13" pos="lhfnsf">vinsæl</w>
+            <w lemma="hjá" xml:id="IGC-Books-milli_himins_og.51.1.14" pos="af">hjá</w>
+            <w lemma="ég" xml:id="IGC-Books-milli_himins_og.51.1.15" pos="fp1fþ">okkur</w>
+            <w lemma="maður" xml:id="IGC-Books-milli_himins_og.51.1.16" pos="nkfþg" join="right">mönnunum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.51.1.17" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.51.2">
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.51.2.1" pos="fokfn">Allir</w>
+            <w lemma="tarfur" xml:id="IGC-Books-milli_himins_og.51.2.2" pos="nkfn">tarfar</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.51.2.3" pos="af">á</w>
+            <w lemma="sami" xml:id="IGC-Books-milli_himins_og.51.2.4" pos="fbheþ">sama</w>
+            <w lemma="svæði" xml:id="IGC-Books-milli_himins_og.51.2.5" pos="nheþ">svæði</w>
+            <w lemma="syngja" xml:id="IGC-Books-milli_himins_og.51.2.6" pos="sfg3fn">syngja</w>
+            <w lemma="sami" xml:id="IGC-Books-milli_himins_og.51.2.7" pos="fbkeo">sama</w>
+            <w lemma="söngur" xml:id="IGC-Books-milli_himins_og.51.2.8" pos="nkeog" join="right">sönginn</w>
+            <pc xml:id="IGC-Books-milli_himins_og.51.2.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.52">
+          <s xml:id="IGC-Books-milli_himins_og.52.1">
+            <w lemma="fiskur" xml:id="IGC-Books-milli_himins_og.52.1.1" pos="nkfng">Fiskarnir</w>
+            <w lemma="hræða" xml:id="IGC-Books-milli_himins_og.52.1.2" pos="sfm3fn">hræðast</w>
+            <w lemma="loftbóla" xml:id="IGC-Books-milli_himins_og.52.1.3" pos="nvfog">loftbólurnar</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.52.1.4" pos="c">og</w>
+            <w lemma="þora" xml:id="IGC-Books-milli_himins_og.52.1.5" pos="sfg3fn">þora</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.52.1.6" pos="aa">ekki</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.52.1.7" pos="cn">að</w>
+            <w lemma="synda" xml:id="IGC-Books-milli_himins_og.52.1.8" pos="sng">synda</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.52.1.9" pos="aa">í</w>
+            <w lemma="gegnum" xml:id="IGC-Books-milli_himins_og.52.1.10" pos="af">gegnum</w>
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.52.1.11" pos="fpvfo" join="right">þær</w>
+            <pc xml:id="IGC-Books-milli_himins_og.52.1.12" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.52.2">
+            <w lemma="hnúfubakur" xml:id="IGC-Books-milli_himins_og.52.2.1" pos="nkfn">Hnúfubakar</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.52.2.2" pos="sfg3fn">eru</w>
+            <w lemma="flinkur" xml:id="IGC-Books-milli_himins_og.52.2.3" pos="lkfnsf">flinkir</w>
+            <w lemma="veiðihvalur" xml:id="IGC-Books-milli_himins_og.52.2.4" pos="nkfn">veiðihvalir</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.52.2.5" pos="c">og</w>
+            <w lemma="veiða" xml:id="IGC-Books-milli_himins_og.52.2.6" pos="sfg3fn">veiða</w>
+            <w lemma="fiskur" xml:id="IGC-Books-milli_himins_og.52.2.7" pos="nkfo">fiska</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.52.2.8" pos="af">með</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.52.2.9" pos="fpheþ">því</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.52.2.10" pos="cn">að</w>
+            <w lemma="blása" xml:id="IGC-Books-milli_himins_og.52.2.11" pos="sng">blása</w>
+            <w lemma="loftbóla" xml:id="IGC-Books-milli_himins_og.52.2.12" pos="nvfo">loftbólur</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.52.2.13" pos="aa">í</w>
+            <w lemma="kringum" xml:id="IGC-Books-milli_himins_og.52.2.14" pos="af">kringum</w>
+            <w lemma="fiskitorfa" xml:id="IGC-Books-milli_himins_og.52.2.15" pos="nveog" join="right">fiskitorfuna</w>
+            <pc xml:id="IGC-Books-milli_himins_og.52.2.16" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.53">
+          <s xml:id="IGC-Books-milli_himins_og.53.1">
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.53.1.1" pos="c">Þegar</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.53.1.2" pos="nkeng">hvalurinn</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.53.1.3" pos="sfg3en">er</w>
+            <w lemma="búinn" xml:id="IGC-Books-milli_himins_og.53.1.4" pos="lkensf">búinn</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.53.1.5" pos="cn">að</w>
+            <w lemma="ná" xml:id="IGC-Books-milli_himins_og.53.1.6" pos="sng">ná</w>
+            <w lemma="fiskur" xml:id="IGC-Books-milli_himins_og.53.1.7" pos="nkfþg">fiskunum</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.53.1.8" pos="af">í</w>
+            <w lemma="loftbólunet" xml:id="IGC-Books-milli_himins_og.53.1.9" pos="nhfo" join="right">loftbólunet</w>
+            <pc xml:id="IGC-Books-milli_himins_og.53.1.10" pos="pk">,</pc>
+            <w lemma="synda" xml:id="IGC-Books-milli_himins_og.53.1.11" pos="sfg3en">syndir</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.53.1.12" pos="fpken">hann</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.53.1.13" pos="aa">í</w>
+            <w lemma="gegnum" xml:id="IGC-Books-milli_himins_og.53.1.14" pos="af">gegnum</w>
+            <w lemma="torfa" xml:id="IGC-Books-milli_himins_og.53.1.15" pos="nveog">torfuna</w>
+            <w lemma="með" xml:id="IGC-Books-milli_himins_og.53.1.16" pos="af">með</w>
+            <w lemma="opinn" xml:id="IGC-Books-milli_himins_og.53.1.17" pos="lheosf">opið</w>
+            <w lemma="gin" xml:id="IGC-Books-milli_himins_og.53.1.18" pos="nheog">ginið</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.53.1.19" pos="c">og</w>
+            <w lemma="skófla" xml:id="IGC-Books-milli_himins_og.53.1.20" pos="sfg3en">skóflar</w>
+            <w lemma="fiskur" xml:id="IGC-Books-milli_himins_og.53.1.21" pos="nkfþg">fiskunum</w>
+            <w lemma="upp" xml:id="IGC-Books-milli_himins_og.53.1.22" pos="aa">upp</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.53.1.23" pos="af">í</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.53.1.24" pos="fpkeo" join="right">sig</w>
+            <pc xml:id="IGC-Books-milli_himins_og.53.1.25" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.54">
+          <s xml:id="IGC-Books-milli_himins_og.54.1">
+            <w lemma="hvaða" xml:id="IGC-Books-milli_himins_og.54.1.1" pos="fsken">Hvaða</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.54.1.2" pos="nken">hvalur</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.54.1.3" pos="sfg3en">er</w>
+            <w lemma="algengur" xml:id="IGC-Books-milli_himins_og.54.1.4" pos="lkense">algengastur</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.54.1.5" pos="af">við</w>
+            <w lemma="Ísland" xml:id="IGC-Books-milli_himins_og.54.1.6" pos="nheo-s" join="right">Ísland</w>
+            <pc xml:id="IGC-Books-milli_himins_og.54.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.55">
+          <s xml:id="IGC-Books-milli_himins_og.55.1">
+            <w lemma="hvaða" xml:id="IGC-Books-milli_himins_og.55.1.1" pos="fsveo">Hvaða</w>
+            <w lemma="aðferð" xml:id="IGC-Books-milli_himins_og.55.1.2" pos="nveo">aðferð</w>
+            <w lemma="nota" xml:id="IGC-Books-milli_himins_og.55.1.3" pos="sfg3fn">nota</w>
+            <w lemma="hnúfubakur" xml:id="IGC-Books-milli_himins_og.55.1.4" pos="nkfn">hnúfubakar</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.55.1.5" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.55.1.6" pos="cn">að</w>
+            <w lemma="fanga" xml:id="IGC-Books-milli_himins_og.55.1.7" pos="sng">fanga</w>
+            <w lemma="fiskur" xml:id="IGC-Books-milli_himins_og.55.1.8" pos="nkfo" join="right">fiska</w>
+            <pc xml:id="IGC-Books-milli_himins_og.55.1.9" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.56">
+          <s xml:id="IGC-Books-milli_himins_og.56.1">
+            <w lemma="kannski" xml:id="IGC-Books-milli_himins_og.56.1.1" pos="aa">Kannski</w>
+            <w lemma="finna" xml:id="IGC-Books-milli_himins_og.56.1.2" pos="sfm3en">finnst</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.56.1.3" pos="fphfþ">þeim</w>
+            <w lemma="gaman" xml:id="IGC-Books-milli_himins_og.56.1.4" pos="nhen">gaman</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.56.1.5" pos="cn">að</w>
+            <w lemma="skoða" xml:id="IGC-Books-milli_himins_og.56.1.6" pos="sng">skoða</w>
+            <w lemma="skip" xml:id="IGC-Books-milli_himins_og.56.1.7" pos="nhfo">skip</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.56.1.8" pos="c">og</w>
+            <w lemma="fólk" xml:id="IGC-Books-milli_himins_og.56.1.9" pos="nheo" join="right">fólk</w>
+            <pc xml:id="IGC-Books-milli_himins_og.56.1.10" pos="pk">,</pc>
+            <w lemma="alveg" xml:id="IGC-Books-milli_himins_og.56.1.11" pos="aa">alveg</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.56.1.12" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.56.1.13" pos="c">og</w>
+            <w lemma="fólk" xml:id="IGC-Books-milli_himins_og.56.1.14" pos="nheþ">fólki</w>
+            <w lemma="finna" xml:id="IGC-Books-milli_himins_og.56.1.15" pos="sfm3en">finnst</w>
+            <w lemma="gaman" xml:id="IGC-Books-milli_himins_og.56.1.16" pos="nhen">gaman</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.56.1.17" pos="cn">að</w>
+            <w lemma="skoða" xml:id="IGC-Books-milli_himins_og.56.1.18" pos="sng">skoða</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.56.1.19" pos="nkfo" join="right">hvali</w>
+            <pc xml:id="IGC-Books-milli_himins_og.56.1.20" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.56.2">
+            <w lemma="Hrefna" xml:id="IGC-Books-milli_himins_og.56.2.1" pos="nven-s">Hrefna</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.56.2.2" pos="sfg3en">er</w>
+            <w lemma="algengur" xml:id="IGC-Books-milli_himins_og.56.2.3" pos="lkenve">algengasti</w>
+            <w lemma="skíðishvalur" xml:id="IGC-Books-milli_himins_og.56.2.4" pos="nken">skíðishvalur</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.56.2.5" pos="af">í</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.56.2.6" pos="nkeþg">sjónum</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.56.2.7" pos="af">við</w>
+            <w lemma="Ísland" xml:id="IGC-Books-milli_himins_og.56.2.8" pos="nheo-s" join="right">Ísland</w>
+            <pc xml:id="IGC-Books-milli_himins_og.56.2.9" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.56.3">
+            <w lemma="hrefna" xml:id="IGC-Books-milli_himins_og.56.3.1" pos="nvfn">Hrefnur</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.56.3.2" pos="sfg3fn">geta</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.56.3.3" pos="sþghen">orðið</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.56.3.4" pos="fohen">allt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.56.3.5" pos="aa">að</w>
+            <w lemma="10" xml:id="IGC-Books-milli_himins_og.56.3.6" pos="ta">10</w>
+            <w lemma="metri" xml:id="IGC-Books-milli_himins_og.56.3.7" pos="nkfn">metrar</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.56.3.8" pos="af">á</w>
+            <w lemma="lengd" xml:id="IGC-Books-milli_himins_og.56.3.9" pos="nveo">lengd</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.56.3.10" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.56.3.11" pos="sfg3en">er</w>
+            <w lemma="álíka" xml:id="IGC-Books-milli_himins_og.56.3.12" pos="aa">álíka</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.56.3.13" pos="lhensf">stórt</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.56.3.14" pos="c">og</w>
+            <w lemma="þrír" xml:id="IGC-Books-milli_himins_og.56.3.15" pos="tfvfe">þriggja</w>
+            <w lemma="hæð" xml:id="IGC-Books-milli_himins_og.56.3.16" pos="nvfe">hæða</w>
+            <w lemma="hús" xml:id="IGC-Books-milli_himins_og.56.3.17" pos="nhen" join="right">hús</w>
+            <pc xml:id="IGC-Books-milli_himins_og.56.3.18" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.56.4">
+            <w lemma="telja" xml:id="IGC-Books-milli_himins_og.56.4.1" pos="sþghen">Talið</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.56.4.2" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.56.4.3" pos="c">að</w>
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.56.4.4" pos="fpvfn">þær</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.56.4.5" pos="svg3fn">geti</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.56.4.6" pos="sþghen">orðið</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.56.4.7" pos="fohen">allt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.56.4.8" pos="aa">að</w>
+            <w lemma="50" xml:id="IGC-Books-milli_himins_og.56.4.9" pos="ta">50</w>
+            <w lemma="ár" xml:id="IGC-Books-milli_himins_og.56.4.10" pos="nhfe">ára</w>
+            <w lemma="gamall" xml:id="IGC-Books-milli_himins_og.56.4.11" pos="lvfnsf" join="right">gamlar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.56.4.12" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.56.5">
+            <w lemma="margur" xml:id="IGC-Books-milli_himins_og.56.5.1" pos="lvfnsf">Margar</w>
+            <w lemma="hrefna" xml:id="IGC-Books-milli_himins_og.56.5.2" pos="nvfn">hrefnur</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.56.5.3" pos="sfg3fn">eru</w>
+            <w lemma="forvitinn" xml:id="IGC-Books-milli_himins_og.56.5.4" pos="lvfnsf">forvitnar</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.56.5.5" pos="c">og</w>
+            <w lemma="nálgast" xml:id="IGC-Books-milli_himins_og.56.5.6" pos="sfm3fn">nálgast</w>
+            <w lemma="oft" xml:id="IGC-Books-milli_himins_og.56.5.7" pos="aa">oft</w>
+            <w lemma="bátur" xml:id="IGC-Books-milli_himins_og.56.5.8" pos="nkfo">báta</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.56.5.9" pos="ct">sem</w>
+            <w lemma="sigla" xml:id="IGC-Books-milli_himins_og.56.5.10" pos="sfg3fn">sigla</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.56.5.11" pos="af">á</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.56.5.12" pos="nkeþg" join="right">sjónum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.56.5.13" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.57">
+          <s xml:id="IGC-Books-milli_himins_og.57.1">
+            <w lemma="Hrefna" xml:id="IGC-Books-milli_himins_og.57.1.1" pos="nvengs">Hrefnan</w>
+            <w lemma="forvitinn" xml:id="IGC-Books-milli_himins_og.57.1.2" pos="lvenvf">forvitna</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.58">
+          <s xml:id="IGC-Books-milli_himins_og.58.1">
+            <w lemma="búrhvalur" xml:id="IGC-Books-milli_himins_og.58.1.1" pos="nkfn">Búrhvalir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.58.1.2" pos="sfg3fn">eru</w>
+            <w lemma="tannhvalur" xml:id="IGC-Books-milli_himins_og.58.1.3" pos="nkfn">tannhvalir</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.58.1.4" pos="c">og</w>
+            <w lemma="sannur" xml:id="IGC-Books-milli_himins_og.58.1.5" pos="lkfnsf">sannir</w>
+            <w lemma="köfunarmeistari" xml:id="IGC-Books-milli_himins_og.58.1.6" pos="nkfn" join="right">köfunarmeistarar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.58.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.59">
+          <s xml:id="IGC-Books-milli_himins_og.59.1">
+            <w lemma="búrhvalur" xml:id="IGC-Books-milli_himins_og.59.1.1" pos="nkfn">Búrhvalir</w>
+            <w lemma="halda" xml:id="IGC-Books-milli_himins_og.59.1.2" pos="sfg3fn">halda</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.59.1.3" pos="fpkfo">sig</w>
+            <w lemma="úti" xml:id="IGC-Books-milli_himins_og.59.1.4" pos="aa">úti</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.59.1.5" pos="af">á</w>
+            <w lemma="haf" xml:id="IGC-Books-milli_himins_og.59.1.6" pos="nheþ">hafi</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.59.1.7" pos="c">og</w>
+            <w lemma="koma" xml:id="IGC-Books-milli_himins_og.59.1.8" pos="sfg3fn">koma</w>
+            <w lemma="sjaldan" xml:id="IGC-Books-milli_himins_og.59.1.9" pos="aa">sjaldan</w>
+            <w lemma="nærri" xml:id="IGC-Books-milli_himins_og.59.1.10" pos="af">nærri</w>
+            <w lemma="land" xml:id="IGC-Books-milli_himins_og.59.1.11" pos="nheþ" join="right">landi</w>
+            <pc xml:id="IGC-Books-milli_himins_og.59.1.12" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.59.2">
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.59.2.1" pos="fpkfn">Þeir</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.59.2.2" pos="sfg3fn">geta</w>
+            <w lemma="kafa" xml:id="IGC-Books-milli_himins_og.59.2.3" pos="sþghen">kafað</w>
+            <w lemma="um" xml:id="IGC-Books-milli_himins_og.59.2.4" pos="af">um</w>
+            <w lemma="2000" xml:id="IGC-Books-milli_himins_og.59.2.5" pos="ta">2000</w>
+            <w lemma="metri" xml:id="IGC-Books-milli_himins_og.59.2.6" pos="nkfo">metra</w>
+            <w lemma="niður" xml:id="IGC-Books-milli_himins_og.59.2.7" pos="aa">niður</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.59.2.8" pos="af">í</w>
+            <w lemma="djúp" xml:id="IGC-Books-milli_himins_og.59.2.9" pos="nheog">djúpið</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.59.2.10" pos="af">í</w>
+            <w lemma="leit" xml:id="IGC-Books-milli_himins_og.59.2.11" pos="nveþ">leit</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.59.2.12" pos="af">að</w>
+            <w lemma="uppáhald" xml:id="IGC-Books-milli_himins_og.59.2.13" pos="nhee">uppáhalds</w>
+            <w lemma="æti" xml:id="IGC-Books-milli_himins_og.59.2.14" pos="nheþg">ætinu</w>
+            <w lemma="sinn" xml:id="IGC-Books-milli_himins_og.59.2.15" pos="feheþ" join="right">sínu</w>
+            <pc xml:id="IGC-Books-milli_himins_og.59.2.16" pos="pk">,</pc>
+            <w lemma="smokkfiskur" xml:id="IGC-Books-milli_himins_og.59.2.17" pos="nkfþ" join="right">smokkfiskum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.59.2.18" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.60">
+          <s xml:id="IGC-Books-milli_himins_og.60.1">
+            <w lemma="tarfur" xml:id="IGC-Books-milli_himins_og.60.1.1" pos="nkfn">Tarfar</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.60.1.2" pos="sfg3fn">geta</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.60.1.3" pos="sþghen">orðið</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.60.1.4" pos="fohen">allt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.60.1.5" pos="aa">að</w>
+            <w lemma="18" xml:id="IGC-Books-milli_himins_og.60.1.6" pos="ta">18</w>
+            <w lemma="metri" xml:id="IGC-Books-milli_himins_og.60.1.7" pos="nkfe">metra</w>
+            <w lemma="langur" xml:id="IGC-Books-milli_himins_og.60.1.8" pos="lkfnsf">langir</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.60.1.9" pos="c">og</w>
+            <w lemma="um" xml:id="IGC-Books-milli_himins_og.60.1.10" pos="aa">um</w>
+            <w lemma="50" xml:id="IGC-Books-milli_himins_og.60.1.11" pos="ta">50</w>
+            <w lemma="tonn" xml:id="IGC-Books-milli_himins_og.60.1.12" pos="nhfn">tonn</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.60.1.13" pos="af">að</w>
+            <w lemma="þyngd" xml:id="IGC-Books-milli_himins_og.60.1.14" pos="nveþ" join="right">þyngd</w>
+            <pc xml:id="IGC-Books-milli_himins_og.60.1.15" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.60.2">
+            <w lemma="búrhvalur" xml:id="IGC-Books-milli_himins_og.60.2.1" pos="nkfn">Búrhvalir</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.60.2.2" pos="af">við</w>
+            <w lemma="Ísland" xml:id="IGC-Books-milli_himins_og.60.2.3" pos="nheo-s">Ísland</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.60.2.4" pos="sfg3fn">eru</w>
+            <w lemma="eingöngu" xml:id="IGC-Books-milli_himins_og.60.2.5" pos="aa">eingöngu</w>
+            <w lemma="tarfur" xml:id="IGC-Books-milli_himins_og.60.2.6" pos="nkfn">tarfar</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.60.2.7" pos="fpheþ">því</w>
+            <w lemma="kýr" xml:id="IGC-Books-milli_himins_og.60.2.8" pos="nvfn">kýr</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.60.2.9" pos="c">og</w>
+            <w lemma="kálfur" xml:id="IGC-Books-milli_himins_og.60.2.10" pos="nkfn">kálfar</w>
+            <w lemma="halda" xml:id="IGC-Books-milli_himins_og.60.2.11" pos="sfg3fn">halda</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.60.2.12" pos="fpkfo">sig</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.60.2.13" pos="af">í</w>
+            <w lemma="hlýr" xml:id="IGC-Books-milli_himins_og.60.2.14" pos="lkeþvm">hlýrri</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.60.2.15" pos="nkeþ" join="right">sjó</w>
+            <pc xml:id="IGC-Books-milli_himins_og.60.2.16" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.61">
+          <s xml:id="IGC-Books-milli_himins_og.61.1">
+            <w lemma="búrhvalur" xml:id="IGC-Books-milli_himins_og.61.1.1" pos="nken">Búrhvalur</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.61.1.2" pos="sfg3en">er</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.61.1.3" pos="lkenve">mesti</w>
+            <w lemma="djúpkafari" xml:id="IGC-Books-milli_himins_og.61.1.4" pos="nken">djúpkafari</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.61.1.5" pos="fokfe">allra</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.61.1.6" pos="nkfe" join="right">hvala</w>
+            <pc xml:id="IGC-Books-milli_himins_og.61.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.62">
+          <s xml:id="IGC-Books-milli_himins_og.62.1">
+            <w lemma="af" xml:id="IGC-Books-milli_himins_og.62.1.1" pos="af">Af</w>
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.62.1.2" pos="fsheþ">hverju</w>
+            <w lemma="koma" xml:id="IGC-Books-milli_himins_og.62.1.3" pos="sfg3fn">koma</w>
+            <w lemma="kýr" xml:id="IGC-Books-milli_himins_og.62.1.4" pos="nvfn">kýr</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.62.1.5" pos="c">og</w>
+            <w lemma="kálfur" xml:id="IGC-Books-milli_himins_og.62.1.6" pos="nkfn">kálfar</w>
+            <w lemma="búrhvalur" xml:id="IGC-Books-milli_himins_og.62.1.7" pos="nkeeg">búrhvalsins</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.62.1.8" pos="aa">ekki</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.62.1.9" pos="af">í</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.62.1.10" pos="nkeog">sjóinn</w>
+            <w lemma="umhverfis" xml:id="IGC-Books-milli_himins_og.62.1.11" pos="af">umhverfis</w>
+            <w lemma="Ísland" xml:id="IGC-Books-milli_himins_og.62.1.12" pos="nheo-s" join="right">Ísland</w>
+            <pc xml:id="IGC-Books-milli_himins_og.62.1.13" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.63">
+          <s xml:id="IGC-Books-milli_himins_og.63.1">
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.63.1.1" pos="fskfn">Hverjir</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.63.1.2" pos="sfg3fn">eru</w>
+            <w lemma="úlfur" xml:id="IGC-Books-milli_himins_og.63.1.3" pos="nkfn">úlfar</w>
+            <w lemma="haf" xml:id="IGC-Books-milli_himins_og.63.1.4" pos="nheeg" join="right">hafsins</w>
+            <pc xml:id="IGC-Books-milli_himins_og.63.1.5" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.64">
+          <s xml:id="IGC-Books-milli_himins_og.64.1">
+            <w lemma="háhyrningur" xml:id="IGC-Books-milli_himins_og.64.1.1" pos="nkfn">Háhyrningar</w>
+            <w lemma="hafa" xml:id="IGC-Books-milli_himins_og.64.1.2" pos="sfg3fn">hafa</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.64.1.3" pos="lheovm">meira</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.64.1.4" pos="cn">að</w>
+            <w lemma="segja" xml:id="IGC-Books-milli_himins_og.64.1.5" pos="sng">segja</w>
+            <w lemma="sjá" xml:id="IGC-Books-milli_himins_og.64.1.6" pos="sþmhen">sést</w>
+            <w lemma="drepa" xml:id="IGC-Books-milli_himins_og.64.1.7" pos="sng">drepa</w>
+            <w lemma="ungur" xml:id="IGC-Books-milli_himins_og.64.1.8" pos="lkfosf">unga</w>
+            <w lemma="steypireyður" xml:id="IGC-Books-milli_himins_og.64.1.9" pos="nkfo" join="right">steypireyði</w>
+            <pc xml:id="IGC-Books-milli_himins_og.64.1.10" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.64.2">
+            <w lemma="háhyrningur" xml:id="IGC-Books-milli_himins_og.64.2.1" pos="nkfn">Háhyrningar</w>
+            <w lemma="vinna" xml:id="IGC-Books-milli_himins_og.64.2.2" pos="sfg3fn">vinna</w>
+            <w lemma="saman" xml:id="IGC-Books-milli_himins_og.64.2.3" pos="aa">saman</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.64.2.4" pos="c">og</w>
+            <w lemma="veiða" xml:id="IGC-Books-milli_himins_og.64.2.5" pos="sfg3fn">veiða</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.64.2.6" pos="af">í</w>
+            <w lemma="hópur" xml:id="IGC-Books-milli_himins_og.64.2.7" pos="nkfþ">hópum</w>
+            <w lemma="háhyrningur" xml:id="IGC-Books-milli_himins_og.64.2.8" pos="nken">Háhyrningur</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.64.2.9" pos="sfg3en">er</w>
+            <w lemma="tannhvalur" xml:id="IGC-Books-milli_himins_og.64.2.10" pos="nken">tannhvalur</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.64.2.11" pos="ct">sem</w>
+            <w lemma="éta" xml:id="IGC-Books-milli_himins_og.64.2.12" pos="sfg3en">étur</w>
+            <w lemma="allur" xml:id="IGC-Books-milli_himins_og.64.2.13" pos="foheo">allt</w>
+            <w lemma="mögulegur" xml:id="IGC-Books-milli_himins_og.64.2.14" pos="lheosf" join="right">mögulegt</w>
+            <pc xml:id="IGC-Books-milli_himins_og.64.2.15" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.64.3">
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.64.3.1" pos="af">Til</w>
+            <w lemma="dæmi" xml:id="IGC-Books-milli_himins_og.64.3.2" pos="nhee">dæmis</w>
+            <w lemma="fiskur" xml:id="IGC-Books-milli_himins_og.64.3.3" pos="nkfo" join="right">fiska</w>
+            <pc xml:id="IGC-Books-milli_himins_og.64.3.4" pos="pk">,</pc>
+            <w lemma="fugl" xml:id="IGC-Books-milli_himins_og.64.3.5" pos="nkfo" join="right">fugla</w>
+            <pc xml:id="IGC-Books-milli_himins_og.64.3.6" pos="pk">,</pc>
+            <w lemma="kolkrabbi" xml:id="IGC-Books-milli_himins_og.64.3.7" pos="nkfo" join="right">kolkrabba</w>
+            <pc xml:id="IGC-Books-milli_himins_og.64.3.8" pos="pk">,</pc>
+            <w lemma="selur" xml:id="IGC-Books-milli_himins_og.64.3.9" pos="nkfo">seli</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.64.3.10" pos="c">og</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.64.3.11" pos="nkfo">hvali</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.64.3.12" pos="ct">sem</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.64.3.13" pos="sfg3fn">eru</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.64.3.14" pos="lheþsf">miklu</w>
+            <w lemma="stór" xml:id="IGC-Books-milli_himins_og.64.3.15" pos="lkfnvm">stærri</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.64.3.16" pos="c">en</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.64.3.17" pos="fpken">hann</w>
+            <w lemma="sjálfur" xml:id="IGC-Books-milli_himins_og.64.3.18" pos="fbken" join="right">sjálfur</w>
+            <pc xml:id="IGC-Books-milli_himins_og.64.3.19" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.65">
+          <s xml:id="IGC-Books-milli_himins_og.65.1">
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.65.1.1" pos="fphee">Þess</w>
+            <w lemma="vegna" xml:id="IGC-Books-milli_himins_og.65.1.2" pos="af">vegna</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.65.1.3" pos="sfg3fn">eru</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.65.1.4" pos="fpkfn">þeir</w>
+            <w lemma="stundum" xml:id="IGC-Books-milli_himins_og.65.1.5" pos="aa">stundum</w>
+            <w lemma="kalla" xml:id="IGC-Books-milli_himins_og.65.1.6" pos="sþgkfn">kallaðir</w>
+            <w lemma="úlfar" xml:id="IGC-Books-milli_himins_og.65.1.7" pos="nken">úlfar</w>
+            <w lemma="haf" xml:id="IGC-Books-milli_himins_og.65.1.8" pos="nheeg" join="right">hafsins</w>
+            <pc xml:id="IGC-Books-milli_himins_og.65.1.9" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.65.2">
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.65.2.1" pos="fpkfn">Þeir</w>
+            <w lemma="veiða" xml:id="IGC-Books-milli_himins_og.65.2.2" pos="sfg3fn">veiða</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.65.2.3" pos="af">í</w>
+            <w lemma="hópur" xml:id="IGC-Books-milli_himins_og.65.2.4" pos="nkfþ">hópum</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.65.2.5" pos="c">og</w>
+            <w lemma="vinna" xml:id="IGC-Books-milli_himins_og.65.2.6" pos="sfg3fn">vinna</w>
+            <w lemma="náið" xml:id="IGC-Books-milli_himins_og.65.2.7" pos="aa">náið</w>
+            <w lemma="saman" xml:id="IGC-Books-milli_himins_og.65.2.8" pos="aa" join="right">saman</w>
+            <pc xml:id="IGC-Books-milli_himins_og.65.2.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.66">
+          <s xml:id="IGC-Books-milli_himins_og.66.1">
+            <w lemma="háhyrningur" xml:id="IGC-Books-milli_himins_og.66.1.1" pos="nkfn">Háhyrningar</w>
+            <w lemma="stökkva" xml:id="IGC-Books-milli_himins_og.66.1.2" pos="sfg3fn">stökkva</w>
+            <w lemma="mikið" xml:id="IGC-Books-milli_himins_og.66.1.3" pos="aa" join="right">mikið</w>
+            <pc xml:id="IGC-Books-milli_himins_og.66.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.67">
+          <s xml:id="IGC-Books-milli_himins_og.67.1">
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.67.1.1" pos="fphen">Það</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.67.1.2" pos="svg3eþ">yrði</w>
+            <w lemma="nú" xml:id="IGC-Books-milli_himins_og.67.1.3" pos="aa">nú</w>
+            <w lemma="skemmtilegur" xml:id="IGC-Books-milli_himins_og.67.1.4" pos="lvensf">skemmtileg</w>
+            <w lemma="sjóferð" xml:id="IGC-Books-milli_himins_og.67.1.5" pos="nven" join="right">sjóferð</w>
+            <pc xml:id="IGC-Books-milli_himins_og.67.1.6" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.67.2">
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.67.2.1" pos="fpkfn">Þeir</w>
+            <w lemma="lyfta" xml:id="IGC-Books-milli_himins_og.67.2.2" pos="sfg3fn">lyfta</w>
+            <w lemma="líka" xml:id="IGC-Books-milli_himins_og.67.2.3" pos="aa">líka</w>
+            <w lemma="höfuð" xml:id="IGC-Books-milli_himins_og.67.2.4" pos="nheþg">höfðinu</w>
+            <w lemma="upp" xml:id="IGC-Books-milli_himins_og.67.2.5" pos="aa">upp</w>
+            <w lemma="úr" xml:id="IGC-Books-milli_himins_og.67.2.6" pos="af">úr</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.67.2.7" pos="nkeþg">sjónum</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.67.2.8" pos="c">og</w>
+            <w lemma="svipa" xml:id="IGC-Books-milli_himins_og.67.2.9" pos="sfm3fn">svipast</w>
+            <w lemma="um" xml:id="IGC-Books-milli_himins_og.67.2.10" pos="aa" join="right">um</w>
+            <pc xml:id="IGC-Books-milli_himins_og.67.2.11" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.67.3">
+            <w lemma="auðveldur" xml:id="IGC-Books-milli_himins_og.67.3.1" pos="lhensf">Auðvelt</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.67.3.2" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.67.3.3" pos="cn">að</w>
+            <w lemma="þekkja" xml:id="IGC-Books-milli_himins_og.67.3.4" pos="sng">þekkja</w>
+            <w lemma="háhyrningur" xml:id="IGC-Books-milli_himins_og.67.3.5" pos="nkeog">háhyrninginn</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.67.3.6" pos="af">á</w>
+            <w lemma="svarthvítur" xml:id="IGC-Books-milli_himins_og.67.3.7" pos="lkeþvf">svarthvíta</w>
+            <w lemma="litur" xml:id="IGC-Books-milli_himins_og.67.3.8" pos="nkeþg">litnum</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.67.3.9" pos="c">og</w>
+            <w lemma="hár" xml:id="IGC-Books-milli_himins_og.67.3.10" pos="lkeþsf">háum</w>
+            <w lemma="bakuggi" xml:id="IGC-Books-milli_himins_og.67.3.11" pos="nkeþg" join="right">bakugganum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.67.3.12" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.67.4">
+            <w lemma="nærri" xml:id="IGC-Books-milli_himins_og.67.4.1" pos="aae">Næst</w>
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.67.4.2" pos="c">þegar</w>
+            <w lemma="þú" xml:id="IGC-Books-milli_himins_og.67.4.3" pos="fp2en">þú</w>
+            <w lemma="fara" xml:id="IGC-Books-milli_himins_og.67.4.4" pos="sfg2en">ferð</w>
+            <w lemma="út" xml:id="IGC-Books-milli_himins_og.67.4.5" pos="aa">út</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.67.4.6" pos="af">á</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.67.4.7" pos="nkeo">sjó</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.67.4.8" pos="svg3eþ">gæti</w>
+            <w lemma="vel" xml:id="IGC-Books-milli_himins_og.67.4.9" pos="aa">vel</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.67.4.10" pos="sþghen">verið</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.67.4.11" pos="c">að</w>
+            <w lemma="þú" xml:id="IGC-Books-milli_himins_og.67.4.12" pos="fp2en">þú</w>
+            <w lemma="koma" xml:id="IGC-Books-milli_himins_og.67.4.13" pos="svg2eþ">kæmir</w>
+            <w lemma="auga" xml:id="IGC-Books-milli_himins_og.67.4.14" pos="nheþ">auga</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.67.4.15" pos="af">á</w>
+            <w lemma="fjörugur" xml:id="IGC-Books-milli_himins_og.67.4.16" pos="lkeosf">fjörugan</w>
+            <w lemma="háhyrningur" xml:id="IGC-Books-milli_himins_og.67.4.17" pos="nkeo" join="right">háhyrning</w>
+            <pc xml:id="IGC-Books-milli_himins_og.67.4.18" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.68">
+          <s xml:id="IGC-Books-milli_himins_og.68.1">
+            <w lemma="hnísa" xml:id="IGC-Books-milli_himins_og.68.1.1" pos="nven">Hnísa</w>
+            <w lemma="vera" xml:id="IGC-Books-milli_himins_og.68.1.2" pos="sfg3en">er</w>
+            <w lemma="lítill" xml:id="IGC-Books-milli_himins_og.68.1.3" pos="lvenve">minnsta</w>
+            <w lemma="hvalategund" xml:id="IGC-Books-milli_himins_og.68.1.4" pos="nveng">hvalategundin</w>
+            <w lemma="við" xml:id="IGC-Books-milli_himins_og.68.1.5" pos="af">við</w>
+            <w lemma="Ísland" xml:id="IGC-Books-milli_himins_og.68.1.6" pos="nheo-s" join="right">Ísland</w>
+            <pc xml:id="IGC-Books-milli_himins_og.68.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.69">
+          <s xml:id="IGC-Books-milli_himins_og.69.1">
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.69.1.1" pos="fpven">Hún</w>
+            <w lemma="halda" xml:id="IGC-Books-milli_himins_og.69.1.2" pos="sfg3en">heldur</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.69.1.3" pos="fpveo">sig</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.69.1.4" pos="af">að</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.69.1.5" pos="lheþse">mestu</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.69.1.6" pos="af">í</w>
+            <w lemma="grunnur" xml:id="IGC-Books-milli_himins_og.69.1.7" pos="lkeþsf">grunnum</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.69.1.8" pos="nkeþ" join="right">sjó</w>
+            <pc xml:id="IGC-Books-milli_himins_og.69.1.9" pos="pk">,</pc>
+            <w lemma="oft" xml:id="IGC-Books-milli_himins_og.69.1.10" pos="aa">oft</w>
+            <w lemma="stutt" xml:id="IGC-Books-milli_himins_og.69.1.11" pos="aa">stutt</w>
+            <w lemma="frá" xml:id="IGC-Books-milli_himins_og.69.1.12" pos="af">frá</w>
+            <w lemma="land" xml:id="IGC-Books-milli_himins_og.69.1.13" pos="nheþ" join="right">landi</w>
+            <pc xml:id="IGC-Books-milli_himins_og.69.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.70">
+          <s xml:id="IGC-Books-milli_himins_og.70.1">
+            <w lemma="hnísa" xml:id="IGC-Books-milli_himins_og.70.1.1" pos="nvfn">Hnísur</w>
+            <w lemma="verða" xml:id="IGC-Books-milli_himins_og.70.1.2" pos="sfg3fn">verða</w>
+            <w lemma="ekki" xml:id="IGC-Books-milli_himins_og.70.1.3" pos="aa">ekki</w>
+            <w lemma="gamall" xml:id="IGC-Books-milli_himins_og.70.1.4" pos="lvfnsf" join="right">gamlar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.70.1.5" pos="pk">,</pc>
+            <w lemma="sjaldan" xml:id="IGC-Books-milli_himins_og.70.1.6" pos="aa">sjaldan</w>
+            <w lemma="mikill" xml:id="IGC-Books-milli_himins_og.70.1.7" pos="lhenvm">meira</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.70.1.8" pos="c">en</w>
+            <w lemma="10" xml:id="IGC-Books-milli_himins_og.70.1.9" pos="ta">10</w>
+            <w lemma="ár" xml:id="IGC-Books-milli_himins_og.70.1.10" pos="nhfe" join="right">ára</w>
+            <pc xml:id="IGC-Books-milli_himins_og.70.1.11" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.70.2">
+            <w lemma="hnísa" xml:id="IGC-Books-milli_himins_og.70.2.1" pos="nvfn">Hnísur</w>
+            <w lemma="fara" xml:id="IGC-Books-milli_himins_og.70.2.2" pos="sfg3fn">fara</w>
+            <w lemma="gjarna" xml:id="IGC-Books-milli_himins_og.70.2.3" pos="aa">gjarna</w>
+            <w lemma="um" xml:id="IGC-Books-milli_himins_og.70.2.4" pos="aa">um</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.70.2.5" pos="af">í</w>
+            <w lemma="lítill" xml:id="IGC-Books-milli_himins_og.70.2.6" pos="lkfþsf">litlum</w>
+            <w lemma="hópur" xml:id="IGC-Books-milli_himins_og.70.2.7" pos="nkfþ" join="right">hópum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.70.2.8" pos="pk">,</pc>
+            <w lemma="tveir" xml:id="IGC-Books-milli_himins_og.70.2.9" pos="tfvfn">tvær</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.70.2.10" pos="aa">til</w>
+            <w lemma="tíu" xml:id="IGC-Books-milli_himins_og.70.2.11" pos="tfvfn">tíu</w>
+            <w lemma="saman" xml:id="IGC-Books-milli_himins_og.70.2.12" pos="aa" join="right">saman</w>
+            <pc xml:id="IGC-Books-milli_himins_og.70.2.13" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.70.3">
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.70.3.1" pos="fpvfn">Þær</w>
+            <w lemma="synda" xml:id="IGC-Books-milli_himins_og.70.3.2" pos="sfg3fn">synda</w>
+            <w lemma="yfirleitt" xml:id="IGC-Books-milli_himins_og.70.3.3" pos="aa">yfirleitt</w>
+            <w lemma="frekar" xml:id="IGC-Books-milli_himins_og.70.3.4" pos="aam">frekar</w>
+            <w lemma="hægt" xml:id="IGC-Books-milli_himins_og.70.3.5" pos="aa">hægt</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.70.3.6" pos="c">en</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.70.3.7" pos="sfg3fn">geta</w>
+            <w lemma="synda" xml:id="IGC-Books-milli_himins_og.70.3.8" pos="sþghen">synt</w>
+            <w lemma="hratt" xml:id="IGC-Books-milli_himins_og.70.3.9" pos="aa">hratt</w>
+            <w lemma="eftir" xml:id="IGC-Books-milli_himins_og.70.3.10" pos="af">eftir</w>
+            <w lemma="bráð" xml:id="IGC-Books-milli_himins_og.70.3.11" pos="nveo">bráð</w>
+            <w lemma="ef" xml:id="IGC-Books-milli_himins_og.70.3.12" pos="c">ef</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.70.3.13" pos="aa">á</w>
+            <w lemma="þurfa" xml:id="IGC-Books-milli_himins_og.70.3.14" pos="sfg3en">þarf</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.70.3.15" pos="cn">að</w>
+            <w lemma="halda" xml:id="IGC-Books-milli_himins_og.70.3.16" pos="sng" join="right">halda</w>
+            <pc xml:id="IGC-Books-milli_himins_og.70.3.17" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.71">
+          <s xml:id="IGC-Books-milli_himins_og.71.1">
+            <w lemma="hvernig" xml:id="IGC-Books-milli_himins_og.71.1.1" pos="aa">Hvernig</w>
+            <w lemma="sofa" xml:id="IGC-Books-milli_himins_og.71.1.2" pos="sfg3fn">sofa</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.71.1.3" pos="nkfn" join="right">hvalir</w>
+            <pc xml:id="IGC-Books-milli_himins_og.71.1.4" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.72">
+          <s xml:id="IGC-Books-milli_himins_og.72.1">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.72.1.1" pos="nkfn">Hvalir</w>
+            <w lemma="sofa" xml:id="IGC-Books-milli_himins_og.72.1.2" pos="sfg3fn">sofa</w>
+            <w lemma="nú" xml:id="IGC-Books-milli_himins_og.72.1.3" pos="aa">nú</w>
+            <w lemma="samt" xml:id="IGC-Books-milli_himins_og.72.1.4" pos="aa">samt</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.72.1.5" pos="c">og</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.72.1.6" pos="af">til</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.72.1.7" pos="fphee">þess</w>
+            <w lemma="nota" xml:id="IGC-Books-milli_himins_og.72.1.8" pos="sfg3fn">nota</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.72.1.9" pos="fpkfn">þeir</w>
+            <w lemma="mjög" xml:id="IGC-Books-milli_himins_og.72.1.10" pos="aa">mjög</w>
+            <w lemma="sérstakur" xml:id="IGC-Books-milli_himins_og.72.1.11" pos="lveosf">sérstaka</w>
+            <w lemma="aðferð" xml:id="IGC-Books-milli_himins_og.72.1.12" pos="nveo" join="right">aðferð</w>
+            <pc xml:id="IGC-Books-milli_himins_og.72.1.13" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.72.2">
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.72.2.1" pos="c">En</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.72.2.2" pos="fpkfn">þeir</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.72.2.3" pos="sfg3fn">geta</w>
+            <w lemma="aldrei" xml:id="IGC-Books-milli_himins_og.72.2.4" pos="aa">aldrei</w>
+            <w lemma="leyfa" xml:id="IGC-Books-milli_himins_og.72.2.5" pos="sþghen">leyft</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.72.2.6" pos="fpkfþ">sér</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.72.2.7" pos="cn">að</w>
+            <w lemma="slaka" xml:id="IGC-Books-milli_himins_og.72.2.8" pos="sng">slaka</w>
+            <w lemma="alveg" xml:id="IGC-Books-milli_himins_og.72.2.9" pos="aa">alveg</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.72.2.10" pos="af">á</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.72.2.11" pos="fpheþ">því</w>
+            <w lemma="þá" xml:id="IGC-Books-milli_himins_og.72.2.12" pos="aa">þá</w>
+            <w lemma="geta" xml:id="IGC-Books-milli_himins_og.72.2.13" pos="svg3fþ">gætu</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.72.2.14" pos="fpkfn">þeir</w>
+            <w lemma="drukkna" xml:id="IGC-Books-milli_himins_og.72.2.15" pos="sþghen" join="right">drukknað</w>
+            <pc xml:id="IGC-Books-milli_himins_og.72.2.16" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.72.3">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.72.3.1" pos="nkfn">Hvalir</w>
+            <w lemma="þurfa" xml:id="IGC-Books-milli_himins_og.72.3.2" pos="sfg3fn">þurfa</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.72.3.3" pos="cn">að</w>
+            <w lemma="sofa" xml:id="IGC-Books-milli_himins_og.72.3.4" pos="sng">sofa</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.72.3.5" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.72.3.6" pos="c">og</w>
+            <w lemma="annar" xml:id="IGC-Books-milli_himins_og.72.3.7" pos="fohfn">önnur</w>
+            <w lemma="spendýr" xml:id="IGC-Books-milli_himins_og.72.3.8" pos="nhfn" join="right">spendýr</w>
+            <pc xml:id="IGC-Books-milli_himins_og.72.3.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.73">
+          <s xml:id="IGC-Books-milli_himins_og.73.1">
+            <w lemma="sniðugur" xml:id="IGC-Books-milli_himins_og.73.1.1" pos="lhensf" join="right">Sniðugt</w>
+            <pc xml:id="IGC-Books-milli_himins_og.73.1.2" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.73.2">
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.73.2.1" pos="c">Þegar</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.73.2.2" pos="nkfng">hvalirnir</w>
+            <w lemma="þurfa" xml:id="IGC-Books-milli_himins_og.73.2.3" pos="sfg3fn">þurfa</w>
+            <w lemma="súrefni" xml:id="IGC-Books-milli_himins_og.73.2.4" pos="nheo">súrefni</w>
+            <w lemma="sjá" xml:id="IGC-Books-milli_himins_og.73.2.5" pos="sfg3en">sér</w>
+            <w lemma="vakandi" xml:id="IGC-Books-milli_himins_og.73.2.6" pos="lkenof">vakandi</w>
+            <w lemma="helmingur" xml:id="IGC-Books-milli_himins_og.73.2.7" pos="nken">helmingur</w>
+            <w lemma="heili" xml:id="IGC-Books-milli_himins_og.73.2.8" pos="nkeeg">heilans</w>
+            <w lemma="um" xml:id="IGC-Books-milli_himins_og.73.2.9" pos="af">um</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.73.2.10" pos="cn">að</w>
+            <w lemma="stýra" xml:id="IGC-Books-milli_himins_og.73.2.11" pos="sng">stýra</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.73.2.12" pos="nkeþg">hvalnum</w>
+            <w lemma="upp" xml:id="IGC-Books-milli_himins_og.73.2.13" pos="aa">upp</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.73.2.14" pos="af">að</w>
+            <w lemma="yfirborð" xml:id="IGC-Books-milli_himins_og.73.2.15" pos="nheþg">yfirborðinu</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.73.2.16" pos="c">og</w>
+            <w lemma="andi" xml:id="IGC-Books-milli_himins_og.73.2.17" pos="nkeþ" join="right">anda</w>
+            <pc xml:id="IGC-Books-milli_himins_og.73.2.18" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.73.3">
+            <w lemma="annar" xml:id="IGC-Books-milli_himins_og.73.3.1" pos="foken">Annar</w>
+            <w lemma="helmingur" xml:id="IGC-Books-milli_himins_og.73.3.2" pos="nken">helmingur</w>
+            <w lemma="heili" xml:id="IGC-Books-milli_himins_og.73.3.3" pos="nkeeg">heilans</w>
+            <w lemma="sofa" xml:id="IGC-Books-milli_himins_og.73.3.4" pos="sfg3en">sefur</w>
+            <w lemma="en" xml:id="IGC-Books-milli_himins_og.73.3.5" pos="c">en</w>
+            <w lemma="hinn" xml:id="IGC-Books-milli_himins_og.73.3.6" pos="faken">hinn</w>
+            <w lemma="helmingur" xml:id="IGC-Books-milli_himins_og.73.3.7" pos="nkeng">helmingurinn</w>
+            <w lemma="halda" xml:id="IGC-Books-milli_himins_og.73.3.8" pos="sfg3en">heldur</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.73.3.9" pos="fpkeþ">sér</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.73.3.10" pos="af">að</w>
+            <w lemma="hluti" xml:id="IGC-Books-milli_himins_og.73.3.11" pos="nkeþ">hluta</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.73.3.12" pos="aa">til</w>
+            <w lemma="vakandi" xml:id="IGC-Books-milli_himins_og.73.3.13" pos="lkenof" join="right">vakandi</w>
+            <pc xml:id="IGC-Books-milli_himins_og.73.3.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.74">
+          <s xml:id="IGC-Books-milli_himins_og.74.1">
+            <w lemma="tími" xml:id="IGC-Books-milli_himins_og.74.1.1" pos="nkeng">Tíminn</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.74.1.2" pos="ct">sem</w>
+            <w lemma="líða" xml:id="IGC-Books-milli_himins_og.74.1.3" pos="sfg3en">líður</w>
+            <w lemma="frá" xml:id="IGC-Books-milli_himins_og.74.1.4" pos="af">frá</w>
+            <w lemma="það" xml:id="IGC-Books-milli_himins_og.74.1.5" pos="fpheþ">því</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.74.1.6" pos="c">að</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.74.1.7" pos="nkeng">hvalurinn</w>
+            <w lemma="gefa" xml:id="IGC-Books-milli_himins_og.74.1.8" pos="sfg3en">gefur</w>
+            <w lemma="frá" xml:id="IGC-Books-milli_himins_og.74.1.9" pos="af">frá</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.74.1.10" pos="fpkeþ">sér</w>
+            <w lemma="hljóð" xml:id="IGC-Books-milli_himins_og.74.1.11" pos="nheo">hljóð</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.74.1.12" pos="c">og</w>
+            <w lemma="þar" xml:id="IGC-Books-milli_himins_og.74.1.13" pos="aa">þar</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.74.1.14" pos="aa">til</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.74.1.15" pos="fpken">hann</w>
+            <w lemma="heyra" xml:id="IGC-Books-milli_himins_og.74.1.16" pos="sfg3en">heyrir</w>
+            <w lemma="bergmál" xml:id="IGC-Books-milli_himins_og.74.1.17" pos="nheng">bergmálið</w>
+            <w lemma="hjálpa" xml:id="IGC-Books-milli_himins_og.74.1.18" pos="sfg3en">hjálpar</w>
+            <w lemma="hann" xml:id="IGC-Books-milli_himins_og.74.1.19" pos="fpkeþ">honum</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.74.1.20" pos="cn">að</w>
+            <w lemma="átta" xml:id="IGC-Books-milli_himins_og.74.1.21" pos="sng">átta</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.74.1.22" pos="fpkeo">sig</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.74.1.23" pos="af">á</w>
+            <w lemma="umhverfi" xml:id="IGC-Books-milli_himins_og.74.1.24" pos="nheþg" join="right">umhverfinu</w>
+            <pc xml:id="IGC-Books-milli_himins_og.74.1.25" pos="pk">,</pc>
+            <w lemma="finna" xml:id="IGC-Books-milli_himins_og.74.1.26" pos="sng">finna</w>
+            <w lemma="bráð" xml:id="IGC-Books-milli_himins_og.74.1.27" pos="nveo">bráð</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.74.1.28" pos="c">og</w>
+            <w lemma="annar" xml:id="IGC-Books-milli_himins_og.74.1.29" pos="fokfo">aðra</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.74.1.30" pos="nkfo" join="right">hvali</w>
+            <pc xml:id="IGC-Books-milli_himins_og.74.1.31" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.74.2">
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.74.2.1" pos="nkfng">Hvalirnir</w>
+            <w lemma="senda" xml:id="IGC-Books-milli_himins_og.74.2.2" pos="sfg3fn">senda</w>
+            <w lemma="frá" xml:id="IGC-Books-milli_himins_og.74.2.3" pos="af">frá</w>
+            <w lemma="sig" xml:id="IGC-Books-milli_himins_og.74.2.4" pos="fpkfþ">sér</w>
+            <w lemma="hljóðbylgja" xml:id="IGC-Books-milli_himins_og.74.2.5" pos="nvfo">hljóðbylgjur</w>
+            <w lemma="eða" xml:id="IGC-Books-milli_himins_og.74.2.6" pos="c">eða</w>
+            <w lemma="smellur" xml:id="IGC-Books-milli_himins_og.74.2.7" pos="nkfo">smelli</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.74.2.8" pos="c">og</w>
+            <w lemma="hlusta" xml:id="IGC-Books-milli_himins_og.74.2.9" pos="sfg3fn">hlusta</w>
+            <w lemma="eftir" xml:id="IGC-Books-milli_himins_og.74.2.10" pos="af">eftir</w>
+            <w lemma="bergmál" xml:id="IGC-Books-milli_himins_og.74.2.11" pos="nheþ">bergmáli</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.74.2.12" pos="ct">sem</w>
+            <w lemma="endurkasta" xml:id="IGC-Books-milli_himins_og.74.2.13" pos="sfm3en">endurkastast</w>
+            <w lemma="frá" xml:id="IGC-Books-milli_himins_og.74.2.14" pos="af">frá</w>
+            <w lemma="umhverfi" xml:id="IGC-Books-milli_himins_og.74.2.15" pos="nheþg" join="right">umhverfinu</w>
+            <pc xml:id="IGC-Books-milli_himins_og.74.2.16" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.74.3">
+            <w lemma="alveg" xml:id="IGC-Books-milli_himins_og.74.3.1" pos="aa">Alveg</w>
+            <w lemma="eins" xml:id="IGC-Books-milli_himins_og.74.3.2" pos="aa">eins</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.74.3.3" pos="c">og</w>
+            <w lemma="þegar" xml:id="IGC-Books-milli_himins_og.74.3.4" pos="c">þegar</w>
+            <w lemma="ég" xml:id="IGC-Books-milli_himins_og.74.3.5" pos="fp1fn">við</w>
+            <w lemma="kalla" xml:id="IGC-Books-milli_himins_og.74.3.6" pos="sfg1fn">köllum</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.74.3.7" pos="af">í</w>
+            <w lemma="átt" xml:id="IGC-Books-milli_himins_og.74.3.8" pos="nveo">átt</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.74.3.9" pos="af">að</w>
+            <w lemma="hár" xml:id="IGC-Books-milli_himins_og.74.3.10" pos="lkfþsf">háum</w>
+            <w lemma="klettur" xml:id="IGC-Books-milli_himins_og.74.3.11" pos="nkfþ">klettum</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.74.3.12" pos="c">og</w>
+            <w lemma="hlusta" xml:id="IGC-Books-milli_himins_og.74.3.13" pos="svg1fn">hlustum</w>
+            <w lemma="eftir" xml:id="IGC-Books-milli_himins_og.74.3.14" pos="af">eftir</w>
+            <w lemma="bergmál" xml:id="IGC-Books-milli_himins_og.74.3.15" pos="nheþg" join="right">bergmálinu</w>
+            <pc xml:id="IGC-Books-milli_himins_og.74.3.16" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.74.4">
+            <w lemma="hnísa" xml:id="IGC-Books-milli_himins_og.74.4.1" pos="nvfn">Hnísur</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.74.4.2" pos="c">og</w>
+            <w lemma="annar" xml:id="IGC-Books-milli_himins_og.74.4.3" pos="fokfn">aðrir</w>
+            <w lemma="tannhvalur" xml:id="IGC-Books-milli_himins_og.74.4.4" pos="nkfn">tannhvalir</w>
+            <w lemma="nota" xml:id="IGC-Books-milli_himins_og.74.4.5" pos="sfg3fn">nota</w>
+            <w lemma="hljóð" xml:id="IGC-Books-milli_himins_og.74.4.6" pos="nheo">hljóð</w>
+            <w lemma="til" xml:id="IGC-Books-milli_himins_og.74.4.7" pos="af">til</w>
+            <w lemma="að" xml:id="IGC-Books-milli_himins_og.74.4.8" pos="cn">að</w>
+            <w lemma="veiða" xml:id="IGC-Books-milli_himins_og.74.4.9" pos="sng" join="right">veiða</w>
+            <pc xml:id="IGC-Books-milli_himins_og.74.4.10" pos="pk">,</pc>
+            <w lemma="rata" xml:id="IGC-Books-milli_himins_og.74.4.11" pos="sng">rata</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.74.4.12" pos="c">og</w>
+            <w lemma="finna" xml:id="IGC-Books-milli_himins_og.74.4.13" pos="sng">finna</w>
+            <w lemma="annar" xml:id="IGC-Books-milli_himins_og.74.4.14" pos="fokfo">aðra</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.74.4.15" pos="nkfo">hvali</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.74.4.16" pos="af">í</w>
+            <w lemma="sjór" xml:id="IGC-Books-milli_himins_og.74.4.17" pos="nkeþg" join="right">sjónum</w>
+            <pc xml:id="IGC-Books-milli_himins_og.74.4.18" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.75">
+          <s xml:id="IGC-Books-milli_himins_og.75.1">
+            <w lemma="velja" xml:id="IGC-Books-milli_himins_og.75.1.1" pos="sbg2fn">Veljið</w>
+            <w lemma="einn" xml:id="IGC-Books-milli_himins_og.75.1.2" pos="tfveo">eina</w>
+            <w lemma="hvalategund" xml:id="IGC-Books-milli_himins_og.75.1.3" pos="nveo">hvalategund</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.75.1.4" pos="c">og</w>
+            <w lemma="lesa" xml:id="IGC-Books-milli_himins_og.75.1.5" pos="sbg2fn">lesið</w>
+            <w lemma="um" xml:id="IGC-Books-milli_himins_og.75.1.6" pos="af">um</w>
+            <w lemma="hún" xml:id="IGC-Books-milli_himins_og.75.1.7" pos="fpveo">hana</w>
+            <w lemma="hér" xml:id="IGC-Books-milli_himins_og.75.1.8" pos="aa">hér</w>
+            <w lemma="í" xml:id="IGC-Books-milli_himins_og.75.1.9" pos="af">í</w>
+            <w lemma="bók" xml:id="IGC-Books-milli_himins_og.75.1.10" pos="nveþg" join="right">bókinni</w>
+            <pc xml:id="IGC-Books-milli_himins_og.75.1.11" pos="pk">,</pc>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.75.1.12" pos="af">á</w>
+            <w lemma="bókasafn" xml:id="IGC-Books-milli_himins_og.75.1.13" pos="nheþ">bókasafni</w>
+            <w lemma="eða" xml:id="IGC-Books-milli_himins_og.75.1.14" pos="c">eða</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.75.1.15" pos="af">á</w>
+            <w lemma="net" xml:id="IGC-Books-milli_himins_og.75.1.16" pos="nheþg" join="right">netinu</w>
+            <pc xml:id="IGC-Books-milli_himins_og.75.1.17" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.75.2">
+            <w lemma="1" xml:id="IGC-Books-milli_himins_og.75.2.1" pos="ta" join="right">1</w>
+            <pc xml:id="IGC-Books-milli_himins_og.75.2.2" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.76">
+          <s xml:id="IGC-Books-milli_himins_og.76.1">
+            <w lemma="2" xml:id="IGC-Books-milli_himins_og.76.1.1" pos="ta" join="right">2</w>
+            <pc xml:id="IGC-Books-milli_himins_og.76.1.2" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.76.2">
+            <w lemma="skrifa" xml:id="IGC-Books-milli_himins_og.76.2.1" pos="sbg2fn">Skrifið</w>
+            <w lemma="svo" xml:id="IGC-Books-milli_himins_og.76.2.2" pos="aa">svo</w>
+            <w lemma="lýsing" xml:id="IGC-Books-milli_himins_og.76.2.3" pos="nveo">lýsingu</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.76.2.4" pos="af">á</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.76.2.5" pos="nkeþg">hvalnum</w>
+            <w lemma="þú" xml:id="IGC-Books-milli_himins_og.76.2.6" pos="fp2fe" join="right">ykkar</w>
+            <pc xml:id="IGC-Books-milli_himins_og.76.2.7" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.76.3">
+            <w lemma="teikna" xml:id="IGC-Books-milli_himins_og.76.3.1" pos="sbg2fn">Teiknið</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.76.3.2" pos="nkeog">hvalinn</w>
+            <w lemma="sem" xml:id="IGC-Books-milli_himins_og.76.3.3" pos="ct">sem</w>
+            <w lemma="þú" xml:id="IGC-Books-milli_himins_og.76.3.4" pos="fp2fn">þið</w>
+            <w lemma="velja" xml:id="IGC-Books-milli_himins_og.76.3.5" pos="sfg2fþ">völduð</w>
+            <w lemma="eða" xml:id="IGC-Books-milli_himins_og.76.3.6" pos="c">eða</w>
+            <w lemma="prenta" xml:id="IGC-Books-milli_himins_og.76.3.7" pos="sbg2fn">prentið</w>
+            <w lemma="út" xml:id="IGC-Books-milli_himins_og.76.3.8" pos="aa">út</w>
+            <w lemma="mynd" xml:id="IGC-Books-milli_himins_og.76.3.9" pos="nveo" join="right">mynd</w>
+            <pc xml:id="IGC-Books-milli_himins_og.76.3.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-milli_himins_og.77">
+          <s xml:id="IGC-Books-milli_himins_og.77.1">
+            <w lemma="skoða" xml:id="IGC-Books-milli_himins_og.77.1.1" pos="sbg2fn">Skoðið</w>
+            <w lemma="bls." xml:id="IGC-Books-milli_himins_og.77.1.2" pos="ks">bls.</w>
+            <w lemma="22" xml:id="IGC-Books-milli_himins_og.77.1.3" pos="ta" join="right">22</w>
+            <w lemma="–" xml:id="IGC-Books-milli_himins_og.77.1.4" pos="m" join="right">–</w>
+            <w lemma="23" xml:id="IGC-Books-milli_himins_og.77.1.5" pos="ta">23</w>
+            <w lemma="og" xml:id="IGC-Books-milli_himins_og.77.1.6" pos="c">og</w>
+            <w lemma="finna" xml:id="IGC-Books-milli_himins_og.77.1.7" pos="sbg2fn">finnið</w>
+            <w lemma="út" xml:id="IGC-Books-milli_himins_og.77.1.8" pos="aa">út</w>
+            <w lemma="hvaða" xml:id="IGC-Books-milli_himins_og.77.1.9" pos="fsken">hvaða</w>
+            <w lemma="hvalur" xml:id="IGC-Books-milli_himins_og.77.1.10" pos="nken">hvalur</w>
+            <w lemma="á" xml:id="IGC-Books-milli_himins_og.77.1.11" pos="af">á</w>
+            <w lemma="hver" xml:id="IGC-Books-milli_himins_og.77.1.12" pos="fokeo">hvern</w>
+            <w lemma="bókstafur" xml:id="IGC-Books-milli_himins_og.77.1.13" pos="nkeo" join="right">bókstaf</w>
+            <pc xml:id="IGC-Books-milli_himins_og.77.1.14" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.77.2">
+            <w lemma="súlurit" xml:id="IGC-Books-milli_himins_og.77.2.1" pos="nheng">Súluritið</w>
+            <w lemma="sýna" xml:id="IGC-Books-milli_himins_og.77.2.2" pos="sfg3en">sýnir</w>
+            <w lemma="lengd" xml:id="IGC-Books-milli_himins_og.77.2.3" pos="nveo">lengd</w>
+            <w lemma="nokkur" xml:id="IGC-Books-milli_himins_og.77.2.4" pos="fovfe">nokkurra</w>
+            <w lemma="hvalategund" xml:id="IGC-Books-milli_himins_og.77.2.5" pos="nvfe" join="right">hvalategunda</w>
+            <pc xml:id="IGC-Books-milli_himins_og.77.2.6" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-milli_himins_og.77.3">
+            <w lemma="3" xml:id="IGC-Books-milli_himins_og.77.3.1" pos="ta" join="right">3</w>
+            <pc xml:id="IGC-Books-milli_himins_og.77.3.2" pos="pl">.</pc>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

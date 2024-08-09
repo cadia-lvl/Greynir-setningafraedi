@@ -1,0 +1,48 @@
+###################################################################
+### The Icelandic Gigaword Corpus - published books [IGC-Books] ###
+### http://hdl.handle.net/20.500.12537/317                      ###
+###################################################################
+
+[DESCRIPTION]
+IGC-Books is a part of the IGC-Project (Icelandic Gigaword corpus) 
+[https://igc.arnastofnun.is] that aims to collect as much as possible of 
+Icelandic texts that can be published, under an open or restricted licence. 
+IGC-Books contains texts from books that have been published in Iceland. The 
+corpus is published in two versions. IGC-Books contains plain text while 
+IGC-Book.ana is linguistically marked-up versions. 
+
+This corpus contains the annotated version of IGC-Books. The unannotated version 
+can be found here: http://hdl.handle.net/20.500.12537/316  
+
+The texts have been split into parts that do not include more than 500 words and 
+reordered in a random way. Paragraphs are not dismantled unless they contain more 
+than 500 words. If a text contains less than 5000 words, sentences of each paragraph 
+are also rearranged. In some instances, we have removed fragments from texts, for 
+example, if we did not have permission from the author of that fragment or if the 
+fragment was not in Icelandic. 
+
+Further information about IGC is available at http://igc.arnastofnun.is.
+
+[LICENCE]
+https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf
+
+[PUBLISHER]
+Árni Magnússon Institute for Icelandic Studies.
+
+[STATISTICS]
+394 TEI-files
+355515 paragraphs
+989470 sentences
+13824783 running words
+15716010 tokens
+
+[APPLICATIONS]
+Tokenizer:
+Tokenisation and sentence segmentation with Tokeniser from Miðeind, available from  https://github.com/mideind/Tokenizer
+
+ABLTagger (PoS):
+Part-of-speech tagging with ABLTagger (PoS), available from  http://hdl.handle.net/20.500.12537/115
+
+Nefnir:
+Lemmatisation with Nefnir available at  https://github.com/jonfd/nefnir
+

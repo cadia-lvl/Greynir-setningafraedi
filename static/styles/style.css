@@ -1,0 +1,350 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  color: #333333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #212529;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.sentence {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  opacity: 0.9;
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button.nafnliðir {
+  background-color: #ce8208;
+  color: white;
+}
+
+button.atviksliðir {
+  background-color: rgb(148, 43, 180);;
+  color: white;
+}
+
+button.lysingarliðir {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button.sagnliðir {
+  background-color: #3724cb;
+  color: white;
+}
+
+button.forsetningarliðir {
+  background-color: #d223a1;
+  color: white;
+}
+
+.button.back-button {
+  background-color: #3724cb;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.overlay-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay-result {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.overlay .overlay-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.overlay .overlay-buttons .button {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.guess-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.guess-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.button-group-container {
+  background-color: #f0f0f0; 
+  padding: 10px;
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.guess-button {
+  max-width: 150px;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.guess-button.wrong {
+  animation: shake 0.5s;
+}
+
+.guess-button:hover {
+  opacity: 0.9;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+}
+
+.label-and-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.feedback {
+  margin-top: 10px; /* Add some space between container and feedback */
+  text-align: center;
+}
+
+/* Specific styles for lysingarliðir_details page */
+.lysingarliðir .guess-button {
+  background-color: #4CAF50; /* Initial green color */
+  color: white;
+}
+
+.lysingarliðir .guess-button.correct {
+  background-color: #3ff83f; /* Bright green for correct */
+}
+
+.lysingarliðir button.custom-button {
+  background-color: white;
+  color: #4CAF50;
+  border: solid #4CAF50;
+}
+
+.lysingarliðir button.custom-button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Specific styles for sagnliðir_details page */
+.sagnliðir .guess-button {
+  background-color: #3724cb; /* Initial blue color */
+  color: white;
+}
+
+.sagnliðir .guess-button.correct {
+  background-color: #48ddfe; /* Bright blue for correct */
+}
+
+.sagnliðir button.custom-button {
+  background-color: white;
+  color: #3724cb;
+  border: solid #3724cb;
+}
+
+.sagnliðir button.custom-button:hover {
+  background-color: #3724cb;
+  color: white;
+}
+
+/* Specific styles for nafnliðir_details page */
+.nafnliðir .guess-button {
+  background-color: #ce8208;; /* Initial yellow color */
+  color: white;
+}
+
+.nafnliðir .guess-button.correct {
+  background-color: #f88e04; /* Bright yellow for correct */
+}
+
+.nafnliðir button.custom-button {
+  background-color: white;
+  color: #ce8208;
+  border: solid #ce8208;
+}
+
+.nafnliðir button.custom-button:hover {
+  background-color: #ce8208;
+  color: white;
+}
+
+/* Specific styles for forsetningarliðir_details page */
+.forsetningarliðir .guess-button {
+  background-color: #ef0cbe; /* Initial pink color */
+  color: white;
+}
+
+.forsetningarliðir .guess-button.correct {
+  background-color: #fc4588;/* Bright pink for correct */
+}
+
+.forsetningarliðir button.custom-button {
+  background-color: white;
+  color: #ef0cbe;
+  border: solid #ef0cbe;
+}
+
+.forsetningarliðir button.custom-button:hover {
+  background-color: #ef0cbe;
+  color: white;
+}
+
+.back-one-step-button {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 36px;
+  color: #040404;
+}
+
+.back-one-step-button:before {
+  content: "\2190";
+}
+
+.back-one-step-button:hover:before {
+  color: #78797a;
+}

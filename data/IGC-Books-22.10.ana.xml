@@ -1,0 +1,2384 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="IGC-Books.ana">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="is">Íslenska risamálheildin - útgefnar bækur [IGC-Books]</title>
+        <title type="main" xml:lang="en">The Icelandic Gigaword Corpus - published books [IGC-Books]</title>
+        <title type="sub" xml:lang="is">Útgefnar bækur, 1968 - 2021</title>
+        <title type="sub" xml:lang="en">Published books, 1968 - 2021</title>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Hildur Hafsteinsdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Finnur Ágúst Ingimundarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Þórdís Dröfn Andrésdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Málfræðimörkun</resp>
+          <resp xml:lang="en">Linguistic annotation</resp>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="books" quantity="394" xml:lang="en">394 books</measure>
+        <measure unit="words" quantity="13824783" xml:lang="en">13824783 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">Árni Magnússon Institute for Icelandic Studies</orgName>
+          <ref target="https://www.arnastofnun.is/">www.arnastofnun.is</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/20.500.12537/250</idno>
+        <availability status="restricted">
+          <licence>https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+        </availability>
+        <date when="2023-10-24">2023-10-24</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="is">Útgefnar bækur</title>
+          <title xml:lang="en">Published books</title>
+          <date from="1968" to="2021">1968 - 2021</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">IGC-Books is a part of the <ref target="https://igc.arnastofnun.is">IGC-Project (Icelandic Gigaword corpus)</ref>that aims to collect as much as possible of Icelandic texts that can be published, under an open or restricted licence. IGC-Books contains texts from books that have been published in Iceland. The corpus is published in two versions. IGC-Books contains plain text while IGC-Book.ana is linguistically marked-up versions.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p xml:lang="is">Textum hefur verið skipt upp í hluta sem innhalda 500 orð eða færri og svo raðað upp á nýtt. Efnisgreinar eru ekki slitnar í sundur nema þær innihaldi meira en 500 orð. Ef texti inniheldur færri en 5000 orð þá eru setningar innan hverrar efnisgreinar einnig stokkaðar upp. Í sumum tilvikum hafa textabrot verið fjarlægð úr texta - t.d. ef ekki höfundur brots hafði ekki veitt leyfi eða ef texti var á erlendu máli.</p>
+        <p xml:lang="en">The texts have been split into parts that do not include more than 500 words and reordered in a random way. Paragraphs are not dismantled unless they contain more than 500 words. If a text contains less than 5000 words, sentences of each paragraph are also rearranged. In some instances, we have removed fragments from texts, for example, if we did not have permission from the author of that fragment or if the fragment was not in Icelandic.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="394" gi="text"/>
+          <tagUsage occurs="394" gi="body"/>
+          <tagUsage occurs="429" gi="div"/>
+          <tagUsage occurs="355515" gi="p"/>
+          <tagUsage occurs="36" gi="bibl"/>
+          <tagUsage occurs="36" gi="title"/>
+          <tagUsage occurs="39" gi="author"/>
+          <tagUsage occurs="989470" gi="s"/>
+          <tagUsage occurs="113824783" gi="w"/>
+          <tagUsage occurs="1891227" gi="pc"/>
+        </namespace>
+      </tagsDecl>
+      <appInfo>
+        <application ident="tokenizer" version="2.4.0">
+          <label>Tokenizer</label>
+          <desc xml:lang="en">Tokenisation and sentence segmentation with Tokeniser from Miðeind, available from <ref target="https://github.com/mideind/Tokenizer">https://github.com/mideind/Tokenizer</ref>.</desc>
+        </application>
+        <application ident="abltagger-pos" version="3.0.0">
+          <label>ABLTagger (PoS)</label>
+          <desc xml:lang="en">Part-of-speech tagging with ABLTagger (PoS), available from <ref target="http://hdl.handle.net/20.500.12537/115">http://hdl.handle.net/20.500.12537/115</ref>.</desc>
+        </application>
+        <application ident="nefnir" version="1.0">
+          <label>Nefnir</label>
+          <desc xml:lang="en">Lemmatisation with Nefnir available at <ref target="https://github.com/jonfd/nefnir">https://github.com/jonfd/nefnir</ref></desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <head xml:lang="is">Listi yfir höfunda, þýðendur og ritstjóra</head>
+          <head xml:lang="en">List of authors, translators and editors</head>
+          <person xml:id="AdalsteinnAsbergSigurdsson">
+            <persName>
+              <forename>Aðalsteinn</forename>
+              <forename>Ásberg</forename>
+              <surname>Sigurðsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="AgustBorgthorSverrisson">
+            <persName>
+              <forename>Ágúst</forename>
+              <forename>Borgþór</forename>
+              <surname>Sverrisson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1962"/>
+          </person>
+          <person xml:id="AgustGudmundsson">
+            <persName>
+              <forename>Ágúst</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="AldisYngvadottir">
+            <persName>
+              <forename>Aldís</forename>
+              <surname>Yngvadóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1961"/>
+          </person>
+          <person xml:id="AndresIndridason">
+            <persName>
+              <forename>Andrés</forename>
+              <surname>Indriðason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1941"/>
+          </person>
+          <person xml:id="AnnaAgnarsdottir">
+            <persName>
+              <forename>Anna</forename>
+              <surname>Agnarsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1947"/>
+          </person>
+          <person xml:id="AnnaHinriksdottir">
+            <persName>
+              <forename>Anna</forename>
+              <surname>Hinriksdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1965"/>
+          </person>
+          <person xml:id="AnnaOlafsdottirBjornsson">
+            <persName>
+              <forename>Anna</forename>
+              <forename>Ólafsdóttir</forename>
+              <surname>Björnsson</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1952"/>
+          </person>
+          <person xml:id="ArndisThorarinsdottir">
+            <persName>
+              <forename>Arndís</forename>
+              <surname>Þórarinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1982"/>
+          </person>
+          <person xml:id="ArngrimurVidalin">
+            <persName>
+              <forename>Arngrímur</forename>
+              <surname>Vídalín</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1984"/>
+          </person>
+          <person xml:id="ArniBergmann">
+            <persName>
+              <forename>Árni</forename>
+              <surname>Bergmann</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1935"/>
+          </person>
+          <person xml:id="ArniOskarsson1954">
+            <persName>
+              <forename>Árni</forename>
+              <surname>Óskarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="ArniPallRagnarsson">
+            <persName>
+              <forename>Árni</forename>
+              <forename>Páll</forename>
+              <surname>Ragnarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1951"/>
+          </person>
+          <person xml:id="AsaMarinHafsteinsdottir">
+            <persName>
+              <forename>Ása</forename>
+              <forename>Marin</forename>
+              <surname>Hafsteinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1977"/>
+          </person>
+          <person xml:id="AsdisEgilsdottir">
+            <persName>
+              <forename>Ásdís</forename>
+              <surname>Egilsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1946"/>
+          </person>
+          <person xml:id="AsdisOlsen">
+            <persName>
+              <forename>Ásdís</forename>
+              <surname>Olsen</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1962"/>
+          </person>
+          <person xml:id="AsdisThoroddsen">
+            <persName>
+              <forename>Ásdís</forename>
+              <surname>Thoroddsen</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="AsgeirGudmundsson">
+            <persName>
+              <forename>Ásgeir</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1946"/>
+          </person>
+          <person xml:id="AslaugJonsdottir">
+            <persName>
+              <forename>Áslaug</forename>
+              <surname>Jónsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1963"/>
+          </person>
+          <person xml:id="AstradurEysteinsson">
+            <persName>
+              <forename>Ástráður</forename>
+              <surname>Eysteinsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1957"/>
+          </person>
+          <person xml:id="AudurJonsdottir">
+            <persName>
+              <forename>Auður</forename>
+              <surname>Jónsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1973"/>
+          </person>
+          <person xml:id="AudurStyrkarsdottir">
+            <persName>
+              <forename>Auður</forename>
+              <surname>Styrkársdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1951"/>
+          </person>
+          <person xml:id="BenediktHjartarson">
+            <persName>
+              <forename>Benedikt</forename>
+              <surname>Hjartarson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1972"/>
+          </person>
+          <person xml:id="BergljotSoffiaKristjansdottir">
+            <persName>
+              <forename>Bergljót</forename>
+              <forename>Soffía</forename>
+              <surname>Kristjánsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1950"/>
+          </person>
+          <person xml:id="BergrunIrisSaevarsdottir">
+            <persName>
+              <forename>Bergrún</forename>
+              <forename>Íris</forename>
+              <surname>Sævarsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1985"/>
+          </person>
+          <person xml:id="BjarniBjarnason1965">
+            <persName>
+              <forename>Bjarni</forename>
+              <surname>Bjarnason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1965"/>
+          </person>
+          <person xml:id="BjarniFEinarsson">
+            <persName>
+              <forename>Bjarni</forename>
+              <forename>F.</forename>
+              <surname>Einarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="BjarniHardarson">
+            <persName>
+              <forename>Bjarni</forename>
+              <surname>Harðarson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1961"/>
+          </person>
+          <person xml:id="BjornHalldorsson">
+            <persName>
+              <forename>Björn</forename>
+              <surname>Halldórsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1983"/>
+          </person>
+          <person xml:id="BjornHroarsson">
+            <persName>
+              <forename>Björn</forename>
+              <surname>Hróarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1962"/>
+          </person>
+          <person xml:id="BjornThorsteinsson">
+            <persName>
+              <forename>Björn</forename>
+              <surname>Þorsteinsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1967"/>
+          </person>
+          <person xml:id="BodvarGudmundsson">
+            <persName>
+              <forename>Böðvar</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1939"/>
+          </person>
+          <person xml:id="BorgthorKjaernested">
+            <persName>
+              <forename>Borgþór</forename>
+              <surname>Kjærnested</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1943"/>
+          </person>
+          <person xml:id="BorkurHansen">
+            <persName>
+              <forename>Börkur</forename>
+              <surname>Hansen</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="BragiOlafsson">
+            <persName>
+              <forename>Bragi</forename>
+              <surname>Ólafsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1962"/>
+          </person>
+          <person xml:id="BryndisGunnarsdottir">
+            <persName>
+              <forename>Bryndís</forename>
+              <surname>Gunnarsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1939"/>
+          </person>
+          <person xml:id="BrynhildurThorarinsdottir">
+            <persName>
+              <forename>Brynhildur</forename>
+              <surname>Þórarinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1970"/>
+          </person>
+          <person xml:id="ClarenceEGlad">
+            <persName>
+              <forename>Clarence</forename>
+              <forename>E.</forename>
+              <surname>Glad</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1956"/>
+          </person>
+          <person xml:id="DadiGardarsson">
+            <persName>
+              <forename>Daði</forename>
+              <surname>Garðarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="DagnyKristjansdottir">
+            <persName>
+              <forename>Dagný</forename>
+              <surname>Kristjánsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1949"/>
+          </person>
+          <person xml:id="DavidHorgdalStefansson">
+            <persName>
+              <forename>Davíð</forename>
+              <forename>Hörgdal</forename>
+              <surname>Stefánsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1973"/>
+          </person>
+          <person xml:id="DavidLogiSigurdsson">
+            <persName>
+              <forename>Davíð</forename>
+              <forename>Logi</forename>
+              <surname>Sigurðsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1972"/>
+          </person>
+          <person xml:id="EdvardIngolfsson">
+            <persName>
+              <forename>Eðvarð</forename>
+              <surname>Ingólfsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1960"/>
+          </person>
+          <person xml:id="EinarKarason">
+            <persName>
+              <forename>Einar</forename>
+              <surname>Kárason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="EinarMarGudmundsson">
+            <persName>
+              <forename>Einar</forename>
+              <forename>Már</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="EinarOlafsson">
+            <persName>
+              <forename>Einar</forename>
+              <surname>Ólafsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1949"/>
+          </person>
+          <person xml:id="EinarOrnGunnarsson">
+            <persName>
+              <forename>Einar</forename>
+              <forename>Örn</forename>
+              <surname>Gunnarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1961"/>
+          </person>
+          <person xml:id="EinarSveinbjornsson">
+            <persName>
+              <forename>Einar</forename>
+              <surname>Sveinbjörnsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1965"/>
+          </person>
+          <person xml:id="EliasSnaelandJonsson">
+            <persName>
+              <forename>Elías</forename>
+              <forename>Snæland</forename>
+              <surname>Jónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1943"/>
+          </person>
+          <person xml:id="ElinBaraMagnusdottir">
+            <persName>
+              <forename>Elín</forename>
+              <forename>Bára</forename>
+              <surname>Magnúsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1962"/>
+          </person>
+          <person xml:id="ElinElisabetJohannsdottir">
+            <persName>
+              <forename>Elín</forename>
+              <forename>Elísabet</forename>
+              <surname>Jóhannsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1964"/>
+          </person>
+          <person xml:id="ElinPalmadottir">
+            <persName>
+              <forename>Elín</forename>
+              <surname>Pálmadóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1927"/>
+          </person>
+          <person xml:id="ErlaBolladottir">
+            <persName>
+              <forename>Erla</forename>
+              <surname>Bolladóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="EysteinnBjornsson">
+            <persName>
+              <forename>Eysteinn</forename>
+              <surname>Björnsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1942"/>
+          </person>
+          <person xml:id="FinnbogiHermannsson">
+            <persName>
+              <forename>Finnbogi</forename>
+              <surname>Hermannsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1945"/>
+          </person>
+          <person xml:id="FridaASigurdardottir">
+            <persName>
+              <forename>Fríða</forename>
+              <forename>Á.</forename>
+              <surname>Sigurðardóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1940"/>
+          </person>
+          <person xml:id="FridrikGOlgeirsson">
+            <persName>
+              <forename>Friðrik</forename>
+              <forename>G.</forename>
+              <surname>Olgeirsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1950"/>
+          </person>
+          <person xml:id="FridrikRafnsson">
+            <persName>
+              <forename>Friðrik</forename>
+              <surname>Rafnsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="GardarGislason">
+            <persName>
+              <forename>Garðar</forename>
+              <surname>Gíslason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1952"/>
+          </person>
+          <person xml:id="GardarSverrisson">
+            <persName>
+              <forename>Garðar</forename>
+              <surname>Sverrisson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="GerdurKristnyGudjonsdottir">
+            <persName>
+              <forename>Gerður</forename>
+              <forename>Kristný</forename>
+              <surname>Guðjónsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1970"/>
+          </person>
+          <person xml:id="GesturGudmundsson">
+            <persName>
+              <forename>Gestur</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1951"/>
+          </person>
+          <person xml:id="GisliGunnarsson">
+            <persName>
+              <forename>Gísli</forename>
+              <surname>Gunnarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1938"/>
+          </person>
+          <person xml:id="GisliMarGislason">
+            <persName>
+              <forename>Gísli</forename>
+              <forename>Már</forename>
+              <surname>Gíslason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1950"/>
+          </person>
+          <person xml:id="GudbjorgPalsdottir">
+            <persName>
+              <forename>Guðbjörg</forename>
+              <surname>Pálsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1956"/>
+          </person>
+          <person xml:id="GudjonFridriksson">
+            <persName>
+              <forename>Guðjón</forename>
+              <surname>Friðriksson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1945"/>
+          </person>
+          <person xml:id="GudjonThorsteinnGudmundsson">
+            <persName>
+              <forename>Guðjón</forename>
+              <forename>Þorsteinn</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1981"/>
+          </person>
+          <person xml:id="GudlaugRichter">
+            <persName>
+              <forename>Guðlaug</forename>
+              <surname>Richter</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1953"/>
+          </person>
+          <person xml:id="GudlaugurArason">
+            <persName>
+              <forename>Guðlaugur</forename>
+              <surname>Arason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1950"/>
+          </person>
+          <person xml:id="GudmundurAndriThorsson">
+            <persName>
+              <forename>Guðmundur</forename>
+              <forename>Andri</forename>
+              <surname>Thorsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1957"/>
+          </person>
+          <person xml:id="GudmundurEggertsson">
+            <persName>
+              <forename>Guðmundur</forename>
+              <surname>Eggertsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1933"/>
+          </person>
+          <person xml:id="GudmundurJGudmundsson">
+            <persName>
+              <forename>Guðmundur</forename>
+              <forename>J.</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="GudmundurJOskarsson">
+            <persName>
+              <forename>Guðmundur</forename>
+              <forename>J.</forename>
+              <surname>Óskarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1978"/>
+          </person>
+          <person xml:id="GudmundurOlafsson">
+            <persName>
+              <forename>Guðmundur</forename>
+              <surname>Ólafsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1951"/>
+          </person>
+          <person xml:id="GudmundurPalmason">
+            <persName>
+              <forename>Guðmundur</forename>
+              <surname>Pálmason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1928"/>
+          </person>
+          <person xml:id="GudmundurSBrynjolfsson">
+            <persName>
+              <forename>Guðmundur</forename>
+              <forename>S.</forename>
+              <surname>Brynjólfsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1964"/>
+          </person>
+          <person xml:id="GudniLindalBenediktsson">
+            <persName>
+              <forename>Guðni</forename>
+              <forename>Líndal</forename>
+              <surname>Benediktsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1987"/>
+          </person>
+          <person xml:id="GudrunEvaMinervudottir">
+            <persName>
+              <forename>Guðrún</forename>
+              <forename>Eva</forename>
+              <surname>Mínervudóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1976"/>
+          </person>
+          <person xml:id="GudrunHannesdottir">
+            <persName>
+              <forename>Guðrún</forename>
+              <surname>Hannesdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1944"/>
+          </person>
+          <person xml:id="GudrunHelgadottir">
+            <persName>
+              <forename>Guðrún</forename>
+              <surname>Helgadóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1935"/>
+          </person>
+          <person xml:id="GunnarGunnarsson">
+            <persName>
+              <forename>Gunnar</forename>
+              <surname>Gunnarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1947"/>
+          </person>
+          <person xml:id="GunnarHelgason">
+            <persName>
+              <forename>Gunnar</forename>
+              <surname>Helgason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1965"/>
+          </person>
+          <person xml:id="GunnarKarlsson">
+            <persName>
+              <forename>Gunnar</forename>
+              <surname>Karlsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1939"/>
+          </person>
+          <person xml:id="GunnarTheodorEggertsson">
+            <persName>
+              <forename>Gunnar</forename>
+              <forename>Theodór</forename>
+              <surname>Eggertsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1982"/>
+          </person>
+          <person xml:id="GunnhildurOskarsdottir">
+            <persName>
+              <forename>Gunnhildur</forename>
+              <surname>Óskarsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="GyrdirEliasson">
+            <persName>
+              <forename>Gyrðir</forename>
+              <surname>Elíasson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1961"/>
+          </person>
+          <person xml:id="HafthorGudjonsson">
+            <persName>
+              <forename>Hafþór</forename>
+              <surname>Guðjónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1947"/>
+          </person>
+          <person xml:id="HalldorRunolfsson">
+            <persName>
+              <forename>Halldór</forename>
+              <surname>Runólfsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1948"/>
+          </person>
+          <person xml:id="HalldoraGunnarsdottir">
+            <persName>
+              <forename>Halldóra</forename>
+              <surname>Gunnarsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1965"/>
+          </person>
+          <person xml:id="HallgrimurHelgason">
+            <persName>
+              <forename>Hallgrímur</forename>
+              <surname>Helgason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="HarpaJonsdottir">
+            <persName>
+              <forename>Harpa</forename>
+              <surname>Jónsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1965"/>
+          </person>
+          <person xml:id="HelgiGrimsson">
+            <persName>
+              <forename>Helgi</forename>
+              <surname>Grímsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1962"/>
+          </person>
+          <person xml:id="HelgiHallgrimsson">
+            <persName>
+              <forename>Helgi</forename>
+              <surname>Hallgrímsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1935"/>
+          </person>
+          <person xml:id="HelgiIngolfsson">
+            <persName>
+              <forename>Helgi</forename>
+              <surname>Ingólfsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1957"/>
+          </person>
+          <person xml:id="HelgiSkuliKjartansson">
+            <persName>
+              <forename>Helgi</forename>
+              <forename>Skúli</forename>
+              <surname>Kjartansson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1949"/>
+          </person>
+          <person xml:id="HelgiThorlaksson">
+            <persName>
+              <forename>Helgi</forename>
+              <surname>Þorláksson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1945"/>
+          </person>
+          <person xml:id="HenryAlexanderHenrysson">
+            <persName>
+              <forename>Henry</forename>
+              <forename>Alexander</forename>
+              <surname>Henrysson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1973"/>
+          </person>
+          
+          <person xml:id="HildurHakonardottir">
+            <persName>
+              <forename>Hildur</forename>
+              <surname>Hákonardóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1938"/>
+          </person>
+          <person xml:id="HildurKnutsdottir">
+            <persName>
+              <forename>Hildur</forename>
+              <surname>Knútsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1984"/>
+          </person>
+          <person xml:id="HilmarAntonsson">
+            <persName>
+              <forename>Hilmar</forename>
+              <surname>Antonsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1944"/>
+          </person>
+          <person xml:id="HjorleifurGuttormsson">
+            <persName>
+              <forename>Hjörleifur</forename>
+              <surname>Guttormsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1935"/>
+          </person>
+          <person xml:id="HjorturThorarinsson">
+            <persName>
+              <forename>Hjörtur</forename>
+              <surname>Þórarinsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1927"/>
+          </person>
+          <person xml:id="HlinAgnarsdottir">
+            <persName>
+              <forename>Hlín</forename>
+              <surname>Agnarsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1953"/>
+          </person>
+          <person xml:id="HonoredeBalzac">
+            <persName>
+              <forename>Honoré</forename>
+              <forename>de</forename>
+              <surname>Balzac</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1799"/>
+          </person>
+          <person xml:id="HrafnAndresHardarson">
+            <persName>
+              <forename>Hrafn</forename>
+              <forename>Andrés</forename>
+              <surname>Harðarson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1948"/>
+          </person>
+          <person xml:id="HrafnhildurValgardsdottir">
+            <persName>
+              <forename>Hrafnhildur</forename>
+              <surname>Valgarðsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1948"/>
+          </person>
+          <person xml:id="IdunnSteinsdottir">
+            <persName>
+              <forename>Iðunn</forename>
+              <surname>Steinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1940"/>
+          </person>
+          <person xml:id="IllugiJokulsson">
+            <persName>
+              <forename>Illugi</forename>
+              <surname>Jökulsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1960"/>
+          </person>
+          <person xml:id="IndridiGThorsteinsson">
+            <persName>
+              <forename>Indriði</forename>
+              <forename>G.</forename>
+              <surname>Þorsteinsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1926"/>
+          </person>
+          <person xml:id="IngimarJonsson">
+            <persName>
+              <forename>Ingimar</forename>
+              <surname>Jónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1937"/>
+          </person>
+          <person xml:id="IngviThorKormaksson">
+            <persName>
+              <forename>Ingvi</forename>
+              <forename>Þór</forename>
+              <surname>Kormáksson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1952"/>
+          </person>
+          <person xml:id="JanusFridrikGudlaugsson">
+            <persName>
+              <forename>Janus</forename>
+              <forename>Friðrik</forename>
+              <surname>Guðlaugsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1951"/>
+          </person>
+          <person xml:id="JohannBjornsson">
+            <persName>
+              <forename>Jóhann</forename>
+              <surname>Björnsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1966"/>
+          </person>
+          <person xml:id="JonBaldvinHannibalsson">
+            <persName>
+              <forename>Jón</forename>
+              <forename>Baldvin</forename>
+              <surname>Hannibalsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1939"/>
+          </person>
+          <person xml:id="JonHallurStefansson">
+            <persName>
+              <forename>Jón</forename>
+              <forename>Hallur</forename>
+              <surname>Stefánsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="JonHilmarJonsson">
+            <persName>
+              <forename>Jón</forename>
+              <forename>Hilmar</forename>
+              <surname>Jónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1947"/>
+          </person>
+          <person xml:id="JonHnefillAdalsteinsson">
+            <persName>
+              <forename>Jón</forename>
+              <forename>Hnefill</forename>
+              <surname>Aðalsteinsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1927"/>
+          </person>
+          <person xml:id="JonJHjartarson">
+            <persName>
+              <forename>Jón</forename>
+              <forename>J.</forename>
+              <surname>Hjartarson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+          </person>
+          <person xml:id="JonKalmanStefansson">
+            <persName>
+              <forename>Jón</forename>
+              <forename>Kalman</forename>
+              <surname>Stefánsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1963"/>
+          </person>
+          <person xml:id="JonThorvardarson">
+            <persName>
+              <forename>Jón</forename>
+              <surname>Þorvarðarson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="JonVidarJonsson">
+            <persName>
+              <forename>Jón</forename>
+              <forename>Viðar</forename>
+              <surname>Jónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="JonasJonasson">
+            <persName>
+              <forename>Jónas</forename>
+              <surname>Jónasson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1930"/>
+          </person>
+          <person xml:id="JonasKristjansson">
+            <persName>
+              <forename>Jónas</forename>
+              <surname>Kristjánsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1924"/>
+          </person>
+          <person xml:id="JoninaLeosdottir">
+            <persName>
+              <forename>Jónína</forename>
+              <surname>Leósdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="JoninaValaKristinsdottir">
+            <persName>
+              <forename>Jónína</forename>
+              <forename>Vala</forename>
+              <surname>Kristinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1952"/>
+          </person>
+          <person xml:id="JulesVerne">
+            <persName>
+              <forename>Jules</forename>
+              <surname>Verne</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1828"/>
+          </person>
+          <person xml:id="KolbrunAnnaBjornsdottir">
+            <persName>
+              <forename>Kolbrún</forename>
+              <forename>Anna</forename>
+              <surname>Björnsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1974"/>
+          </person>
+          <person xml:id="KristinAdalsteinsdottir">
+            <persName>
+              <forename>Kristín</forename>
+              <surname>Aðalsteinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1946"/>
+          </person>
+          <person xml:id="KristinArngrimsdottir">
+            <persName>
+              <forename>Kristín</forename>
+              <surname>Arngrímsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1953"/>
+          </person>
+          <person xml:id="KristinBjarnadottir">
+            <persName>
+              <forename>Kristín</forename>
+              <surname>Bjarnadóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1943"/>
+          </person>
+          <person xml:id="KristinHelgaGunnarsdottir">
+            <persName>
+              <forename>Kristín</forename>
+              <forename>Helga</forename>
+              <surname>Gunnarsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1963"/>
+          </person>
+          <person xml:id="KristinRagnaGunnarsdottir">
+            <persName>
+              <forename>Kristín</forename>
+              <forename>Ragna</forename>
+              <surname>Gunnarsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1968"/>
+          </person>
+          <person xml:id="KristinSteinsdottir">
+            <persName>
+              <forename>Kristín</forename>
+              <surname>Steinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1946"/>
+          </person>
+          <person xml:id="KristjanaFridbjornsdottir">
+            <persName>
+              <forename>Kristjana</forename>
+              <surname>Friðbjörnsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1976"/>
+          </person>
+          <person xml:id="LaufeyThoraSveinsdottir">
+            <persName>
+              <forename>Laufey</forename>
+              <forename>Þóra</forename>
+              <surname>Sveinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="LeifurReynisson">
+            <persName>
+              <forename>Leifur</forename>
+              <surname>Reynisson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1971"/>
+          </person>
+          <person xml:id="LenaBergmann">
+            <persName>
+              <forename>Lena</forename>
+              <surname>Bergmann</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1935"/>
+          </person>
+          <person xml:id="LiljaMJonsdottir">
+            <persName>
+              <forename>Lilja</forename>
+              <forename>M.</forename>
+              <surname>Jónsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1950"/>
+          </person>
+          <person xml:id="LiljaMagnusdottir">
+            <persName>
+              <forename>Lilja</forename>
+              <surname>Magnúsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1963"/>
+          </person>
+          <person xml:id="MagnhildurPetursdottir">
+            <persName>
+              <forename>Magnhildur</forename>
+              <surname>Pétursdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1965"/>
+          </person>
+          <person xml:id="MagnusAsgeirMagnusson">
+            <persName>
+              <forename>Magnús</forename>
+              <forename>Ásgeir</forename>
+              <surname>Magnússon</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1961"/>
+          </person>
+          <person xml:id="MagnusSigurdsson">
+            <persName>
+              <forename>Magnús</forename>
+              <surname>Sigurðsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1984"/>
+          </person>
+          <person xml:id="MarcBloch">
+            <persName>
+              <forename>Marc</forename>
+              <surname>Bloch</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1886"/>
+          </person>
+          <person xml:id="MatthiasJohannessen">
+            <persName>
+              <forename>Matthías</forename>
+              <surname>Johannessen</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1930"/>
+          </person>
+          <person xml:id="OlafurGunnarsson">
+            <persName>
+              <forename>Ólafur</forename>
+              <surname>Gunnarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1948"/>
+          </person>
+          <person xml:id="OlafurHJohannsson">
+            <persName>
+              <forename>Ólafur</forename>
+              <forename>H.</forename>
+              <surname>Jóhannsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1943"/>
+          </person>
+          <person xml:id="OlafurHaukurSimonarson">
+            <persName>
+              <forename>Ólafur</forename>
+              <forename>Haukur</forename>
+              <surname>Símonarson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1947"/>
+          </person>
+          <person xml:id="OlafurJohannOlafsson">
+            <persName>
+              <forename>Ólafur</forename>
+              <forename>Jóhann</forename>
+              <surname>Ólafsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1962"/>
+          </person>
+          <person xml:id="OlafurOrmsson">
+            <persName>
+              <forename>Ólafur</forename>
+              <surname>Ormsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1943"/>
+          </person>
+          <person xml:id="OlinaKjerulfThorvardardottir">
+            <persName>
+              <forename>Ólína</forename>
+              <forename>Kjerúlf</forename>
+              <surname>Þorvarðardóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1958"/>
+          </person>
+          <person xml:id="OrriHardarson">
+            <persName>
+              <forename>Orri</forename>
+              <surname>Harðarson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1972"/>
+          </person>
+          <person xml:id="OskarArniOskarsson">
+            <persName>
+              <forename>Óskar</forename>
+              <forename>Árni</forename>
+              <surname>Óskarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1950"/>
+          </person>
+          <person xml:id="OttarGudmundsson">
+            <persName>
+              <forename>Óttar</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1948"/>
+          </person>
+          <person xml:id="PallBiering">
+            <persName>
+              <forename>Páll</forename>
+              <surname>Biering</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1951"/>
+          </person>
+          <person xml:id="PallGudmundsson">
+            <persName>
+              <forename>Páll</forename>
+              <surname>Guðmundsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1968"/>
+          </person>
+          <person xml:id="PallHJonsson">
+            <persName>
+              <forename>Páll</forename>
+              <forename>H.</forename>
+              <surname>Jónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1908"/>
+          </person>
+          <person xml:id="PallSigurdsson">
+            <persName>
+              <forename>Páll</forename>
+              <surname>Sigurðsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1944"/>
+          </person>
+          <person xml:id="PernillaRein">
+            <persName>
+              <forename>Pernilla</forename>
+              <surname>Rein</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1964"/>
+          </person>
+          <person xml:id="PeturGunnarsson">
+            <persName>
+              <forename>Pétur</forename>
+              <surname>Gunnarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1947"/>
+          </person>
+          <person xml:id="PeturHafthorJonsson">
+            <persName>
+              <forename>Pétur</forename>
+              <forename>Hafþór</forename>
+              <surname>Jónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1953"/>
+          </person>
+          <person xml:id="RagnarArnalds">
+            <persName>
+              <forename>Ragnar</forename>
+              <surname>Arnalds</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1938"/>
+          </person>
+          <person xml:id="RagnarIngiAdalsteinsson">
+            <persName>
+              <forename>Ragnar</forename>
+              <forename>Ingi</forename>
+              <surname>Aðalsteinsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1944"/>
+          </person>
+          <person xml:id="RagnarStefansson">
+            <persName>
+              <forename>Ragnar</forename>
+              <surname>Stefánsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1938"/>
+          </person>
+          <person xml:id="RagnheidurGestsdottir">
+            <persName>
+              <forename>Ragnheiður</forename>
+              <surname>Gestsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1953"/>
+          </person>
+          <person xml:id="RannveigThorkelsdottir">
+            <persName>
+              <forename>Rannveig</forename>
+              <surname>Þorkelsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1962"/>
+          </person>
+          <person xml:id="RobertJack">
+            <persName>
+              <forename>Róbert</forename>
+              <surname>Jack</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1971"/>
+          </person>
+          <person xml:id="SigfusJonsson">
+            <persName>
+              <forename>Sigfús</forename>
+              <surname>Jónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1951"/>
+          </person>
+          <person xml:id="SigmundurErnirRunarsson">
+            <persName>
+              <forename>Sigmundur</forename>
+              <forename>Ernir</forename>
+              <surname>Rúnarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1961"/>
+          </person>
+          <person xml:id="SigridurHelgaSverrisdottir">
+            <persName>
+              <forename>Sigríður</forename>
+              <forename>Helga</forename>
+              <surname>Sverrisdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1964"/>
+          </person>
+          <person xml:id="SigridurWohler">
+            <persName>
+              <forename>Sigríður</forename>
+              <surname>Wöhler</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1963"/>
+          </person>
+          <person xml:id="SigrunEldjarn">
+            <persName>
+              <forename>Sigrún</forename>
+              <surname>Eldjárn</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="SigrunEliasdottir">
+            <persName>
+              <forename>Sigrún</forename>
+              <surname>Elíasdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1978"/>
+          </person>
+          <person xml:id="SigrunHelgadottir">
+            <persName>
+              <forename>Sigrún</forename>
+              <surname>Helgadóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1949"/>
+          </person>
+          <person xml:id="SigrunJuliusdottir">
+            <persName>
+              <forename>Sigrún</forename>
+              <surname>Júlíusdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1944"/>
+          </person>
+          <person xml:id="SigurdurAMagnusson">
+            <persName>
+              <forename>Sigurður</forename>
+              <forename>A.</forename>
+              <surname>Magnússon</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1928"/>
+          </person>
+          <person xml:id="SigurdurBjornsson">
+            <persName>
+              <forename>Sigurður</forename>
+              <surname>Björnsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1964"/>
+          </person>
+          <person xml:id="SigurdurIngolfsson">
+            <persName>
+              <forename>Sigurður</forename>
+              <surname>Ingólfsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1966"/>
+          </person>
+          <person xml:id="SigurdurPalsson">
+            <persName>
+              <forename>Sigurður</forename>
+              <surname>Pálsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1936"/>
+          </person>
+          <person xml:id="SigurjonBjornsson">
+            <persName>
+              <forename>Sigurjón</forename>
+              <surname>Björnsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1926"/>
+          </person>
+          <person xml:id="SigurjonMagnusson">
+            <persName>
+              <forename>Sigurjón</forename>
+              <surname>Magnússon</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="SindriFreysson">
+            <persName>
+              <forename>Sindri</forename>
+              <surname>Freysson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1970"/>
+          </person>
+          <person xml:id="SkuliThoroddsen">
+            <persName>
+              <forename>Skúli</forename>
+              <surname>Thoroddsen</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1949"/>
+          </person>
+          <person xml:id="SolrunHardardottir">
+            <persName>
+              <forename>Sólrún</forename>
+              <surname>Harðardóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1964"/>
+          </person>
+          <person xml:id="SolveigAnnaBoasdottir">
+            <persName>
+              <forename>Sólveig</forename>
+              <forename>Anna</forename>
+              <surname>Bóasdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1958"/>
+          </person>
+          <person xml:id="SolveigSigurdardottir">
+            <persName>
+              <forename>Sólveig</forename>
+              <surname>Sigurðardóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1984"/>
+          </person>
+          <person xml:id="StefanMarStefansson">
+            <persName>
+              <forename>Stefán</forename>
+              <forename>Már</forename>
+              <surname>Stefánsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1938"/>
+          </person>
+          <person xml:id="StefanSnaevarr">
+            <persName>
+              <forename>Stefán</forename>
+              <surname>Snævarr</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1953"/>
+          </person>
+          <person xml:id="StefanSturlaSigurjonsson">
+            <persName>
+              <forename>Stefán</forename>
+              <forename>Sturla</forename>
+              <surname>Sigurjónsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="StefaniaValdisStefansdottir">
+            <persName>
+              <forename>Stefanía</forename>
+              <forename>Valdís</forename>
+              <surname>Stefánsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1942"/>
+          </person>
+          <person xml:id="SteinunnSigurdardottir">
+            <persName>
+              <forename>Steinunn</forename>
+              <surname>Sigurðardóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1950"/>
+          </person>
+          <person xml:id="SumarlidiIsleifsson">
+            <persName>
+              <forename>Sumarliði</forename>
+              <surname>Ísleifsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="SvanhildurKrSverrisdottir">
+            <persName>
+              <forename>Svanhildur</forename>
+              <forename>Kr.</forename>
+              <surname>Sverrisdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1958"/>
+          </person>
+          <person xml:id="SveinbjorgSveinbjornsdottir">
+            <persName>
+              <forename>Sveinbjörg</forename>
+              <surname>Sveinbjörnsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1947"/>
+          </person>
+          <person xml:id="SveinnEinarsson">
+            <persName>
+              <forename>Sveinn</forename>
+              <surname>Einarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1934"/>
+          </person>
+          <person xml:id="SveinnRunolfsson">
+            <persName>
+              <forename>Sveinn</forename>
+              <surname>Runólfsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1946"/>
+          </person>
+          <person xml:id="SveinnYngviEgilsson">
+            <persName>
+              <forename>Sveinn</forename>
+              <forename>Yngvi</forename>
+              <surname>Egilsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="SverrirJakobsson">
+            <persName>
+              <forename>Sverrir</forename>
+              <surname>Jakobsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1970"/>
+          </person>
+          <person xml:id="ThomasMoller">
+            <persName>
+              <forename>Thomas</forename>
+              <surname>Möller</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1954"/>
+          </person>
+          <person xml:id="ThorJakobsson">
+            <persName>
+              <forename>Þór</forename>
+              <surname>Jakobsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1936"/>
+          </person>
+          <person xml:id="ThorWhitehead">
+            <persName>
+              <forename>Þór</forename>
+              <surname>Whitehead</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1943"/>
+          </person>
+          <person xml:id="ThoraJonsdottir">
+            <persName>
+              <forename>Þóra</forename>
+              <surname>Jónsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1925"/>
+          </person>
+          <person xml:id="ThoraKristinsdottir">
+            <persName>
+              <forename>Þóra</forename>
+              <surname>Kristinsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1930"/>
+          </person>
+          <person xml:id="ThorarinnEldjarn">
+            <persName>
+              <forename>Þórarinn</forename>
+              <surname>Eldjárn</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1949"/>
+          </person>
+          <person xml:id="ThorarinnLeifsson">
+            <persName>
+              <forename>Þórarinn</forename>
+              <surname>Leifsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1966"/>
+          </person>
+          <person xml:id="ThorbergurThordarson">
+            <persName>
+              <forename>Þórbergur</forename>
+              <surname>Þórðarson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1889"/>
+          </person>
+          <person xml:id="ThordisGisladottir">
+            <persName>
+              <forename>Þórdís</forename>
+              <surname>Gísladóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1965"/>
+          </person>
+          <person xml:id="ThordurHelgason">
+            <persName>
+              <forename>Þórður</forename>
+              <surname>Helgason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1947"/>
+          </person>
+          <person xml:id="ThorgrimurThrainsson">
+            <persName>
+              <forename>Þorgrímur</forename>
+              <surname>Þráinsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1959"/>
+          </person>
+          <person xml:id="ThorhallurHeimisson">
+            <persName>
+              <forename>Þórhallur</forename>
+              <surname>Heimisson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1961"/>
+          </person>
+          <person xml:id="ThorhallurRunolfsson">
+            <persName>
+              <forename>Þórhallur</forename>
+              <surname>Runólfsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1944"/>
+          </person>
+          <person xml:id="ThorirStephensen">
+            <persName>
+              <forename>Þórir</forename>
+              <surname>Stephensen</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1931"/>
+          </person>
+          <person xml:id="ThorleifurEinarsson">
+            <persName>
+              <forename>Þorleifur</forename>
+              <surname>Einarsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1931"/>
+          </person>
+          <person xml:id="ThorsteinnAntonsson">
+            <persName>
+              <forename>Þorsteinn</forename>
+              <surname>Antonsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1943"/>
+          </person>
+          <person xml:id="ThorsteinnHelgason">
+            <persName>
+              <forename>Þorsteinn</forename>
+              <surname>Helgason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1946"/>
+          </person>
+          <person xml:id="ThorvaldurOrnArnason">
+            <persName>
+              <forename>Þorvaldur</forename>
+              <forename>Örn</forename>
+              <surname>Árnason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1970"/>
+          </person>
+          <person xml:id="ThorvaldurPHjardar">
+            <persName>
+              <forename>Þorvaldur</forename>
+              <forename>P.</forename>
+              <surname>Hjarðar</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1952"/>
+          </person>
+          <person xml:id="UlfarBragason">
+            <persName>
+              <forename>Úlfar</forename>
+              <surname>Bragason</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1949"/>
+          </person>
+          <person xml:id="UlfarThormodsson">
+            <persName>
+              <forename>Úlfar</forename>
+              <surname>Þormóðsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1944"/>
+          </person>
+          <person xml:id="UnaMargretJonsdottir">
+            <persName>
+              <forename>Una</forename>
+              <forename>Margrét</forename>
+              <surname>Jónsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1966"/>
+          </person>
+          <person xml:id="UnnurJokulsdottir">
+            <persName>
+              <forename>Unnur</forename>
+              <surname>Jökulsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="ValaHafstad">
+            <persName>
+              <forename>Vala</forename>
+              <surname>Hafstað</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1963"/>
+          </person>
+          <person xml:id="VidarHreinsson">
+            <persName>
+              <forename>Viðar</forename>
+              <surname>Hreinsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1956"/>
+          </person>
+          <person xml:id="VigdisFinnbogadottir">
+            <persName>
+              <forename>Vigdís</forename>
+              <surname>Finnbogadóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1930"/>
+          </person>
+          <person xml:id="VigdisGrimsdottir">
+            <persName>
+              <forename>Vigdís</forename>
+              <surname>Grímsdóttir</surname>
+            </persName>
+            <sex value="F">kona</sex>
+            <birth when="1953"/>
+          </person>
+          <person xml:id="ViktorArnarIngolfsson">
+            <persName>
+              <forename>Viktor</forename>
+              <forename>Arnar</forename>
+              <surname>Ingólfsson</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1955"/>
+          </person>
+          <person xml:id="WalterBenjamin">
+            <persName>
+              <forename>Walter</forename>
+              <surname>Benjamin</surname>
+            </persName>
+            <sex value="M">maður</sex>
+            <birth when="1892"/>
+          </person>
+        </listPerson>
+      </particDesc>
+      <langUsage>
+        <language ident="en">English</language>
+        <language ident="is">Icelandic</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/IGC-Books-ellefu_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/IGC-Books-i_fullordinna.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1968/IGC-Books-jardfraedi_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1969/IGC-Books-aevisaga_arna.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1970/IGC-Books-aevisaga_arna_profasts.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1972/IGC-Books-frasagnir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1976/IGC-Books-olikar_personur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1977/IGC-Books-ymislegar_ritgerdir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1977/IGC-Books-ymislegar_ritgerdir_ii.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1980/IGC-Books-heilsufraedi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1981/IGC-Books-heimkoma_handritanna.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1981/IGC-Books-lambadrengur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1981/IGC-Books-undir_kalstjornu.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1982/IGC-Books-riddarar_hringstigans.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1982/IGC-Books-viltu_byrja.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1983/IGC-Books-um_heima.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1984/IGC-Books-sjavarutvegur_islendinga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-bras_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-eg_er.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-gerdur_aevisaga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-hlutafelog.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-margsaga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-sagan_oll.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-skilningstred.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-sola_sola.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-strid_fyrir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-thad_var.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-thetta_er.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/IGC-Books-thjodtru_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-atjan_sogur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-blatt_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-eins_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-emil_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-enga_staela.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-heilagur_andi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-kongar_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-ljori_salar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-med_stjornur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-og_svo.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-saman_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-timathjofurinn.ana.xml"/>  
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-uppreisn_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-ur_husnaedis.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1986/IGC-Books-ur_snoru.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1987/IGC-Books-franskbraud_med.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1987/IGC-Books-kaldaljos.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1987/IGC-Books-klukkuthjofurinn_kloki.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1987/IGC-Books-ledurjakkar_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-barattusaga_athafnamanns.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-eg_veit.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-ein_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-fallin_spyta.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-islandsaevintyri_himmlers.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-jora_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-markadstorg_gudanna.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-meirihattar_stefnumot.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-min_kata.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-pusluspil.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1988/IGC-Books-thrjar_solir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1989/IGC-Books-arni_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1989/IGC-Books-eg_heiti_isbjorg.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1989/IGC-Books-gulleyjan_storbokarutgafa.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1989/IGC-Books-solarsaga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1989/IGC-Books-thar_sem.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1989/IGC-Books-unglingar_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1989/IGC-Books-utgangan_bref.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1990/IGC-Books-haltu_mer.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1990/IGC-Books-hversdagshollin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1990/IGC-Books-manndomur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1990/IGC-Books-mundu_mig.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1990/IGC-Books-punktur_punktur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1990/IGC-Books-raudir_dagar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1990/IGC-Books-sidasta_ordid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1991/IGC-Books-hin_hafleyga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1991/IGC-Books-myndun_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1992/IGC-Books-bak_vid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1992/IGC-Books-o_fyrir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1992/IGC-Books-rosumal_lif.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1993/IGC-Books-eigandasaga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1993/IGC-Books-handritaspegill.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1996/IGC-Books-draugasinfonian.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1996/IGC-Books-endurkoma_mariu.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/IGC-Books-i_skugga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/IGC-Books-a_hnifsins.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/IGC-Books-audvitad_1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/IGC-Books-lif_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/IGC-Books-litlu_landnemarnir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-a_spani.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-a_strond.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-gagga_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-i_gjotu.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-i_lofti.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-komdu_og_skodadu_eldhusid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-komdu_og_skodadu_hringrasir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-laestur_inni.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-leynifelagid_skumur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-litla_skrimslid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-oxin_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-thegar_stjarna.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/IGC-Books-uti_ad.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/IGC-Books-atokin_um.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/IGC-Books-barn_ad.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/IGC-Books-baroninn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/IGC-Books-flottinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/IGC-Books-kata_og_ormarnir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/IGC-Books-komdu_og_skodadu.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/IGC-Books-raud_mold.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/IGC-Books-rumur_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-afturelding.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-allt_getur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-jardhitabok.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-komdu_og_skodadu_hafid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-komdu_og_skodadu_hafid_2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-lif_af.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-lifrikid_i_sjo.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-myndin_af.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-solskinshestur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/IGC-Books-stora_ordabokin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-aldingardurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-efnisheimurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-gardur_gudsmodur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-hjonaband_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-i_husi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-komdu_og_skodadu_hvad.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-kynlif_kennsluleidbeiningar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-lifrikid_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-oskasteinn_ritunarverkefni.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-sendiherrann.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/IGC-Books-siglingar_themahefti.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-ad_styrkja.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-eldad_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-eldadu_madur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-folkid_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-hefurdu_sed.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-himnariki_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-hlidarspor_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-hljodspor_kennarabok.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-hve_stort.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-island_verold_til_ad.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-morkin_horfin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-odinn_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-rimlar_hugans.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-velkominn_til.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/IGC-Books-vinir_afriku.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-10_rad.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-af_mer.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-alkasamfelagid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-ast_kynlif.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-ballid_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-blikur_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-draugasaga_dora.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-eg_heiti.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-erla_goda.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-fagurfraedi_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-gardurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-island_verold_til.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-komdu_og_skodadu_landakort.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-leikir_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-lifid_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-ofsi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-reykjavik_ut.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-ritum_saman_graeni.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-segdu_mommu.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-skaparinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-thth_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-vargurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/IGC-Books-vetrarsol.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-arid_1918_kennsluleidbeiningar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-astin_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-bakkabraedur_aevintyri.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-bankster.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-berlinarblus_islenskir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-blomin_fra.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-byltingarmenn_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-dagur_islenskrar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-fluga_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-fraedslumyndir_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-island_verold.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-komdu_og_skodadu_islenska.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-laki_mani_og_thjofahyskid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-likid_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-lygasaga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-midaldafolk_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-midaldafolk_a_ferd.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-midaldafolk_a_ferd_kennsluleidbeiningar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-obodnir_gestir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-raektun_folks.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-runagaldur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/IGC-Books-stjarnan_kristin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-aett_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-allt_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-co_framtidin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-eg_tholi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-hani_krummi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-hornsili_themahefti.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-hrafnaspark.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-hugrun_sogur_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-idunn_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-island_landid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-kynlif_stelpur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-sogueyjan_2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-speglarnir_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-sveppabokin_islenskir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/IGC-Books-til_foreldra.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/IGC-Books-hugfinnur_handbok.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/IGC-Books-laki_mani_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/IGC-Books-sogueyjan_3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/IGC-Books-svadilfor_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-dori_litli.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-endimork_heimsins.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-engar_ykjur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-felagsfraedi_menntunar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-graena_bokin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-heimur_i_hendi_stongin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-hljodspor_verkefnabanki.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-hljodspor_verkefnabanki_lausnir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-lif_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-lif_a_landi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/IGC-Books-vikingaold_arin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-a_jadrinum.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-audvitad_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-audvitad_kennsluleidbeiningar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-draugasagan_smabok.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-eftir_skilnad.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-ferdin_ad.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-heimur_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-komdu_og_skodadu_himingeiminn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-komdu_og_skodadu_himingeiminn_2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-lyginni_likast.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-sjalfbaerni_grunnthattur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-skaldaspegill_timar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-skilabod_mottekin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-skilabod_mottekin_fraedslukver.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/IGC-Books-thad_skelfur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-68_aefingar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-aevintyri_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-audvitad_heimilid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-audvitad_heimilid_kennsluleidbeiningar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-audvitad_jord.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-bruin_yfir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-danski_draugurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-dimmubokin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-eimskipid_gullfoss.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-illur_fengur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-koparakur_smasogur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-kotturinn_seinheppni.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-laki_mani.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-ljosin_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-lungnafiskarnir_smaprosar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-natturan_allan.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-sestu_og_lestu_leitin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/IGC-Books-sogugattin_rokk.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-bokaborn_islenskar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-brennunjals_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-brennunjals_saga_seinni.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-draugaljosid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-eyrbyggja_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-ferdir_odysseifs.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-gleraugun_hans.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-gyrdir_eliasson.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-heimur_i_hendi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-hundakunstir_sestu.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-i_heiminum.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-komdu_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-komdu_og_skodadu_eldgos.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-landnam_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-velmennid_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-vid_landamaeri.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-vidrini_veit.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-vikingaold_arin_8001050.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/IGC-Books-yfir_farinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-a_ferd.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-atok_a.ana.xml"/>  
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-eitthvad_annad.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-fljotsdaela_mannlif.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-fraedinaemi_greinar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-frygd_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-heimir_handbok.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-hetjurnar_thrjar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-islensk_leiklist.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-kubudagbokin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-milli_himins_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-ordspor_2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-skin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-sma_eyriki.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-sumartungl_ljod.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/IGC-Books-utan_thjonustusvaedis.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-arbok_2017.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-auga_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-bokasafnid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-daegurspor.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-egils_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-fadir_goriot.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-fuglaskodarinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-gangandi_ikorni.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-gisla_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-haustid_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-laxdaela_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-laxdaela_saga_stytt.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-liftaug_landsins.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-milli_steins.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-ordspor_3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-sestu_og_lestu.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-smaglaepir_sogur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-strakaklefinn_audlesin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-til_varnar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/IGC-Books-timagardurinn_eda.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-arbok_2018.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-arid_1918.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-bragfraedi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-dvergasteinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-eitrada_barnid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-eldgos_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-enn_logar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-evgenia_grandet.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-finnbjorg.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-flettubond.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-i_gullhreppum.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-kjalnesinga_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-komdu_og_skodadu_sogu.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-kristur_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-kver_um.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-milli_himins.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-sitthvad_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-sorgarmarsinn_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-spor_3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-stefan_sterki.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/IGC-Books-svikarinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-enn_af.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-fimbulvetur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-graskinna.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-gullold_reviunnar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-gullvor_kennslubok.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-gullvor_kennslubok_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-gullvor_kennslubok_i_malfraedi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-hauslausi_husvordurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-helga_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-hugtakasafn_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-hvad_er_svona.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-i_ordamo.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-ina.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-island_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-islendingathaettir_lausnir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-islendingathaettir_styttir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-islensk_lestrarbok.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-leynifundur_i.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-limrur_fyrir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-limrur_kennsluleidbeiningar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-merkir_sogustadir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-milli_himins_og_jardar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-ritum_saman.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-sestu_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-sidferdi_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-skuggaskip_sogur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-solardansinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-stjornur_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-svarti_saudurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-thadan_er.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/IGC-Books-thogla_barnid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-aldrei_nema.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-arfurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-baerinn_sem.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-brostnar_vaentingar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-draumstol_ljod.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-drekadansinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-flaekjurof.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-fra_rom.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-fraedaskjoda_bokmenntafraedi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-fyrir_daga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-graeni_gaukurinn.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-hilduleikur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-hugrun_sogur.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-kata_og.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-putalestin.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-samvinna_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-samvinna_a_sudurlandi.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-samvinna_a_sudurlandi_iii.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-samvinna_a_sudurlandi_iv.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-sidasta_barnid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-sidasta_dagbladid.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-sidustu_dagar.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-snorra_saga.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-spegill_fyrir.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-stigid_a.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-sturlunga_gedlaeknisins.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-thad_kom.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-unugata.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-utbrot.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-varud_her_byr.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/IGC-Books-varud_her_byr_vampira.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/IGC-Books-hljodleikhusid_buum.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/IGC-Books-hvad_er.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/IGC-Books-mannavillt.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/IGC-Books-varud_her.ana.xml"/>
+</teiCorpus>

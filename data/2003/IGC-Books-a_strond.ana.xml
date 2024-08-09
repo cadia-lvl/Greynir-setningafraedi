@@ -1,0 +1,703 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="IGC-Books-a_strond.ana">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="is">Íslenska risamálheildin - útgefnar bækur [IGC-Books.ana]</title>
+        <title type="main" xml:lang="en">The Icelandic Gigaword Corpus - published books [IGC-Books.ana]</title>
+        <title type="sub" xml:lang="is">Á strönd – Smábók</title>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Hildur Hafsteinsdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Finnur Ingimundarson</persName>
+          <resp xml:lang="is">Úrvinnsla texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Steinþór Steingrímsson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Árni Davíð Magnússon</persName>
+          <resp xml:lang="is">Söfnun texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Málfræðimörkun</resp>
+          <resp xml:lang="en">Linguistic annotation</resp>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words" quantity="319" xml:lang="en">319 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">Árni Magnússon Institute for Icelandic Studies</orgName>
+          <ref target="https://www.arnastofnun.is/">www.arnastofnun.is</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/20.500.12537/250</idno>
+        <availability status="restricted">
+          <licence>https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+        </availability>
+        <date when="2022-09-17">2022-09-17</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title xml:lang="is">Á strönd – Smábók</title>
+            <author sameAs="#KristinSteinsdottir">Kristín Steinsdóttir</author>
+            <imprint>
+              <publisher>Menntamálastofnun</publisher>
+              <date when="2003">2003</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="is">Textum hefur verið skipt upp í hluta sem innhalda 500 orð eða færri og svo raðað upp á nýtt. Efnisgreinar eru ekki slitnar í sundur nema þær innihaldi meira en 500 orð. Ef texti inniheldur færri en 5000 orð þá eru setningar innan hverrar efnisgreinar einnig stokkaðar upp. Í sumum tilvikum hafa textabrot verið fjarlægð úr texta - t.d. ef ekki höfundur brots hafði ekki veitt leyfi eða ef texti var á erlendu máli.</p>
+        <p xml:lang="en">The texts have been split into parts that do not include more than 500 words and reordered in a random way. Paragraphs are not dismantled unless they contain more than 500 words. If a text contains less than 5000 words, sentences of each paragraph are also rearranged. In some instances, we have removed fragments from texts, for example, if we did not have permission from the author of that fragment or if the fragment was not in Icelandic.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="1" gi="text"/>
+          <tagUsage occurs="1" gi="body"/>
+          <tagUsage occurs="1" gi="div"/>
+          <tagUsage occurs="53" gi="p"/>
+          <tagUsage occurs="58" gi="s"/>
+          <tagUsage occurs="319" gi="w"/>
+          <tagUsage occurs="70" gi="pc"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="main">
+        <p xml:id="IGC-Books-a_strond.1">
+          <s xml:id="IGC-Books-a_strond.1.1">
+            <w lemma="sumar" xml:id="IGC-Books-a_strond.1.1.1" pos="nhen">Sumar</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.2">
+          <s xml:id="IGC-Books-a_strond.2.1">
+            <pc xml:id="IGC-Books-a_strond.2.1.1" pos="pa">–</pc>
+            <w lemma="bless" xml:id="IGC-Books-a_strond.2.1.2" pos="au" join="right">Bless</w>
+            <pc xml:id="IGC-Books-a_strond.2.1.3" pos="pk">,</pc>
+            <w lemma="bless" xml:id="IGC-Books-a_strond.2.1.4" pos="au" join="right">bless</w>
+            <pc xml:id="IGC-Books-a_strond.2.1.5" pos="pk">,</pc>
+            <w lemma="bless" xml:id="IGC-Books-a_strond.2.1.6" pos="au" join="right">bless</w>
+            <pc xml:id="IGC-Books-a_strond.2.1.7" pos="pk">,</pc>
+            <w lemma="bless" xml:id="IGC-Books-a_strond.2.1.8" pos="au" join="right">bless</w>
+            <pc xml:id="IGC-Books-a_strond.2.1.9" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.3">
+          <s xml:id="IGC-Books-a_strond.3.1">
+            <w lemma="kalla" xml:id="IGC-Books-a_strond.3.1.1" pos="sng">kalla</w>
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.3.1.2" pos="nven-s" join="right">Hlín</w>
+            <pc xml:id="IGC-Books-a_strond.3.1.3" pos="pk">,</pc>
+            <w lemma="Bjarki" xml:id="IGC-Books-a_strond.3.1.4" pos="nken-s" join="right">Bjarki</w>
+            <pc xml:id="IGC-Books-a_strond.3.1.5" pos="pk">,</pc>
+            <w lemma="Trilla" xml:id="IGC-Books-a_strond.3.1.6" pos="nven-s">Trilla</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.3.1.7" pos="c">og</w>
+            <w lemma="Sverrir" xml:id="IGC-Books-a_strond.3.1.8" pos="nken-s" join="right">Sverrir</w>
+            <pc xml:id="IGC-Books-a_strond.3.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.4">
+          <s xml:id="IGC-Books-a_strond.4.1">
+            <w lemma="það" xml:id="IGC-Books-a_strond.4.1.1" pos="fphfn">Þau</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.4.1.2" pos="sfg3fn">eru</w>
+            <w lemma="góður" xml:id="IGC-Books-a_strond.4.1.3" pos="lkfnsf">góðir</w>
+            <w lemma="vinur" xml:id="IGC-Books-a_strond.4.1.4" pos="nkfn" join="right">vinir</w>
+            <pc xml:id="IGC-Books-a_strond.4.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.5">
+          <s xml:id="IGC-Books-a_strond.5.1">
+            <w lemma="það" xml:id="IGC-Books-a_strond.5.1.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.5.1.2" pos="sfg3en">er</w>
+            <w lemma="koma" xml:id="IGC-Books-a_strond.5.1.3" pos="sþghen">komið</w>
+            <w lemma="sumar" xml:id="IGC-Books-a_strond.5.1.4" pos="nhen" join="right">sumar</w>
+            <pc xml:id="IGC-Books-a_strond.5.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.6">
+          <s xml:id="IGC-Books-a_strond.6.1">
+            <w lemma="skóli" xml:id="IGC-Books-a_strond.6.1.1" pos="nkeng">Skólinn</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.6.1.2" pos="sfg3en">er</w>
+            <w lemma="búinn" xml:id="IGC-Books-a_strond.6.1.3" pos="lkensf">búinn</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.6.1.4" pos="c">og</w>
+            <w lemma="allur" xml:id="IGC-Books-a_strond.6.1.5" pos="fokfn">allir</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.6.1.6" pos="sfg3fn">eru</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.6.1.7" pos="cn">að</w>
+            <w lemma="fara" xml:id="IGC-Books-a_strond.6.1.8" pos="sng">fara</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.6.1.9" pos="af">í</w>
+            <w lemma="frí" xml:id="IGC-Books-a_strond.6.1.10" pos="nheo" join="right">frí</w>
+            <pc xml:id="IGC-Books-a_strond.6.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.7">
+          <s xml:id="IGC-Books-a_strond.7.1">
+            <w lemma="blár" xml:id="IGC-Books-a_strond.7.1.1" pos="lkensf">Blár</w>
+            <w lemma="himinn" xml:id="IGC-Books-a_strond.7.1.2" pos="nken">himinn</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.8">
+          <s xml:id="IGC-Books-a_strond.8.1">
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.8.1.1" pos="nven-s">Hlín</w>
+            <w lemma="fljúga" xml:id="IGC-Books-a_strond.8.1.2" pos="sfg3en">flýgur</w>
+            <w lemma="til" xml:id="IGC-Books-a_strond.8.1.3" pos="af">til</w>
+            <w lemma="Spánn" xml:id="IGC-Books-a_strond.8.1.4" pos="nkee-s">Spánar</w>
+            <w lemma="með" xml:id="IGC-Books-a_strond.8.1.5" pos="af">með</w>
+            <w lemma="pabbi" xml:id="IGC-Books-a_strond.8.1.6" pos="nkeþ" join="right">pabba</w>
+            <pc xml:id="IGC-Books-a_strond.8.1.7" pos="pk">,</pc>
+            <w lemma="mamma" xml:id="IGC-Books-a_strond.8.1.8" pos="nveþ">mömmu</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.8.1.9" pos="c">og</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.8.1.10" pos="nveþ-s" join="right">Klöru</w>
+            <pc xml:id="IGC-Books-a_strond.8.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.9">
+          <s xml:id="IGC-Books-a_strond.9.1">
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.9.1.1" pos="nven-s">Klara</w>
+            <w lemma="vilja" xml:id="IGC-Books-a_strond.9.1.2" pos="sfg3en">vill</w>
+            <w lemma="ekki" xml:id="IGC-Books-a_strond.9.1.3" pos="aa">ekki</w>
+            <w lemma="hlýða" xml:id="IGC-Books-a_strond.9.1.4" pos="sng" join="right">hlýða</w>
+            <pc xml:id="IGC-Books-a_strond.9.1.5" pos="pk">,</pc>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.9.1.6" pos="fpven">hún</w>
+            <w lemma="vilja" xml:id="IGC-Books-a_strond.9.1.7" pos="sfg3en">vill</w>
+            <w lemma="bara" xml:id="IGC-Books-a_strond.9.1.8" pos="aa">bara</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-a_strond.9.1.9" pos="sng">hlaupa</w>
+            <w lemma="um" xml:id="IGC-Books-a_strond.9.1.10" pos="aa" join="right">um</w>
+            <pc xml:id="IGC-Books-a_strond.9.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.10">
+          <s xml:id="IGC-Books-a_strond.10.1">
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.10.1.1" pos="nven-s">Klara</w>
+            <w lemma="neita" xml:id="IGC-Books-a_strond.10.1.2" pos="sfg3en">neitar</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.10.1.3" pos="cn">að</w>
+            <w lemma="hafa" xml:id="IGC-Books-a_strond.10.1.4" pos="sng">hafa</w>
+            <w lemma="bleia" xml:id="IGC-Books-a_strond.10.1.5" pos="nveo" join="right">bleiu</w>
+            <pc xml:id="IGC-Books-a_strond.10.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.11">
+          <s xml:id="IGC-Books-a_strond.11.1">
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.11.1.1" pos="nven-s">Hlín</w>
+            <w lemma="horfa" xml:id="IGC-Books-a_strond.11.1.2" pos="sfg3en">horfir</w>
+            <w lemma="á" xml:id="IGC-Books-a_strond.11.1.3" pos="af">á</w>
+            <w lemma="blár" xml:id="IGC-Books-a_strond.11.1.4" pos="lkeosf">bláan</w>
+            <w lemma="himinn" xml:id="IGC-Books-a_strond.11.1.5" pos="nkeo">himin</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.11.1.6" pos="c">og</w>
+            <w lemma="blár" xml:id="IGC-Books-a_strond.11.1.7" pos="lheosf">blátt</w>
+            <w lemma="haf" xml:id="IGC-Books-a_strond.11.1.8" pos="nheo" join="right">haf</w>
+            <pc xml:id="IGC-Books-a_strond.11.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.12">
+          <s xml:id="IGC-Books-a_strond.12.1">
+            <w lemma="hún" xml:id="IGC-Books-a_strond.12.1.1" pos="fpveþ">Henni</w>
+            <w lemma="leiða" xml:id="IGC-Books-a_strond.12.1.2" pos="sfm3fn">leiðast</w>
+            <w lemma="læti" xml:id="IGC-Books-a_strond.12.1.3" pos="nhfng">lætin</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.12.1.4" pos="af">í</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.12.1.5" pos="nveþ-s" join="right">Klöru</w>
+            <pc xml:id="IGC-Books-a_strond.12.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.13">
+          <s xml:id="IGC-Books-a_strond.13.1">
+            <w lemma="blóm" xml:id="IGC-Books-a_strond.13.1.1" pos="nhfn">Blóm</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.13.1.2" pos="c">og</w>
+            <w lemma="fluga" xml:id="IGC-Books-a_strond.13.1.3" pos="nvfn">flugur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.14">
+          <s xml:id="IGC-Books-a_strond.14.1">
+            <w lemma="það" xml:id="IGC-Books-a_strond.14.1.1" pos="fphfn">Þau</w>
+            <w lemma="búa" xml:id="IGC-Books-a_strond.14.1.2" pos="sfg3fn">búa</w>
+            <w lemma="á" xml:id="IGC-Books-a_strond.14.1.3" pos="af">á</w>
+            <w lemma="stór" xml:id="IGC-Books-a_strond.14.1.4" pos="lheþsf">stóru</w>
+            <w lemma="hótel" xml:id="IGC-Books-a_strond.14.1.5" pos="nheþ">hóteli</w>
+            <w lemma="með" xml:id="IGC-Books-a_strond.14.1.6" pos="af">með</w>
+            <w lemma="lyfta" xml:id="IGC-Books-a_strond.14.1.7" pos="nveþ">lyftu</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.14.1.8" pos="c">og</w>
+            <w lemma="átta" xml:id="IGC-Books-a_strond.14.1.9" pos="tfvfþ">átta</w>
+            <w lemma="hæð" xml:id="IGC-Books-a_strond.14.1.10" pos="nvfþ" join="right">hæðum</w>
+            <pc xml:id="IGC-Books-a_strond.14.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.15">
+          <s xml:id="IGC-Books-a_strond.15.1">
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.15.1.1" pos="nven-s">Hlín</w>
+            <w lemma="skrifa" xml:id="IGC-Books-a_strond.15.1.2" pos="sfg3en">skrifar</w>
+            <w lemma="Bjarki" xml:id="IGC-Books-a_strond.15.1.3" pos="nkeo-s" join="right">Bjarka</w>
+            <pc xml:id="IGC-Books-a_strond.15.1.4" pos="pk">,</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.16">
+          <s xml:id="IGC-Books-a_strond.16.1">
+            <w lemma="Trilla" xml:id="IGC-Books-a_strond.16.1.1" pos="nveþ-s">Trillu</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.16.1.2" pos="c">og</w>
+            <w lemma="Sverrir" xml:id="IGC-Books-a_strond.16.1.3" pos="nkeþ-s" join="right">Sverri</w>
+            <pc xml:id="IGC-Books-a_strond.16.1.4" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.17">
+          <s xml:id="IGC-Books-a_strond.17.1">
+            <w lemma="hér" xml:id="IGC-Books-a_strond.17.1.1" pos="aa">Hér</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.17.1.2" pos="sfg3en">er</w>
+            <w lemma="hlýr" xml:id="IGC-Books-a_strond.17.1.3" pos="lhensf">hlýtt</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.17.1.4" pos="c">og</w>
+            <w lemma="góður" xml:id="IGC-Books-a_strond.17.1.5" pos="lhensf" join="right">gott</w>
+            <pc xml:id="IGC-Books-a_strond.17.1.6" pos="pk">,</pc>
+            <w lemma="blóm" xml:id="IGC-Books-a_strond.17.1.7" pos="nhfn">blóm</w>
+            <w lemma="út" xml:id="IGC-Books-a_strond.17.1.8" pos="aa">út</w>
+            <w lemma="um" xml:id="IGC-Books-a_strond.17.1.9" pos="af">um</w>
+            <w lemma="allur" xml:id="IGC-Books-a_strond.17.1.10" pos="foheo">allt</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.17.1.11" pos="c">og</w>
+            <w lemma="sól" xml:id="IGC-Books-a_strond.17.1.12" pos="nveng">sólin</w>
+            <w lemma="skína" xml:id="IGC-Books-a_strond.17.1.13" pos="sfg3en" join="right">skín</w>
+            <pc xml:id="IGC-Books-a_strond.17.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.18">
+          <s xml:id="IGC-Books-a_strond.18.1">
+            <w lemma="en" xml:id="IGC-Books-a_strond.18.1.1" pos="c">En</w>
+            <w lemma="það" xml:id="IGC-Books-a_strond.18.1.2" pos="fphen">það</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.18.1.3" pos="sfg3fn">eru</w>
+            <w lemma="líka" xml:id="IGC-Books-a_strond.18.1.4" pos="aa">líka</w>
+            <w lemma="fluga" xml:id="IGC-Books-a_strond.18.1.5" pos="nvfn">flugur</w>
+            <w lemma="sem" xml:id="IGC-Books-a_strond.18.1.6" pos="ct">sem</w>
+            <w lemma="bíta" xml:id="IGC-Books-a_strond.18.1.7" pos="sfg3fn">bíta</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.18.1.8" pos="c">og</w>
+            <w lemma="þá" xml:id="IGC-Books-a_strond.18.1.9" pos="aa">þá</w>
+            <w lemma="klæja" xml:id="IGC-Books-a_strond.18.1.10" pos="sfg3en">klæjar</w>
+            <w lemma="ég" xml:id="IGC-Books-a_strond.18.1.11" pos="fp1eo" join="right">mig</w>
+            <pc xml:id="IGC-Books-a_strond.18.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.19">
+          <s xml:id="IGC-Books-a_strond.19.1">
+            <w lemma="Höllin" xml:id="IGC-Books-a_strond.19.1.1" pos="nvengs">Höllin</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.20">
+          <s xml:id="IGC-Books-a_strond.20.1">
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.20.1.1" pos="nven-s">Hlín</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.20.1.2" pos="c">og</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.20.1.3" pos="nven-s">Klara</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-a_strond.20.1.4" pos="sfg3fn">hlaupa</w>
+            <w lemma="niður" xml:id="IGC-Books-a_strond.20.1.5" pos="aa">niður</w>
+            <w lemma="á" xml:id="IGC-Books-a_strond.20.1.6" pos="af">á</w>
+            <w lemma="strönd" xml:id="IGC-Books-a_strond.20.1.7" pos="nveo" join="right">strönd</w>
+            <pc xml:id="IGC-Books-a_strond.20.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.21">
+          <s xml:id="IGC-Books-a_strond.21.1">
+            <w lemma="hún" xml:id="IGC-Books-a_strond.21.1.1" pos="fpvfn">Þær</w>
+            <w lemma="búa" xml:id="IGC-Books-a_strond.21.1.2" pos="sfg3fn">búa</w>
+            <w lemma="til" xml:id="IGC-Books-a_strond.21.1.3" pos="aa">til</w>
+            <w lemma="hús" xml:id="IGC-Books-a_strond.21.1.4" pos="nhfo">hús</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.21.1.5" pos="c">og</w>
+            <w lemma="höll" xml:id="IGC-Books-a_strond.21.1.6" pos="nvfo">hallir</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.21.1.7" pos="c">og</w>
+            <w lemma="blokk" xml:id="IGC-Books-a_strond.21.1.8" pos="nvfn">blokkir</w>
+            <w lemma="úr" xml:id="IGC-Books-a_strond.21.1.9" pos="af">úr</w>
+            <w lemma="sandur" xml:id="IGC-Books-a_strond.21.1.10" pos="nkeþ" join="right">sandi</w>
+            <pc xml:id="IGC-Books-a_strond.21.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.22">
+          <s xml:id="IGC-Books-a_strond.22.1">
+            <w lemma="hún" xml:id="IGC-Books-a_strond.22.1.1" pos="fpvfn">Þær</w>
+            <w lemma="hlæja" xml:id="IGC-Books-a_strond.22.1.2" pos="sfg3fn">hlæja</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.22.1.3" pos="c">og</w>
+            <w lemma="flissa" xml:id="IGC-Books-a_strond.22.1.4" pos="sfg3fn" join="right">flissa</w>
+            <pc xml:id="IGC-Books-a_strond.22.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.23">
+          <s xml:id="IGC-Books-a_strond.23.1">
+            <w lemma="svo" xml:id="IGC-Books-a_strond.23.1.1" pos="aa">Svo</w>
+            <w lemma="detta" xml:id="IGC-Books-a_strond.23.1.2" pos="sfg3en">dettur</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.23.1.3" pos="nven-s">Klara</w>
+            <w lemma="ofan" xml:id="IGC-Books-a_strond.23.1.4" pos="aa">ofan</w>
+            <w lemma="á" xml:id="IGC-Books-a_strond.23.1.5" pos="af">á</w>
+            <w lemma="einn" xml:id="IGC-Books-a_strond.23.1.6" pos="foveo">eina</w>
+            <w lemma="blokk" xml:id="IGC-Books-a_strond.23.1.7" pos="nveog">blokkina</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.23.1.8" pos="c">og</w>
+            <w lemma="klessa" xml:id="IGC-Books-a_strond.23.1.9" pos="sfg3en">klessir</w>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.23.1.10" pos="fpveo" join="right">hana</w>
+            <pc xml:id="IGC-Books-a_strond.23.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.24">
+          <s xml:id="IGC-Books-a_strond.24.1">
+            <w lemma="klaufi" xml:id="IGC-Books-a_strond.24.1.1" pos="nken" join="right">Klaufi</w>
+            <pc xml:id="IGC-Books-a_strond.24.1.2" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.25">
+          <s xml:id="IGC-Books-a_strond.25.1">
+            <w lemma="kalla" xml:id="IGC-Books-a_strond.25.1.1" pos="sfg3en">kallar</w>
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.25.1.2" pos="nven-s" join="right">Hlín</w>
+            <pc xml:id="IGC-Books-a_strond.25.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-a_strond.25.2">
+            <w lemma="klaufi" xml:id="IGC-Books-a_strond.25.2.1" pos="nkeng">Klaufinn</w>
+            <w lemma="þinn" xml:id="IGC-Books-a_strond.25.2.2" pos="feken" join="right">þinn</w>
+            <pc xml:id="IGC-Books-a_strond.25.2.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.26">
+          <s xml:id="IGC-Books-a_strond.26.1">
+            <w lemma="hún" xml:id="IGC-Books-a_strond.26.1.1" pos="fpven">Hún</w>
+            <w lemma="klípa" xml:id="IGC-Books-a_strond.26.1.2" pos="sfg3en">klípur</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.26.1.3" pos="nveo-s">Klöru</w>
+            <w lemma="en" xml:id="IGC-Books-a_strond.26.1.4" pos="c">en</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.26.1.5" pos="nven-s">Klara</w>
+            <w lemma="klóra" xml:id="IGC-Books-a_strond.26.1.6" pos="sfg3en">klórar</w>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.26.1.7" pos="fpveo" join="right">hana</w>
+            <pc xml:id="IGC-Books-a_strond.26.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.27">
+          <s xml:id="IGC-Books-a_strond.27.1">
+            <pc xml:id="IGC-Books-a_strond.27.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-a_strond.27.1.2" pos="fp1en">Ég</w>
+            <w lemma="nenna" xml:id="IGC-Books-a_strond.27.1.3" pos="sfg1en">nenni</w>
+            <w lemma="ekki" xml:id="IGC-Books-a_strond.27.1.4" pos="aa">ekki</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.27.1.5" pos="cn">að</w>
+            <w lemma="leika" xml:id="IGC-Books-a_strond.27.1.6" pos="sng">leika</w>
+            <w lemma="við" xml:id="IGC-Books-a_strond.27.1.7" pos="af">við</w>
+            <w lemma="þú" xml:id="IGC-Books-a_strond.27.1.8" pos="fp2eo" join="right">þig</w>
+            <pc xml:id="IGC-Books-a_strond.27.1.9" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.28">
+          <s xml:id="IGC-Books-a_strond.28.1">
+            <w lemma="segja" xml:id="IGC-Books-a_strond.28.1.1" pos="sfg3en">segir</w>
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.28.1.2" pos="nven-s">Hlín</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.28.1.3" pos="c">og</w>
+            <w lemma="leggja" xml:id="IGC-Books-a_strond.28.1.4" pos="sfg3en">leggur</w>
+            <w lemma="sig" xml:id="IGC-Books-a_strond.28.1.5" pos="fpveo">sig</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.28.1.6" pos="af">í</w>
+            <w lemma="sandur" xml:id="IGC-Books-a_strond.28.1.7" pos="nkeog" join="right">sandinn</w>
+            <pc xml:id="IGC-Books-a_strond.28.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.29">
+          <s xml:id="IGC-Books-a_strond.29.1">
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.29.1.1" pos="nven-s">Klara</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-a_strond.29.1.2" pos="sfg3en">hleypur</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.29.1.3" pos="aa">í</w>
+            <w lemma="burtu" xml:id="IGC-Books-a_strond.29.1.4" pos="aa" join="right">burtu</w>
+            <pc xml:id="IGC-Books-a_strond.29.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.30">
+          <s xml:id="IGC-Books-a_strond.30.1">
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.30.1.1" pos="nven-s">Hlín</w>
+            <w lemma="vita" xml:id="IGC-Books-a_strond.30.1.2" pos="sfg3en">veit</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.30.1.3" pos="c">að</w>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.30.1.4" pos="fpven">hún</w>
+            <w lemma="eiga" xml:id="IGC-Books-a_strond.30.1.5" pos="sfg3en">á</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.30.1.6" pos="cn">að</w>
+            <w lemma="passa" xml:id="IGC-Books-a_strond.30.1.7" pos="sng">passa</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.30.1.8" pos="nveo-s" join="right">Klöru</w>
+            <pc xml:id="IGC-Books-a_strond.30.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.31">
+          <s xml:id="IGC-Books-a_strond.31.1">
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.31.1.1" pos="nveþ-s">Hlín</w>
+            <w lemma="líða" xml:id="IGC-Books-a_strond.31.1.2" pos="sfg3en">líður</w>
+            <w lemma="ekki" xml:id="IGC-Books-a_strond.31.1.3" pos="aa">ekki</w>
+            <w lemma="vel" xml:id="IGC-Books-a_strond.31.1.4" pos="aa" join="right">vel</w>
+            <pc xml:id="IGC-Books-a_strond.31.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.32">
+          <s xml:id="IGC-Books-a_strond.32.1">
+            <w lemma="týnd" xml:id="IGC-Books-a_strond.32.1.1" pos="nven">Týnd</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.33">
+          <s xml:id="IGC-Books-a_strond.33.1">
+            <w lemma="pabbi" xml:id="IGC-Books-a_strond.33.1.1" pos="nken">Pabbi</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.33.1.2" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.33.1.3" pos="cn">að</w>
+            <w lemma="synda" xml:id="IGC-Books-a_strond.33.1.4" pos="sng">synda</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.33.1.5" pos="c">og</w>
+            <w lemma="mamma" xml:id="IGC-Books-a_strond.33.1.6" pos="nven">mamma</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.33.1.7" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.33.1.8" pos="cn">að</w>
+            <w lemma="lesa" xml:id="IGC-Books-a_strond.33.1.9" pos="sng">lesa</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.33.1.10" pos="af">í</w>
+            <w lemma="bók" xml:id="IGC-Books-a_strond.33.1.11" pos="nveþ" join="right">bók</w>
+            <pc xml:id="IGC-Books-a_strond.33.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.34">
+          <s xml:id="IGC-Books-a_strond.34.1">
+            <pc xml:id="IGC-Books-a_strond.34.1.1" pos="pa">–</pc>
+            <w lemma="hvar" xml:id="IGC-Books-a_strond.34.1.2" pos="aa">Hvar</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.34.1.3" pos="sfg3en">er</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.34.1.4" pos="nven-s" join="right">Klara</w>
+            <pc xml:id="IGC-Books-a_strond.34.1.5" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.35">
+          <s xml:id="IGC-Books-a_strond.35.1">
+            <w lemma="kalla" xml:id="IGC-Books-a_strond.35.1.1" pos="sfg3en">kallar</w>
+            <w lemma="mamma" xml:id="IGC-Books-a_strond.35.1.2" pos="nven">mamma</w>
+            <w lemma="allur" xml:id="IGC-Books-a_strond.35.1.3" pos="fohen">allt</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.35.1.4" pos="af">í</w>
+            <w lemma="einn" xml:id="IGC-Books-a_strond.35.1.5" pos="lheþsf" join="right">einu</w>
+            <pc xml:id="IGC-Books-a_strond.35.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.36">
+          <s xml:id="IGC-Books-a_strond.36.1">
+            <pc xml:id="IGC-Books-a_strond.36.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-a_strond.36.1.2" pos="fp1en">Ég</w>
+            <w lemma="vita" xml:id="IGC-Books-a_strond.36.1.3" pos="sfg1en">veit</w>
+            <w lemma="það" xml:id="IGC-Books-a_strond.36.1.4" pos="fpheo">það</w>
+            <w lemma="ekki" xml:id="IGC-Books-a_strond.36.1.5" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-a_strond.36.1.6" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-a_strond.36.1.7" pos="sfg3en">segir</w>
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.36.1.8" pos="nven-s" join="right">Hlín</w>
+            <pc xml:id="IGC-Books-a_strond.36.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.37">
+          <s xml:id="IGC-Books-a_strond.37.1">
+            <w lemma="mamma" xml:id="IGC-Books-a_strond.37.1.1" pos="nven">Mamma</w>
+            <w lemma="stökkva" xml:id="IGC-Books-a_strond.37.1.2" pos="sfg3en">stekkur</w>
+            <w lemma="upp" xml:id="IGC-Books-a_strond.37.1.3" pos="aa" join="right">upp</w>
+            <pc xml:id="IGC-Books-a_strond.37.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.38">
+          <s xml:id="IGC-Books-a_strond.38.1">
+            <w lemma="hún" xml:id="IGC-Books-a_strond.38.1.1" pos="fpven">Hún</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-a_strond.38.1.2" pos="sfg3en">hleypur</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.38.1.3" pos="aa">í</w>
+            <w lemma="austur" xml:id="IGC-Books-a_strond.38.1.4" pos="nheo" join="right">austur</w>
+            <pc xml:id="IGC-Books-a_strond.38.1.5" pos="pk">,</pc>
+            <w lemma="pabbi" xml:id="IGC-Books-a_strond.38.1.6" pos="nken">pabbi</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-a_strond.38.1.7" pos="sfg3en">hleypur</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.38.1.8" pos="af">í</w>
+            <w lemma="vestur" xml:id="IGC-Books-a_strond.38.1.9" pos="nheo" join="right">vestur</w>
+            <pc xml:id="IGC-Books-a_strond.38.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.39">
+          <s xml:id="IGC-Books-a_strond.39.1">
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.39.1.1" pos="nven-s" join="right">Klara</w>
+            <pc xml:id="IGC-Books-a_strond.39.1.2" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-a_strond.39.2">
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.39.2.1" pos="nven-s" join="right">Klara</w>
+            <pc xml:id="IGC-Books-a_strond.39.2.2" pos="pl">!</pc>
+          </s>
+          <s xml:id="IGC-Books-a_strond.39.3">
+            <pc xml:id="IGC-Books-a_strond.39.3.1" pos="pa">–</pc>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.39.3.2" pos="nven-s" join="right">Klara</w>
+            <pc xml:id="IGC-Books-a_strond.39.3.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.40">
+          <s xml:id="IGC-Books-a_strond.40.1">
+            <w lemma="heyra" xml:id="IGC-Books-a_strond.40.1.1" pos="sfm3en">heyrist</w>
+            <w lemma="um" xml:id="IGC-Books-a_strond.40.1.2" pos="af">um</w>
+            <w lemma="allur" xml:id="IGC-Books-a_strond.40.1.3" pos="foveo">alla</w>
+            <w lemma="strönd" xml:id="IGC-Books-a_strond.40.1.4" pos="nveo" join="right">strönd</w>
+            <pc xml:id="IGC-Books-a_strond.40.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.41">
+          <s xml:id="IGC-Books-a_strond.41.1">
+            <w lemma="leit" xml:id="IGC-Books-a_strond.41.1.1" pos="nveng">Leitin</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.42">
+          <s xml:id="IGC-Books-a_strond.42.1">
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.42.1.1" pos="nven-s">Hlín</w>
+            <w lemma="reyna" xml:id="IGC-Books-a_strond.42.1.2" pos="sfg3en">reynir</w>
+            <w lemma="líka" xml:id="IGC-Books-a_strond.42.1.3" pos="aa">líka</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.42.1.4" pos="cn">að</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-a_strond.42.1.5" pos="sng">hlaupa</w>
+            <w lemma="en" xml:id="IGC-Books-a_strond.42.1.6" pos="c">en</w>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.42.1.7" pos="fpven">hún</w>
+            <w lemma="geta" xml:id="IGC-Books-a_strond.42.1.8" pos="sfg3en">getur</w>
+            <w lemma="það" xml:id="IGC-Books-a_strond.42.1.9" pos="fpheo">það</w>
+            <w lemma="ekki" xml:id="IGC-Books-a_strond.42.1.10" pos="aa" join="right">ekki</w>
+            <pc xml:id="IGC-Books-a_strond.42.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.43">
+          <s xml:id="IGC-Books-a_strond.43.1">
+            <w lemma="hún" xml:id="IGC-Books-a_strond.43.1.1" pos="fpveþ">Henni</w>
+            <w lemma="finna" xml:id="IGC-Books-a_strond.43.1.2" pos="sfm3en">finnst</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.43.1.3" pos="sng">vera</w>
+            <w lemma="steinn" xml:id="IGC-Books-a_strond.43.1.4" pos="nken">steinn</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.43.1.5" pos="af">í</w>
+            <w lemma="magi" xml:id="IGC-Books-a_strond.43.1.6" pos="nkeþg">maganum</w>
+            <w lemma="á" xml:id="IGC-Books-a_strond.43.1.7" pos="af">á</w>
+            <w lemma="sig" xml:id="IGC-Books-a_strond.43.1.8" pos="fpveþ" join="right">sér</w>
+            <pc xml:id="IGC-Books-a_strond.43.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.44">
+          <s xml:id="IGC-Books-a_strond.44.1">
+            <w lemma="ég" xml:id="IGC-Books-a_strond.44.1.1" pos="fp1en">Ég</w>
+            <w lemma="skulu" xml:id="IGC-Books-a_strond.44.1.2" pos="sfg1en">skal</w>
+            <w lemma="alltaf" xml:id="IGC-Books-a_strond.44.1.3" pos="aa">alltaf</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.44.1.4" pos="sng">vera</w>
+            <w lemma="góður" xml:id="IGC-Books-a_strond.44.1.5" pos="lvensf">góð</w>
+            <w lemma="við" xml:id="IGC-Books-a_strond.44.1.6" pos="af">við</w>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.44.1.7" pos="nveo-s">Klöru</w>
+            <w lemma="bara" xml:id="IGC-Books-a_strond.44.1.8" pos="aa">bara</w>
+            <w lemma="ef" xml:id="IGC-Books-a_strond.44.1.9" pos="c">ef</w>
+            <w lemma="ég" xml:id="IGC-Books-a_strond.44.1.10" pos="fp1en">ég</w>
+            <w lemma="finna" xml:id="IGC-Books-a_strond.44.1.11" pos="sfg1en">finn</w>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.44.1.12" pos="fpveo">hana</w>
+            <w lemma="núna" xml:id="IGC-Books-a_strond.44.1.13" pos="aa" join="right">núna</w>
+            <pc xml:id="IGC-Books-a_strond.44.1.14" pos="pk">,</pc>
+            <w lemma="hugsa" xml:id="IGC-Books-a_strond.44.1.15" pos="sfg3en">hugsar</w>
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.44.1.16" pos="nven-s" join="right">Hlín</w>
+            <pc xml:id="IGC-Books-a_strond.44.1.17" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.45">
+          <s xml:id="IGC-Books-a_strond.45.1">
+            <w lemma="þá" xml:id="IGC-Books-a_strond.45.1.1" pos="aa">Þá</w>
+            <w lemma="sjá" xml:id="IGC-Books-a_strond.45.1.2" pos="sfg3en">sér</w>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.45.1.3" pos="fpven">hún</w>
+            <w lemma="glitta" xml:id="IGC-Books-a_strond.45.1.4" pos="sng">glitta</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.45.1.5" pos="af">í</w>
+            <w lemma="stelpa" xml:id="IGC-Books-a_strond.45.1.6" pos="nveo">stelpu</w>
+            <w lemma="sem" xml:id="IGC-Books-a_strond.45.1.7" pos="ct">sem</w>
+            <w lemma="sitja" xml:id="IGC-Books-a_strond.45.1.8" pos="sfg3en">situr</w>
+            <w lemma="aleinn" xml:id="IGC-Books-a_strond.45.1.9" pos="lvensf">alein</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.45.1.10" pos="c">og</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.45.1.11" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.45.1.12" pos="cn">að</w>
+            <w lemma="skæla" xml:id="IGC-Books-a_strond.45.1.13" pos="sng" join="right">skæla</w>
+            <pc xml:id="IGC-Books-a_strond.45.1.14" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.46">
+          <s xml:id="IGC-Books-a_strond.46.1">
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.46.1.1" pos="nven-s">Klara</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.47">
+          <s xml:id="IGC-Books-a_strond.47.1">
+            <w lemma="nú" xml:id="IGC-Books-a_strond.47.1.1" pos="aa">Nú</w>
+            <w lemma="geta" xml:id="IGC-Books-a_strond.47.1.2" pos="sfg3en">getur</w>
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.47.1.3" pos="nven-s">Hlín</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-a_strond.47.1.4" pos="sþghen" join="right">hlaupið</w>
+            <pc xml:id="IGC-Books-a_strond.47.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.48">
+          <s xml:id="IGC-Books-a_strond.48.1">
+            <w lemma="kalla" xml:id="IGC-Books-a_strond.48.1.1" pos="sfg3en">kallar</w>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.48.1.2" pos="fpven">hún</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.48.1.3" pos="c">og</w>
+            <w lemma="faðma" xml:id="IGC-Books-a_strond.48.1.4" pos="sfg3en">faðmar</w>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.48.1.5" pos="fpveo">hana</w>
+            <w lemma="að" xml:id="IGC-Books-a_strond.48.1.6" pos="af">að</w>
+            <w lemma="sig" xml:id="IGC-Books-a_strond.48.1.7" pos="fpveþ" join="right">sér</w>
+            <pc xml:id="IGC-Books-a_strond.48.1.8" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-a_strond.48.2">
+            <pc xml:id="IGC-Books-a_strond.48.2.1" pos="pa">–</pc>
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.48.2.2" pos="nven-s" join="right">Klara</w>
+            <pc xml:id="IGC-Books-a_strond.48.2.3" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.49">
+          <s xml:id="IGC-Books-a_strond.49.1">
+            <w lemma="hún" xml:id="IGC-Books-a_strond.49.1.1" pos="fpvfn">Þær</w>
+            <w lemma="skæla" xml:id="IGC-Books-a_strond.49.1.2" pos="sfg3fn">skæla</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.49.1.3" pos="c">og</w>
+            <w lemma="hlæja" xml:id="IGC-Books-a_strond.49.1.4" pos="sfg3fn">hlæja</w>
+            <w lemma="í" xml:id="IGC-Books-a_strond.49.1.5" pos="aa">í</w>
+            <w lemma="senn" xml:id="IGC-Books-a_strond.49.1.6" pos="aa" join="right">senn</w>
+            <pc xml:id="IGC-Books-a_strond.49.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.50">
+          <s xml:id="IGC-Books-a_strond.50.1">
+            <w lemma="segja" xml:id="IGC-Books-a_strond.50.1.1" pos="sfg3en">segir</w>
+            <w lemma="Hlín" xml:id="IGC-Books-a_strond.50.1.2" pos="nven-s" join="right">Hlín</w>
+            <pc xml:id="IGC-Books-a_strond.50.1.3" pos="pl">.</pc>
+          </s>
+          <s xml:id="IGC-Books-a_strond.50.2">
+            <pc xml:id="IGC-Books-a_strond.50.2.1" pos="pa">–</pc>
+            <w lemma="lítill" xml:id="IGC-Books-a_strond.50.2.2" pos="lhenvf">Litla</w>
+            <w lemma="flón" xml:id="IGC-Books-a_strond.50.2.3" pos="nheng">flónið</w>
+            <w lemma="þinn" xml:id="IGC-Books-a_strond.50.2.4" pos="fehen" join="right">þitt</w>
+            <pc xml:id="IGC-Books-a_strond.50.2.5" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.51">
+          <s xml:id="IGC-Books-a_strond.51.1">
+            <w lemma="Klara" xml:id="IGC-Books-a_strond.51.1.1" pos="nven-s">Klara</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.51.1.2" pos="sfg3en">er</w>
+            <w lemma="blautur" xml:id="IGC-Books-a_strond.51.1.3" pos="lvensf" join="right">blaut</w>
+            <pc xml:id="IGC-Books-a_strond.51.1.4" pos="pk">,</pc>
+            <w lemma="hún" xml:id="IGC-Books-a_strond.51.1.5" pos="fpven">hún</w>
+            <w lemma="hafa" xml:id="IGC-Books-a_strond.51.1.6" pos="sfg3en">hefur</w>
+            <w lemma="detta" xml:id="IGC-Books-a_strond.51.1.7" pos="sþghen" join="right">dottið</w>
+            <pc xml:id="IGC-Books-a_strond.51.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.52">
+          <s xml:id="IGC-Books-a_strond.52.1">
+            <w lemma="það" xml:id="IGC-Books-a_strond.52.1.1" pos="fphen">Það</w>
+            <w lemma="blæða" xml:id="IGC-Books-a_strond.52.1.2" pos="sfg3en">blæðir</w>
+            <w lemma="úr" xml:id="IGC-Books-a_strond.52.1.3" pos="af">úr</w>
+            <w lemma="stór" xml:id="IGC-Books-a_strond.52.1.4" pos="lveþvf">stóru</w>
+            <w lemma="tá" xml:id="IGC-Books-a_strond.52.1.5" pos="nveþg" join="right">tánni</w>
+            <pc xml:id="IGC-Books-a_strond.52.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-a_strond.53">
+          <s xml:id="IGC-Books-a_strond.53.1">
+            <w lemma="pabbi" xml:id="IGC-Books-a_strond.53.1.1" pos="nken">Pabbi</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.53.1.2" pos="c">og</w>
+            <w lemma="mamma" xml:id="IGC-Books-a_strond.53.1.3" pos="nven">mamma</w>
+            <w lemma="eiga" xml:id="IGC-Books-a_strond.53.1.4" pos="sfg3fn">eiga</w>
+            <w lemma="plástur" xml:id="IGC-Books-a_strond.53.1.5" pos="nkeo">plástur</w>
+            <w lemma="og" xml:id="IGC-Books-a_strond.53.1.6" pos="c">og</w>
+            <w lemma="nú" xml:id="IGC-Books-a_strond.53.1.7" pos="aa">nú</w>
+            <w lemma="vera" xml:id="IGC-Books-a_strond.53.1.8" pos="sfg3fn">eru</w>
+            <w lemma="allur" xml:id="IGC-Books-a_strond.53.1.9" pos="fokfn">allir</w>
+            <w lemma="glaður" xml:id="IGC-Books-a_strond.53.1.10" pos="lkfnsf" join="right">glaðir</w>
+            <pc xml:id="IGC-Books-a_strond.53.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

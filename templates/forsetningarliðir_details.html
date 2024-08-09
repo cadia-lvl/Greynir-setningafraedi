@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ preposition }}</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+    <script src="{{ url_for('static', filename='scripts/script.js') }}" defer></script>
+    <script>
+        function sendGuess_forsetningarliðir(type, guess) {
+        fetch(`/guess_preposition?word=${encodeURIComponent('{{ analysis.word }}')}&sentence=${encodeURIComponent('{{ sentence }}')}&type=${type}&guess=${guess}`)
+            .then(response => response.json())
+            .then(data => {
+                const button = document.getElementById(`${type}-${guess}`);
+                const feedback = document.getElementById(`feedback-${type}`);
+                if (data.correct) {
+                    button.classList.add('correct');
+                    document.getElementById(`feedback-${type}`).innerText = 'Rétt!';
+                } else {
+                    button.classList.add('wrong');
+                    setTimeout(() => button.classList.remove('wrong'), 500);
+                    document.getElementById(`feedback-${type}`).innerText = 'Rangt!';
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const fullWord = '{{ analysis.word }}';
+            const firstWord = fullWord.split(' ')[0];
+            document.getElementById('analysis-word-part').innerText = firstWord;
+        });
+    </script>
+
+</head>
+<body>
+    <div class="forsetningarliðir">
+        <div class="container overlay-container">
+            <div class="back-one-step-button" onclick="goBack()"></div>
+            <h1 style="color: #d223a1;">{{ analysis.word }}</h1>
+            <div class="content">
+                <p class="sentence">{{ sentence }}</p>
+                <p class="sentence" style="color: #d223a1;"> Hvaða falls stjórnar forsetningin "<span id="analysis-word-part"></span>"?</p>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="case-nf" onclick="sendGuess_forsetningarliðir('case', 'nf')">Nefnifall</button>
+                            <button class="guess-button" id="case-þf" onclick="sendGuess_forsetningarliðir('case', 'þf')">Þolfall</button>
+                            <button class="guess-button" id="case-þgf" onclick="sendGuess_forsetningarliðir('case', 'þgf')">Þágufall</button>
+                            <button class="guess-button" id="case-ef" onclick="sendGuess_forsetningarliðir('case', 'ef')">Eignarfall</button>
+                        </div>
+                        <p id="feedback-case" class="feedback"></p>
+                    </div>
+                </div>
+                <form action="/forsetningarliðir">
+                    <button type="submit" class="button custom-button">Næsta setning &#x21bb;</button>
+                </form>
+                <form action="/index">
+                    <button type="submit" class="button custom-button">Til baka á upphafssíðu &#x2190;</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

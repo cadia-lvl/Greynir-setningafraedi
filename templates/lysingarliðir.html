@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lýsingarliðir</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+    <style>
+        .hoverable-word {
+            cursor: pointer;
+            color: #4CAF50;;
+            text-decoration: underline;
+        }
+        .hoverable-word:hover {
+            color: #137b17;
+        }
+    </style>
+    <script>
+        function displayMessageIfUnderlinedWords() {
+            const underlinedWords = document.querySelectorAll('.hoverable-word');
+            if (underlinedWords.length > 0) {
+                const message = document.createElement('p');
+                message.textContent = "Smelltu á undirstrikaða liðinn til að greina beygingarleg einkenni hans";
+                message.style.color = "black";
+                document.querySelector('.content').appendChild(message);
+
+                const overlay = document.querySelector('.overlay');
+                if (overlay) {
+                    const overlayMessage = document.createElement('p');
+                    overlayMessage.textContent = "Smelltu á undirstrikaða liðinn til að greina beygingarleg einkenni hans";
+                    overlayMessage.style.color = "black";
+                    overlay.appendChild(overlayMessage);
+                }
+            }
+        }
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <div class="container overlay-container">
+        <div class="back-one-step-button" onclick="goBack()"></div>
+        <h1 style="color: #4CAF50;">Lýsingarliðir</h1>
+        <div class="content">
+            <p>Í lýsingarlið er aðalorðið lýsingarorð en þau geta einnig tekið með sér áhersluatviksorð og þá tilheyrir atviksorðið lýsingarliðnum. Finndu lýsingarliðina í eftirfarandi setningu: </p>
+            <p class = "sentence"> {{ sentence }}</p>
+            <form method="post" action="/lysingarliðir">
+                <input type="hidden" name="sentence" value="{{ sentence }}">
+                <label for="a_phrases">(Aðskildu lýsingarliðina með kommu ef þeir eru fleiri en einn. Ýttu á Enter ef setningin inniheldur engan nafnlið)</label>
+                <input type="text" id="a_phrases" name="a_phrases"><br><br>
+                <button type="submit" class="submit-button" style="background-color: #4CAF50;">Senda svar</button>
+            </form>
+            {% if result %}
+                <p class="result">{{ result|safe }}</p>
+                <script>
+                    displayMessageIfUnderlinedWords();
+                </script>
+            {% endif %}
+        </div>
+        <div class="button-container">
+            <form action="/lysingarliðir">
+                <button type="submit" class="button sagnliðir" style="background-color: #4CAF50;">Næsta Setning &#x21bb; </button>
+            </form>
+            <form action="/index">
+                <button type="submit" class="button back-button" style="background-color: #4CAF50;">Til baka á upphafssíðu &#x2190; </button>
+            </form>
+        </div>
+
+        {% if correct %}
+        <div class="overlay" id="result-overlay" style="color:black">
+            <div class="back-one-step-button" onclick="goBack()"></div>
+            <p class="overlay-result">{{ result|safe }}</p>
+            <form action="/lysingarliðir">
+                <button type="submit" class="button sagnliðir" style="background-color: #4CAF50;"> Næsta setning &#x21bb;</button>
+            </form>
+            <form action="/index">
+                <button type="submit" class="button back-button" style="background-color: #4CAF50;">Til baka á upphafssíðu &#x2190;</button>
+            </form>
+        </div>
+        <script>
+            document.getElementById('result-overlay').style.display = 'flex';
+            displayMessageIfUnderlinedWords();
+        </script>
+        {% endif %}
+    </div>
+</body>
+</html>

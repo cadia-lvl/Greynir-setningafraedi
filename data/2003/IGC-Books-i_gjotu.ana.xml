@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="IGC-Books-i_gjotu.ana">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="is">Íslenska risamálheildin - útgefnar bækur [IGC-Books.ana]</title>
+        <title type="main" xml:lang="en">The Icelandic Gigaword Corpus - published books [IGC-Books.ana]</title>
+        <title type="sub" xml:lang="is">Í gjótu – Smábók</title>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Hildur Hafsteinsdóttir</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Finnur Ingimundarson</persName>
+          <resp xml:lang="is">Úrvinnsla texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Steinþór Steingrímsson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta.</resp>
+          <resp xml:lang="en">Collection and processing of texts.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Árni Davíð Magnússon</persName>
+          <resp xml:lang="is">Söfnun texta.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Málfræðimörkun</resp>
+          <resp xml:lang="en">Linguistic annotation</resp>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words" quantity="298" xml:lang="en">298 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">Árni Magnússon Institute for Icelandic Studies</orgName>
+          <ref target="https://www.arnastofnun.is/">www.arnastofnun.is</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/20.500.12537/250</idno>
+        <availability status="restricted">
+          <licence>https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://repository.clarin.is/licenses/userlicense_igc_restricted_download_en.pdf">IGC - restricted licence</ref>.</p>
+        </availability>
+        <date when="2022-09-17">2022-09-17</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title xml:lang="is">Í gjótu – Smábók</title>
+            <author sameAs="#KristinSteinsdottir">Kristín Steinsdóttir</author>
+            <imprint>
+              <publisher>Menntamálastofnun</publisher>
+              <date when="2003">2003</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="is">Textum hefur verið skipt upp í hluta sem innhalda 500 orð eða færri og svo raðað upp á nýtt. Efnisgreinar eru ekki slitnar í sundur nema þær innihaldi meira en 500 orð. Ef texti inniheldur færri en 5000 orð þá eru setningar innan hverrar efnisgreinar einnig stokkaðar upp. Í sumum tilvikum hafa textabrot verið fjarlægð úr texta - t.d. ef ekki höfundur brots hafði ekki veitt leyfi eða ef texti var á erlendu máli.</p>
+        <p xml:lang="en">The texts have been split into parts that do not include more than 500 words and reordered in a random way. Paragraphs are not dismantled unless they contain more than 500 words. If a text contains less than 5000 words, sentences of each paragraph are also rearranged. In some instances, we have removed fragments from texts, for example, if we did not have permission from the author of that fragment or if the fragment was not in Icelandic.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="1" gi="text"/>
+          <tagUsage occurs="1" gi="body"/>
+          <tagUsage occurs="1" gi="div"/>
+          <tagUsage occurs="53" gi="p"/>
+          <tagUsage occurs="53" gi="s"/>
+          <tagUsage occurs="298" gi="w"/>
+          <tagUsage occurs="49" gi="pc"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="main">
+        <p xml:id="IGC-Books-i_gjotu.1">
+          <s xml:id="IGC-Books-i_gjotu.1.1">
+            <w lemma="póstur" xml:id="IGC-Books-i_gjotu.1.1.1" pos="nken">Póstur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.2">
+          <s xml:id="IGC-Books-i_gjotu.2.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.2.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.2.1.2" pos="sfg3en">er</w>
+            <w lemma="að" xml:id="IGC-Books-i_gjotu.2.1.3" pos="cn">að</w>
+            <w lemma="fara" xml:id="IGC-Books-i_gjotu.2.1.4" pos="sng">fara</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.2.1.5" pos="af">í</w>
+            <w lemma="frí" xml:id="IGC-Books-i_gjotu.2.1.6" pos="nheo" join="right">frí</w>
+            <pc xml:id="IGC-Books-i_gjotu.2.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.3">
+          <s xml:id="IGC-Books-i_gjotu.3.1">
+            <w lemma="þá" xml:id="IGC-Books-i_gjotu.3.1.1" pos="aa">Þá</w>
+            <w lemma="koma" xml:id="IGC-Books-i_gjotu.3.1.2" pos="sfg3en">kemur</w>
+            <w lemma="kort" xml:id="IGC-Books-i_gjotu.3.1.3" pos="nhen">kort</w>
+            <w lemma="frá" xml:id="IGC-Books-i_gjotu.3.1.4" pos="af">frá</w>
+            <w lemma="Hlín" xml:id="IGC-Books-i_gjotu.3.1.5" pos="nveþ-s" join="right">Hlín</w>
+            <pc xml:id="IGC-Books-i_gjotu.3.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.4">
+          <s xml:id="IGC-Books-i_gjotu.4.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.4.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="lesa" xml:id="IGC-Books-i_gjotu.4.1.2" pos="sfg3en" join="right">les</w>
+            <pc xml:id="IGC-Books-i_gjotu.4.1.3" pos="pa">:</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.5">
+          <s xml:id="IGC-Books-i_gjotu.5.1">
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.5.1.1" pos="af">Á</w>
+            <w lemma="mynd" xml:id="IGC-Books-i_gjotu.5.1.2" pos="nveþg">myndinni</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.5.1.3" pos="sfg3fn">eru</w>
+            <w lemma="blóm" xml:id="IGC-Books-i_gjotu.5.1.4" pos="nhfn">blóm</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.5.1.5" pos="c">og</w>
+            <w lemma="sól" xml:id="IGC-Books-i_gjotu.5.1.6" pos="nven">sól</w>
+            <w lemma="en" xml:id="IGC-Books-i_gjotu.5.1.7" pos="c">en</w>
+            <w lemma="ekki" xml:id="IGC-Books-i_gjotu.5.1.8" pos="aa">ekki</w>
+            <w lemma="fluga" xml:id="IGC-Books-i_gjotu.5.1.9" pos="nvfn" join="right">flugur</w>
+            <pc xml:id="IGC-Books-i_gjotu.5.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.6">
+          <s xml:id="IGC-Books-i_gjotu.6.1">
+            <w lemma="gjöf" xml:id="IGC-Books-i_gjotu.6.1.1" pos="nvfn">Gjafir</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.7">
+          <s xml:id="IGC-Books-i_gjotu.7.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.7.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="fljúga" xml:id="IGC-Books-i_gjotu.7.1.2" pos="sfg3en">flýgur</w>
+            <w lemma="austur" xml:id="IGC-Books-i_gjotu.7.1.3" pos="aa">austur</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.7.1.4" pos="af">á</w>
+            <w lemma="land" xml:id="IGC-Books-i_gjotu.7.1.5" pos="nheo" join="right">land</w>
+            <pc xml:id="IGC-Books-i_gjotu.7.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.8">
+          <s xml:id="IGC-Books-i_gjotu.8.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.8.1.1" pos="fpken">Hann</w>
+            <w lemma="ætla" xml:id="IGC-Books-i_gjotu.8.1.2" pos="sfg3en">ætlar</w>
+            <w lemma="að" xml:id="IGC-Books-i_gjotu.8.1.3" pos="cn">að</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.8.1.4" pos="sng">vera</w>
+            <w lemma="hjá" xml:id="IGC-Books-i_gjotu.8.1.5" pos="af">hjá</w>
+            <w lemma="afi" xml:id="IGC-Books-i_gjotu.8.1.6" pos="nkeþ">afa</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.8.1.7" pos="c">og</w>
+            <w lemma="amma" xml:id="IGC-Books-i_gjotu.8.1.8" pos="nveþ" join="right">ömmu</w>
+            <pc xml:id="IGC-Books-i_gjotu.8.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.9">
+          <s xml:id="IGC-Books-i_gjotu.9.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.9.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.9.1.2" pos="sfg3en">er</w>
+            <w lemma="með" xml:id="IGC-Books-i_gjotu.9.1.3" pos="af">með</w>
+            <w lemma="gjöf" xml:id="IGC-Books-i_gjotu.9.1.4" pos="nvfo" join="right">gjafir</w>
+            <pc xml:id="IGC-Books-i_gjotu.9.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.10">
+          <s xml:id="IGC-Books-i_gjotu.10.1">
+            <w lemma="amma" xml:id="IGC-Books-i_gjotu.10.1.1" pos="nven">Amma</w>
+            <w lemma="hjúkra" xml:id="IGC-Books-i_gjotu.10.1.2" pos="sfg3en">hjúkrar</w>
+            <w lemma="fólk" xml:id="IGC-Books-i_gjotu.10.1.3" pos="nheþ">fólki</w>
+            <w lemma="en" xml:id="IGC-Books-i_gjotu.10.1.4" pos="c">en</w>
+            <w lemma="afi" xml:id="IGC-Books-i_gjotu.10.1.5" pos="nken">afi</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.10.1.6" pos="sfg3en">er</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.10.1.7" pos="af">á</w>
+            <w lemma="sjór" xml:id="IGC-Books-i_gjotu.10.1.8" pos="nkeþ" join="right">sjó</w>
+            <pc xml:id="IGC-Books-i_gjotu.10.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.11">
+          <s xml:id="IGC-Books-i_gjotu.11.1">
+            <w lemma="afi" xml:id="IGC-Books-i_gjotu.11.1.1" pos="nken">Afi</w>
+            <w lemma="bjástra" xml:id="IGC-Books-i_gjotu.11.1.2" pos="sfg3en">bjástrar</w>
+            <w lemma="við" xml:id="IGC-Books-i_gjotu.11.1.3" pos="af">við</w>
+            <w lemma="bátur" xml:id="IGC-Books-i_gjotu.11.1.4" pos="nkeog" join="right">bátinn</w>
+            <pc xml:id="IGC-Books-i_gjotu.11.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.12">
+          <s xml:id="IGC-Books-i_gjotu.12.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.12.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.12.1.2" pos="sfg3en">er</w>
+            <w lemma="oft" xml:id="IGC-Books-i_gjotu.12.1.3" pos="aa">oft</w>
+            <w lemma="með" xml:id="IGC-Books-i_gjotu.12.1.4" pos="af">með</w>
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.12.1.5" pos="fpkeþ" join="right">honum</w>
+            <pc xml:id="IGC-Books-i_gjotu.12.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.13">
+          <s xml:id="IGC-Books-i_gjotu.13.1">
+            <w lemma="vinur" xml:id="IGC-Books-i_gjotu.13.1.1" pos="nkfn">Vinir</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.14">
+          <s xml:id="IGC-Books-i_gjotu.14.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.14.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.14.1.2" pos="af">á</w>
+            <w lemma="hjól" xml:id="IGC-Books-i_gjotu.14.1.3" pos="nheo">hjól</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.14.1.4" pos="c">og</w>
+            <w lemma="hjálmur" xml:id="IGC-Books-i_gjotu.14.1.5" pos="nkeo">hjálm</w>
+            <w lemma="sem" xml:id="IGC-Books-i_gjotu.14.1.6" pos="ct">sem</w>
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.14.1.7" pos="fpken">hann</w>
+            <w lemma="geyma" xml:id="IGC-Books-i_gjotu.14.1.8" pos="sfg3en">geymir</w>
+            <w lemma="hjá" xml:id="IGC-Books-i_gjotu.14.1.9" pos="af">hjá</w>
+            <w lemma="Fjölnir" xml:id="IGC-Books-i_gjotu.14.1.10" pos="nkeþ-s" join="right">Fjölni</w>
+            <pc xml:id="IGC-Books-i_gjotu.14.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.15">
+          <s xml:id="IGC-Books-i_gjotu.15.1">
+            <w lemma="Fjölnir" xml:id="IGC-Books-i_gjotu.15.1.1" pos="nken-s">Fjölnir</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.15.1.2" pos="c">og</w>
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.15.1.3" pos="nken-s">Bjarki</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.15.1.4" pos="sfg3fn">eru</w>
+            <w lemma="vinur" xml:id="IGC-Books-i_gjotu.15.1.5" pos="nkfn">vinir</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.15.1.6" pos="c">og</w>
+            <w lemma="leika" xml:id="IGC-Books-i_gjotu.15.1.7" pos="sfg3fn">leika</w>
+            <w lemma="sig" xml:id="IGC-Books-i_gjotu.15.1.8" pos="fpkfþ">sér</w>
+            <w lemma="saman" xml:id="IGC-Books-i_gjotu.15.1.9" pos="aa">saman</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.15.1.10" pos="af">á</w>
+            <w lemma="sumar" xml:id="IGC-Books-i_gjotu.15.1.11" pos="nhfog" join="right">sumrin</w>
+            <pc xml:id="IGC-Books-i_gjotu.15.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.16">
+          <s xml:id="IGC-Books-i_gjotu.16.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.16.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.16.1.2" pos="c">og</w>
+            <w lemma="Fjölnir" xml:id="IGC-Books-i_gjotu.16.1.3" pos="nken-s">Fjölnir</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.16.1.4" pos="sfg3fn">eru</w>
+            <w lemma="oft" xml:id="IGC-Books-i_gjotu.16.1.5" pos="aa">oft</w>
+            <w lemma="uppi" xml:id="IGC-Books-i_gjotu.16.1.6" pos="aa">uppi</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.16.1.7" pos="af">í</w>
+            <w lemma="fjall" xml:id="IGC-Books-i_gjotu.16.1.8" pos="nheþ" join="right">fjalli</w>
+            <pc xml:id="IGC-Books-i_gjotu.16.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.17">
+          <s xml:id="IGC-Books-i_gjotu.17.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.17.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="mega" xml:id="IGC-Books-i_gjotu.17.1.2" pos="sfg3fn">mega</w>
+            <w lemma="samt" xml:id="IGC-Books-i_gjotu.17.1.3" pos="aa">samt</w>
+            <w lemma="ekki" xml:id="IGC-Books-i_gjotu.17.1.4" pos="aa">ekki</w>
+            <w lemma="klifra" xml:id="IGC-Books-i_gjotu.17.1.5" pos="sng">klifra</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.17.1.6" pos="c">og</w>
+            <w lemma="ekki" xml:id="IGC-Books-i_gjotu.17.1.7" pos="aa">ekki</w>
+            <w lemma="fara" xml:id="IGC-Books-i_gjotu.17.1.8" pos="sng">fara</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.17.1.9" pos="af">í</w>
+            <w lemma="gljúfur" xml:id="IGC-Books-i_gjotu.17.1.10" pos="nheog" join="right">gljúfrið</w>
+            <pc xml:id="IGC-Books-i_gjotu.17.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.18">
+          <s xml:id="IGC-Books-i_gjotu.18.1">
+            <w lemma="vísindamaður" xml:id="IGC-Books-i_gjotu.18.1.1" pos="nkfn">Vísindamenn</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.19">
+          <s xml:id="IGC-Books-i_gjotu.19.1">
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.19.1.1" pos="af">Í</w>
+            <w lemma="dagur" xml:id="IGC-Books-i_gjotu.19.1.2" pos="nkeo">dag</w>
+            <w lemma="ætla" xml:id="IGC-Books-i_gjotu.19.1.3" pos="sfg3fn">ætla</w>
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.19.1.4" pos="fpkfn">þeir</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.19.1.5" pos="af">í</w>
+            <w lemma="leiðangur" xml:id="IGC-Books-i_gjotu.19.1.6" pos="nkeo" join="right">leiðangur</w>
+            <pc xml:id="IGC-Books-i_gjotu.19.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.20">
+          <s xml:id="IGC-Books-i_gjotu.20.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.20.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.20.1.2" pos="sfg3fn">eru</w>
+            <w lemma="mjög" xml:id="IGC-Books-i_gjotu.20.1.3" pos="aa">mjög</w>
+            <w lemma="glaður" xml:id="IGC-Books-i_gjotu.20.1.4" pos="lkfnsf" join="right">glaðir</w>
+            <pc xml:id="IGC-Books-i_gjotu.20.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.21">
+          <s xml:id="IGC-Books-i_gjotu.21.1">
+            <w lemma="Fjölnir" xml:id="IGC-Books-i_gjotu.21.1.1" pos="nken-s">Fjölnir</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.21.1.2" pos="sfg3en">er</w>
+            <w lemma="með" xml:id="IGC-Books-i_gjotu.21.1.3" pos="af">með</w>
+            <w lemma="kjúklingur" xml:id="IGC-Books-i_gjotu.21.1.4" pos="nkeo">kjúkling</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.21.1.5" pos="c">og</w>
+            <w lemma="kókómjólk" xml:id="IGC-Books-i_gjotu.21.1.6" pos="nveo">kókómjólk</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.21.1.7" pos="af">í</w>
+            <w lemma="poki" xml:id="IGC-Books-i_gjotu.21.1.8" pos="nkeþ" join="right">poka</w>
+            <pc xml:id="IGC-Books-i_gjotu.21.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.22">
+          <s xml:id="IGC-Books-i_gjotu.22.1">
+            <pc xml:id="IGC-Books-i_gjotu.22.1.1" pos="pa">–</pc>
+            <w lemma="ég" xml:id="IGC-Books-i_gjotu.22.1.2" pos="fp1fn">Við</w>
+            <w lemma="hljóta" xml:id="IGC-Books-i_gjotu.22.1.3" pos="sfg1fn">hljótum</w>
+            <w lemma="að" xml:id="IGC-Books-i_gjotu.22.1.4" pos="cn">að</w>
+            <w lemma="finna" xml:id="IGC-Books-i_gjotu.22.1.5" pos="sng">finna</w>
+            <w lemma="margur" xml:id="IGC-Books-i_gjotu.22.1.6" pos="lhfosf">mörg</w>
+            <w lemma="sjaldgæfur" xml:id="IGC-Books-i_gjotu.22.1.7" pos="lhfosf">sjaldgæf</w>
+            <w lemma="blóm" xml:id="IGC-Books-i_gjotu.22.1.8" pos="nhfo" join="right">blóm</w>
+            <pc xml:id="IGC-Books-i_gjotu.22.1.9" pos="pk">,</pc>
+            <w lemma="segja" xml:id="IGC-Books-i_gjotu.22.1.10" pos="sfg3en">segir</w>
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.22.1.11" pos="nken-s" join="right">Bjarki</w>
+            <pc xml:id="IGC-Books-i_gjotu.22.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.23">
+          <s xml:id="IGC-Books-i_gjotu.23.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.23.1.1" pos="fpken">Hann</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.23.1.2" pos="sfg3en">er</w>
+            <w lemma="með" xml:id="IGC-Books-i_gjotu.23.1.3" pos="af">með</w>
+            <w lemma="blómabók" xml:id="IGC-Books-i_gjotu.23.1.4" pos="nveo">blómabók</w>
+            <w lemma="sem" xml:id="IGC-Books-i_gjotu.23.1.5" pos="ct">sem</w>
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.23.1.6" pos="fpken">hann</w>
+            <w lemma="fá" xml:id="IGC-Books-i_gjotu.23.1.7" pos="sfg3eþ">fékk</w>
+            <w lemma="hjá" xml:id="IGC-Books-i_gjotu.23.1.8" pos="af">hjá</w>
+            <w lemma="amma" xml:id="IGC-Books-i_gjotu.23.1.9" pos="nveþ" join="right">ömmu</w>
+            <pc xml:id="IGC-Books-i_gjotu.23.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.24">
+          <s xml:id="IGC-Books-i_gjotu.24.1">
+            <w lemma="fjall" xml:id="IGC-Books-i_gjotu.24.1.1" pos="nheng">Fjallið</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.25">
+          <s xml:id="IGC-Books-i_gjotu.25.1">
+            <pc xml:id="IGC-Books-i_gjotu.25.1.1" pos="pa">–</pc>
+            <w lemma="kannski" xml:id="IGC-Books-i_gjotu.25.1.2" pos="aa">Kannski</w>
+            <w lemma="verða" xml:id="IGC-Books-i_gjotu.25.1.3" pos="sfg1fn">verðum</w>
+            <w lemma="ég" xml:id="IGC-Books-i_gjotu.25.1.4" pos="fp1fn">við</w>
+            <w lemma="h" xml:id="IGC-Books-i_gjotu.25.1.5" pos="x">h</w>
+            <w lemma="e" xml:id="IGC-Books-i_gjotu.25.1.6" pos="e">e</w>
+            <w lemma="i" xml:id="IGC-Books-i_gjotu.25.1.7" pos="x">i</w>
+            <w lemma="m" xml:id="IGC-Books-i_gjotu.25.1.8" pos="e">m</w>
+            <w lemma="s" xml:id="IGC-Books-i_gjotu.25.1.9" pos="x">s</w>
+            <w lemma="f" xml:id="IGC-Books-i_gjotu.25.1.10" pos="x">f</w>
+            <w lemma="r" xml:id="IGC-Books-i_gjotu.25.1.11" pos="x">r</w>
+            <w lemma="æ" xml:id="IGC-Books-i_gjotu.25.1.12" pos="x">æ</w>
+            <w lemma="g" xml:id="IGC-Books-i_gjotu.25.1.13" pos="x">g</w>
+            <w lemma="i" xml:id="IGC-Books-i_gjotu.25.1.14" pos="x">i</w>
+            <w lemma="r" xml:id="IGC-Books-i_gjotu.25.1.15" pos="nkeo">r</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.25.1.16" pos="c">og</w>
+            <w lemma="koma" xml:id="IGC-Books-i_gjotu.25.1.17" pos="sfg1fn">komum</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.25.1.18" pos="af">í</w>
+            <w lemma="sjónvarp" xml:id="IGC-Books-i_gjotu.25.1.19" pos="nheþg" join="right">sjónvarpinu</w>
+            <pc xml:id="IGC-Books-i_gjotu.25.1.20" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.26">
+          <s xml:id="IGC-Books-i_gjotu.26.1">
+            <w lemma="segja" xml:id="IGC-Books-i_gjotu.26.1.1" pos="sfg3fn">segja</w>
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.26.1.2" pos="nken-s">Bjarki</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.26.1.3" pos="c">og</w>
+            <w lemma="Fjölnir" xml:id="IGC-Books-i_gjotu.26.1.4" pos="nken-s">Fjölnir</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.26.1.5" pos="c">og</w>
+            <w lemma="hlæja" xml:id="IGC-Books-i_gjotu.26.1.6" pos="sfg3fn" join="right">hlæja</w>
+            <pc xml:id="IGC-Books-i_gjotu.26.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.27">
+          <s xml:id="IGC-Books-i_gjotu.27.1">
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.27.1.1" pos="af">Á</w>
+            <w lemma="efri" xml:id="IGC-Books-i_gjotu.27.1.2" pos="lkeþve">efsta</w>
+            <w lemma="hjalli" xml:id="IGC-Books-i_gjotu.27.1.3" pos="nkeþ">hjalla</w>
+            <w lemma="finna" xml:id="IGC-Books-i_gjotu.27.1.4" pos="sfg3fn">finna</w>
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.27.1.5" pos="fpkfn">þeir</w>
+            <w lemma="fjóla" xml:id="IGC-Books-i_gjotu.27.1.6" pos="nvfo">fjólur</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.27.1.7" pos="c">og</w>
+            <w lemma="sjá" xml:id="IGC-Books-i_gjotu.27.1.8" pos="sfg3fn">sjá</w>
+            <w lemma="rjúpa" xml:id="IGC-Books-i_gjotu.27.1.9" pos="nveo">rjúpu</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.27.1.10" pos="c">og</w>
+            <w lemma="kjói" xml:id="IGC-Books-i_gjotu.27.1.11" pos="nkeo" join="right">kjóa</w>
+            <pc xml:id="IGC-Books-i_gjotu.27.1.12" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.28">
+          <s xml:id="IGC-Books-i_gjotu.28.1">
+            <w lemma="kjói" xml:id="IGC-Books-i_gjotu.28.1.1" pos="nkeng">Kjóinn</w>
+            <w lemma="elta" xml:id="IGC-Books-i_gjotu.28.1.2" pos="sfg3en">eltir</w>
+            <w lemma="rjúpa" xml:id="IGC-Books-i_gjotu.28.1.3" pos="nveog" join="right">rjúpuna</w>
+            <pc xml:id="IGC-Books-i_gjotu.28.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.29">
+          <s xml:id="IGC-Books-i_gjotu.29.1">
+            <w lemma="skulu" xml:id="IGC-Books-i_gjotu.29.1.1" pos="svg3eþ">Skyldi</w>
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.29.1.2" pos="fpken">hann</w>
+            <w lemma="ætla" xml:id="IGC-Books-i_gjotu.29.1.3" pos="sng">ætla</w>
+            <w lemma="að" xml:id="IGC-Books-i_gjotu.29.1.4" pos="cn">að</w>
+            <w lemma="éta" xml:id="IGC-Books-i_gjotu.29.1.5" pos="sng">éta</w>
+            <w lemma="hún" xml:id="IGC-Books-i_gjotu.29.1.6" pos="fpveo" join="right">hana</w>
+            <pc xml:id="IGC-Books-i_gjotu.29.1.7" pos="pl">?</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.30">
+          <s xml:id="IGC-Books-i_gjotu.30.1">
+            <w lemma="eltingaleikur" xml:id="IGC-Books-i_gjotu.30.1.1" pos="nken">Eltingaleikur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.31">
+          <s xml:id="IGC-Books-i_gjotu.31.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.31.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.31.1.2" pos="c">og</w>
+            <w lemma="Fjölnir" xml:id="IGC-Books-i_gjotu.31.1.3" pos="nken-s">Fjölnir</w>
+            <w lemma="þjóta" xml:id="IGC-Books-i_gjotu.31.1.4" pos="sfg3fn">þjóta</w>
+            <w lemma="af" xml:id="IGC-Books-i_gjotu.31.1.5" pos="af">af</w>
+            <w lemma="staður" xml:id="IGC-Books-i_gjotu.31.1.6" pos="nkeþ" join="right">stað</w>
+            <pc xml:id="IGC-Books-i_gjotu.31.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.32">
+          <s xml:id="IGC-Books-i_gjotu.32.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.32.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="reyna" xml:id="IGC-Books-i_gjotu.32.1.2" pos="sfg3fn">reyna</w>
+            <w lemma="að" xml:id="IGC-Books-i_gjotu.32.1.3" pos="cn">að</w>
+            <w lemma="bjarga" xml:id="IGC-Books-i_gjotu.32.1.4" pos="sng">bjarga</w>
+            <w lemma="rjúpa" xml:id="IGC-Books-i_gjotu.32.1.5" pos="nveþg" join="right">rjúpunni</w>
+            <pc xml:id="IGC-Books-i_gjotu.32.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.33">
+          <s xml:id="IGC-Books-i_gjotu.33.1">
+            <w lemma="kjói" xml:id="IGC-Books-i_gjotu.33.1.1" pos="nkeng">Kjóinn</w>
+            <w lemma="gogga" xml:id="IGC-Books-i_gjotu.33.1.2" pos="sfg3en">goggar</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.33.1.3" pos="af">í</w>
+            <w lemma="rjúpa" xml:id="IGC-Books-i_gjotu.33.1.4" pos="nveog" join="right">rjúpuna</w>
+            <pc xml:id="IGC-Books-i_gjotu.33.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.34">
+          <s xml:id="IGC-Books-i_gjotu.34.1">
+            <w lemma="nú" xml:id="IGC-Books-i_gjotu.34.1.1" pos="aa">Nú</w>
+            <w lemma="sjá" xml:id="IGC-Books-i_gjotu.34.1.2" pos="sfg3fn">sjá</w>
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.34.1.3" pos="fpkfn">þeir</w>
+            <w lemma="blóð" xml:id="IGC-Books-i_gjotu.34.1.4" pos="nheo">blóð</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.34.1.5" pos="af">á</w>
+            <w lemma="hún" xml:id="IGC-Books-i_gjotu.34.1.6" pos="fpveþ" join="right">henni</w>
+            <pc xml:id="IGC-Books-i_gjotu.34.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.35">
+          <s xml:id="IGC-Books-i_gjotu.35.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.35.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.35.1.2" pos="sfg3fn">eru</w>
+            <w lemma="rétt" xml:id="IGC-Books-i_gjotu.35.1.3" pos="aa">rétt</w>
+            <w lemma="hjá" xml:id="IGC-Books-i_gjotu.35.1.4" pos="af">hjá</w>
+            <w lemma="gljúfur" xml:id="IGC-Books-i_gjotu.35.1.5" pos="nheþg">gljúfrinu</w>
+            <w lemma="en" xml:id="IGC-Books-i_gjotu.35.1.6" pos="c">en</w>
+            <w lemma="taka" xml:id="IGC-Books-i_gjotu.35.1.7" pos="sfg3fn">taka</w>
+            <w lemma="ekki" xml:id="IGC-Books-i_gjotu.35.1.8" pos="aa">ekki</w>
+            <w lemma="eftir" xml:id="IGC-Books-i_gjotu.35.1.9" pos="af">eftir</w>
+            <w lemma="það" xml:id="IGC-Books-i_gjotu.35.1.10" pos="fpheþ" join="right">því</w>
+            <pc xml:id="IGC-Books-i_gjotu.35.1.11" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.36">
+          <s xml:id="IGC-Books-i_gjotu.36.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.36.1.1" pos="fpkfn">Þeir</w>
+            <w lemma="sjá" xml:id="IGC-Books-i_gjotu.36.1.2" pos="sfg3fn">sjá</w>
+            <w lemma="bara" xml:id="IGC-Books-i_gjotu.36.1.3" pos="aa">bara</w>
+            <w lemma="rjúpa" xml:id="IGC-Books-i_gjotu.36.1.4" pos="nveog">rjúpuna</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.36.1.5" pos="c">og</w>
+            <w lemma="kjói" xml:id="IGC-Books-i_gjotu.36.1.6" pos="nkeog" join="right">kjóann</w>
+            <pc xml:id="IGC-Books-i_gjotu.36.1.7" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.37">
+          <s xml:id="IGC-Books-i_gjotu.37.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.37.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="hrasa" xml:id="IGC-Books-i_gjotu.37.1.2" pos="sfg3en">hrasar</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.37.1.3" pos="c">og</w>
+            <w lemma="detta" xml:id="IGC-Books-i_gjotu.37.1.4" pos="sfg3en" join="right">dettur</w>
+            <pc xml:id="IGC-Books-i_gjotu.37.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.38">
+          <s xml:id="IGC-Books-i_gjotu.38.1">
+            <w lemma="Hjálparsveit" xml:id="IGC-Books-i_gjotu.38.1.1" pos="nvengs">Hjálparsveitin</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.39">
+          <s xml:id="IGC-Books-i_gjotu.39.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.39.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="lenda" xml:id="IGC-Books-i_gjotu.39.1.2" pos="sfg3en">lendir</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.39.1.3" pos="af">í</w>
+            <w lemma="gjóta" xml:id="IGC-Books-i_gjotu.39.1.4" pos="nveþ">gjótu</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.39.1.5" pos="c">og</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.39.1.6" pos="sfg3en">er</w>
+            <w lemma="fastur" xml:id="IGC-Books-i_gjotu.39.1.7" pos="lkensf" join="right">fastur</w>
+            <pc xml:id="IGC-Books-i_gjotu.39.1.8" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.40">
+          <s xml:id="IGC-Books-i_gjotu.40.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.40.1.1" pos="fpken">Hann</w>
+            <w lemma="stynja" xml:id="IGC-Books-i_gjotu.40.1.2" pos="sfg3en">stynur</w>
+            <w lemma="og" xml:id="IGC-Books-i_gjotu.40.1.3" pos="c">og</w>
+            <w lemma="kjökra" xml:id="IGC-Books-i_gjotu.40.1.4" pos="sfg3en" join="right">kjökrar</w>
+            <pc xml:id="IGC-Books-i_gjotu.40.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.41">
+          <s xml:id="IGC-Books-i_gjotu.41.1">
+            <w lemma="Fjölnir" xml:id="IGC-Books-i_gjotu.41.1.1" pos="nken-s">Fjölnir</w>
+            <w lemma="hlaupa" xml:id="IGC-Books-i_gjotu.41.1.2" pos="sfg3en">hleypur</w>
+            <w lemma="eftir" xml:id="IGC-Books-i_gjotu.41.1.3" pos="af">eftir</w>
+            <w lemma="hjálp" xml:id="IGC-Books-i_gjotu.41.1.4" pos="nveþ" join="right">hjálp</w>
+            <pc xml:id="IGC-Books-i_gjotu.41.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.42">
+          <s xml:id="IGC-Books-i_gjotu.42.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.42.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.42.1.2" pos="sfg3en">er</w>
+            <w lemma="aleinn" xml:id="IGC-Books-i_gjotu.42.1.3" pos="lkensf">aleinn</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.42.1.4" pos="aa">á</w>
+            <w lemma="meðan" xml:id="IGC-Books-i_gjotu.42.1.5" pos="aa" join="right">meðan</w>
+            <pc xml:id="IGC-Books-i_gjotu.42.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.43">
+          <s xml:id="IGC-Books-i_gjotu.43.1">
+            <w lemma="það" xml:id="IGC-Books-i_gjotu.43.1.1" pos="fphen">Það</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.43.1.2" pos="sfg3en">er</w>
+            <w lemma="koma" xml:id="IGC-Books-i_gjotu.43.1.3" pos="sþgven">komin</w>
+            <w lemma="nótt" xml:id="IGC-Books-i_gjotu.43.1.4" pos="nven">nótt</w>
+            <w lemma="þegar" xml:id="IGC-Books-i_gjotu.43.1.5" pos="c">þegar</w>
+            <w lemma="taka" xml:id="IGC-Books-i_gjotu.43.1.6" pos="sfm3en">tekst</w>
+            <w lemma="að" xml:id="IGC-Books-i_gjotu.43.1.7" pos="cn">að</w>
+            <w lemma="bjarga" xml:id="IGC-Books-i_gjotu.43.1.8" pos="sng">bjarga</w>
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.43.1.9" pos="nkeþ-s" join="right">Bjarka</w>
+            <pc xml:id="IGC-Books-i_gjotu.43.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.44">
+          <s xml:id="IGC-Books-i_gjotu.44.1">
+            <w lemma="sjö" xml:id="IGC-Books-i_gjotu.44.1.1" pos="tfkfn">Sjö</w>
+            <w lemma="maður" xml:id="IGC-Books-i_gjotu.44.1.2" pos="nkfn">menn</w>
+            <w lemma="úr" xml:id="IGC-Books-i_gjotu.44.1.3" pos="af">úr</w>
+            <w lemma="hjálparsveit" xml:id="IGC-Books-i_gjotu.44.1.4" pos="nveþg">hjálparsveitinni</w>
+            <w lemma="flytja" xml:id="IGC-Books-i_gjotu.44.1.5" pos="sfg3fn">flytja</w>
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.44.1.6" pos="fpkeo">hann</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.44.1.7" pos="af">á</w>
+            <w lemma="bar" xml:id="IGC-Books-i_gjotu.44.1.8" pos="nkfþ" join="right">börum</w>
+            <pc xml:id="IGC-Books-i_gjotu.44.1.9" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.45">
+          <s xml:id="IGC-Books-i_gjotu.45.1">
+            <w lemma="sjúklingur" xml:id="IGC-Books-i_gjotu.45.1.1" pos="nken">Sjúklingur</w>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.46">
+          <s xml:id="IGC-Books-i_gjotu.46.1">
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.46.1.1" pos="nken-s">Bjarki</w>
+            <w lemma="fara" xml:id="IGC-Books-i_gjotu.46.1.2" pos="sfg3en">fer</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.46.1.3" pos="af">á</w>
+            <w lemma="sjúkrahús" xml:id="IGC-Books-i_gjotu.46.1.4" pos="nheog" join="right">sjúkrahúsið</w>
+            <pc xml:id="IGC-Books-i_gjotu.46.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.47">
+          <s xml:id="IGC-Books-i_gjotu.47.1">
+            <w lemma="annar" xml:id="IGC-Books-i_gjotu.47.1.1" pos="foken">Annar</w>
+            <w lemma="fótur" xml:id="IGC-Books-i_gjotu.47.1.2" pos="nkeng">fóturinn</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.47.1.3" pos="sfg3en">er</w>
+            <w lemma="brotinn" xml:id="IGC-Books-i_gjotu.47.1.4" pos="lkensf" join="right">brotinn</w>
+            <pc xml:id="IGC-Books-i_gjotu.47.1.5" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.48">
+          <s xml:id="IGC-Books-i_gjotu.48.1">
+            <w lemma="hann" xml:id="IGC-Books-i_gjotu.48.1.1" pos="fpken">Hann</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.48.1.2" pos="sfg3en">er</w>
+            <w lemma="setja" xml:id="IGC-Books-i_gjotu.48.1.3" pos="sþgken">settur</w>
+            <w lemma="í" xml:id="IGC-Books-i_gjotu.48.1.4" pos="af">í</w>
+            <w lemma="gifs" xml:id="IGC-Books-i_gjotu.48.1.5" pos="nheo" join="right">gifs</w>
+            <pc xml:id="IGC-Books-i_gjotu.48.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.49">
+          <s xml:id="IGC-Books-i_gjotu.49.1">
+            <w lemma="nú" xml:id="IGC-Books-i_gjotu.49.1.1" pos="aa">Nú</w>
+            <w lemma="geta" xml:id="IGC-Books-i_gjotu.49.1.2" pos="sfg3en">getur</w>
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.49.1.3" pos="nken-s">Bjarki</w>
+            <w lemma="ekki" xml:id="IGC-Books-i_gjotu.49.1.4" pos="aa">ekki</w>
+            <w lemma="hjóla" xml:id="IGC-Books-i_gjotu.49.1.5" pos="sþghen" join="right">hjólað</w>
+            <pc xml:id="IGC-Books-i_gjotu.49.1.6" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.50">
+          <s xml:id="IGC-Books-i_gjotu.50.1">
+            <pc xml:id="IGC-Books-i_gjotu.50.1.1" pos="pa">–</pc>
+            <w lemma="þú" xml:id="IGC-Books-i_gjotu.50.1.2" pos="fp2en">Þú</w>
+            <w lemma="vera" xml:id="IGC-Books-i_gjotu.50.1.3" pos="sfg2en">ert</w>
+            <w lemma="nú" xml:id="IGC-Books-i_gjotu.50.1.4" pos="aa">nú</w>
+            <w lemma="ljótur" xml:id="IGC-Books-i_gjotu.50.1.5" pos="lkenvf">ljóti</w>
+            <w lemma="pjakkur" xml:id="IGC-Books-i_gjotu.50.1.6" pos="nkeng" join="right">pjakkurinn</w>
+            <pc xml:id="IGC-Books-i_gjotu.50.1.7" pos="pl">!</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.51">
+          <s xml:id="IGC-Books-i_gjotu.51.1">
+            <w lemma="segja" xml:id="IGC-Books-i_gjotu.51.1.1" pos="sfg3en">segir</w>
+            <w lemma="amma" xml:id="IGC-Books-i_gjotu.51.1.2" pos="nven" join="right">amma</w>
+            <pc xml:id="IGC-Books-i_gjotu.51.1.3" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.52">
+          <s xml:id="IGC-Books-i_gjotu.52.1">
+            <w lemma="hún" xml:id="IGC-Books-i_gjotu.52.1.1" pos="fpven">Hún</w>
+            <w lemma="hjúkra" xml:id="IGC-Books-i_gjotu.52.1.2" pos="sfg3en">hjúkrar</w>
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.52.1.3" pos="nkeþ-s" join="right">Bjarka</w>
+            <pc xml:id="IGC-Books-i_gjotu.52.1.4" pos="pl">.</pc>
+          </s>
+        </p>
+        <p xml:id="IGC-Books-i_gjotu.53">
+          <s xml:id="IGC-Books-i_gjotu.53.1">
+            <w lemma="Fjölnir" xml:id="IGC-Books-i_gjotu.53.1.1" pos="nken-s">Fjölnir</w>
+            <w lemma="taka" xml:id="IGC-Books-i_gjotu.53.1.2" pos="sfg3en">tekur</w>
+            <w lemma="margur" xml:id="IGC-Books-i_gjotu.53.1.3" pos="lvfosf">margar</w>
+            <w lemma="mynd" xml:id="IGC-Books-i_gjotu.53.1.4" pos="nvfo">myndir</w>
+            <w lemma="af" xml:id="IGC-Books-i_gjotu.53.1.5" pos="af">af</w>
+            <w lemma="Bjarki" xml:id="IGC-Books-i_gjotu.53.1.6" pos="nkeþ-s">Bjarka</w>
+            <w lemma="á" xml:id="IGC-Books-i_gjotu.53.1.7" pos="af">á</w>
+            <w lemma="einn" xml:id="IGC-Books-i_gjotu.53.1.8" pos="tfkeþ">einum</w>
+            <w lemma="fótur" xml:id="IGC-Books-i_gjotu.53.1.9" pos="nkeþ" join="right">fæti</w>
+            <pc xml:id="IGC-Books-i_gjotu.53.1.10" pos="pl">.</pc>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

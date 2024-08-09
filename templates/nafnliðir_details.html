@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ analysis.word }}</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+    <script>
+        function sendGuess_nafnliðir(type, guess) {
+            fetch(`/guess_noun?word=${encodeURIComponent('{{ analysis.word }}')}&sentence=${encodeURIComponent('{{ sentence }}')}&type=${type}&guess=${guess}`)
+                .then(response => response.json())
+                .then(data => {
+                    const button = document.getElementById(`${type}-${guess}`);
+                    if (data.correct) {
+                        button.classList.add('correct');
+                        document.getElementById(`feedback-${type}`).innerText = 'Rétt!';
+                    } else {
+                        button.classList.add('wrong');
+                        setTimeout(() => button.classList.remove('wrong'), 500);
+                        document.getElementById(`feedback-${type}`).innerText = 'Rangt!';
+                    }
+                });
+        }
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <div class="nafnliðir"> 
+        <div class="container overlay-container">
+            <div class="back-one-step-button" onclick="goBack()"></div>
+            <h1 style="color: #ce8208;">{{ analysis.word }}</h1>
+            <div class="content">
+                <p class="sentence">{{ sentence }}</p>
+                <p class="sentence" style="color: #ce8208;"> Veldu kyn, tölu og fall nafnorðsins "{{analysis.word}}".</p>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Kyn</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="gender-kk" onclick="sendGuess_nafnliðir('gender', 'kk')">Karlkyn</button>
+                            <button class="guess-button" id="gender-kvk" onclick="sendGuess_nafnliðir('gender', 'kvk')">Kvenkyn</button>
+                            <button class="guess-button" id="gender-hk" onclick="sendGuess_nafnliðir('gender', 'hk')">Hvorugkyn</button>
+                        </div>
+                        <p id="feedback-gender" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Tala</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="number-et" onclick="sendGuess_nafnliðir('number', 'et')">Eintala</button>
+                            <button class="guess-button" id="number-ft" onclick="sendGuess_nafnliðir('number', 'ft')">Fleirtala</button>
+                        </div>
+                        <p id="feedback-number" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Fall</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="case-nf" onclick="sendGuess_nafnliðir('case', 'nf')">Nefnifall</button>
+                            <button class="guess-button" id="case-þf" onclick="sendGuess_nafnliðir('case', 'þf')">Þolfall</button>
+                            <button class="guess-button" id="case-þgf" onclick="sendGuess_nafnliðir('case', 'þgf')">Þágufall</button>
+                            <button class="guess-button" id="case-ef" onclick="sendGuess_nafnliðir('case', 'ef')">Eignarfall</button>
+                        </div>
+                        <p id="feedback-case" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Greinir</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="article-gr" onclick="sendGuess_nafnliðir('article', 'gr')">Með greini</button>
+                            <button class="guess-button" id="article-ngr" onclick="sendGuess_nafnliðir('article', 'ngr')">Án greinis</button>
+                        </div>
+                        <p id="feedback-article" class="feedback"></p>
+                    </div>
+                </div>
+                <form action="/nafnliðir">
+                    <button type="submit" class="button custom-button">Næsta setning &#x21bb;</button>
+                </form>
+                <form action="/index">
+                    <button type="submit" class="button custom-button">Til baka á upphafssíðu &#x2190;</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ verb }}</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+    <script>
+    function sendGuess_sagnliðir(type, guess) {
+        fetch(`/guess_verb?word=${encodeURIComponent('{{ verb }}')}&sentence=${encodeURIComponent('{{ sentence }}')}&type=${type}&guess=${guess}`)
+            .then(response => response.json())
+            .then(data => {
+                const button = document.getElementById(`${type}-${guess}`);
+                if (data.correct) {
+                    button.classList.add('correct');
+                    document.getElementById(`feedback-${type}`).innerText = 'Rétt!';
+                } else {
+                    button.classList.add('wrong');
+                    setTimeout(() => button.classList.remove('wrong'), 500);
+                    document.getElementById(`feedback-${type}`).innerText = 'Rangt!';
+                }
+            });
+    }
+    function goBack() {
+        window.history.back();
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const sagnbot = '{{ analysis.sagnbot }}';
+        const talaContainer = document.getElementById('tala-container');
+        const hatturContainer = document.getElementById('hattur-container');
+        const personaContainer = document.getElementById('persona-container');
+        const tidContainer = document.getElementById('tid-container');
+        const messageElement = document.getElementById('instruction-message');
+
+        if (sagnbot == 'sagnb') {
+            talaContainer.style.display = 'none';
+            hatturContainer.style.display = 'none';
+            personaContainer.style.display = 'none';
+            tidContainer.style.display = 'none';
+            messageElement.innerText = `Sagnorðið "{{ verb }}" er sagnbót. Veldu mynd sagnbótarinnar.`;
+        } else {
+            talaContainer.style.display = 'block';
+            hatturContainer.style.display = 'block';
+            personaContainer.style.display = 'block';
+            tidContainer.style.display = 'block';
+            messageElement.innerText = 'Veldu tölu, hátt, mynd, persónu og tíð sagnorðsins "{{verb}}".';
+        }
+    });
+    </script>
+</head>
+<body>
+    <div class="sagnliðir">
+        <div class="container overlay-container">
+            <div class="back-one-step-button" onclick="goBack()"></div>
+            <h1 style="color: #3724cb;">{{ verb }}</h1>
+            <div class="content">
+                <p class="sentence">{{ sentence }}</p>
+                <p class="sentence" id="instruction-message" style="color: #3724cb;"> Veldu tölu, hátt, mynd, persónu og tíð sagnorðsins "{{verb}}".</p>
+                <div class="guess-button-container" id="tala-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Tala</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="number-et" onclick="sendGuess_sagnliðir('number', 'et')">Eintala</button>
+                            <button class="guess-button" id="number-ft" onclick="sendGuess_sagnliðir('number', 'ft')">Fleirtala</button>
+                        </div>
+                        <p id="feedback-number" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container" id="hattur-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Háttur</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="episode-nh" onclick="sendGuess_sagnliðir('episode', 'nh')">Nafnháttur</button>
+                            <button class="guess-button" id="episode-vh" onclick="sendGuess_sagnliðir('episode', 'vh')">Viðtengingarháttur</button>
+                            <button class="guess-button" id="episode-bh" onclick="sendGuess_sagnliðir('episode', 'bh')">Boðháttur</button>
+                            <button class="guess-button" id="episode-fh" onclick="sendGuess_sagnliðir('episode', 'fh')">Framsöguháttur</button>
+                            <button class="guess-button" id="episode-lh" onclick="sendGuess_sagnliðir('episode', 'lh')">Lýsingarháttur nútíðar</button>
+                            <button class="guess-button" id="episode-lhþt" onclick="sendGuess_sagnliðir('episode', 'lhþt')">Lýsingarháttur þátíðar</button>
+                        </div>
+                        <p id="feedback-episode" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Mynd</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="voice-mm" onclick="sendGuess_sagnliðir('voice', 'mm')">Miðmynd</button>
+                            <button class="guess-button" id="voice-gm" onclick="sendGuess_sagnliðir('voice', 'gm')">Germynd</button>
+                            <button class="guess-button" id="voice-þolmynd" onclick="sendGuess_sagnliðir('voice', 'þolmynd')">Þolmynd</button>
+                        </div>
+                        <p id="feedback-voice" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container" id="persona-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Persóna</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="person-p1" onclick="sendGuess_sagnliðir('person', 'p1')">Fyrsta persóna</button>
+                            <button class="guess-button" id="person-p2" onclick="sendGuess_sagnliðir('person', 'p2')">Önnur persóna</button>
+                            <button class="guess-button" id="person-p3" onclick="sendGuess_sagnliðir('person', 'p3')">Þriðja persóna</button>
+                        </div>
+                        <p id="feedback-person" class="feedback"></p>
+                    </div>
+                </div>
+                <div class="guess-button-container" id="tid-container">
+                    <div class="label-and-buttons">
+                        <p class="label">Tíð</p>
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="tense-nt" onclick="sendGuess_sagnliðir('tense', 'nt')">Nútíð</button>
+                            <button class="guess-button" id="tense-þt" onclick="sendGuess_sagnliðir('tense', 'þt')">Þátíð</button>
+                        </div>
+                        <p id="feedback-tense" class="feedback"></p>
+                    </div>
+                </div>
+                <form action="/sagnliðir">
+                    <button type="submit" class="button custom-button">Næsta setning &#x21bb;</button>
+                </form>
+                <form action="/index">
+                    <button type="submit" class="button custom-button">Til baka á upphafssíðu &#x2190;</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

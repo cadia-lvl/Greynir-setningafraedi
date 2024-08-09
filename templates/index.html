@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setningafræði fyrir framhaldsskólanema</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1> Setningafræði fyrir framhaldsskólanema </h1>
+        <div class="button-container">
+            <form action="/forsetningarliðir">
+                <button type="submit" class="button forsetningarliðir">Forsetningarliðir</button>
+            </form>
+            <form action="/atviksliðir">
+                <button type="submit" class="button atviksliðir">Atviksliðir</button>
+            </form>
+            <form action="/lysingarliðir">
+                <button type="submit" class="button lysingarliðir">Lýsingarliðir</button>
+            </form>
+            <form action="/nafnliðir">
+                <button type="submit" class="button nafnliðir">Nafnliðir</button>
+            </form>
+            <form action="/sagnliðir">
+                <button type="submit" class="button sagnliðir">Sagnliðir</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

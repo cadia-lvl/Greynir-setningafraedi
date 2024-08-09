@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagnliðir</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+    <script>
+        function goBack() {
+        window.history.back();
+        }
+
+        function displayMessageIfUnderlinedWords() {
+            const underlinedWords = document.querySelectorAll('.hoverable-word');
+            if (underlinedWords.length > 0) {
+                const message = document.createElement('p');
+                message.textContent = "Smelltu á undirstrikaða liðinn til að greina beygingarleg einkenni hans";
+                message.style.color = "black";
+                document.querySelector('.content').appendChild(message);
+
+                const overlay = document.querySelector('.overlay');
+                if (overlay) {
+                    const overlayMessage = document.createElement('p');
+                    overlayMessage.textContent = "Smelltu á undirstrikaða liðinn til að greina beygingarleg einkenni hans";
+                    overlayMessage.style.color = "black";
+                    overlay.appendChild(overlayMessage);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container overlay-container">
+        <h1 style="color: #3724cb;"> Sagnliðir</h1>
+        <div class="content">
+            <div class="back-one-step-button" onclick="goBack()"></div>
+            <p>Í sagnlið er aðalorðið sögn. Finndu sagnliðina í eftirfarandi setningu:</p>
+            <p class="sentence">{{ sentence }}</p>
+            <form method="post" action="/sagnliðir">
+                <input type="hidden" name="sentence" value="{{ sentence }}">
+                <label for="v_phrases">(Aðskildu sagnliðina með kommu ef þeir eru fleiri en einn. Ýttu á Enter ef setningin inniheldur engan sagnlið)</label>
+                <input type="text" id="v_phrases" name="v_phrases">
+                <button type="submit" class="submit-button" style="background-color: #3724cb;">Senda svar</button>
+            </form>
+            {% if result %}
+                <p class="result">{{ result | safe }}</p>
+                <script>
+                    displayMessageIfUnderlinedWords();
+                </script>
+            {% endif %}
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    const underlinedWords = document.querySelectorAll('.hoverable-word');
+                    underlinedWords.forEach(word => {
+                        word.addEventListener('click', function(event) {
+                            event.preventDefault();
+                            const phrase = word.innerText;
+                            const verb = phrase.split(' ')[0]; // Extract the first word as the verb
+                            const sentence = "{{ sentence }}";
+                            window.location.href = `/verb/${encodeURIComponent(verb)}?sentence=${encodeURIComponent(sentence)}&phrase=${encodeURIComponent(phrase)}`;
+                        });
+                    });
+                });
+            </script>
+        </div>
+        <div class="button-container">
+            <form action="/sagnliðir">
+                <button type="submit" class="button sagnliðir"> Næsta setning &#x21bb;</button>
+            </form>
+            <form action="/index">
+                <button type="submit" class="button back-button">Til baka á upphafssíðu &#x2190;</button>
+            </form>
+        </div>
+    
+    {% if correct %}
+    <div class="overlay" id="result-overlay">
+        <p class="overlay-result">{{ result | safe }}</p>
+        <div class="back-one-step-button" onclick="goBack()"></div>
+        <div class="overlay-buttons">
+            <form action="/sagnliðir">
+                <button type="submit" class="button sagnliðir"> Næsta setning &#x21bb;</button>
+            </form>
+            <form action="/index">
+                <button type="submit" class="button back-button">Til baka á upphafssíðu &#x2190;</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById('result-overlay').style.display = 'flex';
+        displayMessageIfUnderlinedWords();
+    </script>
+    {% endif %}
+    </div>
+</body>
+</html>
+
+
