@@ -3,6 +3,7 @@ import random
 import re
 
 def is_valid_sentence(sentence):
+    # filter away sentences that starts with abnormal characters
     if sentence.startswith(','):
         return False
     
@@ -18,6 +19,7 @@ def is_valid_sentence(sentence):
     return True
 
 def get_random_sentence_from_file(file_path):
+    # get a random sentence from a file
     with open(file_path, 'r', encoding='utf-8') as file:
         sentences = file.readlines()
     
@@ -34,6 +36,7 @@ def get_random_sentence_from_file(file_path):
     return random.choice(valid_sentences)
 
 def get_random_sentence_from_directory(directory_path):
+    # using the get random sentence function from a file to get a random sentence from a directory including subfolders and files
     txt_files = []
     for root_dir, dirs, files in os.walk(directory_path):
         for file in files:

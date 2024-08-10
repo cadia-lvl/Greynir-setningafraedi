@@ -1,6 +1,8 @@
 import importlib.util
 from reynir import Greynir
 
+""" Determine which parts of sentences are verb phrases """
+
 spec = importlib.util.spec_from_file_location("random_sentence_txt", "./random_sentence_txt.py")
 random_sentence_txt_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(random_sentence_txt_module)
@@ -59,5 +61,3 @@ def get_verb_phrases(sentence):
 
 if __name__ == "__main__":
     main()"""
-
-# Athuga með setninguna, nasirnar eru stíflaðar af leir

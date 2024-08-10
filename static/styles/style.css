@@ -1,4 +1,4 @@
-/* Global styles */
+/* Css file where the styles of the appilaction are controlled */
 * {
   margin: 0;
   padding: 0;
@@ -244,7 +244,7 @@ button.forsetningarliðir {
   text-align: center;
 }
 
-/* Specific styles for lysingarliðir_details page */
+/* Specific styles for lysingarliðir */
 .lysingarliðir .guess-button {
   background-color: #4CAF50; /* Initial green color */
   color: white;
@@ -263,6 +263,15 @@ button.forsetningarliðir {
 .lysingarliðir button.custom-button:hover {
   background-color: #4CAF50;
   color: white;
+}
+
+.hoverable-word {
+    cursor: pointer;
+    color: #4CAF50;;
+    text-decoration: underline;
+}
+.hoverable-word:hover {
+    color: #137b17;
 }
 
 /* Specific styles for sagnliðir_details page */
@@ -286,7 +295,7 @@ button.forsetningarliðir {
   color: white;
 }
 
-/* Specific styles for nafnliðir_details page */
+/* Specific styles for nafnliðir */
 .nafnliðir .guess-button {
   background-color: #ce8208;; /* Initial yellow color */
   color: white;
@@ -305,6 +314,20 @@ button.forsetningarliðir {
 .nafnliðir button.custom-button:hover {
   background-color: #ce8208;
   color: white;
+}
+
+.nafnliðir .hoverable-word {
+  cursor: pointer;
+  color: #ce8208;
+  text-decoration: underline;
+}
+
+.nafnliðir .hoverable-word:hover {
+  color: #8e5d0e;
+}
+
+.nafnliðir .correct-phrases {
+  color: #ce8208;
 }
 
 /* Specific styles for forsetningarliðir_details page */
@@ -347,4 +370,9 @@ button.forsetningarliðir {
 
 .back-one-step-button:hover:before {
   color: #78797a;
+}
+
+/* Specific styles for atviksliðir */
+.atviksliðir .correct-phrases {
+  color: rgb(148, 43, 180);
 }

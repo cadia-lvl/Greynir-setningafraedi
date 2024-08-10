@@ -1,7 +1,7 @@
 import importlib.util
 from reynir import Greynir
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
+
+""" Determine which parts of sentences are adverb phrases """
 
 # Import the get_random_sentence_from_directory function from random_sentence.py
 spec = importlib.util.spec_from_file_location("random_sentence_txt", "./random_sentence_txt.py")

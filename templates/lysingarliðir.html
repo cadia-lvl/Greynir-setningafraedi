@@ -5,16 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lýsingarliðir</title>
     <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
-    <style>
-        .hoverable-word {
-            cursor: pointer;
-            color: #4CAF50;;
-            text-decoration: underline;
-        }
-        .hoverable-word:hover {
-            color: #137b17;
-        }
-    </style>
     <script>
         function displayMessageIfUnderlinedWords() {
             const underlinedWords = document.querySelectorAll('.hoverable-word');
@@ -39,7 +29,7 @@
     </script>
 </head>
 <body>
-    <div class="container overlay-container">
+    <div class="container overlay-container lysingarliðir">
         <div class="back-one-step-button" onclick="goBack()"></div>
         <h1 style="color: #4CAF50;">Lýsingarliðir</h1>
         <div class="content">

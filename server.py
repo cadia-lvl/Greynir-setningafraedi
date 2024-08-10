@@ -3,6 +3,8 @@ import logging
 from waitress import serve
 import importlib.util
 
+""" Server code for the application. To run the application please run this file. """
+
 # Logging
 logging.basicConfig(level=logging.DEBUG)
 

@@ -1,5 +1,7 @@
 from reynir import Greynir
 
+""" A file to extract the morphological details of the phrases, for the details pages. """
+
 def get_gender(variants):
     genders = ["kk", "kvk", "hk"]
     for variant in variants:

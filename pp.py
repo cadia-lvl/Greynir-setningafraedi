@@ -1,6 +1,8 @@
 import importlib.util
 from reynir import Greynir
 
+""" Determine which parts of sentences are preposition phrases """
+
 spec = importlib.util.spec_from_file_location("random_sentence_txt", "./random_sentence_txt.py")
 random_sentence_txt_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(random_sentence_txt_module)
