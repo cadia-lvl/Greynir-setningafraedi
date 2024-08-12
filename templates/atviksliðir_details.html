@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ analysis.word }}</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+    <script src="{{ url_for('static', filename='scripts/script.js') }}" defer></script>
+    <script>
+        function sendGuess_forsetningarliðir(type, guess) {
+            fetch(`/guess_adverb?word=${encodeURIComponent('{{ analysis.word }}')}&sentence=${encodeURIComponent('{{ sentence }}')}&type=${type}&guess=${guess}`)
+                .then(response => response.json())
+                .then(data => {
+                    const button = document.getElementById(`${type}-${guess}`);
+                    const feedback = document.getElementById(`feedback-${type}`);
+                    if (data.correct) {
+                        button.classList.add('correct');
+                        document.getElementById(`feedback-${type}`).innerText = 'Rétt!';
+                    } else {
+                        button.classList.add('wrong');
+                        setTimeout(() => button.classList.remove('wrong'), 500);
+                        document.getElementById(`feedback-${type}`).innerText = 'Rangt!';
+                    }
+                });
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const fullWord = '{{ analysis.word }}';
+            const firstWord = fullWord.split(' ')[0];
+            document.getElementById('analysis-word-part').innerText = firstWord;
+        });
+
+        function goBack() {
+            window.history.back();
+        }
+
+    </script>
+
+</head>
+<body>
+    <div class="atviksliðir">
+        <div class="container overlay-container">
+            <div class="back-one-step-button" onclick="goBack()"></div>
+            <h1 style="color: rgb(148, 43, 180);">{{ analysis.word }}</h1>
+            <div class="content">
+                <p class="sentence">{{ sentence }}</p>
+                <p class="sentence" style="color: rgb(148, 43, 180);"> Hvers konar atviksorð er orðið "<span id="analysis-word-part"></span>"?</p>
+                <div class="guess-button-container">
+                    <div class="label-and-buttons">
+                        <div class="guess-button-group">
+                            <button class="guess-button" id="type-hao" onclick="sendGuess_forsetningarliðir('type', 'hao')">Háttaratviksorð</button>
+                            <button class="guess-button" id="type-áao" onclick="sendGuess_forsetningarliðir('type', 'áao')">Áhersluatviksorð</button>
+                            <button class="guess-button" id="type-tao" onclick="sendGuess_forsetningarliðir('type', 'tao')">Tíðaratviksorð</button>
+                            <button class="guess-button" id="type-stao" onclick="sendGuess_forsetningarliðir('type', 'stao')">Staðaratviksorð</button>
+                            <button class="guess-button" id="type-spao" onclick="sendGuess_forsetningarliðir('type', 'spao')">Spurnaratviksorð</button>
+                            <button class="guess-button" id="type-nao" onclick="sendGuess_forsetningarliðir('type', 'nao')">Neitun</button>
+                        </div>
+                        <p id="feedback-type" class="feedback"></p>
+                    </div>
+                </div>
+                <form action="/atviksliðir">
+                    <button type="submit" class="button custom-button">Næsta setning &#x21bb;</button>
+                </form>
+                <form action="/index">
+                    <button type="submit" class="button custom-button">Til baka á upphafssíðu &#x2190;</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -130,8 +130,7 @@ def guess_noun():
         logging.error("Error occurred", exc_info=True)
         return jsonify({"correct": False}), 500
 
-
-####### ATVIKSLIÐIR ########
+####### ATVIKSLIÐIR ########  
 @app.route('/atviksliðir', methods=['GET', 'POST'])
 def atviksliðir():
     try:
@@ -139,6 +138,7 @@ def atviksliðir():
             sentence = adv_module.get_random_sentence()
             result = None
             correct = False
+            return render_template('atviksliðir.html', sentence=sentence, result=result, correct=correct)
         else:
             sentence = request.form.get('sentence')
             user_input = request.form.get('adv_phrases', '').strip()
@@ -148,22 +148,24 @@ def atviksliðir():
                 user_adv_phrases = []
             correct_adv_phrases = [phrase.lower() for phrase in adv_module.get_adv_phrases(sentence)]
 
+            result_phrases = []
+            for phrase in correct_adv_phrases:
+                analysis = analyze_module.analyze_word(phrase, sentence)
+                if analysis['adverb_type'] is not None:
+                    result_phrases.append(f'<a class="hoverable-word" href="/adverb/{phrase}?sentence={sentence}">{phrase}</a>')
+                else:
+                    result_phrases.append(phrase)
+
             if set(user_adv_phrases) == set(correct_adv_phrases):
                 correct = True
                 if correct_adv_phrases:
-                    if len(correct_adv_phrases) > 1:
-                        result = f"Rétt! Atviksliðirnir í setningunni eru: <span class='correct-phrases'>{', '.join(correct_adv_phrases)}</span>"
-                    else:
-                        result = f"Rétt! Atviksliðurinn í setningunni er: <span class='correct-phrases'>{', '.join(correct_adv_phrases)}</span>"
+                    result = f"Rétt! Atviksliðurinn í setningunni er: <span class='correct-phrases'>{', '.join(result_phrases)}</span>"
                 else:
                     result = "Rétt! Setningin inniheldur engan atvikslið"
             else:
                 correct = False
                 if correct_adv_phrases:
-                    if len(correct_adv_phrases) > 1:
-                        result = f"Rangt! Atviksliðirnir í setningunni eru: <span class='correct-phrases'>{', '.join(correct_adv_phrases)}</span>"
-                    else:
-                        result = f"Rangt! Atviksliðurinn í setningunni eru: <span class='correct-phrases'>{', '.join(correct_adv_phrases)}</span>"
+                    result = f"Rangt! Atviksliðurinn í setningunni er: <span class='correct-phrases'>{', '.join(result_phrases)}</span>"
                 else:
                     result = "Rangt! Setningin inniheldur engan atvikslið"
 
@@ -172,6 +174,44 @@ def atviksliðir():
         logging.error("Error occurred", exc_info=True)
         return "Internal Server Error", 500
 
+    
+@app.route('/adverb/<word>', methods=['GET'])
+def adverb_page(word): #for adverbs
+    try:
+        sentence = request.args.get('sentence')
+        if not sentence:
+            raise ValueError("No sentence provided")
+
+        analysis = analyze_module.analyze_word(word, sentence)
+        return render_template('atviksliðir_details.html', analysis=analysis, sentence=sentence)
+    except Exception as e:
+        logging.error("Error occurred", exc_info=True)
+        return "Internal Server Error", 500
+
+@app.route('/guess_adverb', methods=['GET'])
+def guess_adverb():  # for adverbs
+    try:
+        word = request.args.get('word')
+        sentence = request.args.get('sentence')
+        guess_type = request.args.get('type')
+        guess_value = request.args.get('guess')
+
+        if not word or not sentence or not guess_type or not guess_value:
+            return jsonify({"correct": False})
+
+        analysis = analyze_module.analyze_word(word.split()[0].lower(), sentence)
+        
+        if guess_type == 'type':
+            correct = analysis['adverb_type'].lower() == guess_value.lower()
+        else:
+            correct = analysis[guess_type] == guess_value
+
+        return jsonify({"correct": correct})
+    except Exception as e:
+        logging.error("Error occurred", exc_info=True)
+        return jsonify({"correct": False}), 500
+
+    
 ####### FORSETNINGARLIÐIR ########
 @app.route('/forsetningarliðir', methods=['GET', 'POST'])
 def forsetningarliðir():
@@ -194,7 +234,7 @@ def forsetningarliðir():
                 correct = True
                 if correct_p_phrases:
                     if len(correct_p_phrases) > 1:
-                        result = result = f"""Rétt! Forsetningarliðirnir í setningunni eru: {', '.join([f'<a class="hoverable-word" href="/preposition/{phrase}?sentence={sentence}">{phrase}</a>' for phrase in correct_p_phrases])}"""
+                        result = result = f"""Rétt! Forsetningarliðirnir í setningunni eru: <span class='correct-phrases'>{', '.join([f'<a class="hoverable-word" href="/preposition/{phrase}?sentence={sentence}">{phrase}</a>' for phrase in correct_p_phrases])}</span>"""
                     else:
                         result = f"""Rétt! Forsetningarliðurinn í setningunni er: <a class="hoverable-word" href="/preposition/{correct_p_phrases[0]}?sentence={sentence}">{correct_p_phrases[0]}</a>"""
                 else:
@@ -203,7 +243,7 @@ def forsetningarliðir():
                 correct = False
                 if correct_p_phrases:
                     if len(correct_p_phrases) > 1:
-                        result = f"""Rangt! Forsetningarliðirnir í setningunni eru: {', '.join([f'<a class="hoverable-word" href="/preposition/{phrase}?sentence={sentence}">{phrase}</a>' for phrase in correct_p_phrases])}"""
+                        result = f"""Rangt! Forsetningarliðirnir í setningunni eru: <span class='correct-phrases'>{', '.join([f'<a class="hoverable-word" href="/preposition/{phrase}?sentence={sentence}">{phrase}</a>' for phrase in correct_p_phrases])}</span>"""
                     else:
                         result = f"""Rangt! Forsetningarliðurinn í setningunni er: <a class="hoverable-word" href="/preposition/{correct_p_phrases[0]}?sentence={sentence}">{correct_p_phrases[0]}</a>"""
                 else:

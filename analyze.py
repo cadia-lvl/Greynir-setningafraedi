@@ -79,11 +79,36 @@ def get_sagnbot(variants):
             return "sagnb"
     return ""
 
+def check_adverb_type(word):
+    word = word.lower()
+    hao_words = ["vel", "illa", "hægt", "hratt", "fljótt", "lítt", "svo", "svona", "þannig"]
+    aao_words = ["mjög", "frekar", "afar", "afskaplega", "rosalega", "svakalega", "virkilega"]
+    tao_words = ["nú", "þá", "aldrei", "oft", "stundum", "strax", "áðan", "alltaf", "ávallt", "áður", "bráðum", "lengi", "núna", "nýlega", "seinna", "ætíð"]
+    stao_words = ["hérna", "þar", "hingað", "þangað", "upp", "niðri", "heima", "úti", "frammi", "fram", "heim", "heima", "hér", "hérna", "inni", "niður", "hingað", "inn", "út", "víða", "uppi", "úti", "þar", "þarna"]
+    spao_words = ["hvernig", "hvar", "hvert", "hvaðan", "hvenær", "hversu", "hve", "hví"]
+    nao_words = ["ekki", "eigi"]
+
+    if word in hao_words:
+        return "hao"
+    elif word in aao_words:
+        return "áao"
+    elif word in tao_words:
+        return "tao"
+    elif word in stao_words:
+        return "stao"
+    elif word in spao_words:
+        return "spao"
+    elif word in nao_words:
+        return "nao"
+    return None
+
 def analyze_word(word, sentence):
     g = Greynir()
     parsed_sentence = g.parse_single(sentence)
     
     sentence_analysis = []
+    word_lower = word.lower()
+    
     for t in parsed_sentence.terminals:
         sentence_analysis.append({
             "text": t.text,
@@ -91,7 +116,9 @@ def analyze_word(word, sentence):
             "category": t.category,
             "variants": t.variants
         })
-        if t.text == word:
+        
+        if t.text.lower() == word_lower:
+            adverb_type = check_adverb_type(t.text.lower())
             gender = get_gender(t.variants)
             number = get_number(t.variants)
             case = get_case(t.variants)
@@ -103,8 +130,10 @@ def analyze_word(word, sentence):
             inflection = get_inflection(t.variants)
             article = get_article(t.variants)
             sagnbot = get_sagnbot(t.variants)
+
             return {
                 "word": t.text,
+                "adverb_type": adverb_type,
                 "gender": gender,
                 "number": number,
                 "case": case,
@@ -118,8 +147,10 @@ def analyze_word(word, sentence):
                 "sagnbot": sagnbot,
                 "sentence_analysis": sentence_analysis
             }
+    
     return {
         "word": word,
+        "adverb_type": None,
         "gender": "",
         "number": "",
         "case": "",

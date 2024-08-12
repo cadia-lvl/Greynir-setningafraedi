@@ -344,9 +344,9 @@ button.forsetningarliðir {
   color: #ce8208;
 }
 
-/* Specific styles for forsetningarliðir_details page */
+/* Specific styles for forsetningarliðir */
 .forsetningarliðir .guess-button {
-  background-color: #ef0cbe; /* Initial pink color */
+  background-color: #ef0cbe;
   color: white;
 }
 
@@ -365,6 +365,21 @@ button.forsetningarliðir {
   color: white;
 }
 
+.forsetningarliðir .hoverable-word {
+  cursor: pointer;
+  color: #ef0cbe;
+  text-decoration: underline;
+}
+
+.forsetningarliðir .hoverable-word:hover {
+  color: #8d016f;
+}
+
+.forsetningarliðir .correct-phrases {
+  color: #ef0cbe;
+}
+
+/* back button for all pages except the main menu */
 .back-one-step-button {
   position: absolute;
   top: 10px;
@@ -389,4 +404,34 @@ button.forsetningarliðir {
 /* Specific styles for atviksliðir */
 .atviksliðir .correct-phrases {
   color: rgb(148, 43, 180);
+}
+
+.atviksliðir .guess-button {
+  background-color: rgb(148, 43, 180);
+  color: white;
+}
+
+.atviksliðir .guess-button.correct {
+  background-color: rgb(220, 114, 252);/* Bright purple for correct */
+}
+
+.atviksliðir button.custom-button {
+  background-color: white;
+  color: rgb(148, 43, 180);
+  border: solid rgb(148, 43, 180);
+}
+
+.atviksliðir button.custom-button:hover {
+  background-color: rgb(148, 43, 180);
+  color: white;
+}
+
+.atviksliðir .hoverable-word {
+  cursor: pointer;
+  color: rgb(148, 43, 180);
+  text-decoration: underline;
+}
+
+.atviksliðir .hoverable-word:hover {
+  color: rgb(63, 1, 81);
 }
