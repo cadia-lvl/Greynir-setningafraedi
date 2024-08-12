@@ -274,7 +274,7 @@ button.forsetningarliðir {
     color: #137b17;
 }
 
-/* Specific styles for sagnliðir_details page */
+/* Specific styles for sagnliðir */
 .sagnliðir .guess-button {
   background-color: #3724cb; /* Initial blue color */
   color: white;
@@ -295,9 +295,23 @@ button.forsetningarliðir {
   color: white;
 }
 
+.sagnliðir .hoverable-word {
+  cursor: pointer;
+  color: #3724cb;
+  text-decoration: underline;
+}
+
+.sagnliðir .hoverable-word:hover {
+  color: #0b0156;
+}
+
+.sagnliðir .correct-phrases {
+  color: #3724cb;
+}
+
 /* Specific styles for nafnliðir */
 .nafnliðir .guess-button {
-  background-color: #ce8208;; /* Initial yellow color */
+  background-color: #ce8208;
   color: white;
 }
 

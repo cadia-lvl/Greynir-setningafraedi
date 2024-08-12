@@ -267,7 +267,7 @@ def sagnliðir():
                 correct = True
                 if correct_v_phrases:
                     if len(correct_v_phrases) > 1:
-                        result = f"""Rétt! Sagnliðirnir í setningunni eru: {', '.join([f'<a class="hoverable-word" href="/verb/{phrase}?sentence={sentence}">{phrase}</a>' for phrase in correct_v_phrases])}"""
+                        result = f"""Rétt! Sagnliðirnir í setningunni eru: <span class='correct-phrases'>{', '.join([f'<a class="hoverable-word" href="/verb/{phrase}?sentence={sentence}">{phrase}</a>' for phrase in correct_v_phrases])}</span>"""
                     else:
                         result = f"""Rétt! Sagnliðurinn í setningunni er: <a class="hoverable-word" href="/verb/{correct_v_phrases[0]}?sentence={sentence}">{correct_v_phrases[0]}</a>"""
                 else:
@@ -276,7 +276,7 @@ def sagnliðir():
                 correct = False
                 if correct_v_phrases:
                     if len(correct_v_phrases) > 1:
-                        result = f"""Rangt! Sagnliðirnir í setningunni eru: {', '.join([f'<a class="hoverable-word" href="/verb/{phrase}?sentence={sentence}">{phrase}</a>' for phrase in correct_v_phrases])}"""
+                        result = f"""Rangt! Sagnliðirnir í setningunni eru: <span class='correct-phrases'>{', '.join([f'<a class="hoverable-word" href="/verb/{phrase}?sentence={sentence}">{phrase}</a>' for phrase in correct_v_phrases])}</span>"""
                     else:
                         result = f"""Rangt! Sagnliðurinn í setningunni er: <a class="hoverable-word" href="/verb/{correct_v_phrases[0]}?sentence={sentence}">{correct_v_phrases[0]}</a>"""
                 else:

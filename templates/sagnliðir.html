@@ -30,11 +30,12 @@
     </script>
 </head>
 <body>
-    <div class="container overlay-container">
+    <div class="container overlay-container sagnliðir">
         <h1 style="color: #3724cb;"> Sagnliðir</h1>
         <div class="content">
             <div class="back-one-step-button" onclick="goBack()"></div>
             <p>Í sagnlið er aðalorðið sögn. Finndu sagnliðina í eftirfarandi setningu:</p>
+            <p> Athugið að oftast er aðalsögnin í sagnliðnum flokkuð sem undir-liður í sagnliðnum. Skráið einnig svoleiðis liði ef þeir eru til staðar.</p>
             <p class="sentence">{{ sentence }}</p>
             <form method="post" action="/sagnliðir">
                 <input type="hidden" name="sentence" value="{{ sentence }}">
