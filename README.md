@@ -1,4 +1,4 @@
-# greynir-setningarfræði
+# greynir-setningafræði
 
 Rannsóknarverkefni í grunnnámi í Tölvunarfræði við HR. Greynir tólið nýtt til að búa til frumgerð af kennsluforriti fyrir framhaldsskólanema.
 
