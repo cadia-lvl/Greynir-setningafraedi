@@ -35,7 +35,7 @@
         <div class="content">
             <div class="back-one-step-button" onclick="goBack()"></div>
             <p>Í sagnlið er aðalorðið sögn. Finndu sagnliðina í eftirfarandi setningu:</p>
-            <p> Athugið að oftast er aðalsögnin í sagnliðnum flokkuð sem undir-liður í sagnliðnum. Skráið einnig svoleiðis liði ef þeir eru til staðar.</p>
+            <p> Athugið að oftast er aðalsögnin í sagnliðnum flokkuð sem sér sagnliður inni í sagnliðnum. Skráið einnig svoleiðis liði ef þeir eru til staðar.</p>
             <p class="sentence">{{ sentence }}</p>
             <form method="post" action="/sagnliðir">
                 <input type="hidden" name="sentence" value="{{ sentence }}">
@@ -56,7 +56,7 @@
                         word.addEventListener('click', function(event) {
                             event.preventDefault();
                             const phrase = word.innerText;
-                            const verb = phrase.split(' ')[0]; // Extract the first word as the verb
+                            const verb = phrase.split(' ')[0];
                             const sentence = "{{ sentence }}";
                             window.location.href = `/verb/${encodeURIComponent(verb)}?sentence=${encodeURIComponent(sentence)}&phrase=${encodeURIComponent(phrase)}`;
                         });
