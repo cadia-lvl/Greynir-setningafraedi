@@ -20,5 +20,6 @@ Kerfið keyrir á localhost 8000
 # Höfundar
 
 Höfundur: Hlín Eiríksdóttir
+
 Leiðbeinandi: Hrafn Loftsson
 
